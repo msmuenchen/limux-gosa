@@ -13,71 +13,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2010-09-17 10:49+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: de <kde-i18n-de@kde.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:29
-msgid "Logging"
-msgstr "Protokollierung"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:68
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:175
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
-msgid "Logging service"
-msgstr "Protokoll-Dienst"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:82
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:189
-msgid "User"
-msgstr "Benutzer"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:85
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:188
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:11
-msgid "Database"
-msgstr "Datenbank"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:88
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:190
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:29
-msgid "Password"
-msgstr "Passwort"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:150
-msgid "LDAP error"
-msgstr "LDAP-Fehler"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
-msgid "Services"
-msgstr "Dienste"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:191
-msgid "Allow view of entries on this server"
-msgstr "Anzeige von Einträgen auf diesen Server erlauben"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:2
-msgid "Syslog logging"
-msgstr "Syslog Protokollierung"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:7
-msgid "Server provides a Syslog MySQL database"
-msgstr "Server stellt eine Syslog MySQL-Datenbank zur Verfügung"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:9
-msgid "rSyslog database settings"
-msgstr "rSyslog Datenbank Einstellungen"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:20
-msgid "Database user"
-msgstr "Datenbank-Benutzer"
 
 #: addons/rsyslog/class_rsyslog.inc:5 addons/rsyslog/rSyslog.tpl:4
 msgid "System logs"
@@ -253,6 +198,61 @@ msgstr "Facility"
 #: addons/rsyslog/rSyslog.tpl:138
 msgid "Message"
 msgstr "Nachricht"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:2
+msgid "Syslog logging"
+msgstr "Syslog Protokollierung"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:7
+msgid "Server provides a Syslog MySQL database"
+msgstr "Server stellt eine Syslog MySQL-Datenbank zur Verfügung"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:9
+msgid "rSyslog database settings"
+msgstr "rSyslog Datenbank Einstellungen"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:11
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:85
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:188
+msgid "Database"
+msgstr "Datenbank"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:20
+msgid "Database user"
+msgstr "Datenbank-Benutzer"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:29
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:88
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:190
+msgid "Password"
+msgstr "Passwort"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:29
+msgid "Logging"
+msgstr "Protokollierung"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:68
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:175
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
+msgid "Logging service"
+msgstr "Protokoll-Dienst"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:82
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:189
+msgid "User"
+msgstr "Benutzer"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:150
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
+msgid "Services"
+msgstr "Dienste"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:191
+msgid "Allow view of entries on this server"
+msgstr "Anzeige von Einträgen auf diesen Server erlauben"
 
 #~ msgid "View systemlogs that got recorded with rsyslog"
 #~ msgstr "Betrachte System-Logs die von rSyslog aufgezeichnet wurden"
