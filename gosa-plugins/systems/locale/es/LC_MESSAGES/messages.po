@@ -9,173 +9,52 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-23 14:27+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2010-01-29 00:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish <>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin/systems/class_filterSYSTEMS.inc:23 admin/systems/system-list.xml:31
-msgid "New workstation"
-msgstr "Nueva estación de trabajo"
-
-#: admin/systems/class_filterSYSTEMS.inc:26 admin/systems/system-list.xml:64
-msgid "New terminal"
-msgstr "Nuevo terminal"
-
-#: admin/systems/class_filterSYSTEMS.inc:31 admin/systems/system-list.xml:72
-msgid "New unknown device"
-msgstr "Nuevo dispositivo desconocido"
-
-#: admin/systems/class_filterSYSTEMS.inc:34 admin/systems/system-list.xml:80
-msgid "New device"
-msgstr "Nuevo dispositivo"
-
-#: admin/systems/systemSelect/selectSystem-filter.xml:19
-#: admin/systems/serverService-filter.xml:17
-#: admin/systems/system-filter.xml:33
-#, fuzzy
-msgid "Default filter"
-msgstr "Parámetro"
-
-#: admin/systems/systemSelect/class_systemSelect.inc:29
-#, fuzzy
-msgid "System selection"
-msgstr "Parametros de grupos"
-
-#: admin/systems/systemSelect/selectSystem-list.tpl:12
-#: admin/systems/component.tpl:18 admin/systems/class_componentGeneric.inc:316
-#: admin/systems/class_servGeneric.inc:542 admin/systems/system-list.tpl:12
-#: admin/systems/server.tpl:42
-msgid "Base"
-msgstr "Base"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:11
-msgid "Please select the desired entries"
-msgstr "Por favor seleccione las entradas que desee"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:15
-#: admin/systems/class_servGeneric.inc:522 admin/systems/system-list.xml:112
-#: admin/systems/system-list.xml:251 admin/systems/server.tpl:1
-msgid "Server"
-msgstr "Servidor"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:23
-#: admin/systems/system-list.xml:120 admin/systems/system-list.xml:259
-msgid "Workstation"
-msgstr "Estación de trabajo"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:31
-#: admin/systems/system-list.xml:128 admin/systems/system-list.xml:267
-msgid "Terminal"
-msgstr "Terminal"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:57
-#: admin/systems/class_componentGeneric.inc:315
-#: admin/systems/class_servGeneric.inc:539 admin/systems/system-list.xml:178
-msgid "Name"
-msgstr "Nombre"
-
-#: admin/systems/systemSelect/selectSystem-list.xml:65
-#: admin/systems/component.tpl:29 admin/systems/class_componentGeneric.inc:317
-#: admin/systems/serverService-list.xml:35
-#: admin/systems/class_servGeneric.inc:540 admin/systems/system-list.xml:186
-#: admin/systems/server.tpl:16
-msgid "Description"
-msgstr "Descripción"
-
-#: admin/systems/askObjectGroup.tpl:6
-msgid ""
-"This dialog gives you the possibility to select an optional bundle of "
-"predefined settings to be inherited."
-msgstr ""
-
-#: admin/systems/askObjectGroup.tpl:13 admin/systems/askObjectGroup.tpl:24
-#, fuzzy
-msgid "Select object group"
-msgstr "Eliminar grupo de objetos"
-
-#: admin/systems/askObjectGroup.tpl:23
-#, fuzzy
-msgid "Choose an object group as template"
-msgstr "Lista del grupo de objetos"
-
-#: admin/systems/askObjectGroup.tpl:31
-msgid "Continue"
-msgstr "Continuar"
-
-#: admin/systems/class_askOgroup.inc:37 admin/systems/class_askOgroup.inc:67
-#, fuzzy
-msgid "None"
-msgstr "ninguno"
-
-#: admin/systems/class_askOgroup.inc:52
-#, fuzzy
-msgid "Create workstation"
-msgstr "Nueva estación de trabajo"
-
-#: admin/systems/class_askOgroup.inc:53 admin/systems/system-list.xml:237
-msgid "Create"
-msgstr "Crear"
-
-#: admin/systems/services/class_goService.inc:44
-#: admin/systems/services/class_goService.inc:81
-msgid "Empty service"
-msgstr "Servicio nulo"
-
-#: admin/systems/services/class_goService.inc:124
-#: admin/systems/services/class_goService.inc:152
-#: admin/systems/services/class_goService.inc:185
-#: admin/systems/class_termDNS.inc:515 admin/systems/class_termDNS.inc:823
-#: admin/systems/class_termDNS.inc:842 admin/systems/class_termDNS.inc:863
-#: admin/systems/class_termDNS.inc:868 admin/systems/class_termDNS.inc:886
-#: admin/systems/class_termDNS.inc:962
-#: admin/systems/class_componentGeneric.inc:134
-#: admin/systems/class_componentGeneric.inc:284
-#: admin/systems/class_servGeneric.inc:265
-#: admin/systems/class_servGeneric.inc:442
-#: admin/systems/class_systemManagement.inc:331
-#: admin/systems/class_systemManagement.inc:1142
-msgid "LDAP error"
-msgstr "Error LDAP"
-
-#: admin/systems/component.tpl:1 admin/systems/system-list.xml:152
-msgid "Component"
-msgstr "componente"
-
-#: admin/systems/component.tpl:5
-#, fuzzy
-msgid "Generic settings"
-msgstr "Parámetros genéricos del usuario"
-
-#: admin/systems/component.tpl:7
-msgid "Device name"
-msgstr "Nombre del dispositivo"
-
 #: admin/systems/class_termDNS.inc:315 admin/systems/class_termDNS.inc:362
-#: admin/systems/class_componentGeneric.inc:166
-#: admin/systems/class_servGeneric.inc:299
-#: admin/systems/class_filterOPSIHOSTS.inc:30
-#: admin/systems/class_systemManagement.inc:278
-#: admin/systems/class_systemManagement.inc:728
-#: admin/systems/class_systemManagement.inc:734
-#: admin/systems/class_systemManagement.inc:807
-#: admin/systems/class_systemManagement.inc:890
-#: admin/systems/class_systemManagement.inc:905
+#: admin/systems/class_servGeneric.inc:308
 #: admin/systems/class_serverService.inc:235
 #: admin/systems/class_serverService.inc:280
 #: admin/systems/class_serverService.inc:488
+#: admin/systems/class_systemManagement.inc:282
+#: admin/systems/class_systemManagement.inc:777
+#: admin/systems/class_systemManagement.inc:783
+#: admin/systems/class_systemManagement.inc:870
+#: admin/systems/class_systemManagement.inc:910
+#: admin/systems/class_systemManagement.inc:1035
+#: admin/systems/class_systemManagement.inc:1050
+#: admin/systems/class_filterOPSIHOSTS.inc:30
+#: admin/systems/class_componentGeneric.inc:166
 msgid "Error"
 msgstr "Error"
 
 #: admin/systems/class_termDNS.inc:478
 msgid "Not matching"
 msgstr "No mostrar los coincidentes"
+
+#: admin/systems/class_termDNS.inc:515 admin/systems/class_termDNS.inc:823
+#: admin/systems/class_termDNS.inc:842 admin/systems/class_termDNS.inc:863
+#: admin/systems/class_termDNS.inc:868 admin/systems/class_termDNS.inc:886
+#: admin/systems/class_termDNS.inc:962 admin/systems/class_servGeneric.inc:274
+#: admin/systems/class_servGeneric.inc:460
+#: admin/systems/services/class_goService.inc:124
+#: admin/systems/services/class_goService.inc:152
+#: admin/systems/services/class_goService.inc:185
+#: admin/systems/class_systemManagement.inc:335
+#: admin/systems/class_systemManagement.inc:1296
+#: admin/systems/class_componentGeneric.inc:134
+#: admin/systems/class_componentGeneric.inc:284
+msgid "LDAP error"
+msgstr "Error LDAP"
 
 #: admin/systems/class_termDNS.inc:631
 #, php-format
@@ -240,40 +119,330 @@ msgstr "Configuración DNS"
 msgid "DHCP configuration"
 msgstr "Configuración DHCP"
 
-#: admin/systems/class_componentGeneric.inc:84
-msgid "component"
-msgstr "Componente"
+#: admin/systems/class_servGeneric.inc:81
+msgid "Activated"
+msgstr "Activado"
 
-#: admin/systems/class_componentGeneric.inc:187
-#: admin/systems/class_componentGeneric.inc:192
-#: admin/systems/class_componentGeneric.inc:214
-#: admin/systems/paste_generic.tpl:44
-msgid "Component name"
-msgstr "Nombre del componente"
+#: admin/systems/class_servGeneric.inc:82
+msgid "Locked"
+msgstr "Bloqueado"
 
+#: admin/systems/class_servGeneric.inc:162
+msgid "server"
+msgstr "Servidor"
+
+#: admin/systems/class_servGeneric.inc:179
+#: admin/systems/class_servGeneric.inc:482
+#: admin/systems/class_systemManagement.inc:572
+#: admin/systems/class_systemManagement.inc:981
+msgid "Service infrastructure"
+msgstr "Infraestructura de servicio"
+
+#: admin/systems/class_servGeneric.inc:183
+msgid "Event error"
+msgstr "Evento de error"
+
+#: admin/systems/class_servGeneric.inc:184
+#, php-format
+msgid "Event '%s' is not available!"
+msgstr "¡El evento '%s' no está disponible!"
+
+#: admin/systems/class_servGeneric.inc:210
+msgid "Switch off"
+msgstr "Apagar"
+
+#: admin/systems/class_servGeneric.inc:211 admin/systems/system-list.xml:334
+#: admin/systems/system-list.xml:408
+msgid "Reboot"
+msgstr "Reiniciar"
+
+#: admin/systems/class_servGeneric.inc:212
+#, fuzzy
+msgid "Software update"
+msgstr "Actualización del sistema"
+
+#: admin/systems/class_servGeneric.inc:213
+#: admin/systems/class_servGeneric.inc:221 admin/systems/system-list.xml:374
+#: admin/systems/system-list.xml:448
+msgid "Reinstall"
+msgstr "Reinstalar"
+
+#: admin/systems/class_servGeneric.inc:214
+msgid "Rescan hardware"
+msgstr "Buscar hardware"
+
+#: admin/systems/class_servGeneric.inc:215
+#: admin/systems/class_servGeneric.inc:223 admin/systems/system-list.xml:325
+#: admin/systems/system-list.xml:399
+#, fuzzy
+msgid "Force local boot"
+msgstr "Forzar inicio local"
+
+#: admin/systems/class_servGeneric.inc:220
+msgid "Wake up"
+msgstr "Despertar"
+
+#: admin/systems/class_servGeneric.inc:222
+msgid "System update"
+msgstr "Actualización del sistema"
+
+#: admin/systems/class_servGeneric.inc:342
+#: admin/systems/class_servGeneric.inc:347 admin/systems/server.tpl:8
+#: admin/systems/paste_generic.tpl:4
+msgid "Server name"
+msgstr "Nombre del servidor"
+
+#: admin/systems/class_servGeneric.inc:377
+#, fuzzy
+msgid "Server Name"
+msgstr "Nombre del servidor"
+
+#: admin/systems/class_servGeneric.inc:394
+msgid "Software deployment"
+msgstr "Desarrollo de software"
+
+#: admin/systems/class_servGeneric.inc:395
+msgid ""
+"This host is currently installing, if you really want to save it, press 'OK'."
+msgstr ""
+"Esta maquina está actualmente instalando, si quiere realmente grabarla, "
+"pulse 'OK'."
+
+#: admin/systems/class_servGeneric.inc:532 admin/systems/server.tpl:5
 #: admin/systems/class_componentGeneric.inc:292
-#: admin/systems/class_servGeneric.inc:512 admin/systems/server.tpl:5
 msgid "Generic"
 msgstr "Genérico"
 
-#: admin/systems/class_componentGeneric.inc:293
-msgid "Component generic"
-msgstr "Componente genérico"
+#: admin/systems/class_servGeneric.inc:533
+msgid "Server generic"
+msgstr "Servidor genérico"
 
-#: admin/systems/class_componentGeneric.inc:298
-#: admin/systems/system-list.xml:291
-msgid "Network device"
-msgstr "Dispositivo de Red"
+#: admin/systems/class_servGeneric.inc:542
+#: admin/systems/systemSelect/selectSystem-list.xml:15
+#: admin/systems/systemSelect/selectSystem-filter.xml:33
+#: admin/systems/system-list.xml:112 admin/systems/system-list.xml:251
+#: admin/systems/system-filter.xml:136 admin/systems/server.tpl:1
+msgid "Server"
+msgstr "Servidor"
 
-#: admin/systems/class_componentGeneric.inc:306
+#: admin/systems/class_servGeneric.inc:550
 #, fuzzy
-msgid "RDN for component storage."
-msgstr "Ruta del almacén de perfiles kiosk"
+msgid "RDN for server storage."
+msgstr "Ruta del almacén PPD"
 
+#: admin/systems/class_servGeneric.inc:559
+#: admin/systems/systemSelect/selectSystem-list.xml:57
+#: admin/systems/system-list.xml:178
+#: admin/systems/class_componentGeneric.inc:315
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/systems/class_servGeneric.inc:560
+#: admin/systems/serverService-list.xml:35
+#: admin/systems/systemSelect/selectSystem-list.xml:65
+#: admin/systems/system-list.xml:186 admin/systems/server.tpl:21
+#: admin/systems/class_componentGeneric.inc:317 admin/systems/component.tpl:34
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/systems/class_servGeneric.inc:561 admin/systems/system-list.xml:194
+#: admin/systems/server.tpl:29
+#, fuzzy
+msgid "Inventory number"
+msgstr "Añadir inventario"
+
+#: admin/systems/class_servGeneric.inc:562
+#: admin/systems/systemSelect/selectSystem-list.tpl:12
+#: admin/systems/system-list.tpl:12 admin/systems/server.tpl:47
+#: admin/systems/class_componentGeneric.inc:316 admin/systems/component.tpl:18
+msgid "Base"
+msgstr "Base"
+
+#: admin/systems/class_servGeneric.inc:563 admin/systems/server.tpl:65
+#, fuzzy
+msgid "Comment"
+msgstr "componente"
+
+#: admin/systems/class_servGeneric.inc:564
+msgid "Goto mode"
+msgstr "Pasar al modo"
+
+#: admin/systems/class_servGeneric.inc:565
 #: admin/systems/class_componentGeneric.inc:318
-#: admin/systems/class_servGeneric.inc:545
 msgid "Root password"
 msgstr "Contraseña de root"
+
+#: admin/systems/class_servGeneric.inc:566
+msgid "Action flag"
+msgstr "Marca de acción"
+
+#: admin/systems/services/class_goService.inc:44
+#: admin/systems/services/class_goService.inc:81
+msgid "Empty service"
+msgstr "Servicio nulo"
+
+#: admin/systems/devicetype_selection.tpl:1
+#, fuzzy
+msgid "Target system type selection"
+msgstr "Parametros de grupos"
+
+#: admin/systems/devicetype_selection.tpl:4
+#: admin/systems/devicetype_selection.tpl:5
+#, fuzzy
+msgid "System type"
+msgstr "Actualización del sistema"
+
+#: admin/systems/class_serverService.inc:27
+#: admin/systems/serverService-list.xml:75
+#: admin/systems/serverService-list.xml:110
+msgid "Stop"
+msgstr "Parada"
+
+#: admin/systems/class_serverService.inc:28
+#: admin/systems/serverService-list.xml:68
+#: admin/systems/serverService-list.xml:102
+msgid "Start"
+msgstr "Inicio"
+
+#: admin/systems/class_serverService.inc:29
+#: admin/systems/serverService-list.xml:82
+#: admin/systems/serverService-list.xml:118
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: admin/systems/class_serverService.inc:476
+#: admin/systems/class_systemManagement.inc:769
+msgid "Information"
+msgstr "Información"
+
+#: admin/systems/class_serverService.inc:476
+msgid "Cannot update service status until it has been saved!"
+msgstr ""
+"¡No puedo actualizar el estado del servicio hasta que no se haya grabado!"
+
+#: admin/systems/class_serverService.inc:488
+msgid "Cannot update service status!"
+msgstr "¡No se puede actualizar el estado del servicio!"
+
+#: admin/systems/class_systemManagement.inc:60
+msgid "Systems"
+msgstr "Sistemas"
+
+#: admin/systems/class_systemManagement.inc:61
+msgid "Manage systems, their services and prepare them for use with GOsa"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:184
+#: admin/systems/class_systemManagement.inc:291
+msgid "Permission error"
+msgstr "Error de permisos"
+
+#: admin/systems/class_systemManagement.inc:184
+#: admin/systems/class_systemManagement.inc:291
+msgid "You have no permission to change this password!"
+msgstr "¡No tiene permisos para cambiar esta contraseña!"
+
+#: admin/systems/class_systemManagement.inc:283
+msgid ""
+"The passwords you've entered as 'New password' and 'Repeated password' do "
+"not   match!"
+msgstr ""
+"¡La contraseñas introducidas como 'Nueva contraseña' y 'Reintroduzca "
+"contraseña' no coinciden!"
+
+#: admin/systems/class_systemManagement.inc:329
+msgid "Password method"
+msgstr "Método de contraseña"
+
+#: admin/systems/class_systemManagement.inc:329
+msgid "Password method crypt is missing. Cannot set system password."
+msgstr ""
+"No se encuentra método de codificación de contraseña. No se pueden "
+"introducir contraseñas de sistema."
+
+#: admin/systems/class_systemManagement.inc:384
+msgid "Back"
+msgstr "Atrás"
+
+#: admin/systems/class_systemManagement.inc:430
+msgid "Creating the image failed. Please see the report below."
+msgstr ""
+"Ha fallado la creación de la imagen. Por favor compruebe el problema en el "
+"siguiente informe."
+
+#: admin/systems/class_systemManagement.inc:435
+#, php-format
+msgid "Command '%s', specified for ISO creation doesn't seem to exist."
+msgstr ""
+"No parece existir el comando '%s', especificado para la creación de imágenes "
+"ISO."
+
+#: admin/systems/class_systemManagement.inc:649
+#: admin/systems/class_systemManagement.inc:748
+#: admin/systems/class_systemManagement.inc:1341
+#: admin/systems/class_systemManagement.inc:1388
+#: admin/systems/class_systemManagement.inc:1409
+msgid "Permission"
+msgstr "Permisos"
+
+#: admin/systems/class_systemManagement.inc:769
+#, php-format
+msgid ""
+"The object-type '%s' cannot be managed with your setup of GOsa, please "
+"install the required  plugins!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:865
+msgid "Warning"
+msgstr "Aviso"
+
+#: admin/systems/class_systemManagement.inc:865
+#, php-format
+msgid ""
+"These systems are already configured by other object groups and cannot be "
+"added:"
+msgstr ""
+"Estos sistemas ya han sido configurados por otros grupos de objetos y no "
+"pueden ser añadidos:"
+
+#: admin/systems/class_systemManagement.inc:1103
+msgid "Internal error"
+msgstr "error interno"
+
+#: admin/systems/class_systemManagement.inc:1103
+msgid "Cannot set mode to 'active'!"
+msgstr "¡No se puede poner el modo a 'activo'!"
+
+#: admin/systems/class_systemManagement.inc:1341
+#, php-format
+msgid "You are not allowed to create a snapshot for %s."
+msgstr "No tiene permisos para crear una instantanea para %s."
+
+#: admin/systems/class_systemManagement.inc:1388
+#: admin/systems/class_systemManagement.inc:1409
+#, php-format
+msgid "You are not allowed to restore a snapshot for %s."
+msgstr "No tiene permisos para recuperar una instantanea para %s."
+
+#: admin/systems/class_systemManagement.inc:1693
+#, php-format
+msgid "Inherited from %s"
+msgstr "Heredado de %s"
+
+#: admin/systems/class_systemManagement.inc:1734
+#: admin/systems/class_systemManagement.inc:1735
+#: admin/systems/system-filter.xml:121
+msgid "Incoming objects"
+msgstr "Objetos de entrada"
+
+#: admin/systems/class_systemManagement.inc:1747
+#, fuzzy
+msgid "RDN for system storage."
+msgstr "Ruta del almacén PPD"
+
+#: admin/systems/class_systemManagement.inc:1756
+msgid "Incoming"
+msgstr "Entrada"
 
 #: admin/systems/serverService-list.xml:9
 msgid "List of services"
@@ -291,27 +460,9 @@ msgstr "!"
 msgid "Actions"
 msgstr "Acciones"
 
-#: admin/systems/serverService-list.xml:57 admin/systems/system-list.xml:469
+#: admin/systems/serverService-list.xml:57 admin/systems/system-list.xml:480
 msgid "Remove"
 msgstr "Eliminar"
-
-#: admin/systems/serverService-list.xml:68
-#: admin/systems/serverService-list.xml:102
-#: admin/systems/class_serverService.inc:28
-msgid "Start"
-msgstr "Inicio"
-
-#: admin/systems/serverService-list.xml:75
-#: admin/systems/serverService-list.xml:110
-#: admin/systems/class_serverService.inc:27
-msgid "Stop"
-msgstr "Parada"
-
-#: admin/systems/serverService-list.xml:82
-#: admin/systems/serverService-list.xml:118
-#: admin/systems/class_serverService.inc:29
-msgid "Restart"
-msgstr "Reiniciar"
 
 #: admin/systems/serverService-list.xml:126
 msgid "Edit service"
@@ -321,116 +472,358 @@ msgstr "Editar servicio"
 msgid "Remove service"
 msgstr "Eliminar servicio"
 
-#: admin/systems/class_servGeneric.inc:80
-msgid "Activated"
-msgstr "Activado"
+#: admin/systems/systemSelect/selectSystem-list.xml:11
+msgid "Please select the desired entries"
+msgstr "Por favor seleccione las entradas que desee"
 
-#: admin/systems/class_servGeneric.inc:81
-msgid "Locked"
-msgstr "Bloqueado"
+#: admin/systems/systemSelect/selectSystem-list.xml:23
+#: admin/systems/systemSelect/selectSystem-filter.xml:47
+#: admin/systems/system-list.xml:120 admin/systems/system-list.xml:259
+#: admin/systems/system-filter.xml:156
+msgid "Workstation"
+msgstr "Estación de trabajo"
 
-#: admin/systems/class_servGeneric.inc:159
-msgid "server"
-msgstr "Servidor"
+#: admin/systems/systemSelect/selectSystem-list.xml:31
+#: admin/systems/system-list.xml:128 admin/systems/system-list.xml:267
+msgid "Terminal"
+msgstr "Terminal"
 
-#: admin/systems/class_servGeneric.inc:176
-#: admin/systems/class_servGeneric.inc:462
-#: admin/systems/class_systemManagement.inc:524
-msgid "Service infrastructure"
-msgstr "Infraestructura de servicio"
-
-#: admin/systems/class_servGeneric.inc:180
-msgid "Event error"
-msgstr "Evento de error"
-
-#: admin/systems/class_servGeneric.inc:181
-#, php-format
-msgid "Event '%s' is not available!"
-msgstr "¡El evento '%s' no está disponible!"
-
-#: admin/systems/class_servGeneric.inc:207
-msgid "Switch off"
-msgstr "Apagar"
-
-#: admin/systems/class_servGeneric.inc:208 admin/systems/system-list.xml:334
-#: admin/systems/system-list.xml:408
-msgid "Reboot"
-msgstr "Reiniciar"
-
-#: admin/systems/class_servGeneric.inc:209
+#: admin/systems/systemSelect/class_systemSelect.inc:29
 #, fuzzy
-msgid "Software update"
-msgstr "Actualización del sistema"
+msgid "System selection"
+msgstr "Parametros de grupos"
 
-#: admin/systems/class_servGeneric.inc:210
-#: admin/systems/class_servGeneric.inc:218 admin/systems/system-list.xml:374
-#: admin/systems/system-list.xml:448
-msgid "Reinstall"
-msgstr "Reinstalar"
-
-#: admin/systems/class_servGeneric.inc:211
-msgid "Rescan hardware"
-msgstr "Buscar hardware"
-
-#: admin/systems/class_servGeneric.inc:212
-#: admin/systems/class_servGeneric.inc:220 admin/systems/system-list.xml:325
-#: admin/systems/system-list.xml:399
+#: admin/systems/systemSelect/selectSystem-filter.xml:19
+#: admin/systems/serverService-filter.xml:17
+#: admin/systems/system-filter.xml:33
 #, fuzzy
-msgid "Force local boot"
-msgstr "Forzar inicio local"
+msgid "Default filter"
+msgstr "Parámetro"
 
-#: admin/systems/class_servGeneric.inc:217
-msgid "Wake up"
+#: admin/systems/system-list.xml:10
+msgid "List of systems"
+msgstr "Lista de sistemas"
+
+#: admin/systems/system-list.xml:15 admin/systems/system-list.xml:243
+#, fuzzy
+msgid "Device"
+msgstr "Dispositivos"
+
+#: admin/systems/system-list.xml:23
+msgid "Opsi host"
+msgstr "Equipo Opsi"
+
+#: admin/systems/system-list.xml:31 admin/systems/class_filterSYSTEMS.inc:23
+msgid "New workstation"
+msgstr "Nueva estación de trabajo"
+
+#: admin/systems/system-list.xml:39
+msgid "Locked server"
+msgstr "Servidor bloqueado"
+
+#: admin/systems/system-list.xml:47
+msgid "Locked workstation"
+msgstr "Estación de trabajo bloqueada"
+
+#: admin/systems/system-list.xml:55
+msgid "Locked terminal"
+msgstr "Terminal bloqueado"
+
+#: admin/systems/system-list.xml:64 admin/systems/class_filterSYSTEMS.inc:26
+msgid "New terminal"
+msgstr "Nuevo terminal"
+
+#: admin/systems/system-list.xml:72 admin/systems/class_filterSYSTEMS.inc:31
+msgid "New unknown device"
+msgstr "Nuevo dispositivo desconocido"
+
+#: admin/systems/system-list.xml:80 admin/systems/class_filterSYSTEMS.inc:34
+msgid "New device"
+msgstr "Nuevo dispositivo"
+
+#: admin/systems/system-list.xml:88
+msgid "Workstation template"
+msgstr "Plantilla de estación de trabajo"
+
+#: admin/systems/system-list.xml:96
+msgid "Terminal template"
+msgstr "Plantilla de terminal"
+
+#: admin/systems/system-list.xml:104
+msgid "Windows workstation"
+msgstr "Estaciones de trabajo Windows"
+
+#: admin/systems/system-list.xml:136 admin/systems/system-filter.xml:176
+msgid "Printer"
+msgstr "Impresora"
+
+#: admin/systems/system-list.xml:144 admin/systems/system-list.xml:283
+msgid "Phone"
+msgstr "Teléfono"
+
+#: admin/systems/system-list.xml:152 admin/systems/component.tpl:1
+msgid "Component"
+msgstr "componente"
+
+#: admin/systems/system-list.xml:202 admin/systems/server.tpl:56
+msgid "Object group"
+msgstr "Grupo de objetos"
+
+#: admin/systems/system-list.xml:210
+msgid "Release"
+msgstr "Versión"
+
+#: admin/systems/system-list.xml:218
+#, fuzzy
+msgid "FAI state"
+msgstr "Sumario FAI"
+
+#: admin/systems/system-list.xml:237 admin/systems/class_askOgroup.inc:53
+msgid "Create"
+msgstr "Crear"
+
+#: admin/systems/system-list.xml:275
+msgid "Network printer"
+msgstr "Impresora de Red"
+
+#: admin/systems/system-list.xml:291
+#: admin/systems/class_componentGeneric.inc:298
+msgid "Network device"
+msgstr "Dispositivo de Red"
+
+#: admin/systems/system-list.xml:299
+msgid "Opsi client"
+msgstr "cliente Opsi"
+
+#: admin/systems/system-list.xml:311
+msgid "Trigger action"
+msgstr "Acción disparada"
+
+#: admin/systems/system-list.xml:318
+msgid "Halt "
+msgstr "Para sistema "
+
+#: admin/systems/system-list.xml:342 admin/systems/system-list.xml:416
+msgid "Wakeup"
 msgstr "Despertar"
 
-#: admin/systems/class_servGeneric.inc:219
-msgid "System update"
-msgstr "Actualización del sistema"
+#: admin/systems/system-list.xml:350 admin/systems/system-list.xml:424
+msgid "Update"
+msgstr "Actualizar"
 
-#: admin/systems/class_servGeneric.inc:325
-#: admin/systems/class_servGeneric.inc:330 admin/systems/paste_generic.tpl:4
-#: admin/systems/server.tpl:8
-msgid "Server name"
-msgstr "Nombre del servidor"
+#: admin/systems/system-list.xml:358 admin/systems/system-list.xml:432
+msgid "Lock"
+msgstr "Bloqueo"
 
-#: admin/systems/class_servGeneric.inc:360
+#: admin/systems/system-list.xml:366 admin/systems/system-list.xml:440
+msgid "Activate"
+msgstr "Activar"
+
+#: admin/systems/system-list.xml:385
+msgid "Schedule action"
+msgstr "Acción programada"
+
+#: admin/systems/system-list.xml:392
+msgid "Halt"
+msgstr "Parar sistema"
+
+#: admin/systems/system-list.xml:461
+msgid "Apply template"
+msgstr "Aplicar plantilla"
+
+#: admin/systems/system-list.xml:473
+msgid "Activate systems"
+msgstr "Activar sistemas"
+
+#: admin/systems/system-list.xml:508
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: admin/systems/system-list.xml:519
+msgid "Create ISO"
+msgstr "Crear ISO"
+
+#: admin/systems/system-list.xml:531
+msgid "Edit role"
+msgstr "Editar rol"
+
+#: admin/systems/system-list.xml:544
+msgid "Remove system"
+msgstr "Eliminar sistema"
+
+#: admin/systems/system-filter.xml:74
 #, fuzzy
-msgid "Server Name"
-msgstr "Nombre del servidor"
+msgid "All systems"
+msgstr "usuarios"
 
-#: admin/systems/class_servGeneric.inc:377
-msgid "Software deployment"
-msgstr "Desarrollo de software"
+#: admin/systems/system-filter.xml:107
+#, fuzzy
+msgid "Opsi"
+msgstr "Equipo Opsi"
 
-#: admin/systems/class_servGeneric.inc:378
+#: admin/systems/askObjectGroup.tpl:6
 msgid ""
-"This host is currently installing, if you really want to save it, press 'OK'."
+"This dialog gives you the possibility to select an optional bundle of "
+"predefined settings to be inherited."
 msgstr ""
-"Esta maquina está actualmente instalando, si quiere realmente grabarla, "
-"pulse 'OK'."
 
-#: admin/systems/class_servGeneric.inc:513
-msgid "Server generic"
-msgstr "Servidor genérico"
-
-#: admin/systems/class_servGeneric.inc:530
+#: admin/systems/askObjectGroup.tpl:13 admin/systems/askObjectGroup.tpl:24
+#: admin/systems/ogroup_selection.tpl:5 admin/systems/server.tpl:58
+#: admin/systems/ApplyObjectGroup.tpl:19
 #, fuzzy
-msgid "RDN for server storage."
-msgstr "Ruta del almacén PPD"
+msgid "Select object group"
+msgstr "Eliminar grupo de objetos"
 
-#: admin/systems/class_servGeneric.inc:541 admin/systems/system-list.xml:194
-#: admin/systems/server.tpl:24
+#: admin/systems/askObjectGroup.tpl:23
 #, fuzzy
-msgid "Inventory number"
-msgstr "Añadir inventario"
+msgid "Choose an object group as template"
+msgstr "Lista del grupo de objetos"
 
-#: admin/systems/class_servGeneric.inc:544
-msgid "Goto mode"
-msgstr "Pasar al modo"
+#: admin/systems/askObjectGroup.tpl:31
+msgid "Continue"
+msgstr "Continuar"
 
-#: admin/systems/class_servGeneric.inc:546
-msgid "Action flag"
-msgstr "Marca de acción"
+#: admin/systems/ogroup_selection.tpl:1
+#, fuzzy
+msgid "Object group selection"
+msgstr "Parametros de grupos"
+
+#: admin/systems/ogroup_selection.tpl:4
+#, fuzzy
+msgid "Choose an object group"
+msgstr "Lista del grupo de objetos"
+
+#: admin/systems/ogroup_selection.tpl:7 admin/systems/server.tpl:59
+msgid "none"
+msgstr "ninguno"
+
+#: admin/systems/ogroup_selection.tpl:16
+#, fuzzy
+msgid "Inherit attributes"
+msgstr "Miembros"
+
+#: admin/systems/password.tpl:3
+msgid ""
+"To change the terminal root password use the fields below. The changes take "
+"effect during the next reboot. Please memorize the new password, because you "
+"wouldn't be able to log in."
+msgstr ""
+"Para cambiar la contraseña del administrador del terminal use los campos a "
+"continuación. Los cambios tomarán efecto en el próximo inicio. Por favor, "
+"recuerde la nueva contraseña, porque no podrá iniciar sesión sin ella."
+
+#: admin/systems/password.tpl:6
+msgid "Leave fields blank for password inheritance from default entries."
+msgstr ""
+"Si deja los campos en blanco, se heredaran las contraseñas de las entradas "
+"predeterminadas."
+
+#: admin/systems/password.tpl:10
+#, fuzzy
+msgid "Changing the password impinges on authentication only."
+msgstr "Cambiar la contraseña solo afecta a la autenticación."
+
+#: admin/systems/password.tpl:13
+#, fuzzy
+msgid "System password change"
+msgstr "Cambio de contraseña"
+
+#: admin/systems/password.tpl:16
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: admin/systems/password.tpl:23
+msgid "Repeat new password"
+msgstr "Reintroduzca la contraseña"
+
+#: admin/systems/password.tpl:30
+msgid "Password strength"
+msgstr "Resistencia de la contraseña"
+
+#: admin/systems/password.tpl:41
+msgid "Set password"
+msgstr "Introducir contraseña"
+
+#: admin/systems/server.tpl:6
+#, fuzzy
+msgid "Server settings"
+msgstr "Caracteristicas del usuario"
+
+#: admin/systems/server.tpl:37
+msgid "Mode"
+msgstr "Modo"
+
+#: admin/systems/server.tpl:40
+msgid "Select terminal mode"
+msgstr "Seleccionar modo de terminal"
+
+#: admin/systems/server.tpl:87 admin/systems/ApplyObjectGroup.tpl:44
+msgid "Action"
+msgstr "Acción"
+
+#: admin/systems/server.tpl:90
+msgid ""
+"System installation in progress, the FAI state cannot be changed right now."
+msgstr ""
+"Instalación del sistema en proceso, el estado FAI no puede ser cambiado "
+"actualmente."
+
+#: admin/systems/server.tpl:93
+msgid "Select action to execute for this server"
+msgstr "Seleccione una acción que se ejecutara en este servidor"
+
+#: admin/systems/server.tpl:99
+msgid "Execute"
+msgstr "Ejecute"
+
+#: admin/systems/ApplyObjectGroup.tpl:3
+#, fuzzy
+msgid "Apply template to"
+msgstr "Aplicar plantilla"
+
+#: admin/systems/ApplyObjectGroup.tpl:9
+msgid ""
+"The selected system(s) do not have an assigned type. Please choose a type "
+"and a template to be applied."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:11
+msgid ""
+"This dialog gives you the possibility to choose a template, which will be "
+"applied to the selected target(s)."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:47
+msgid ""
+"Note that object group membership will change when applying the selection. "
+"Systems added during reinstall scheduling will not get the selected template "
+"applied."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:63
+msgid "Apply"
+msgstr "Aplicar"
+
+#: admin/systems/class_askOgroup.inc:37 admin/systems/class_askOgroup.inc:67
+#: admin/systems/class_applyOgroup.inc:39
+#, fuzzy
+msgid "None"
+msgstr "ninguno"
+
+#: admin/systems/class_askOgroup.inc:52
+#, fuzzy
+msgid "Create workstation"
+msgstr "Nueva estación de trabajo"
+
+#: admin/systems/class_applyOgroup.inc:40
+#, fuzzy
+msgid "Trigger Reinstall"
+msgstr "Reinstalar"
+
+#: admin/systems/class_applyOgroup.inc:41
+#, fuzzy
+msgid "Schedule Reinstall"
+msgstr "Reinstalar"
 
 #: admin/systems/network.tpl:1
 msgid "Network\tsettings"
@@ -507,140 +900,6 @@ msgstr "TTL"
 msgid "DNS records"
 msgstr "Registros DNS"
 
-#: admin/systems/system-list.xml:10
-msgid "List of systems"
-msgstr "Lista de sistemas"
-
-#: admin/systems/system-list.xml:15 admin/systems/system-list.xml:243
-#, fuzzy
-msgid "Device"
-msgstr "Dispositivos"
-
-#: admin/systems/system-list.xml:23
-msgid "Opsi host"
-msgstr "Equipo Opsi"
-
-#: admin/systems/system-list.xml:39
-msgid "Locked server"
-msgstr "Servidor bloqueado"
-
-#: admin/systems/system-list.xml:47
-msgid "Locked workstation"
-msgstr "Estación de trabajo bloqueada"
-
-#: admin/systems/system-list.xml:55
-msgid "Locked terminal"
-msgstr "Terminal bloqueado"
-
-#: admin/systems/system-list.xml:88
-msgid "Workstation template"
-msgstr "Plantilla de estación de trabajo"
-
-#: admin/systems/system-list.xml:96
-msgid "Terminal template"
-msgstr "Plantilla de terminal"
-
-#: admin/systems/system-list.xml:104
-msgid "Windows workstation"
-msgstr "Estaciones de trabajo Windows"
-
-#: admin/systems/system-list.xml:136
-msgid "Printer"
-msgstr "Impresora"
-
-#: admin/systems/system-list.xml:144 admin/systems/system-list.xml:283
-msgid "Phone"
-msgstr "Teléfono"
-
-#: admin/systems/system-list.xml:202
-msgid "Object group"
-msgstr "Grupo de objetos"
-
-#: admin/systems/system-list.xml:210
-msgid "Release"
-msgstr "Versión"
-
-#: admin/systems/system-list.xml:218
-#, fuzzy
-msgid "FAI state"
-msgstr "Sumario FAI"
-
-#: admin/systems/system-list.xml:275
-msgid "Network printer"
-msgstr "Impresora de Red"
-
-#: admin/systems/system-list.xml:299
-msgid "Opsi client"
-msgstr "cliente Opsi"
-
-#: admin/systems/system-list.xml:311
-msgid "Trigger action"
-msgstr "Acción disparada"
-
-#: admin/systems/system-list.xml:318
-msgid "Halt "
-msgstr "Para sistema "
-
-#: admin/systems/system-list.xml:342 admin/systems/system-list.xml:416
-msgid "Wakeup"
-msgstr "Despertar"
-
-#: admin/systems/system-list.xml:350 admin/systems/system-list.xml:424
-msgid "Update"
-msgstr "Actualizar"
-
-#: admin/systems/system-list.xml:358 admin/systems/system-list.xml:432
-msgid "Lock"
-msgstr "Bloqueo"
-
-#: admin/systems/system-list.xml:366 admin/systems/system-list.xml:440
-msgid "Activate"
-msgstr "Activar"
-
-#: admin/systems/system-list.xml:385
-msgid "Schedule action"
-msgstr "Acción programada"
-
-#: admin/systems/system-list.xml:392
-msgid "Halt"
-msgstr "Parar sistema"
-
-#: admin/systems/system-list.xml:462
-msgid "Activate systems"
-msgstr "Activar sistemas"
-
-#: admin/systems/system-list.xml:497
-msgid "Change password"
-msgstr "Cambiar contraseña"
-
-#: admin/systems/system-list.xml:508
-msgid "Create ISO"
-msgstr "Crear ISO"
-
-#: admin/systems/system-list.xml:520
-msgid "Edit role"
-msgstr "Editar rol"
-
-#: admin/systems/system-list.xml:533
-msgid "Remove system"
-msgstr "Eliminar sistema"
-
-#: admin/systems/system-filter.xml:74
-#, fuzzy
-msgid "All systems"
-msgstr "usuarios"
-
-#: admin/systems/system-filter.xml:107
-#, fuzzy
-msgid "Opsi"
-msgstr "Equipo Opsi"
-
-#: admin/systems/system-filter.xml:121
-#: admin/systems/class_systemManagement.inc:1579
-#: admin/systems/class_systemManagement.inc:1580
-msgid "Incoming objects"
-msgstr "Objetos de entrada"
-
 #: admin/systems/paste_generic.tpl:2
 #, fuzzy
 msgid "Paste server"
@@ -678,194 +937,34 @@ msgstr "Nombre de la impresora"
 msgid "Paste network component"
 msgstr "componentes de red"
 
-#: admin/systems/password.tpl:3
-msgid ""
-"To change the terminal root password use the fields below. The changes take "
-"effect during the next reboot. Please memorize the new password, because you "
-"wouldn't be able to log in."
-msgstr ""
-"Para cambiar la contraseña del administrador del terminal use los campos a "
-"continuación. Los cambios tomarán efecto en el próximo inicio. Por favor, "
-"recuerde la nueva contraseña, porque no podrá iniciar sesión sin ella."
+#: admin/systems/paste_generic.tpl:44
+#: admin/systems/class_componentGeneric.inc:187
+#: admin/systems/class_componentGeneric.inc:192
+#: admin/systems/class_componentGeneric.inc:214
+msgid "Component name"
+msgstr "Nombre del componente"
 
-#: admin/systems/password.tpl:6
-msgid "Leave fields blank for password inheritance from default entries."
-msgstr ""
-"Si deja los campos en blanco, se heredaran las contraseñas de las entradas "
-"predeterminadas."
+#: admin/systems/class_componentGeneric.inc:84
+msgid "component"
+msgstr "Componente"
 
-#: admin/systems/password.tpl:10
+#: admin/systems/class_componentGeneric.inc:293
+msgid "Component generic"
+msgstr "Componente genérico"
+
+#: admin/systems/class_componentGeneric.inc:306
 #, fuzzy
-msgid "Changing the password impinges on authentication only."
-msgstr "Cambiar la contraseña solo afecta a la autenticación."
+msgid "RDN for component storage."
+msgstr "Ruta del almacén de perfiles kiosk"
 
-#: admin/systems/password.tpl:13
+#: admin/systems/component.tpl:5
 #, fuzzy
-msgid "System password change"
-msgstr "Cambio de contraseña"
+msgid "Generic settings"
+msgstr "Parámetros genéricos del usuario"
 
-#: admin/systems/password.tpl:16
-msgid "New password"
-msgstr "Nueva contraseña"
-
-#: admin/systems/password.tpl:23
-msgid "Repeat new password"
-msgstr "Reintroduzca la contraseña"
-
-#: admin/systems/password.tpl:30
-msgid "Password strength"
-msgstr "Resistencia de la contraseña"
-
-#: admin/systems/password.tpl:41
-msgid "Set password"
-msgstr "Introducir contraseña"
-
-#: admin/systems/class_systemManagement.inc:60
-msgid "Systems"
-msgstr "Sistemas"
-
-#: admin/systems/class_systemManagement.inc:61
-msgid "Manage systems, their services and prepare them for use with GOsa"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:180
-#: admin/systems/class_systemManagement.inc:287
-msgid "Permission error"
-msgstr "Error de permisos"
-
-#: admin/systems/class_systemManagement.inc:180
-#: admin/systems/class_systemManagement.inc:287
-msgid "You have no permission to change this password!"
-msgstr "¡No tiene permisos para cambiar esta contraseña!"
-
-#: admin/systems/class_systemManagement.inc:279
-msgid ""
-"The passwords you've entered as 'New password' and 'Repeated password' do "
-"not   match!"
-msgstr ""
-"¡La contraseñas introducidas como 'Nueva contraseña' y 'Reintroduzca "
-"contraseña' no coinciden!"
-
-#: admin/systems/class_systemManagement.inc:325
-msgid "Password method"
-msgstr "Método de contraseña"
-
-#: admin/systems/class_systemManagement.inc:325
-msgid "Password method crypt is missing. Cannot set system password."
-msgstr ""
-"No se encuentra método de codificación de contraseña. No se pueden "
-"introducir contraseñas de sistema."
-
-#: admin/systems/class_systemManagement.inc:380
-msgid "Back"
-msgstr "Atrás"
-
-#: admin/systems/class_systemManagement.inc:426
-msgid "Creating the image failed. Please see the report below."
-msgstr ""
-"Ha fallado la creación de la imagen. Por favor compruebe el problema en el "
-"siguiente informe."
-
-#: admin/systems/class_systemManagement.inc:431
-#, php-format
-msgid "Command '%s', specified for ISO creation doesn't seem to exist."
-msgstr ""
-"No parece existir el comando '%s', especificado para la creación de imágenes "
-"ISO."
-
-#: admin/systems/class_systemManagement.inc:600
-#: admin/systems/class_systemManagement.inc:699
-#: admin/systems/class_systemManagement.inc:1187
-#: admin/systems/class_systemManagement.inc:1234
-#: admin/systems/class_systemManagement.inc:1255
-msgid "Permission"
-msgstr "Permisos"
-
-#: admin/systems/class_systemManagement.inc:720
-#: admin/systems/class_serverService.inc:476
-msgid "Information"
-msgstr "Información"
-
-#: admin/systems/class_systemManagement.inc:720
-#, php-format
-msgid ""
-"The object-type '%s' cannot be managed with your setup of GOsa, please "
-"install the required  plugins!"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:957
-msgid "Internal error"
-msgstr "error interno"
-
-#: admin/systems/class_systemManagement.inc:957
-msgid "Cannot set mode to 'active'!"
-msgstr "¡No se puede poner el modo a 'activo'!"
-
-#: admin/systems/class_systemManagement.inc:1187
-#, php-format
-msgid "You are not allowed to create a snapshot for %s."
-msgstr "No tiene permisos para crear una instantanea para %s."
-
-#: admin/systems/class_systemManagement.inc:1234
-#: admin/systems/class_systemManagement.inc:1255
-#, php-format
-msgid "You are not allowed to restore a snapshot for %s."
-msgstr "No tiene permisos para recuperar una instantanea para %s."
-
-#: admin/systems/class_systemManagement.inc:1538
-#, php-format
-msgid "Inherited from %s"
-msgstr "Heredado de %s"
-
-#: admin/systems/class_systemManagement.inc:1592
-#, fuzzy
-msgid "RDN for system storage."
-msgstr "Ruta del almacén PPD"
-
-#: admin/systems/class_systemManagement.inc:1601
-msgid "Incoming"
-msgstr "Entrada"
-
-#: admin/systems/server.tpl:6
-#, fuzzy
-msgid "Server settings"
-msgstr "Caracteristicas del usuario"
-
-#: admin/systems/server.tpl:32
-msgid "Mode"
-msgstr "Modo"
-
-#: admin/systems/server.tpl:35
-msgid "Select terminal mode"
-msgstr "Seleccionar modo de terminal"
-
-#: admin/systems/server.tpl:67
-msgid "Action"
-msgstr "Acción"
-
-#: admin/systems/server.tpl:70
-msgid ""
-"System installation in progress, the FAI state cannot be changed right now."
-msgstr ""
-"Instalación del sistema en proceso, el estado FAI no puede ser cambiado "
-"actualmente."
-
-#: admin/systems/server.tpl:73
-msgid "Select action to execute for this server"
-msgstr "Seleccione una acción que se ejecutara en este servidor"
-
-#: admin/systems/server.tpl:79
-msgid "Execute"
-msgstr "Ejecute"
-
-#: admin/systems/class_serverService.inc:476
-msgid "Cannot update service status until it has been saved!"
-msgstr ""
-"¡No puedo actualizar el estado del servicio hasta que no se haya grabado!"
-
-#: admin/systems/class_serverService.inc:488
-msgid "Cannot update service status!"
-msgstr "¡No se puede actualizar el estado del servicio!"
+#: admin/systems/component.tpl:7
+msgid "Device name"
+msgstr "Nombre del dispositivo"
 
 #~ msgid "Memory test"
 #~ msgstr "Chequeo de memoria"
@@ -892,9 +991,6 @@ msgstr "¡No se puede actualizar el estado del servicio!"
 
 #~ msgid "All available services are already in use."
 #~ msgstr "Todos los servicios disponibles ya están en uso."
-
-#~ msgid "Warning"
-#~ msgstr "Aviso"
 
 #~ msgid ""
 #~ "This includes all account data, system access rules, imap settings, etc. "

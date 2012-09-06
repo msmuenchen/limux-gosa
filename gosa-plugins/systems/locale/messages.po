@@ -8,230 +8,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-04 16:11+0200\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: admin/systems/ogroup_selection.tpl:1
-msgid "Object group selection"
-msgstr ""
-
-#: admin/systems/ogroup_selection.tpl:4
-msgid "Choose an object group"
-msgstr ""
-
-#: admin/systems/ogroup_selection.tpl:5 admin/systems/askObjectGroup.tpl:13
-#: admin/systems/askObjectGroup.tpl:24 admin/systems/ApplyObjectGroup.tpl:19
-msgid "Select object group"
-msgstr ""
-
-#: admin/systems/ogroup_selection.tpl:7
-msgid "none"
-msgstr ""
-
-#: admin/systems/ogroup_selection.tpl:16
-msgid "Inherit attributes"
-msgstr ""
-
-#: admin/systems/class_filterSYSTEMS.inc:23 admin/systems/system-list.xml:31
-msgid "New workstation"
-msgstr ""
-
-#: admin/systems/class_filterSYSTEMS.inc:26 admin/systems/system-list.xml:64
-msgid "New terminal"
-msgstr ""
-
-#: admin/systems/class_filterSYSTEMS.inc:31 admin/systems/system-list.xml:72
-msgid "New unknown device"
-msgstr ""
-
-#: admin/systems/class_filterSYSTEMS.inc:34 admin/systems/system-list.xml:80
-msgid "New device"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-filter.xml:19
-#: admin/systems/serverService-filter.xml:17
-#: admin/systems/system-filter.xml:33
-msgid "Default filter"
-msgstr ""
-
-#: admin/systems/systemSelect/class_systemSelect.inc:29
-msgid "System selection"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.tpl:12
-#: admin/systems/component.tpl:18 admin/systems/class_componentGeneric.inc:316
-#: admin/systems/class_servGeneric.inc:547 admin/systems/system-list.tpl:12
-#: admin/systems/server.tpl:42
-msgid "Base"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:11
-msgid "Please select the desired entries"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:15
-#: admin/systems/class_servGeneric.inc:527 admin/systems/system-list.xml:112
-#: admin/systems/system-list.xml:251 admin/systems/server.tpl:1
-msgid "Server"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:23
-#: admin/systems/system-list.xml:120 admin/systems/system-list.xml:259
-msgid "Workstation"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:31
-#: admin/systems/system-list.xml:128 admin/systems/system-list.xml:267
-msgid "Terminal"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:57
-#: admin/systems/class_componentGeneric.inc:315
-#: admin/systems/class_servGeneric.inc:544 admin/systems/system-list.xml:178
-msgid "Name"
-msgstr ""
-
-#: admin/systems/systemSelect/selectSystem-list.xml:65
-#: admin/systems/component.tpl:29 admin/systems/class_componentGeneric.inc:317
-#: admin/systems/serverService-list.xml:35
-#: admin/systems/class_servGeneric.inc:545 admin/systems/system-list.xml:186
-#: admin/systems/server.tpl:16
-msgid "Description"
-msgstr ""
-
-#: admin/systems/askObjectGroup.tpl:6
-msgid ""
-"This dialog gives you the possibility to select an optional bundle of "
-"predefined settings to be inherited."
-msgstr ""
-
-#: admin/systems/askObjectGroup.tpl:23
-msgid "Choose an object group as template"
-msgstr ""
-
-#: admin/systems/askObjectGroup.tpl:31
-msgid "Continue"
-msgstr ""
-
-#: admin/systems/class_askOgroup.inc:37 admin/systems/class_askOgroup.inc:67
-#: admin/systems/class_applyOgroup.inc:39
-msgid "None"
-msgstr ""
-
-#: admin/systems/class_askOgroup.inc:52
-msgid "Create workstation"
-msgstr ""
-
-#: admin/systems/class_askOgroup.inc:53 admin/systems/system-list.xml:237
-msgid "Create"
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:3
-msgid "Apply template to"
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:9
-msgid ""
-"The selected system(s) do not have an assigned type. Please choose a type "
-"and a template to be applied."
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:11
-msgid ""
-"This dialog gives you the possibility to choose a template, which will be "
-"applied to the selected target(s)."
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:44 admin/systems/server.tpl:73
-msgid "Action"
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:47
-msgid ""
-"Note that object group membership will change when applying the selection. "
-"Systems added during reinstall scheduling will not get the selected template "
-"applied."
-msgstr ""
-
-#: admin/systems/ApplyObjectGroup.tpl:63
-msgid "Apply"
-msgstr ""
-
-#: admin/systems/services/class_goService.inc:44
-#: admin/systems/services/class_goService.inc:81
-msgid "Empty service"
-msgstr ""
-
-#: admin/systems/services/class_goService.inc:124
-#: admin/systems/services/class_goService.inc:152
-#: admin/systems/services/class_goService.inc:185
-#: admin/systems/class_termDNS.inc:515 admin/systems/class_termDNS.inc:823
-#: admin/systems/class_termDNS.inc:842 admin/systems/class_termDNS.inc:863
-#: admin/systems/class_termDNS.inc:868 admin/systems/class_termDNS.inc:886
-#: admin/systems/class_termDNS.inc:962
-#: admin/systems/class_componentGeneric.inc:134
-#: admin/systems/class_componentGeneric.inc:284
-#: admin/systems/class_servGeneric.inc:267
-#: admin/systems/class_servGeneric.inc:447
-#: admin/systems/class_systemManagement.inc:333
-#: admin/systems/class_systemManagement.inc:1283
-msgid "LDAP error"
-msgstr ""
-
-#: admin/systems/devicetype_selection.tpl:1
-msgid "Target system type selection"
-msgstr ""
-
-#: admin/systems/devicetype_selection.tpl:4
-#: admin/systems/devicetype_selection.tpl:5
-msgid "System type"
-msgstr ""
-
-#: admin/systems/component.tpl:1 admin/systems/system-list.xml:152
-msgid "Component"
-msgstr ""
-
-#: admin/systems/component.tpl:5
-msgid "Generic settings"
-msgstr ""
-
-#: admin/systems/component.tpl:7
-msgid "Device name"
-msgstr ""
-
-#: admin/systems/class_applyOgroup.inc:40
-msgid "Trigger Reinstall"
-msgstr ""
-
-#: admin/systems/class_applyOgroup.inc:41
-msgid "Schedule Reinstall"
-msgstr ""
-
 #: admin/systems/class_termDNS.inc:315 admin/systems/class_termDNS.inc:362
-#: admin/systems/class_componentGeneric.inc:166
-#: admin/systems/class_servGeneric.inc:301
-#: admin/systems/class_filterOPSIHOSTS.inc:30
-#: admin/systems/class_systemManagement.inc:280
-#: admin/systems/class_systemManagement.inc:774
-#: admin/systems/class_systemManagement.inc:780
-#: admin/systems/class_systemManagement.inc:867
-#: admin/systems/class_systemManagement.inc:905
-#: admin/systems/class_systemManagement.inc:991
-#: admin/systems/class_systemManagement.inc:1006
+#: admin/systems/class_servGeneric.inc:308
 #: admin/systems/class_serverService.inc:235
 #: admin/systems/class_serverService.inc:280
 #: admin/systems/class_serverService.inc:488
+#: admin/systems/class_systemManagement.inc:282
+#: admin/systems/class_systemManagement.inc:777
+#: admin/systems/class_systemManagement.inc:783
+#: admin/systems/class_systemManagement.inc:870
+#: admin/systems/class_systemManagement.inc:910
+#: admin/systems/class_systemManagement.inc:1035
+#: admin/systems/class_systemManagement.inc:1050
+#: admin/systems/class_filterOPSIHOSTS.inc:30
+#: admin/systems/class_componentGeneric.inc:166
 msgid "Error"
 msgstr ""
 
 #: admin/systems/class_termDNS.inc:478
 msgid "Not matching"
+msgstr ""
+
+#: admin/systems/class_termDNS.inc:515 admin/systems/class_termDNS.inc:823
+#: admin/systems/class_termDNS.inc:842 admin/systems/class_termDNS.inc:863
+#: admin/systems/class_termDNS.inc:868 admin/systems/class_termDNS.inc:886
+#: admin/systems/class_termDNS.inc:962 admin/systems/class_servGeneric.inc:274
+#: admin/systems/class_servGeneric.inc:460
+#: admin/systems/services/class_goService.inc:124
+#: admin/systems/services/class_goService.inc:152
+#: admin/systems/services/class_goService.inc:185
+#: admin/systems/class_systemManagement.inc:335
+#: admin/systems/class_systemManagement.inc:1296
+#: admin/systems/class_componentGeneric.inc:134
+#: admin/systems/class_componentGeneric.inc:284
+msgid "LDAP error"
 msgstr ""
 
 #: admin/systems/class_termDNS.inc:631
@@ -294,38 +112,307 @@ msgstr ""
 msgid "DHCP configuration"
 msgstr ""
 
-#: admin/systems/class_componentGeneric.inc:84
-msgid "component"
+#: admin/systems/class_servGeneric.inc:81
+msgid "Activated"
 msgstr ""
 
-#: admin/systems/class_componentGeneric.inc:187
-#: admin/systems/class_componentGeneric.inc:192
-#: admin/systems/class_componentGeneric.inc:214
-#: admin/systems/paste_generic.tpl:44
-msgid "Component name"
+#: admin/systems/class_servGeneric.inc:82
+msgid "Locked"
 msgstr ""
 
+#: admin/systems/class_servGeneric.inc:162
+msgid "server"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:179
+#: admin/systems/class_servGeneric.inc:482
+#: admin/systems/class_systemManagement.inc:572
+#: admin/systems/class_systemManagement.inc:981
+msgid "Service infrastructure"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:183
+msgid "Event error"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:184
+#, php-format
+msgid "Event '%s' is not available!"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:210
+msgid "Switch off"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:211 admin/systems/system-list.xml:334
+#: admin/systems/system-list.xml:408
+msgid "Reboot"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:212
+msgid "Software update"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:213
+#: admin/systems/class_servGeneric.inc:221 admin/systems/system-list.xml:374
+#: admin/systems/system-list.xml:448
+msgid "Reinstall"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:214
+msgid "Rescan hardware"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:215
+#: admin/systems/class_servGeneric.inc:223 admin/systems/system-list.xml:325
+#: admin/systems/system-list.xml:399
+msgid "Force local boot"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:220
+msgid "Wake up"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:222
+msgid "System update"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:342
+#: admin/systems/class_servGeneric.inc:347 admin/systems/server.tpl:8
+#: admin/systems/paste_generic.tpl:4
+msgid "Server name"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:377
+msgid "Server Name"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:394
+msgid "Software deployment"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:395
+msgid ""
+"This host is currently installing, if you really want to save it, press 'OK'."
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:532 admin/systems/server.tpl:5
 #: admin/systems/class_componentGeneric.inc:292
-#: admin/systems/class_servGeneric.inc:517 admin/systems/server.tpl:5
 msgid "Generic"
 msgstr ""
 
-#: admin/systems/class_componentGeneric.inc:293
-msgid "Component generic"
+#: admin/systems/class_servGeneric.inc:533
+msgid "Server generic"
 msgstr ""
 
-#: admin/systems/class_componentGeneric.inc:298
-#: admin/systems/system-list.xml:291
-msgid "Network device"
+#: admin/systems/class_servGeneric.inc:542
+#: admin/systems/systemSelect/selectSystem-list.xml:15
+#: admin/systems/systemSelect/selectSystem-filter.xml:33
+#: admin/systems/system-list.xml:112 admin/systems/system-list.xml:251
+#: admin/systems/system-filter.xml:136 admin/systems/server.tpl:1
+msgid "Server"
 msgstr ""
 
-#: admin/systems/class_componentGeneric.inc:306
-msgid "RDN for component storage."
-msgstr ""
-
-#: admin/systems/class_componentGeneric.inc:318
 #: admin/systems/class_servGeneric.inc:550
+msgid "RDN for server storage."
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:559
+#: admin/systems/systemSelect/selectSystem-list.xml:57
+#: admin/systems/system-list.xml:178
+#: admin/systems/class_componentGeneric.inc:315
+msgid "Name"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:560
+#: admin/systems/serverService-list.xml:35
+#: admin/systems/systemSelect/selectSystem-list.xml:65
+#: admin/systems/system-list.xml:186 admin/systems/server.tpl:21
+#: admin/systems/class_componentGeneric.inc:317 admin/systems/component.tpl:34
+msgid "Description"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:561 admin/systems/system-list.xml:194
+#: admin/systems/server.tpl:29
+msgid "Inventory number"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:562
+#: admin/systems/systemSelect/selectSystem-list.tpl:12
+#: admin/systems/system-list.tpl:12 admin/systems/server.tpl:47
+#: admin/systems/class_componentGeneric.inc:316 admin/systems/component.tpl:18
+msgid "Base"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:563 admin/systems/server.tpl:65
+msgid "Comment"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:564
+msgid "Goto mode"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:565
+#: admin/systems/class_componentGeneric.inc:318
 msgid "Root password"
+msgstr ""
+
+#: admin/systems/class_servGeneric.inc:566
+msgid "Action flag"
+msgstr ""
+
+#: admin/systems/services/class_goService.inc:44
+#: admin/systems/services/class_goService.inc:81
+msgid "Empty service"
+msgstr ""
+
+#: admin/systems/devicetype_selection.tpl:1
+msgid "Target system type selection"
+msgstr ""
+
+#: admin/systems/devicetype_selection.tpl:4
+#: admin/systems/devicetype_selection.tpl:5
+msgid "System type"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:27
+#: admin/systems/serverService-list.xml:75
+#: admin/systems/serverService-list.xml:110
+msgid "Stop"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:28
+#: admin/systems/serverService-list.xml:68
+#: admin/systems/serverService-list.xml:102
+msgid "Start"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:29
+#: admin/systems/serverService-list.xml:82
+#: admin/systems/serverService-list.xml:118
+msgid "Restart"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:476
+#: admin/systems/class_systemManagement.inc:769
+msgid "Information"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:476
+msgid "Cannot update service status until it has been saved!"
+msgstr ""
+
+#: admin/systems/class_serverService.inc:488
+msgid "Cannot update service status!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:60
+msgid "Systems"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:61
+msgid "Manage systems, their services and prepare them for use with GOsa"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:184
+#: admin/systems/class_systemManagement.inc:291
+msgid "Permission error"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:184
+#: admin/systems/class_systemManagement.inc:291
+msgid "You have no permission to change this password!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:283
+msgid ""
+"The passwords you've entered as 'New password' and 'Repeated password' do "
+"not   match!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:329
+msgid "Password method"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:329
+msgid "Password method crypt is missing. Cannot set system password."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:384
+msgid "Back"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:430
+msgid "Creating the image failed. Please see the report below."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:435
+#, php-format
+msgid "Command '%s', specified for ISO creation doesn't seem to exist."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:649
+#: admin/systems/class_systemManagement.inc:748
+#: admin/systems/class_systemManagement.inc:1341
+#: admin/systems/class_systemManagement.inc:1388
+#: admin/systems/class_systemManagement.inc:1409
+msgid "Permission"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:769
+#, php-format
+msgid ""
+"The object-type '%s' cannot be managed with your setup of GOsa, please "
+"install the required  plugins!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:865
+msgid "Warning"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:865
+#, php-format
+msgid ""
+"These systems are already configured by other object groups and cannot be "
+"added:"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1103
+msgid "Internal error"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1103
+msgid "Cannot set mode to 'active'!"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1341
+#, php-format
+msgid "You are not allowed to create a snapshot for %s."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1388
+#: admin/systems/class_systemManagement.inc:1409
+#, php-format
+msgid "You are not allowed to restore a snapshot for %s."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1693
+#, php-format
+msgid "Inherited from %s"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1734
+#: admin/systems/class_systemManagement.inc:1735
+#: admin/systems/system-filter.xml:121
+msgid "Incoming objects"
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1747
+msgid "RDN for system storage."
+msgstr ""
+
+#: admin/systems/class_systemManagement.inc:1756
+msgid "Incoming"
 msgstr ""
 
 #: admin/systems/serverService-list.xml:9
@@ -348,24 +435,6 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: admin/systems/serverService-list.xml:68
-#: admin/systems/serverService-list.xml:102
-#: admin/systems/class_serverService.inc:28
-msgid "Start"
-msgstr ""
-
-#: admin/systems/serverService-list.xml:75
-#: admin/systems/serverService-list.xml:110
-#: admin/systems/class_serverService.inc:27
-msgid "Stop"
-msgstr ""
-
-#: admin/systems/serverService-list.xml:82
-#: admin/systems/serverService-list.xml:118
-#: admin/systems/class_serverService.inc:29
-msgid "Restart"
-msgstr ""
-
 #: admin/systems/serverService-list.xml:126
 msgid "Edit service"
 msgstr ""
@@ -374,180 +443,30 @@ msgstr ""
 msgid "Remove service"
 msgstr ""
 
-#: admin/systems/class_servGeneric.inc:81
-msgid "Activated"
+#: admin/systems/systemSelect/selectSystem-list.xml:11
+msgid "Please select the desired entries"
 msgstr ""
 
-#: admin/systems/class_servGeneric.inc:82
-msgid "Locked"
+#: admin/systems/systemSelect/selectSystem-list.xml:23
+#: admin/systems/systemSelect/selectSystem-filter.xml:47
+#: admin/systems/system-list.xml:120 admin/systems/system-list.xml:259
+#: admin/systems/system-filter.xml:156
+msgid "Workstation"
 msgstr ""
 
-#: admin/systems/class_servGeneric.inc:160
-msgid "server"
+#: admin/systems/systemSelect/selectSystem-list.xml:31
+#: admin/systems/system-list.xml:128 admin/systems/system-list.xml:267
+msgid "Terminal"
 msgstr ""
 
-#: admin/systems/class_servGeneric.inc:177
-#: admin/systems/class_servGeneric.inc:467
-#: admin/systems/class_systemManagement.inc:570
-msgid "Service infrastructure"
+#: admin/systems/systemSelect/class_systemSelect.inc:29
+msgid "System selection"
 msgstr ""
 
-#: admin/systems/class_servGeneric.inc:181
-msgid "Event error"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:182
-#, php-format
-msgid "Event '%s' is not available!"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:208
-msgid "Switch off"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:209 admin/systems/system-list.xml:334
-#: admin/systems/system-list.xml:408
-msgid "Reboot"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:210
-msgid "Software update"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:211
-#: admin/systems/class_servGeneric.inc:219 admin/systems/system-list.xml:374
-#: admin/systems/system-list.xml:448
-msgid "Reinstall"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:212
-msgid "Rescan hardware"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:213
-#: admin/systems/class_servGeneric.inc:221 admin/systems/system-list.xml:325
-#: admin/systems/system-list.xml:399
-msgid "Force local boot"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:218
-msgid "Wake up"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:220
-msgid "System update"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:330
-#: admin/systems/class_servGeneric.inc:335 admin/systems/paste_generic.tpl:4
-#: admin/systems/server.tpl:8
-msgid "Server name"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:365
-msgid "Server Name"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:382
-msgid "Software deployment"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:383
-msgid ""
-"This host is currently installing, if you really want to save it, press 'OK'."
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:518
-msgid "Server generic"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:535
-msgid "RDN for server storage."
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:546 admin/systems/system-list.xml:194
-#: admin/systems/server.tpl:24
-msgid "Inventory number"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:548 admin/systems/server.tpl:51
-msgid "Comment"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:549
-msgid "Goto mode"
-msgstr ""
-
-#: admin/systems/class_servGeneric.inc:551
-msgid "Action flag"
-msgstr ""
-
-#: admin/systems/network.tpl:1
-msgid "Network\tsettings"
-msgstr ""
-
-#: admin/systems/network.tpl:3
-msgid "Network settings"
-msgstr ""
-
-#: admin/systems/network.tpl:7
-msgid "Address settings"
-msgstr ""
-
-#: admin/systems/network.tpl:10
-msgid "IP-address"
-msgstr ""
-
-#: admin/systems/network.tpl:18 admin/systems/network.tpl:20
-msgid "Propose IP"
-msgstr ""
-
-#: admin/systems/network.tpl:42
-msgid "MAC-address"
-msgstr ""
-
-#: admin/systems/network.tpl:50
-msgid "Auto detect"
-msgstr ""
-
-#: admin/systems/network.tpl:63
-msgid "DHCP settings"
-msgstr ""
-
-#: admin/systems/network.tpl:73 admin/systems/network.tpl:83
-msgid "Enable DHCP for this device"
-msgstr ""
-
-#: admin/systems/network.tpl:83 admin/systems/network.tpl:171
-msgid "not configured"
-msgstr ""
-
-#: admin/systems/network.tpl:91
-msgid "Parent node"
-msgstr ""
-
-#: admin/systems/network.tpl:99
-msgid "Edit settings"
-msgstr ""
-
-#: admin/systems/network.tpl:134 admin/systems/network.tpl:171
-msgid "Enable DNS for this device"
-msgstr ""
-
-#: admin/systems/network.tpl:140
-msgid "DNS zone settings"
-msgstr ""
-
-#: admin/systems/network.tpl:142
-msgid "Zone"
-msgstr ""
-
-#: admin/systems/network.tpl:152
-msgid "TTL"
-msgstr ""
-
-#: admin/systems/network.tpl:160
-msgid "DNS records"
+#: admin/systems/systemSelect/selectSystem-filter.xml:19
+#: admin/systems/serverService-filter.xml:17
+#: admin/systems/system-filter.xml:33
+msgid "Default filter"
 msgstr ""
 
 #: admin/systems/system-list.xml:10
@@ -562,6 +481,10 @@ msgstr ""
 msgid "Opsi host"
 msgstr ""
 
+#: admin/systems/system-list.xml:31 admin/systems/class_filterSYSTEMS.inc:23
+msgid "New workstation"
+msgstr ""
+
 #: admin/systems/system-list.xml:39
 msgid "Locked server"
 msgstr ""
@@ -572,6 +495,18 @@ msgstr ""
 
 #: admin/systems/system-list.xml:55
 msgid "Locked terminal"
+msgstr ""
+
+#: admin/systems/system-list.xml:64 admin/systems/class_filterSYSTEMS.inc:26
+msgid "New terminal"
+msgstr ""
+
+#: admin/systems/system-list.xml:72 admin/systems/class_filterSYSTEMS.inc:31
+msgid "New unknown device"
+msgstr ""
+
+#: admin/systems/system-list.xml:80 admin/systems/class_filterSYSTEMS.inc:34
+msgid "New device"
 msgstr ""
 
 #: admin/systems/system-list.xml:88
@@ -586,7 +521,7 @@ msgstr ""
 msgid "Windows workstation"
 msgstr ""
 
-#: admin/systems/system-list.xml:136
+#: admin/systems/system-list.xml:136 admin/systems/system-filter.xml:176
 msgid "Printer"
 msgstr ""
 
@@ -594,7 +529,11 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: admin/systems/system-list.xml:202
+#: admin/systems/system-list.xml:152 admin/systems/component.tpl:1
+msgid "Component"
+msgstr ""
+
+#: admin/systems/system-list.xml:202 admin/systems/server.tpl:56
 msgid "Object group"
 msgstr ""
 
@@ -606,8 +545,17 @@ msgstr ""
 msgid "FAI state"
 msgstr ""
 
+#: admin/systems/system-list.xml:237 admin/systems/class_askOgroup.inc:53
+msgid "Create"
+msgstr ""
+
 #: admin/systems/system-list.xml:275
 msgid "Network printer"
+msgstr ""
+
+#: admin/systems/system-list.xml:291
+#: admin/systems/class_componentGeneric.inc:298
+msgid "Network device"
 msgstr ""
 
 #: admin/systems/system-list.xml:299
@@ -678,42 +626,40 @@ msgstr ""
 msgid "Opsi"
 msgstr ""
 
-#: admin/systems/system-filter.xml:121
-#: admin/systems/class_systemManagement.inc:1721
-#: admin/systems/class_systemManagement.inc:1722
-msgid "Incoming objects"
+#: admin/systems/askObjectGroup.tpl:6
+msgid ""
+"This dialog gives you the possibility to select an optional bundle of "
+"predefined settings to be inherited."
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:2
-msgid "Paste server"
+#: admin/systems/askObjectGroup.tpl:13 admin/systems/askObjectGroup.tpl:24
+#: admin/systems/ogroup_selection.tpl:5 admin/systems/server.tpl:58
+#: admin/systems/ApplyObjectGroup.tpl:19
+msgid "Select object group"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:12
-msgid "Paste workstation"
+#: admin/systems/askObjectGroup.tpl:23
+msgid "Choose an object group as template"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:14
-msgid "workstation name"
+#: admin/systems/askObjectGroup.tpl:31
+msgid "Continue"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:22
-msgid "Paste terminal"
+#: admin/systems/ogroup_selection.tpl:1
+msgid "Object group selection"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:24
-msgid "Terminal name"
+#: admin/systems/ogroup_selection.tpl:4
+msgid "Choose an object group"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:32
-msgid "Paste printer"
+#: admin/systems/ogroup_selection.tpl:7 admin/systems/server.tpl:59
+msgid "none"
 msgstr ""
 
-#: admin/systems/paste_generic.tpl:34
-msgid "Printer name"
-msgstr ""
-
-#: admin/systems/paste_generic.tpl:42
-msgid "Paste network component"
+#: admin/systems/ogroup_selection.tpl:16
+msgid "Inherit attributes"
 msgstr ""
 
 #: admin/systems/password.tpl:3
@@ -751,143 +697,202 @@ msgstr ""
 msgid "Set password"
 msgstr ""
 
-#: admin/systems/class_systemManagement.inc:60
-msgid "Systems"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:61
-msgid "Manage systems, their services and prepare them for use with GOsa"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:182
-#: admin/systems/class_systemManagement.inc:289
-msgid "Permission error"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:182
-#: admin/systems/class_systemManagement.inc:289
-msgid "You have no permission to change this password!"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:281
-msgid ""
-"The passwords you've entered as 'New password' and 'Repeated password' do "
-"not   match!"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:327
-msgid "Password method"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:327
-msgid "Password method crypt is missing. Cannot set system password."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:382
-msgid "Back"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:428
-msgid "Creating the image failed. Please see the report below."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:433
-#, php-format
-msgid "Command '%s', specified for ISO creation doesn't seem to exist."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:646
-#: admin/systems/class_systemManagement.inc:745
-#: admin/systems/class_systemManagement.inc:1328
-#: admin/systems/class_systemManagement.inc:1375
-#: admin/systems/class_systemManagement.inc:1396
-msgid "Permission"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:766
-#: admin/systems/class_serverService.inc:476
-msgid "Information"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:766
-#, php-format
-msgid ""
-"The object-type '%s' cannot be managed with your setup of GOsa, please "
-"install the required  plugins!"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:862
-msgid "Warning"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:862
-#, php-format
-msgid ""
-"These systems are already configured by other object groups and cannot be "
-"added:"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1059
-msgid "Internal error"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1059
-msgid "Cannot set mode to 'active'!"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1328
-#, php-format
-msgid "You are not allowed to create a snapshot for %s."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1375
-#: admin/systems/class_systemManagement.inc:1396
-#, php-format
-msgid "You are not allowed to restore a snapshot for %s."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1680
-#, php-format
-msgid "Inherited from %s"
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1734
-msgid "RDN for system storage."
-msgstr ""
-
-#: admin/systems/class_systemManagement.inc:1743
-msgid "Incoming"
-msgstr ""
-
 #: admin/systems/server.tpl:6
 msgid "Server settings"
 msgstr ""
 
-#: admin/systems/server.tpl:32
+#: admin/systems/server.tpl:37
 msgid "Mode"
 msgstr ""
 
-#: admin/systems/server.tpl:35
+#: admin/systems/server.tpl:40
 msgid "Select terminal mode"
 msgstr ""
 
-#: admin/systems/server.tpl:76
+#: admin/systems/server.tpl:87 admin/systems/ApplyObjectGroup.tpl:44
+msgid "Action"
+msgstr ""
+
+#: admin/systems/server.tpl:90
 msgid ""
 "System installation in progress, the FAI state cannot be changed right now."
 msgstr ""
 
-#: admin/systems/server.tpl:79
+#: admin/systems/server.tpl:93
 msgid "Select action to execute for this server"
 msgstr ""
 
-#: admin/systems/server.tpl:85
+#: admin/systems/server.tpl:99
 msgid "Execute"
 msgstr ""
 
-#: admin/systems/class_serverService.inc:476
-msgid "Cannot update service status until it has been saved!"
+#: admin/systems/ApplyObjectGroup.tpl:3
+msgid "Apply template to"
 msgstr ""
 
-#: admin/systems/class_serverService.inc:488
-msgid "Cannot update service status!"
+#: admin/systems/ApplyObjectGroup.tpl:9
+msgid ""
+"The selected system(s) do not have an assigned type. Please choose a type "
+"and a template to be applied."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:11
+msgid ""
+"This dialog gives you the possibility to choose a template, which will be "
+"applied to the selected target(s)."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:47
+msgid ""
+"Note that object group membership will change when applying the selection. "
+"Systems added during reinstall scheduling will not get the selected template "
+"applied."
+msgstr ""
+
+#: admin/systems/ApplyObjectGroup.tpl:63
+msgid "Apply"
+msgstr ""
+
+#: admin/systems/class_askOgroup.inc:37 admin/systems/class_askOgroup.inc:67
+#: admin/systems/class_applyOgroup.inc:39
+msgid "None"
+msgstr ""
+
+#: admin/systems/class_askOgroup.inc:52
+msgid "Create workstation"
+msgstr ""
+
+#: admin/systems/class_applyOgroup.inc:40
+msgid "Trigger Reinstall"
+msgstr ""
+
+#: admin/systems/class_applyOgroup.inc:41
+msgid "Schedule Reinstall"
+msgstr ""
+
+#: admin/systems/network.tpl:1
+msgid "Network\tsettings"
+msgstr ""
+
+#: admin/systems/network.tpl:3
+msgid "Network settings"
+msgstr ""
+
+#: admin/systems/network.tpl:7
+msgid "Address settings"
+msgstr ""
+
+#: admin/systems/network.tpl:10
+msgid "IP-address"
+msgstr ""
+
+#: admin/systems/network.tpl:18 admin/systems/network.tpl:20
+msgid "Propose IP"
+msgstr ""
+
+#: admin/systems/network.tpl:42
+msgid "MAC-address"
+msgstr ""
+
+#: admin/systems/network.tpl:50
+msgid "Auto detect"
+msgstr ""
+
+#: admin/systems/network.tpl:63
+msgid "DHCP settings"
+msgstr ""
+
+#: admin/systems/network.tpl:73 admin/systems/network.tpl:83
+msgid "Enable DHCP for this device"
+msgstr ""
+
+#: admin/systems/network.tpl:83 admin/systems/network.tpl:171
+msgid "not configured"
+msgstr ""
+
+#: admin/systems/network.tpl:91
+msgid "Parent node"
+msgstr ""
+
+#: admin/systems/network.tpl:99
+msgid "Edit settings"
+msgstr ""
+
+#: admin/systems/network.tpl:134 admin/systems/network.tpl:171
+msgid "Enable DNS for this device"
+msgstr ""
+
+#: admin/systems/network.tpl:140
+msgid "DNS zone settings"
+msgstr ""
+
+#: admin/systems/network.tpl:142
+msgid "Zone"
+msgstr ""
+
+#: admin/systems/network.tpl:152
+msgid "TTL"
+msgstr ""
+
+#: admin/systems/network.tpl:160
+msgid "DNS records"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:2
+msgid "Paste server"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:12
+msgid "Paste workstation"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:14
+msgid "workstation name"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:22
+msgid "Paste terminal"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:24
+msgid "Terminal name"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:32
+msgid "Paste printer"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:34
+msgid "Printer name"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:42
+msgid "Paste network component"
+msgstr ""
+
+#: admin/systems/paste_generic.tpl:44
+#: admin/systems/class_componentGeneric.inc:187
+#: admin/systems/class_componentGeneric.inc:192
+#: admin/systems/class_componentGeneric.inc:214
+msgid "Component name"
+msgstr ""
+
+#: admin/systems/class_componentGeneric.inc:84
+msgid "component"
+msgstr ""
+
+#: admin/systems/class_componentGeneric.inc:293
+msgid "Component generic"
+msgstr ""
+
+#: admin/systems/class_componentGeneric.inc:306
+msgid "RDN for component storage."
+msgstr ""
+
+#: admin/systems/component.tpl:5
+msgid "Generic settings"
+msgstr ""
+
+#: admin/systems/component.tpl:7
+msgid "Device name"
 msgstr ""
