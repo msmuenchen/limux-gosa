@@ -11,24 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:23+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: admin/systems/services/syslog/goSyslogServer.tpl:1
-#, fuzzy
-msgid "Syslog Service"
-msgstr "Systeem log weergave"
-
-#: admin/systems/services/syslog/goSyslogServer.tpl:1
-#, fuzzy
-msgid "enabled"
-msgstr "gedeactiveerd"
+"Language: \n"
 
 #: admin/systems/services/syslog/class_goSyslogServer.inc:27
 #: admin/systems/services/syslog/class_goSyslogServer.inc:47
@@ -47,6 +37,38 @@ msgstr "Log DB gebruiker"
 msgid "Services"
 msgstr "Services"
 
+#: admin/systems/services/syslog/goSyslogServer.tpl:1
+#, fuzzy
+msgid "Syslog Service"
+msgstr "Systeem log weergave"
+
+#: admin/systems/services/syslog/goSyslogServer.tpl:1
+#, fuzzy
+msgid "enabled"
+msgstr "gedeactiveerd"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:1
+#, fuzzy
+msgid "Logging database information"
+msgstr "Informatie weergeven/verbergen"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:4
+#: admin/systems/services/syslog/class_goLogDBServer.inc:75
+#: admin/systems/services/syslog/class_goLogDBServer.inc:106
+msgid "Database"
+msgstr "Database"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:12
+#, fuzzy
+msgid "Logging DB user"
+msgstr "Log DB gebruiker"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:20
+#: admin/systems/services/syslog/class_goLogDBServer.inc:72
+#: admin/systems/services/syslog/class_goLogDBServer.inc:105
+msgid "Password"
+msgstr "Wachtwoord"
+
 #: admin/systems/services/syslog/class_goLogDBServer.inc:31
 #: admin/systems/services/syslog/class_goLogDBServer.inc:59
 #, fuzzy
@@ -56,18 +78,6 @@ msgstr "Log database"
 #: admin/systems/services/syslog/class_goLogDBServer.inc:69
 msgid "User"
 msgstr "Gebruiker"
-
-#: admin/systems/services/syslog/class_goLogDBServer.inc:72
-#: admin/systems/services/syslog/class_goLogDBServer.inc:105
-#: admin/systems/services/syslog/goLogDBServer.tpl:20
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: admin/systems/services/syslog/class_goLogDBServer.inc:75
-#: admin/systems/services/syslog/class_goLogDBServer.inc:106
-#: admin/systems/services/syslog/goLogDBServer.tpl:4
-msgid "Database"
-msgstr "Database"
 
 #: admin/systems/services/syslog/class_goLogDBServer.inc:92
 #: admin/systems/services/syslog/class_goLogDBServer.inc:93
@@ -93,16 +103,6 @@ msgstr "Opnieuw proberen"
 #, fuzzy
 msgid "Administrator"
 msgstr "Beheer"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:1
-#, fuzzy
-msgid "Logging database information"
-msgstr "Informatie weergeven/verbergen"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:12
-#, fuzzy
-msgid "Logging DB user"
-msgstr "Log DB gebruiker"
 
 #, fuzzy
 #~ msgid "Admin"
