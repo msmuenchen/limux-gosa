@@ -1,0 +1,22 @@
+#!/bin/bash
+# This script updates the locales for GOsa core and all plugins at once
+
+ROOTDIR=`pwd`
+COREDIR=$ROOTDIR/gosa-core
+PLUGINDIR=$ROOTDIR/gosa-plugins
+UPDATER=$ROOTDIR/gosa-core/update-locale
+
+#cd $ROOTDIR/gosa-core
+#$UPDATER
+cd $PLUGINDIR
+pwd
+for file in $PLUGINDIR/*; do
+  if [ -d "$file" ]; then
+    cd $file
+#    pwd
+    $UPDATER -y
+  fi
+done
+#pwd#
+#echo $ROOTDIR
+#echo $UPDATER
