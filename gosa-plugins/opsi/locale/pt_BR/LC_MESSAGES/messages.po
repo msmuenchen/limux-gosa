@@ -7,17 +7,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GOsa plugins - opsi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2010-03-11 21:05-0300\n"
 "Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
 "Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
 "<clever@dri.cefetmg.br>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
+
+#: admin/opsi/class_opsi.inc:74 admin/opsi/class_opsigeneric.inc:753
+msgid "Opsi"
+msgstr ""
+
+#: admin/opsi/class_opsi.inc:74
+#, php-format
+msgid "More than one Opsi server were found, using the first result '%s'."
+msgstr ""
+
+#: admin/opsi/class_opsi.inc:150
+#, fuzzy
+msgid "Service infrastructure"
+msgstr "Erro de infraestrutura"
 
 #: admin/opsi/properties.tpl:2
 #, fuzzy
@@ -33,24 +47,53 @@ msgstr ""
 msgid "Package settings"
 msgstr "Configurações do Samba"
 
+#: admin/opsi/class_opsiProperties.inc:113
+msgid "Products"
+msgstr ""
+
+#: admin/opsi/class_opsiProperties.inc:114
+#, fuzzy
+msgid "Product properties"
+msgstr "Editar propriedades"
+
+#: admin/opsi/opsiware.tpl:4
+#, fuzzy
+msgid "Information"
+msgstr "Informação"
+
+#: admin/opsi/opsiware.tpl:7 admin/opsi/generic.tpl:7
+#: admin/opsiLicenses/licenseByProduct.tpl:5
+#: admin/opsiLicenses/licensePoolGeneric.tpl:6
+#: admin/opsiLicenses/licenseUsage.tpl:5
+#: admin/opsiLicenses/licenseGeneric.tpl:6
+#: admin/opsiLicenses/licenseUsageByHost.tpl:5
+msgid "Retry"
+msgstr ""
+
+#: admin/opsi/opsiware.tpl:11
+#, fuzzy
+msgid "Hardware information"
+msgstr "Informação de conexão"
+
+#: admin/opsi/opsiware.tpl:14
+#, fuzzy
+msgid "Software information"
+msgstr "Informação de conexão"
+
+#: admin/opsi/opsiware.tpl:19
+#, fuzzy
+msgid "Device"
+msgstr "Dispositivo"
+
 #: admin/opsi/generic.tpl:2 admin/opsi/generic.tpl:11
 #, fuzzy
 msgid "OPSI host"
 msgstr "Período de notificação de host"
 
-#: admin/opsi/generic.tpl:7 admin/opsi/opsiware.tpl:7
-#: admin/opsiLicenses/licenseUsage.tpl:5
-#: admin/opsiLicenses/licenseUsageByHost.tpl:5
-#: admin/opsiLicenses/licenseByProduct.tpl:5
-#: admin/opsiLicenses/licenseGeneric.tpl:6
-#: admin/opsiLicenses/licensePoolGeneric.tpl:6
-msgid "Retry"
-msgstr ""
-
 #: admin/opsi/generic.tpl:14 admin/opsi/generic.tpl:60
 #: admin/opsi/class_opsigeneric.inc:747
-#: admin/opsiLicenses/class_licenseGeneric.inc:280
 #: admin/opsiLicenses/licensePoolGeneric.tpl:17
+#: admin/opsiLicenses/class_licenseGeneric.inc:280
 #, fuzzy
 msgid "Generic"
 msgstr "Geral"
@@ -59,12 +102,12 @@ msgstr "Geral"
 #: admin/opsi/class_opsigeneric.inc:91 admin/opsi/class_opsigeneric.inc:102
 #: admin/opsi/class_opsigeneric.inc:251 admin/opsi/class_opsigeneric.inc:256
 #: admin/opsi/class_opsigeneric.inc:259 admin/opsi/class_opsigeneric.inc:756
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:525
+#: admin/opsiLicenses/licensePoolGeneric.tpl:20
 #: admin/opsiLicenses/class_licenseGeneric.inc:242
 #: admin/opsiLicenses/class_licenseGeneric.inc:288
 #: admin/opsiLicenses/opsiLicense-list.xml:41
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:525
 #: admin/opsiLicenses/licenseGeneric.tpl:21
-#: admin/opsiLicenses/licensePoolGeneric.tpl:20
 #, fuzzy
 msgid "Name"
 msgstr "Nome"
@@ -81,12 +124,12 @@ msgstr "Product-ID"
 
 #: admin/opsi/generic.tpl:62 admin/opsi/class_opsigeneric.inc:91
 #: admin/opsi/class_opsigeneric.inc:102 admin/opsi/class_opsigeneric.inc:758
-#: admin/opsiLicenses/class_licenseGeneric.inc:299
-#: admin/opsiLicenses/opsiLicense-list.xml:49
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:92
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:526
-#: admin/opsiLicenses/licenseGeneric.tpl:45
 #: admin/opsiLicenses/licensePoolGeneric.tpl:32
+#: admin/opsiLicenses/class_licenseGeneric.inc:299
+#: admin/opsiLicenses/opsiLicense-list.xml:49
+#: admin/opsiLicenses/licenseGeneric.tpl:45
 #, fuzzy
 msgid "Description"
 msgstr "Descrição"
@@ -130,20 +173,6 @@ msgstr "Ilha de Wake"
 msgid "Execute"
 msgstr "Executar:"
 
-#: admin/opsi/class_opsi.inc:74 admin/opsi/class_opsigeneric.inc:753
-msgid "Opsi"
-msgstr ""
-
-#: admin/opsi/class_opsi.inc:74
-#, php-format
-msgid "More than one Opsi server were found, using the first result '%s'."
-msgstr ""
-
-#: admin/opsi/class_opsi.inc:150
-#, fuzzy
-msgid "Service infrastructure"
-msgstr "Erro de infraestrutura"
-
 #: admin/opsi/class_opsigeneric.inc:257
 msgid "The field 'Name' must contain a domain part!"
 msgstr ""
@@ -164,12 +193,6 @@ msgstr ""
 #: admin/opsi/class_opsigeneric.inc:499 admin/opsi/class_opsigeneric.inc:505
 #: admin/opsi/class_opsigeneric.inc:534 admin/opsi/class_opsigeneric.inc:574
 #: admin/opsi/class_opsigeneric.inc:721
-#: admin/opsiLicenses/class_licenseUsage.inc:76
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:91
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:100
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:113
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:240
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:247
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:107
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:117
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:130
@@ -179,7 +202,13 @@ msgstr ""
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:473
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:500
 #: admin/opsiLicenses/class_filterOpsiLicense.inc:45
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:91
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:100
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:113
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:240
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:247
 #: admin/opsiLicenses/class_licenseByProduct.inc:78
+#: admin/opsiLicenses/class_licenseUsage.inc:76
 #, fuzzy
 msgid "Error"
 msgstr "Erro"
@@ -199,88 +228,88 @@ msgstr "Nota, selecionando %s ao invés de %s\n"
 msgid "Local boot product"
 msgstr "Product-ID"
 
-#: admin/opsi/opsiware.tpl:4
-#, fuzzy
-msgid "Information"
-msgstr "Informação"
-
-#: admin/opsi/opsiware.tpl:11
-#, fuzzy
-msgid "Hardware information"
-msgstr "Informação de conexão"
-
-#: admin/opsi/opsiware.tpl:14
-#, fuzzy
-msgid "Software information"
-msgstr "Informação de conexão"
-
-#: admin/opsi/opsiware.tpl:19
-#, fuzzy
-msgid "Device"
-msgstr "Dispositivo"
-
-#: admin/opsi/class_opsiProperties.inc:113
-msgid "Products"
-msgstr ""
-
-#: admin/opsi/class_opsiProperties.inc:114
-#, fuzzy
-msgid "Product properties"
-msgstr "Editar propriedades"
-
-#: admin/opsiLicenses/licenseUsage.tpl:4
-#: admin/opsiLicenses/licenseUsageByHost.tpl:4
 #: admin/opsiLicenses/licenseByProduct.tpl:4
-#: admin/opsiLicenses/licenseGeneric.tpl:5
 #: admin/opsiLicenses/licensePoolGeneric.tpl:5
+#: admin/opsiLicenses/licenseUsage.tpl:4
+#: admin/opsiLicenses/licenseGeneric.tpl:5
+#: admin/opsiLicenses/licenseUsageByHost.tpl:4
 msgid "Check if the GOsa support daemon (gosa-si) is running."
 msgstr ""
 
+#: admin/opsiLicenses/licenseByProduct.tpl:12
 #: admin/opsiLicenses/licenseUsage.tpl:12
 #: admin/opsiLicenses/class_licenseUsage.inc:160
 #: admin/opsiLicenses/class_licenseUsage.inc:161
 #: admin/opsiLicenses/licenseUsageByHost.tpl:12
-#: admin/opsiLicenses/licenseByProduct.tpl:12
 #, fuzzy
 msgid "License usage"
 msgstr "Uso da quota"
 
-#: admin/opsiLicenses/class_licenseUsage.inc:56
-#: admin/opsiLicenses/class_licenseByProduct.inc:58
-msgid "Host"
-msgstr ""
-
-#: admin/opsiLicenses/class_licenseUsage.inc:56
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:69
-#: admin/opsiLicenses/class_licenseByProduct.inc:58
-msgid "Key"
-msgstr ""
-
-#: admin/opsiLicenses/class_licenseUsage.inc:56
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:59
-#: admin/opsiLicenses/class_licenseUsageByHost.inc:69
-#: admin/opsiLicenses/class_licenseByProduct.inc:58
-msgid "Pool"
-msgstr ""
-
-#: admin/opsiLicenses/class_licenseUsage.inc:56
-#: admin/opsiLicenses/opsiLicense-list.xml:15
-#: admin/opsiLicenses/opsiLicense-list.xml:74
-#: admin/opsiLicenses/licenseGeneric.tpl:11
-#: admin/opsiLicenses/class_licenseByProduct.inc:58
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:92
 #, fuzzy
-msgid "License"
-msgstr "Lincença"
+msgid "Section"
+msgstr "Ações"
 
-#: admin/opsiLicenses/class_licenseGeneric.inc:132
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:271
+msgid "unlimited"
+msgstr ""
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:277
+#, fuzzy, php-format
+msgid "Volume license (#%s)"
+msgstr "Volume 100%"
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:278
+#: admin/opsiLicenses/class_licenseGeneric.inc:133
+msgid "OEM"
+msgstr ""
+
 #: admin/opsiLicenses/class_licensePoolGeneric.inc:279
+#: admin/opsiLicenses/class_licenseGeneric.inc:132
 msgid "Retail"
 msgstr ""
 
-#: admin/opsiLicenses/class_licenseGeneric.inc:133
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:278
-msgid "OEM"
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:280
+msgid "Concurrent"
 msgstr ""
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:517
+#, fuzzy
+msgid "Pool generic"
+msgstr "Editar propriedade gerais"
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:518
+#, fuzzy
+msgid "License pool generic"
+msgstr "Editar propriedade gerais"
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:527
+#: admin/opsiLicenses/licensePoolGeneric.tpl:58
+#, fuzzy
+msgid "Applications"
+msgstr "Aplicações"
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:528
+#: admin/opsiLicenses/licensePoolGeneric.tpl:79
+#, fuzzy
+msgid "Windows software IDs"
+msgstr "grupo de estações windows"
+
+#: admin/opsiLicenses/class_licensePoolGeneric.inc:529
+#: admin/opsiLicenses/licensePoolGeneric.tpl:43
+msgid "Licenses"
+msgstr ""
+
+#: admin/opsiLicenses/licensePoolGeneric.tpl:12
+#, fuzzy
+msgid "Lincense settings"
+msgstr "Configurações do usuário"
+
+#: admin/opsiLicenses/licensePoolGeneric.tpl:18
+#: admin/opsiLicenses/licenseGeneric.tpl:18
+#, fuzzy
+msgid "Generic settings"
+msgstr "Configurações gerais do usuário"
 
 #: admin/opsiLicenses/class_licenseGeneric.inc:134
 #, fuzzy
@@ -351,11 +380,34 @@ msgstr "Data de nascimento"
 msgid "Conclusion date"
 msgstr "Data de nascimento"
 
+#: admin/opsiLicenses/opsiLicense-filter.xml:18
+#, fuzzy
+msgid "Default filter"
+msgstr "Aplicar filtro"
+
+#: admin/opsiLicenses/opsiLicense-filter.xml:33
+#, fuzzy
+msgid "By product"
+msgstr "Product-ID"
+
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:59
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:69
+#: admin/opsiLicenses/class_licenseByProduct.inc:58
+#: admin/opsiLicenses/class_licenseUsage.inc:56
+msgid "Pool"
+msgstr ""
+
 #: admin/opsiLicenses/class_licenseUsageByHost.inc:59
 #: admin/opsiLicenses/class_licenseUsageByHost.inc:69
 #, fuzzy
 msgid "License ID"
 msgstr "Lincença"
+
+#: admin/opsiLicenses/class_licenseUsageByHost.inc:69
+#: admin/opsiLicenses/class_licenseByProduct.inc:58
+#: admin/opsiLicenses/class_licenseUsage.inc:56
+msgid "Key"
+msgstr ""
 
 #: admin/opsiLicenses/class_licenseUsageByHost.inc:259
 #, fuzzy
@@ -382,6 +434,15 @@ msgstr "Inserir Advertência de Licença _BSD"
 #, fuzzy
 msgid "List of license pools"
 msgstr "Lista de recipientes de mensagens"
+
+#: admin/opsiLicenses/opsiLicense-list.xml:15
+#: admin/opsiLicenses/opsiLicense-list.xml:74
+#: admin/opsiLicenses/class_licenseByProduct.inc:58
+#: admin/opsiLicenses/licenseGeneric.tpl:11
+#: admin/opsiLicenses/class_licenseUsage.inc:56
+#, fuzzy
+msgid "License"
+msgstr "Lincença"
 
 #: admin/opsiLicenses/opsiLicense-list.xml:57
 #, fuzzy
@@ -413,80 +474,25 @@ msgstr "Editar de qualquer maneira"
 msgid "Remove license"
 msgstr "Remover objetos"
 
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:92
-#, fuzzy
-msgid "Section"
-msgstr "Ações"
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:271
-msgid "unlimited"
+#: admin/opsiLicenses/class_licenseByProduct.inc:58
+#: admin/opsiLicenses/class_licenseUsage.inc:56
+msgid "Host"
 msgstr ""
 
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:277
-#, fuzzy, php-format
-msgid "Volume license (#%s)"
-msgstr "Volume 100%"
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:280
-msgid "Concurrent"
-msgstr ""
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:517
+#: admin/opsiLicenses/class_licenseByProduct.inc:149
 #, fuzzy
-msgid "Pool generic"
-msgstr "Editar propriedade gerais"
+msgid "Usage by product"
+msgstr "Restringir uso do proxy por quota"
 
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:518
+#: admin/opsiLicenses/class_licenseByProduct.inc:150
 #, fuzzy
-msgid "License pool generic"
-msgstr "Editar propriedade gerais"
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:527
-#: admin/opsiLicenses/licensePoolGeneric.tpl:58
-#, fuzzy
-msgid "Applications"
-msgstr "Aplicações"
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:528
-#: admin/opsiLicenses/licensePoolGeneric.tpl:79
-#, fuzzy
-msgid "Windows software IDs"
-msgstr "grupo de estações windows"
-
-#: admin/opsiLicenses/class_licensePoolGeneric.inc:529
-#: admin/opsiLicenses/licensePoolGeneric.tpl:43
-msgid "Licenses"
-msgstr ""
-
-#: admin/opsiLicenses/licenseUsageByHost.tpl:14
-#: admin/opsiLicenses/licenseGeneric.tpl:189
-#, fuzzy
-msgid "Reserved for"
-msgstr "Procurar por"
-
-#: admin/opsiLicenses/licenseUsageByHost.tpl:28
-#, fuzzy
-msgid "Licenses used"
-msgstr "Pacotes usados"
-
-#: admin/opsiLicenses/class_opsiLicenses.inc:25
-msgid "Software licenses"
-msgstr ""
-
-#: admin/opsiLicenses/class_opsiLicenses.inc:26
-msgid "Manage software licenses for Windows system deployments"
-msgstr ""
+msgid "License usage by product"
+msgstr "Restringir uso do proxy por quota"
 
 #: admin/opsiLicenses/licenseGeneric.tpl:13
 #, fuzzy
 msgid "License settings"
 msgstr "Configurações do usuário"
-
-#: admin/opsiLicenses/licenseGeneric.tpl:18
-#: admin/opsiLicenses/licensePoolGeneric.tpl:18
-#, fuzzy
-msgid "Generic settings"
-msgstr "Configurações gerais do usuário"
 
 #: admin/opsiLicenses/licenseGeneric.tpl:75
 #, fuzzy
@@ -500,35 +506,29 @@ msgstr "Outras configurações do GOsa"
 msgid "License key settings"
 msgstr "Inserir Advertência de Licença _BSD"
 
+#: admin/opsiLicenses/licenseGeneric.tpl:189
+#: admin/opsiLicenses/licenseUsageByHost.tpl:14
+#, fuzzy
+msgid "Reserved for"
+msgstr "Procurar por"
+
 #: admin/opsiLicenses/licenseGeneric.tpl:194
 #, fuzzy
 msgid "none"
 msgstr "nenhum"
 
-#: admin/opsiLicenses/class_licenseByProduct.inc:149
-#, fuzzy
-msgid "Usage by product"
-msgstr "Restringir uso do proxy por quota"
+#: admin/opsiLicenses/class_opsiLicenses.inc:25
+msgid "Software licenses"
+msgstr ""
 
-#: admin/opsiLicenses/class_licenseByProduct.inc:150
-#, fuzzy
-msgid "License usage by product"
-msgstr "Restringir uso do proxy por quota"
+#: admin/opsiLicenses/class_opsiLicenses.inc:26
+msgid "Manage software licenses for Windows system deployments"
+msgstr ""
 
-#: admin/opsiLicenses/licensePoolGeneric.tpl:12
+#: admin/opsiLicenses/licenseUsageByHost.tpl:28
 #, fuzzy
-msgid "Lincense settings"
-msgstr "Configurações do usuário"
-
-#: admin/opsiLicenses/opsiLicense-filter.xml:18
-#, fuzzy
-msgid "Default filter"
-msgstr "Aplicar filtro"
-
-#: admin/opsiLicenses/opsiLicense-filter.xml:33
-#, fuzzy
-msgid "By product"
-msgstr "Product-ID"
+msgid "Licenses used"
+msgstr "Pacotes usados"
 
 #, fuzzy
 #~ msgid "Warning"
