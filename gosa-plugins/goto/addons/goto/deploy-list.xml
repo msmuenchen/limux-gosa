@@ -233,13 +233,13 @@
       <label>Process now</label>
     </action>
 
-    <action>
+<!--    <action>
       <name>viewLogs</name>
       <type>entry</type>
       <objectclass>FAKE_OC__viewLogs</objectclass>
       <image>plugins/goto/images/view_logs.png</image>
       <label>View logs</label>
-    </action>
+    </action> -->
 
     <action>
       <name>edit</name>
