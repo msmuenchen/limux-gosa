@@ -1,11 +1,8 @@
-#: admin/systems/services/apache2/servApacheVhost.tpl:1
-msgid "Apache virtual hosts"
-msgstr ""
-
-#: admin/systems/services/apache2/servApacheVhost.tpl:7
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:50
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:78
-msgid "Add"
+#: admin/systems/services/apache2/class_apacheUtils.inc:194
+#, php-format
+msgid ""
+"Undefined virtual host name '%s'. Virtual host name must be a valid, fully "
+"qualified domain name like 'www.example.com' or 'example.com'."
 msgstr ""
 
 #: admin/systems/services/apache2/class_servApacheEditVhost.inc:85
@@ -89,6 +86,16 @@ msgstr ""
 msgid "Server admin"
 msgstr ""
 
+#: admin/systems/services/apache2/servApacheVhost.tpl:1
+msgid "Apache virtual hosts"
+msgstr ""
+
+#: admin/systems/services/apache2/servApacheVhost.tpl:7
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:50
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:78
+msgid "Add"
+msgstr ""
+
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:1
 msgid "Generic"
 msgstr ""
@@ -133,11 +140,4 @@ msgstr ""
 
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:91
 msgid "Cancel"
-msgstr ""
-
-#: admin/systems/services/apache2/class_apacheUtils.inc:194
-#, php-format
-msgid ""
-"Undefined virtual host name '%s'. Virtual host name must be a valid, fully "
-"qualified domain name like 'www.example.com' or 'example.com'."
 msgstr ""
