@@ -866,14 +866,16 @@ class group extends plugin
          */
         if($this->gidNumber != ""){
             $ldap->cd($this->config->current['BASE']);
-            $ldap->search("(&(!(cn=".$this->cn."))(objectClass=posixGroup)(gidNumber=".$this->gidNumber."))",array("cn"));
+            $ldap->search("(&(!(cn=".$this->cn."))(objectClass=posixGroup)(gidNumber=".$this->gidNumber."))",array("cn","gosaUnitTag"));
             if($ldap->count()){
-                $cns = "";
+                $myUnitTag=$this->get_gosaUnitTag($this->dn);
+                $cns=array();
                 while($attrs = $ldap->fetch()){
-                    $cns .= $attrs['cn'][0].", ";
+                    if($attrs["gosaUnitTag"][0]==$myUnitTag || $attrs["gosaUnitTag"][0]=="" || $myUnitTag=="")
+                        $cns[]=$attrs["cn"][0];
                 }
-                $cns = rtrim($cns,", ");
-                msg_dialog::display(_("Warning"),sprintf(_("The gidNumber '%s' is already in use by %s!"),$this->gidNumber,$cns) , WARNING_DIALOG );
+                if(sizeof($cns)>0)
+                    msg_dialog::display(_("Warning"),sprintf(_("The gidNumber '%s' is already in use by %s!"),$this->gidNumber,implode(",",$cns)) , WARNING_DIALOG );
             }
         }
 
