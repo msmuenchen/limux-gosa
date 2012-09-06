@@ -1,22 +1,36 @@
 #!/bin/bash
 # This script updates the locales for GOsa core and all plugins at once
 
-ROOTDIR=`pwd`
-COREDIR=$ROOTDIR/gosa-core
-PLUGINDIR=$ROOTDIR/gosa-plugins
-UPDATER=$ROOTDIR/gosa-core/update-locale
+update_locales() {
+  ROOTDIR=`pwd`
+  COREDIR=$ROOTDIR/gosa-core
+  PLUGINDIR=$ROOTDIR/gosa-plugins
+  UPDATER=$ROOTDIR/gosa-core/update-locale
 
-#cd $ROOTDIR/gosa-core
-#$UPDATER
-cd $PLUGINDIR
-pwd
-for file in $PLUGINDIR/*; do
-  if [ -d "$file" ]; then
-    cd $file
-#    pwd
-    $UPDATER -y
-  fi
+  cd $PLUGINDIR
+  pwd
+  for file in $PLUGINDIR/*; do
+    if [ -d "$file" ]; then
+      cd $file
+      $UPDATER -y
+      echo "Press RETURN after you checked that the update went OK"
+      if [ $COMMIT -eq 1 ]; then
+      fi
+      read
+    fi
+  done
+}
+
+COMMIT=0
+while getopts ":ch" opt
+do
+  case $opt in
+    c) COMMIT=1;
+       ;;
+    h|--help)
+       echo "Usage: $(basename $0) [-c]"
+       echo "       -c call git commit after each directory update"
+       exit 1
+       ;;
+  esac
 done
-#pwd#
-#echo $ROOTDIR
-#echo $UPDATER
