@@ -7,41 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:22+0100\n"
+"POT-Creation-Date: 2012-09-06 11:13+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: personal/connectivity/intranet.tpl:4
-#, fuzzy
-msgid "Intra net account"
-msgstr "内联网账号"
-
-#: personal/connectivity/class_connectivity.inc:15
-#: personal/connectivity/class_connectivity.inc:274
-msgid "Connectivity"
-msgstr "互联"
-
-#: personal/connectivity/class_connectivity.inc:16
-#, fuzzy
-msgid "Manage connectivity user settings"
-msgstr "通用队列设置"
-
-#: personal/connectivity/class_connectivity.inc:277
-#: personal/connectivity/class_intranetAccount.inc:208
-msgid "My account"
-msgstr "我的账号"
-
-#: personal/connectivity/class_connectivity.inc:281
-#: personal/connectivity/class_intranetAccount.inc:217
-#, fuzzy
-msgid "Connectivity add-on"
-msgstr "互联"
 
 #: personal/connectivity/class_intranetAccount.inc:16
 #, fuzzy
@@ -63,9 +37,35 @@ msgstr "LDAP 错误:"
 msgid "Intra-net"
 msgstr "内联网"
 
+#: personal/connectivity/class_intranetAccount.inc:208
+#: personal/connectivity/class_connectivity.inc:290
+msgid "My account"
+msgstr "我的账号"
+
 #: personal/connectivity/class_intranetAccount.inc:217
 #, fuzzy
 msgid "Intra-net account settings"
+msgstr "内联网账号"
+
+#: personal/connectivity/class_intranetAccount.inc:217
+#: personal/connectivity/class_connectivity.inc:294
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "互联"
+
+#: personal/connectivity/class_connectivity.inc:15
+#: personal/connectivity/class_connectivity.inc:287
+msgid "Connectivity"
+msgstr "互联"
+
+#: personal/connectivity/class_connectivity.inc:16
+#, fuzzy
+msgid "Manage connectivity user settings"
+msgstr "通用队列设置"
+
+#: personal/connectivity/intranet.tpl:4
+#, fuzzy
+msgid "Intra net account"
 msgstr "内联网账号"
 
 #, fuzzy
