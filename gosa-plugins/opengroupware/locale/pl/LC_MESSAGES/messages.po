@@ -2,38 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2007-07-14 21:45+0100\n"
 "Last-Translator: Piotr Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: Polish\n"
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: iso-8859-2\n"
 "X-Poedit-Basepath: tedst\n"
-
-#: personal/connectivity/opengroupware/opengw.tpl:8
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
-msgid "Location team"
-msgstr "Zespół lokacji"
-
-#: personal/connectivity/opengroupware/opengw.tpl:21
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
-msgid "Template user"
-msgstr "Szablon użytkownika"
-
-#: personal/connectivity/opengroupware/opengw.tpl:33
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
-msgid "Locked"
-msgstr "Zablokowane"
-
-#: personal/connectivity/opengroupware/opengw.tpl:49
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
-msgid "Teams"
-msgstr "Zespoły"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:6
 msgid "Opengroupware account"
@@ -53,12 +33,11 @@ msgstr "Plik konfiguracyjny"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:175
 #, fuzzy
-msgid "Open Groupware database"
+msgid "Opengroupware database"
 msgstr "Konto Opengroupware"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:183
-#, fuzzy
-msgid "Open Groupware"
+msgid "Opengroupware"
 msgstr "Opengroupware"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:342
@@ -94,11 +73,32 @@ msgstr "Ustawienia Konta Opengroupware"
 msgid "Name of the database used for OpenGroupware.org connections."
 msgstr ""
 
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
+#: personal/connectivity/opengroupware/opengw.tpl:8
+msgid "Location team"
+msgstr "Zespół lokacji"
+
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
+#: personal/connectivity/opengroupware/opengw.tpl:21
+msgid "Template user"
+msgstr "Szablon użytkownika"
+
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
+#: personal/connectivity/opengroupware/opengw.tpl:33
+msgid "Locked"
+msgstr "Zablokowane"
+
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
+#: personal/connectivity/opengroupware/opengw.tpl:49
+msgid "Teams"
+msgstr "Zespoły"
+
+#, fuzzy
+#~ msgid "Open Groupware"
+#~ msgstr "Opengroupware"
+
 #~ msgid "This does something"
 #~ msgstr "To robi coś"
-
-#~ msgid "Opengroupware"
-#~ msgstr "Opengroupware"
 
 #, fuzzy
 #~ msgid "%s database configuration is missing!"
