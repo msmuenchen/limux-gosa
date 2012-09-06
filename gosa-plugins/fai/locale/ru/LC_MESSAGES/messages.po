@@ -5,59 +5,988 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-23 14:27+0100\n"
+"POT-Creation-Date: 2012-09-06 11:14+0200\n"
 "PO-Revision-Date: 2005-04-18 14:35+0300\n"
 "Last-Translator: Igor Muratov <migor@altlinux.org>\n"
 "Language-Team: ALT Linux Team\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: poEdit 1.3.1\n"
+
+#: admin/fai/fai-list.tpl:15 admin/fai/faiPackage.tpl:33
+#: admin/fai/class_faiManagement.inc:1134 admin/fai/class_faiPackage.inc:850
+#: admin/systems/services/repository/servRepositorySetup.tpl:20
+#: admin/systems/services/repository/class_servRepositorySetup.inc:233
+#: admin/systems/services/repository/repository-list.xml:28
+#: admin/systems/services/repository/repository-list.xml:61
+#, fuzzy
+msgid "Release"
+msgstr "Набор правил"
+
+#: admin/fai/class_filterOPSIPackages.inc:40
+#: admin/fai/class_faiPartitionTable.inc:243
+#: admin/fai/class_faiPartitionTable.inc:306 admin/fai/tabsProfile.inc:35
+#: admin/fai/tabsHook.inc:34 admin/fai/class_faiManagement.inc:272
+#: admin/fai/class_faiManagement.inc:378
+#: admin/fai/class_faiManagement.inc:1057
+#: admin/fai/class_faiManagement.inc:1063 admin/fai/class_faiSummaryTab.inc:95
+#: admin/fai/class_faiTemplate.inc:218 admin/fai/class_faiPackage.inc:452
+#: admin/fai/class_faiScriptEntry.inc:72 admin/fai/class_faiScriptEntry.inc:75
+#: admin/fai/class_FAI.inc:593 admin/fai/class_faiHook.inc:229
+#: admin/fai/class_faiHookEntry.inc:99 admin/fai/class_faiHookEntry.inc:102
+#: admin/fai/class_filterFAI.inc:132 admin/fai/tabsVariable.inc:35
+#: admin/fai/class_faiDebconfConfigurations.inc:428
+#: admin/fai/class_faiDiskEntry.inc:416 admin/fai/class_faiVariable.inc:142
+#: admin/fai/class_faiScript.inc:220 admin/fai/tabsPackage.inc:35
+#: admin/fai/tabsTemplate.inc:35 admin/fai/tabsScript.inc:35
+#: admin/fai/tabsPartition.inc:35
+#: admin/systems/services/repository/class_servRepository.inc:158
+#: admin/systems/services/repository/class_servRepository.inc:213
+#: admin/systems/services/repository/class_servRepository.inc:218
+#: admin/systems/services/repository/class_servRepositorySetup.inc:342
+msgid "Error"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:2
+#, fuzzy
+msgid "Partition"
+msgstr "Назначение"
+
+#: admin/fai/faiPartition.tpl:4
+#, fuzzy
+msgid "FAI partition"
+msgstr "Добавить параметр"
+
+#: admin/fai/faiPartition.tpl:8 admin/fai/class_faiPartitionTable.inc:109
+#: admin/fai/class_faiPartitionTable.inc:478
+#: admin/fai/class_faiPartitionTable.inc:794 admin/fai/faiDiskEntry.tpl:10
+#: admin/fai/faiPackage.tpl:9
+#: admin/fai/packageSelect/selectPackage-list.xml:40
+#: admin/fai/class_faiManagement.inc:1057
+#: admin/fai/class_faiManagement.inc:1063
+#: admin/fai/class_faiSummaryTab.inc:349 admin/fai/class_faiTemplate.inc:74
+#: admin/fai/class_faiTemplate.inc:405 admin/fai/class_faiTemplate.inc:537
+#: admin/fai/class_faiProfile.inc:63 admin/fai/class_faiProfile.inc:283
+#: admin/fai/class_faiProfile.inc:293 admin/fai/class_faiProfile.inc:380
+#: admin/fai/faiPartitionTableEntry.tpl:7 admin/fai/class_faiPackage.inc:136
+#: admin/fai/class_faiPackage.inc:659 admin/fai/class_faiPackage.inc:844
+#: admin/fai/class_faiScriptEntry.inc:169
+#: admin/fai/class_faiScriptEntry.inc:172
+#: admin/fai/class_faiScriptEntry.inc:176
+#: admin/fai/class_faiScriptEntry.inc:217
+#: admin/fai/class_faiPartitionTableEntry.inc:334
+#: admin/fai/class_faiPartitionTableEntry.inc:337
+#: admin/fai/class_faiPartitionTableEntry.inc:341
+#: admin/fai/class_faiPartitionTableEntry.inc:438
+#: admin/fai/class_faiHook.inc:68 admin/fai/class_faiHook.inc:353
+#: admin/fai/class_faiHook.inc:481 admin/fai/class_faiHookEntry.inc:208
+#: admin/fai/class_faiHookEntry.inc:213 admin/fai/class_faiHookEntry.inc:216
+#: admin/fai/class_faiHookEntry.inc:259 admin/fai/faiVariableEntry.tpl:10
+#: admin/fai/faiHookEntry.tpl:10 admin/fai/class_askClassName.inc:143
+#: admin/fai/class_askClassName.inc:147 admin/fai/class_askClassName.inc:151
+#: admin/fai/class_faiDiskEntry.inc:645 admin/fai/class_faiDiskEntry.inc:648
+#: admin/fai/class_faiDiskEntry.inc:703 admin/fai/class_faiVariable.inc:292
+#: admin/fai/class_faiVariable.inc:406 admin/fai/faiScriptEntry.tpl:9
+#: admin/fai/class_faiScript.inc:76 admin/fai/class_faiScript.inc:355
+#: admin/fai/class_faiScript.inc:525 admin/fai/faiTemplate.tpl:9
+#: admin/fai/faiProfile.tpl:9 admin/fai/faiPartitionTable.tpl:9
+#: admin/fai/class_faiTemplateEntry.inc:233
+#: admin/fai/class_faiTemplateEntry.inc:299
+#: admin/fai/classSelect/selectClass-list.xml:28 admin/fai/fai-list.xml:33
+#: admin/fai/faiHook.tpl:9 admin/fai/class_faiVariableEntry.inc:87
+#: admin/fai/class_faiVariableEntry.inc:96
+#: admin/fai/class_faiVariableEntry.inc:99
+#: admin/fai/class_faiVariableEntry.inc:134 admin/fai/faiScript.tpl:9
+#: admin/fai/faiVariable.tpl:9
+#: admin/systems/services/repository/class_servRepository.inc:213
+#: admin/systems/services/repository/class_servRepositorySetup.inc:46
+msgid "Name"
+msgstr "Фамилия"
+
+#: admin/fai/faiPartition.tpl:14 admin/fai/class_faiSummaryTab.inc:354
+#: admin/fai/class_faiPartitionTableEntry.inc:149
+#: admin/fai/class_faiDebconfConfigurations.inc:100
+#: admin/fai/class_faiDiskEntry.inc:155
+#: admin/fai/NewDebconfConfiguration.tpl:22
+msgid "Type"
+msgstr "Тип"
+
+#: admin/fai/faiPartition.tpl:28 admin/fai/class_faiPartitionTable.inc:109
+#: admin/fai/class_faiPartitionTable.inc:795 admin/fai/faiDiskEntry.tpl:35
+#: admin/fai/faiPackage.tpl:18 admin/fai/class_faiTemplate.inc:538
+#: admin/fai/class_faiProfile.inc:381 admin/fai/faiPartitionTableEntry.tpl:13
+#: admin/fai/class_faiPackage.inc:136 admin/fai/class_faiPackage.inc:845
+#: admin/fai/class_faiScriptEntry.inc:218
+#: admin/fai/class_faiPartitionTableEntry.inc:439
+#: admin/fai/class_faiHook.inc:68 admin/fai/class_faiHook.inc:482
+#: admin/fai/class_faiHookEntry.inc:260 admin/fai/faiVariableEntry.tpl:20
+#: admin/fai/faiTemplateEntry.tpl:28 admin/fai/faiHookEntry.tpl:20
+#: admin/fai/class_faiDiskEntry.inc:155 admin/fai/class_faiDiskEntry.inc:704
+#: admin/fai/class_faiVariable.inc:407 admin/fai/faiScriptEntry.tpl:19
+#: admin/fai/class_faiScript.inc:76 admin/fai/class_faiScript.inc:526
+#: admin/fai/faiTemplate.tpl:19 admin/fai/faiProfile.tpl:19
+#: admin/fai/faiPartitionTable.tpl:19 admin/fai/class_faiTemplateEntry.inc:300
+#: admin/fai/faiHook.tpl:18 admin/fai/class_faiVariableEntry.inc:135
+#: admin/fai/faiScript.tpl:19 admin/fai/faiVariable.tpl:19
+msgid "Description"
+msgstr "Описание"
+
+#: admin/fai/faiPartition.tpl:37 admin/fai/class_faiPartition.inc:306
+#: admin/fai/class_faiDiskEntry.inc:320
+msgid "Size"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:80
+msgid "Resize existing partition"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:85
+msgid "Boot able"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:92
+#: admin/fai/class_faiPartitionTableEntry.inc:155
+#, fuzzy
+msgid "Preserve"
+msgstr "серверы"
+
+#: admin/fai/faiPartition.tpl:109 admin/fai/faiDiskEntry.tpl:61
+msgid "Combined physical partitions"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:122
+#, fuzzy
+msgid "Toggle missing"
+msgstr "Личная информация"
+
+#: admin/fai/faiPartition.tpl:123
+#, fuzzy
+msgid "Toggle spare"
+msgstr "по умолчанию"
+
+#: admin/fai/faiPartition.tpl:134
+#, fuzzy
+msgid "File system"
+msgstr "Системы"
+
+#: admin/fai/faiPartition.tpl:141
+#, fuzzy
+msgid "File system create options"
+msgstr "Системная информация"
+
+#: admin/fai/faiPartition.tpl:151
+msgid "Encrypted"
+msgstr ""
+
+#: admin/fai/faiPartition.tpl:153
+#, fuzzy
+msgid "Tune options"
+msgstr "Дополнительные параметры"
+
+#: admin/fai/faiPartition.tpl:165 admin/fai/class_faiPartition.inc:419
+#: admin/fai/class_faiSummaryTab.inc:353
+#: admin/fai/class_faiPartitionTableEntry.inc:151
+#: admin/fai/class_faiPartitionTableEntry.inc:443
+#: admin/fai/class_faiDiskEntry.inc:155 admin/fai/class_faiDiskEntry.inc:709
+#, fuzzy
+msgid "Mount point"
+msgstr "Мониторинг"
+
+#: admin/fai/faiPartition.tpl:176 admin/fai/class_faiSummaryTab.inc:351
+#: admin/fai/class_faiPartitionTableEntry.inc:153
+#: admin/fai/class_faiPartitionTableEntry.inc:445
+#: admin/fai/class_faiDiskEntry.inc:711
+#, fuzzy
+msgid "Mount options"
+msgstr "Дополнительные параметры"
+
+#: admin/fai/class_faiPartitionTable.inc:244
+#: admin/fai/class_faiDiskEntry.inc:417
+#, php-format
+msgid ""
+"The disk cannot be deleted while it is used in the '%s' disk definition!"
+msgstr ""
+
+#: admin/fai/class_faiPartitionTable.inc:774
+#: admin/fai/class_faiManagement.inc:1261 admin/fai/class_faiSummaryTab.inc:48
+#: admin/fai/class_faiProfile.inc:188 admin/fai/class_askClassName.inc:79
+#: admin/fai/fai-list.xml:99 admin/fai/class_faiGroupHandle.inc:107
+#, fuzzy
+msgid "Partition table"
+msgstr "Переменная"
+
+#: admin/fai/class_faiPartitionTable.inc:775 admin/fai/faiPartitionTable.tpl:2
+#, fuzzy
+msgid "FAI partition table"
+msgstr "Принтер"
+
+#: admin/fai/class_faiPartitionTable.inc:787
+#, fuzzy
+msgid "RDN for FAI partition storage."
+msgstr "Принтер"
+
+#: admin/fai/class_faiPartitionTable.inc:794 admin/fai/class_faiHook.inc:481
+#: admin/fai/class_faiVariable.inc:406
+#, fuzzy
+msgid "Read only"
+msgstr "чтение"
+
+#: admin/fai/tabsProfile.inc:35 admin/fai/tabsHook.inc:34
+#: admin/fai/tabsVariable.inc:35 admin/fai/tabsPackage.inc:35
+#: admin/fai/tabsTemplate.inc:35 admin/fai/tabsScript.inc:35
+#: admin/fai/tabsPartition.inc:35
+msgid "Moving the tree failed. Destination tree is subtree of source tree."
+msgstr ""
+
+#: admin/fai/faiDiskEntry.tpl:3 admin/fai/faiPartitionTableEntry.tpl:3
+#: admin/fai/class_faiDiskEntry.inc:249
+#, fuzzy
+msgid "Device"
+msgstr "Устройства"
+
+#: admin/fai/faiDiskEntry.tpl:5
+#, fuzzy
+msgid "FAI disk entry"
+msgstr "Ошибка LDAP:"
+
+#: admin/fai/faiDiskEntry.tpl:8 admin/fai/class_faiDiskEntry.inc:705
+#, fuzzy
+msgid "Disk options"
+msgstr "Добавить параметр"
+
+#: admin/fai/faiDiskEntry.tpl:20
+msgid "fstab key"
+msgstr ""
+
+#: admin/fai/faiDiskEntry.tpl:33 admin/fai/faiPackage.tpl:7
+#: admin/fai/faiVariableEntry.tpl:8 admin/fai/faiTemplateEntry.tpl:8
+#: admin/fai/faiHookEntry.tpl:8 admin/fai/faiScriptEntry.tpl:7
+#: admin/fai/faiProfile.tpl:7 admin/fai/faiPartitionTable.tpl:7
+#: admin/fai/faiHook.tpl:7 admin/fai/faiScript.tpl:7
+#: admin/systems/services/repository/servRepositorySetup.tpl:7
+#, fuzzy
+msgid "Generic settings"
+msgstr "Общая информация о пользователе"
+
+#: admin/fai/faiDiskEntry.tpl:44
+msgid "Disk label"
+msgstr ""
+
+#: admin/fai/faiDiskEntry.tpl:78 admin/fai/faiPartitionTableEntry.tpl:23
+#, fuzzy
+msgid "Partition entries"
+msgstr "Переменная"
+
+#: admin/fai/faiDiskEntry.tpl:86 admin/fai/faiDiskEntry.tpl:88
+#: admin/fai/faiPartitionTableEntry.tpl:31
+#: admin/fai/faiPartitionTableEntry.tpl:33
+#, fuzzy
+msgid "Add partition"
+msgstr "Добавить параметр"
+
+#: admin/fai/faiPackage.tpl:2
+#, fuzzy
+msgid "FAI package"
+msgstr "Число страниц"
+
+#: admin/fai/faiPackage.tpl:5 admin/fai/faiVariableEntry.tpl:6
+#: admin/fai/faiTemplateEntry.tpl:3 admin/fai/faiHookEntry.tpl:6
+#: admin/fai/faiScriptEntry.tpl:5 admin/fai/faiTemplate.tpl:5
+#: admin/fai/faiProfile.tpl:5 admin/fai/faiPartitionTable.tpl:5
+#: admin/fai/faiHook.tpl:5 admin/fai/faiScript.tpl:5
+#: admin/fai/faiVariable.tpl:5
+msgid "Generic"
+msgstr "Общее"
+
+#: admin/fai/faiPackage.tpl:29
+#: admin/systems/services/repository/servRepositorySetup.tpl:1
+#: admin/systems/services/repository/class_servRepository.inc:401
+#, fuzzy
+msgid "Repository"
+msgstr "Повторить"
+
+#: admin/fai/faiPackage.tpl:31
+#, fuzzy
+msgid "Repository settings"
+msgstr "Повторить"
+
+#: admin/fai/faiPackage.tpl:40 admin/fai/class_faiPackage.inc:847
+#, fuzzy
+msgid "Section"
+msgstr "Действие"
+
+#: admin/fai/faiPackage.tpl:47
+#, fuzzy
+msgid "Install method"
+msgstr "Почтовые настройки"
+
+#: admin/fai/faiPackage.tpl:51
+#, fuzzy
+msgid "Please select the installation method"
+msgstr "Введите корректный серийный номер"
+
+#: admin/fai/faiPackage.tpl:62
+#, fuzzy
+msgid "Package settings"
+msgstr "Почтовые настройки пользователя"
+
+#: admin/fai/faiPackage.tpl:65
+#, fuzzy
+msgid "Used packages"
+msgstr "Показать телефоны"
+
+#: admin/fai/faiPackage.tpl:79
+msgid "Add from list"
+msgstr ""
+
+#: admin/fai/faiPackage.tpl:84
+#, fuzzy
+msgid "Edit package configurations"
+msgstr "Базы данных"
+
+#: admin/fai/class_faiPackageConfiguration.inc:36
+#: admin/fai/packageSelect/class_filterFAIPackages.inc:15
+#: admin/fai/class_faiManagement.inc:1012 admin/fai/class_faiPackage.inc:299
+#: admin/fai/class_faiPackage.inc:681 admin/fai/class_FAI.inc:611
+#: admin/fai/class_faiDebconfConfigurations.inc:71
+#: admin/systems/services/repository/class_servRepository.inc:356
+#, fuzzy
+msgid "Service infrastructure"
+msgstr "Искать в поддеревьях"
+
+#: admin/fai/class_faiPackageConfiguration.inc:73
+#, php-format
+msgid "Debconf information for package '%s'"
+msgstr ""
+
+#: admin/fai/packageSelect/class_packageSelect.inc:29
+#, fuzzy
+msgid "Package selection"
+msgstr "Настройки Samba"
+
+#: admin/fai/packageSelect/selectPackage-list.xml:10
+#: admin/fai/classSelect/selectClass-list.xml:11
+#, fuzzy
+msgid "Please select the desired entries"
+msgstr "Язык по умолчанию"
+
+#: admin/fai/packageSelect/selectPackage-list.xml:14
+#: admin/fai/class_faiManagement.inc:1425
+#: admin/fai/classSelect/selectClass-list.xml:15 admin/fai/fai-list.xml:16
+#, fuzzy
+msgid "FAI"
+msgstr "Идентификатор факса"
+
+#: admin/fai/packageSelect/selectPackage-list.xml:48
+#: admin/fai/class_faiPackage.inc:136
+#, fuzzy
+msgid "Version"
+msgstr "Права для членов группы"
+
+#: admin/fai/packageSelect/selectPackage-filter.xml:16
+#: admin/fai/classSelect/selectClass-filter.xml:21
+#: admin/systems/services/repository/repository-filter.xml:17
+#, fuzzy
+msgid "Default filter"
+msgstr "Параметры загрузки"
+
+#: admin/fai/class_faiPartition.inc:162 admin/fai/class_faiPartition.inc:166
+#, fuzzy
+msgid "Logical"
+msgstr "Добавить локально"
+
+#: admin/fai/class_faiPartition.inc:165
+#, fuzzy
+msgid "Primary"
+msgstr "Основная группа"
+
+#: admin/fai/class_faiPartition.inc:171
+msgid "RAID 0"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:172
+msgid "RAID 1"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:173
+msgid "RAID 5"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:174
+msgid "RAID 6"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:181
+#, fuzzy
+msgid "fixed"
+msgstr "Файлы"
+
+#: admin/fai/class_faiPartition.inc:182
+msgid "dynamic"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:183
+msgid "remaining space"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:188
+msgid "KB"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:189
+msgid "MB"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:190
+msgid "GB"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:191
+msgid "TB"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:192
+msgid "PB"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:193
+msgid "%"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:198
+msgid "always"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:199
+msgid "reinstall"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:203
+msgid "swap space"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:312
+#, fuzzy
+msgid "spare"
+msgstr "Сохранить"
+
+#: admin/fai/class_faiPartition.inc:315
+#, fuzzy
+msgid "missing"
+msgstr "Права для членов группы"
+
+#: admin/fai/class_faiPartition.inc:318 admin/fai/class_faiDiskEntry.inc:155
+msgid "Options"
+msgstr "Параметры"
+
+#: admin/fai/class_faiPartition.inc:384 admin/fai/class_faiPartition.inc:389
+#: admin/fai/class_faiPartitionTableEntry.inc:444
+#: admin/fai/class_faiDiskEntry.inc:710
+#, fuzzy
+msgid "Partition size"
+msgstr "Назначение"
+
+#: admin/fai/class_faiPartition.inc:402
+#, fuzzy
+msgid "Minimum partition size"
+msgstr "Назначение"
+
+#: admin/fai/class_faiPartition.inc:402
+#, fuzzy
+msgid "Maximum partition size"
+msgstr "Назначение"
+
+#: admin/fai/class_faiPartition.inc:410
+msgid "Raid arrays must contain at least two partitions!"
+msgstr ""
+
+#: admin/fai/class_faiPartition.inc:412
+msgid ""
+"Raid 0 arrays can only be realized with a combination of two partitions!"
+msgstr ""
+
+#: admin/fai/faiDebconfConfigurations.tpl:1 admin/fai/class_faiPackage.inc:824
+#: admin/fai/class_faiDebconfConfigurations.inc:100
+#: admin/fai/NewDebconfConfiguration.tpl:16
+#, fuzzy
+msgid "Package"
+msgstr "Показать телефоны"
+
+#: admin/fai/faiDebconfConfigurations.tpl:4
+msgid "Add"
+msgstr "Добавить"
+
+#: admin/fai/class_faiManagement.inc:25
+#, fuzzy
+msgid "Software deployment"
+msgstr "Управление системами"
+
+#: admin/fai/class_faiManagement.inc:26
+msgid ""
+"Manage software packages and deployment recipes for Windows and Linux systems"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:222
+#, fuzzy
+msgid "partition table"
+msgstr "Переменная"
+
+#: admin/fai/class_faiManagement.inc:223
+#, fuzzy
+msgid "script"
+msgstr "Путь к сценариям"
+
+#: admin/fai/class_faiManagement.inc:224
+#, fuzzy
+msgid "hook"
+msgstr "Ошибка LDAP:"
+
+#: admin/fai/class_faiManagement.inc:225
+#, fuzzy
+msgid "variable"
+msgstr "Переменная"
+
+#: admin/fai/class_faiManagement.inc:226
+#, fuzzy
+msgid "template"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiManagement.inc:227
+#, fuzzy
+msgid "package list"
+msgstr "Число страниц"
+
+#: admin/fai/class_faiManagement.inc:244 admin/fai/class_faiManagement.inc:258
+#: admin/fai/class_faiManagement.inc:482 admin/fai/class_faiManagement.inc:585
+#: admin/fai/class_faiManagement.inc:708 admin/fai/class_faiManagement.inc:813
+#: admin/fai/class_faiManagement.inc:836 admin/fai/class_faiManagement.inc:857
+#, fuzzy
+msgid "Permission error"
+msgstr "Права для членов группы"
+
+#: admin/fai/class_faiManagement.inc:245 admin/fai/class_faiManagement.inc:258
+#, fuzzy, php-format
+msgid "You have no permission to create a new %s!"
+msgstr "У вас недостаточно прав для удаления этого группового объекта!"
+
+#: admin/fai/class_faiManagement.inc:258
+#, fuzzy
+msgid "profile"
+msgstr "Путь к профилю"
+
+#: admin/fai/class_faiManagement.inc:478
+#, fuzzy
+msgid "Branch locked"
+msgstr "Отмена"
+
+#: admin/fai/class_faiManagement.inc:479
+#, php-format
+msgid "The following entries are locked, you can't remove them %s."
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:490
+#, php-format
+msgid "Class <strong>%s</strong> in profile <strong>%s</strong>"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:493
+msgid "Classes used in profiles"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:494
+msgid "The following entries are used in profiles, you can't remove them:"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:705
+msgid "FAI branch/freeze"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:708
+#, fuzzy
+msgid "You have no permission to delete this release!"
+msgstr "У вас недостаточно прав для удаления этого пользователя!"
+
+#: admin/fai/class_faiManagement.inc:724 admin/fai/remove_branch.tpl:3
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: admin/fai/class_faiManagement.inc:724
+msgid "Release remove aborted because the release name check failed!"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:811 admin/fai/class_faiManagement.inc:834
+#, fuzzy
+msgid "Configuration"
+msgstr "Настроить"
+
+#: admin/fai/class_faiManagement.inc:813 admin/fai/class_faiManagement.inc:836
+#: admin/fai/class_faiManagement.inc:857
+#, fuzzy
+msgid "Branch"
+msgstr "Отмена"
+
+#: admin/fai/class_faiManagement.inc:984 admin/fai/askClassName.tpl:70
+msgid "Continue"
+msgstr "Продолжить"
+
+#: admin/fai/class_faiManagement.inc:1018 admin/fai/class_FAI.inc:1228
+#, fuzzy
+msgid "Fatal error"
+msgstr "Терминал-сервер"
+
+#: admin/fai/class_faiManagement.inc:1136
+#, fuzzy
+msgid "Freeze"
+msgstr "Номер телефона"
+
+#: admin/fai/class_faiManagement.inc:1263 admin/fai/class_faiSummaryTab.inc:49
+#: admin/fai/fai-list.xml:93 admin/fai/class_faiGroupHandle.inc:109
+#, fuzzy
+msgid "Package list"
+msgstr "Показать телефоны"
+
+#: admin/fai/class_faiManagement.inc:1265 admin/fai/class_faiSummaryTab.inc:44
+#: admin/fai/class_faiGroupHandle.inc:111
+#, fuzzy
+msgid "Scripts"
+msgstr "Путь к сценариям"
+
+#: admin/fai/class_faiManagement.inc:1267 admin/fai/class_faiSummaryTab.inc:46
+#: admin/fai/class_faiGroupHandle.inc:113
+#, fuzzy
+msgid "Variables"
+msgstr "Переменная"
+
+#: admin/fai/class_faiManagement.inc:1269 admin/fai/class_faiSummaryTab.inc:45
+#: admin/fai/class_faiGroupHandle.inc:115
+msgid "Hooks"
+msgstr ""
+
+#: admin/fai/class_faiManagement.inc:1271 admin/fai/class_faiProfile.inc:358
+#: admin/fai/class_askClassName.inc:84 admin/fai/fai-list.xml:63
+#: admin/fai/class_faiGroupHandle.inc:117
+#, fuzzy
+msgid "Profile"
+msgstr "Путь к профилю"
+
+#: admin/fai/class_faiManagement.inc:1273 admin/fai/class_faiSummaryTab.inc:47
+#: admin/fai/class_faiGroupHandle.inc:119
+#, fuzzy
+msgid "Templates"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiManagement.inc:1275
+#: admin/fai/class_faiGroupHandle.inc:121
+#, fuzzy
+msgid "OPSI net boot product"
+msgstr "Объединения"
+
+#: admin/fai/class_faiManagement.inc:1277
+#: admin/fai/class_faiGroupHandle.inc:123
+#, fuzzy
+msgid "OPSI local boot product"
+msgstr "Объединения"
+
+#: admin/fai/class_faiManagement.inc:1350
+#, fuzzy
+msgid "FAI releases"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/class_faiManagement.inc:1351
+#, fuzzy
+msgid "FAI release management"
+msgstr "Управление подразделениями"
+
+#: admin/fai/class_faiManagement.inc:1407
+#, fuzzy
+msgid "RDN for FAI storage."
+msgstr "Хэширование паролей"
+
+#: admin/fai/class_faiManagement.inc:1417
+msgid "Name of the FAI default release."
+msgstr ""
+
+#: admin/fai/class_faiSummaryTab.inc:50
+#, fuzzy
+msgid "Profiles"
+msgstr "Путь к профилю"
+
+#: admin/fai/class_faiSummaryTab.inc:95
+#, fuzzy
+msgid "Unknown FAI information source!"
+msgstr "Личная информация"
+
+#: admin/fai/class_faiSummaryTab.inc:188
+#: admin/systems/services/repository/class_servRepository.inc:200
+msgid "You can't use this plug-in until FAI is activated."
+msgstr ""
+
+#: admin/fai/class_faiSummaryTab.inc:228
+msgid "This object has no FAI classes assigned."
+msgstr ""
+
+#: admin/fai/class_faiSummaryTab.inc:231
+msgid "FAI summary"
+msgstr ""
+
+#: admin/fai/class_faiSummaryTab.inc:345
+msgid "Summary of fai classes"
+msgstr ""
+
+#: admin/fai/class_faiSummaryTab.inc:348
+#, fuzzy
+msgid "No."
+msgstr "нет"
+
+#: admin/fai/class_faiSummaryTab.inc:350
+#: admin/fai/class_faiPartitionTableEntry.inc:446
+#: admin/fai/class_faiDiskEntry.inc:712
+#, fuzzy
+msgid "File system options"
+msgstr "Системная информация"
+
+#: admin/fai/class_faiSummaryTab.inc:352
+#: admin/fai/class_faiPartitionTableEntry.inc:152
+#, fuzzy
+msgid "Size in MB"
+msgstr "Пользователь:"
+
+#: admin/fai/class_faiTemplate.inc:295 admin/fai/class_faiScriptEntry.inc:104
+#, fuzzy
+msgid "Download"
+msgstr "Домен"
+
+#: admin/fai/class_faiTemplate.inc:517 admin/fai/fai-list.xml:69
+msgid "Template"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiTemplate.inc:518
+#, fuzzy
+msgid "FAI template"
+msgstr "Создать шаблон"
+
+#: admin/fai/class_faiTemplate.inc:530
+#, fuzzy
+msgid "RDN for FAI template storage."
+msgstr "Создать шаблон"
+
+#: admin/fai/class_faiTemplate.inc:537 admin/fai/class_faiPackage.inc:847
+#: admin/fai/class_faiPackage.inc:850 admin/fai/class_faiScript.inc:525
+#, fuzzy
+msgid "Read-only"
+msgstr "чтение"
+
+#: admin/fai/class_faiProfile.inc:63
+#, fuzzy
+msgid "Types"
+msgstr "Тип"
+
+#: admin/fai/class_faiProfile.inc:183 admin/fai/class_askClassName.inc:83
+msgid "Hook bundle"
+msgstr ""
+
+#: admin/fai/class_faiProfile.inc:184 admin/fai/class_askClassName.inc:85
+#, fuzzy
+msgid "Template bundle"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiProfile.inc:185 admin/fai/class_askClassName.inc:81
+#, fuzzy
+msgid "Script bundle"
+msgstr "Путь к сценариям"
+
+#: admin/fai/class_faiProfile.inc:186 admin/fai/class_askClassName.inc:82
+#, fuzzy
+msgid "Variable bundle"
+msgstr "Переменная"
+
+#: admin/fai/class_faiProfile.inc:187 admin/fai/class_askClassName.inc:80
+#, fuzzy
+msgid "Package bundle"
+msgstr "Показать телефоны"
+
+#: admin/fai/class_faiProfile.inc:193
+msgid "Remove class from profile"
+msgstr ""
+
+#: admin/fai/class_faiProfile.inc:196
+msgid "Up"
+msgstr ""
+
+#: admin/fai/class_faiProfile.inc:197
+#, fuzzy
+msgid "Down"
+msgstr "Домен"
+
+#: admin/fai/class_faiProfile.inc:279
+msgid "No class specified for this profile!"
+msgstr ""
+
+#: admin/fai/class_faiProfile.inc:359 admin/fai/faiProfile.tpl:2
+#, fuzzy
+msgid "FAI profile"
+msgstr "Управление системами"
+
+#: admin/fai/class_faiProfile.inc:372
+#, fuzzy
+msgid "RDN for FAI profile storage."
+msgstr "Почтовые настройки пользователя"
+
+#: admin/fai/class_faiProfile.inc:382 admin/fai/faiProfile.tpl:30
+#: admin/fai/faiProfile.tpl:33
+#, fuzzy
+msgid "FAI classes"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/faiPartitionTableEntry.tpl:5
+#: admin/fai/class_faiPartitionTableEntry.inc:431
+#: admin/fai/class_faiDiskEntry.inc:696
+#, fuzzy
+msgid "FAI partition table entry"
+msgstr "Принтер"
+
+#: admin/fai/class_faiPackage.inc:136
+msgid "Status"
+msgstr "Состояние"
+
+#: admin/fai/class_faiPackage.inc:231
+#, fuzzy, php-format
+msgid "Release unavailable: %s"
+msgstr "Имя сервера"
+
+#: admin/fai/class_faiPackage.inc:232
+#, php-format
+msgid ""
+"The packages in release %s and their details cannot be displayed because the "
+"release is unavailable on this server."
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:262
+msgid "Invalid package names"
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:263
+#, php-format
+msgid "The following package names don't match the Debian policy: %s"
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:513
+#, fuzzy
+msgid "Remove configuration"
+msgstr "Базы данных"
+
+#: admin/fai/class_faiPackage.inc:521
+msgid "Mark package for removal"
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:536
+msgid "Package marked for removal"
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:557
+#, fuzzy
+msgid "Configure this package"
+msgstr "Настроить"
+
+#: admin/fai/class_faiPackage.inc:645
+#, fuzzy
+msgid "Please select a least one package!"
+msgstr "Введите корректный номер телефона!"
+
+#: admin/fai/class_faiPackage.inc:649
+#, fuzzy
+msgid ""
+"Please choose a valid release/section combination for your repository setup!"
+msgstr "Укажите корректный номер телефона."
+
+#: admin/fai/class_faiPackage.inc:825
+#, fuzzy
+msgid "FAI Package list"
+msgstr "Число страниц"
+
+#: admin/fai/class_faiPackage.inc:837
+msgid "RDN for FAI package storage."
+msgstr ""
+
+#: admin/fai/class_faiPackage.inc:846
+#, fuzzy
+msgid "Packages"
+msgstr "Показать телефоны"
+
+#: admin/fai/class_faiPackage.inc:848
+#, fuzzy
+msgid "Install Method"
+msgstr "Почтовые настройки"
+
+#: admin/fai/class_faiPackage.inc:849
+#, fuzzy
+msgid "Package configuration"
+msgstr "Базы данных"
+
+#: admin/fai/class_faiScriptEntry.inc:75 admin/fai/class_faiHookEntry.inc:102
+#, fuzzy
+msgid "file is empty"
+msgstr "Значение поля \"Файлы\" некорректно."
+
+#: admin/fai/class_faiScriptEntry.inc:161 admin/fai/class_faiHookEntry.inc:200
+#, php-format
+msgid ""
+"The script encodig has changed from '%s' to '%s'. Do you really want to save?"
+msgstr ""
+
+#: admin/fai/class_faiScriptEntry.inc:181 admin/fai/class_faiHookEntry.inc:221
+#: admin/fai/faiHookEntry.tpl:44 admin/fai/faiScriptEntry.tpl:51
+#: admin/fai/class_faiScript.inc:502 admin/fai/fai-list.xml:75
+#, fuzzy
+msgid "Script"
+msgstr "Путь к сценариям"
+
+#: admin/fai/class_faiScriptEntry.inc:209
+#: admin/fai/class_faiScriptEntry.inc:219
+#, fuzzy
+msgid "Script entry"
+msgstr "Путь к сценариям"
+
+#: admin/fai/class_faiScriptEntry.inc:210
+#, fuzzy
+msgid "FAI script entry"
+msgstr "Показать хосты"
+
+#: admin/fai/class_faiScriptEntry.inc:220
+#, fuzzy
+msgid "Script Priority"
+msgstr "Путь к сценариям"
+
+#: admin/fai/faiSummary.tpl:2
+#, fuzzy
+msgid "Summary of used FAI classes"
+msgstr "Имя стоп-листа"
+
+#: admin/fai/faiSummary.tpl:5
+#, fuzzy
+msgid "FAI object tree"
+msgstr "Имя объекта"
+
+#: admin/fai/faiSummary.tpl:13
+msgid "Reload class and release configuration from parent object."
+msgstr ""
+
+#: admin/fai/faiSummary.tpl:24
+#, fuzzy
+msgid "You are not allowed to view the FAI summary."
+msgstr "У вас недостаточно прав для удаления этого пользователя!"
 
 #: admin/fai/class_FAI.inc:294 admin/fai/class_FAI.inc:733
 #, fuzzy
 msgid "LDAP error"
 msgstr "Ошибка LDAP:"
 
-#: admin/fai/class_FAI.inc:593 admin/fai/tabsProfile.inc:35
-#: admin/fai/tabsTemplate.inc:35 admin/fai/tabsHook.inc:34
-#: admin/fai/class_faiHook.inc:229 admin/fai/class_faiPartitionTable.inc:243
-#: admin/fai/class_faiPartitionTable.inc:306 admin/fai/class_filterFAI.inc:132
-#: admin/fai/class_faiScriptEntry.inc:72 admin/fai/class_faiScriptEntry.inc:75
-#: admin/fai/class_faiVariable.inc:142 admin/fai/class_faiHookEntry.inc:95
-#: admin/fai/class_faiHookEntry.inc:98 admin/fai/tabsPackage.inc:35
-#: admin/fai/class_faiSummaryTab.inc:95 admin/fai/class_faiPackage.inc:462
-#: admin/fai/tabsScript.inc:35 admin/fai/class_faiScript.inc:220
-#: admin/fai/class_faiManagement.inc:272 admin/fai/class_faiManagement.inc:378
-#: admin/fai/class_faiManagement.inc:1008
-#: admin/fai/class_faiManagement.inc:1014 admin/fai/class_faiDiskEntry.inc:416
-#: admin/fai/class_faiDebconfConfigurations.inc:428
-#: admin/fai/tabsPartition.inc:35 admin/fai/tabsVariable.inc:35
-#: admin/fai/class_faiTemplate.inc:218
-#: admin/fai/class_filterOPSIPackages.inc:40
-#: admin/systems/services/repository/class_servRepository.inc:158
-#: admin/systems/services/repository/class_servRepository.inc:213
-#: admin/systems/services/repository/class_servRepository.inc:218
-#: admin/systems/services/repository/class_servRepositorySetup.inc:321
-msgid "Error"
-msgstr ""
-
 #: admin/fai/class_FAI.inc:593
 #, php-format
 msgid "Error, following objects should be equal '%s' and '%s'"
 msgstr ""
-
-#: admin/fai/class_FAI.inc:611
-#: admin/fai/packageSelect/class_filterFAIPackages.inc:15
-#: admin/fai/class_faiPackageConfiguration.inc:36
-#: admin/fai/class_faiPackage.inc:309 admin/fai/class_faiPackage.inc:691
-#: admin/fai/class_faiManagement.inc:963
-#: admin/fai/class_faiDebconfConfigurations.inc:71
-#: admin/systems/services/repository/class_servRepository.inc:356
-#, fuzzy
-msgid "Service infrastructure"
-msgstr "Искать в поддеревьях"
 
 #: admin/fai/class_FAI.inc:945
 #, php-format
@@ -109,358 +1038,187 @@ msgstr "Подразделение с таким именем уже сущес�
 msgid "Error while fetching source DN - aborted!"
 msgstr ""
 
-#: admin/fai/class_FAI.inc:1228 admin/fai/class_faiManagement.inc:969
-#, fuzzy
-msgid "Fatal error"
-msgstr "Терминал-сервер"
-
 #: admin/fai/class_FAI.inc:1229
 #, php-format
 msgid "Release creation failed due to LDAP errors: %s"
 msgstr ""
 
-#: admin/fai/faiDebconfConfigurations.tpl:1 admin/fai/class_faiPackage.inc:834
-#: admin/fai/class_faiDebconfConfigurations.inc:100
-#: admin/fai/NewDebconfConfiguration.tpl:16
+#: admin/fai/class_debconfTemplate.inc:220
 #, fuzzy
-msgid "Package"
-msgstr "Показать телефоны"
+msgid "This package has no debconf options."
+msgstr "В этой учетной записи нет атрибутов для телефона."
 
-#: admin/fai/faiDebconfConfigurations.tpl:4
-msgid "Add"
-msgstr "Добавить"
+#: admin/fai/class_debconfTemplate.inc:268
+msgid ""
+"This debconf question is dynamically generated during package installation "
+"and requires choosing between specific options which cannot be presented "
+"here. The entered text needs to be one of the valid choices in order to take "
+"effect."
+msgstr ""
 
-#: admin/fai/faiHook.tpl:2 admin/fai/class_faiHook.inc:460
+#: admin/fai/class_faiPartitionTableEntry.inc:142
+#, fuzzy
+msgid "primary"
+msgstr "Основная группа"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:142
+#, fuzzy
+msgid "logical"
+msgstr "Добавить локально"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:150
+#, fuzzy
+msgid "Filesystem type"
+msgstr "Системы"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:154
+#, fuzzy
+msgid "Filesystem option"
+msgstr "Системная информация"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:246
+#, fuzzy
+msgid "False"
+msgstr "женский"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:248
+#, fuzzy
+msgid "True"
+msgstr "Улица"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:252
+#: admin/fai/class_faiPartitionTableEntry.inc:254 admin/fai/fai-list.xml:180
+#: admin/systems/services/repository/repository-list.xml:73
+#: admin/systems/services/repository/repository-list.xml:99
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:365
+#, php-format
+msgid "please enter a unique mount point for partition %s"
+msgstr ""
+
+#: admin/fai/class_faiPartitionTableEntry.inc:370
+#, php-format
+msgid "partition %s mount point"
+msgstr ""
+
+#: admin/fai/class_faiPartitionTableEntry.inc:375
+#, php-format
+msgid ""
+"File system type 'swap' is already used, change file system type for "
+"partition %s."
+msgstr ""
+
+#: admin/fai/class_faiPartitionTableEntry.inc:379
+msgid ""
+"Please use 'swap' as mount point, if 'swap' is used as file system type."
+msgstr ""
+
+#: admin/fai/class_faiPartitionTableEntry.inc:386
+#: admin/fai/class_faiPartitionTableEntry.inc:390
+#: admin/fai/class_faiPartitionTableEntry.inc:396
+#: admin/fai/class_faiPartitionTableEntry.inc:398
+#: admin/fai/class_faiPartitionTableEntry.inc:403
+#, fuzzy, php-format
+msgid "partition %s size"
+msgstr "Назначение"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:418
+msgid ""
+"You have more than 3 primary partition table entries in your configuration, "
+"please check your configuration twice."
+msgstr ""
+
+#: admin/fai/class_faiPartitionTableEntry.inc:430
+#: admin/fai/class_faiDiskEntry.inc:695
+#, fuzzy
+msgid "Partition table entry"
+msgstr "Переменная"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:440
+#: admin/fai/class_faiDiskEntry.inc:706
+#, fuzzy
+msgid "Partition type"
+msgstr "Переменная"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:441
+#: admin/fai/class_faiDiskEntry.inc:707
+#, fuzzy
+msgid "Partition no."
+msgstr "Назначение"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:442
+#: admin/fai/class_faiDiskEntry.inc:708
+#, fuzzy
+msgid "File system type"
+msgstr "Системы"
+
+#: admin/fai/class_faiPartitionTableEntry.inc:447
+#: admin/fai/class_faiDiskEntry.inc:713
+#, fuzzy
+msgid "Partition flags"
+msgstr "Назначение"
+
+#: admin/fai/class_faiHook.inc:68
+#, fuzzy
+msgid "FAI task"
+msgstr "Число страниц"
+
+#: admin/fai/class_faiHook.inc:459 admin/fai/fai-list.xml:81
+msgid "Hook"
+msgstr ""
+
+#: admin/fai/class_faiHook.inc:460 admin/fai/faiHook.tpl:2
 #, fuzzy
 msgid "FAI hook"
 msgstr "Ошибка LDAP:"
-
-#: admin/fai/faiHook.tpl:5 admin/fai/faiPackage.tpl:5
-#: admin/fai/faiProfile.tpl:5 admin/fai/faiPartitionTable.tpl:5
-#: admin/fai/faiHookEntry.tpl:6 admin/fai/faiVariable.tpl:5
-#: admin/fai/faiTemplateEntry.tpl:3 admin/fai/faiVariableEntry.tpl:6
-#: admin/fai/faiTemplate.tpl:5 admin/fai/faiScript.tpl:5
-#: admin/fai/faiScriptEntry.tpl:5
-msgid "Generic"
-msgstr "Общее"
-
-#: admin/fai/faiHook.tpl:7 admin/fai/faiPackage.tpl:7
-#: admin/fai/faiProfile.tpl:7 admin/fai/faiPartitionTable.tpl:7
-#: admin/fai/faiHookEntry.tpl:8 admin/fai/faiTemplateEntry.tpl:8
-#: admin/fai/faiVariableEntry.tpl:8 admin/fai/faiDiskEntry.tpl:33
-#: admin/fai/faiScript.tpl:7 admin/fai/faiScriptEntry.tpl:7
-#: admin/systems/services/repository/servRepositorySetup.tpl:7
-#, fuzzy
-msgid "Generic settings"
-msgstr "Общая информация о пользователе"
-
-#: admin/fai/faiHook.tpl:9 admin/fai/faiPackage.tpl:9
-#: admin/fai/packageSelect/selectPackage-list.xml:40
-#: admin/fai/faiProfile.tpl:9 admin/fai/faiPartitionTable.tpl:9
-#: admin/fai/faiHookEntry.tpl:10 admin/fai/class_faiHook.inc:68
-#: admin/fai/class_faiHook.inc:353 admin/fai/class_faiHook.inc:481
-#: admin/fai/faiVariable.tpl:9 admin/fai/class_faiPartitionTable.inc:109
-#: admin/fai/class_faiPartitionTable.inc:478
-#: admin/fai/class_faiPartitionTable.inc:794 admin/fai/faiVariableEntry.tpl:10
-#: admin/fai/faiPartition.tpl:8 admin/fai/class_faiVariableEntry.inc:87
-#: admin/fai/class_faiVariableEntry.inc:96
-#: admin/fai/class_faiVariableEntry.inc:99
-#: admin/fai/class_faiVariableEntry.inc:134
-#: admin/fai/class_faiScriptEntry.inc:169
-#: admin/fai/class_faiScriptEntry.inc:172
-#: admin/fai/class_faiScriptEntry.inc:176
-#: admin/fai/class_faiScriptEntry.inc:217
-#: admin/fai/classSelect/selectClass-list.xml:28
-#: admin/fai/class_faiVariable.inc:292 admin/fai/class_faiVariable.inc:406
-#: admin/fai/class_faiHookEntry.inc:204 admin/fai/class_faiHookEntry.inc:209
-#: admin/fai/class_faiHookEntry.inc:212 admin/fai/class_faiHookEntry.inc:255
-#: admin/fai/faiDiskEntry.tpl:10 admin/fai/fai-list.xml:32
-#: admin/fai/class_faiSummaryTab.inc:349 admin/fai/class_faiPackage.inc:132
-#: admin/fai/class_faiPackage.inc:669 admin/fai/class_faiPackage.inc:854
-#: admin/fai/faiPartitionTableEntry.tpl:7 admin/fai/faiTemplate.tpl:9
-#: admin/fai/class_faiTemplateEntry.inc:233
-#: admin/fai/class_faiTemplateEntry.inc:299 admin/fai/class_faiScript.inc:76
-#: admin/fai/class_faiScript.inc:355 admin/fai/class_faiScript.inc:525
-#: admin/fai/class_askClassName.inc:143 admin/fai/class_askClassName.inc:147
-#: admin/fai/class_askClassName.inc:151 admin/fai/class_faiManagement.inc:1008
-#: admin/fai/class_faiManagement.inc:1014 admin/fai/class_faiDiskEntry.inc:645
-#: admin/fai/class_faiDiskEntry.inc:648 admin/fai/class_faiDiskEntry.inc:703
-#: admin/fai/class_faiTemplate.inc:74 admin/fai/class_faiTemplate.inc:405
-#: admin/fai/class_faiTemplate.inc:537
-#: admin/fai/class_faiPartitionTableEntry.inc:334
-#: admin/fai/class_faiPartitionTableEntry.inc:337
-#: admin/fai/class_faiPartitionTableEntry.inc:341
-#: admin/fai/class_faiPartitionTableEntry.inc:438 admin/fai/faiScript.tpl:9
-#: admin/fai/faiScriptEntry.tpl:9 admin/fai/class_faiProfile.inc:63
-#: admin/fai/class_faiProfile.inc:287 admin/fai/class_faiProfile.inc:297
-#: admin/fai/class_faiProfile.inc:384
-#: admin/systems/services/repository/class_servRepository.inc:213
-#: admin/systems/services/repository/class_servRepositorySetup.inc:46
-msgid "Name"
-msgstr "Фамилия"
-
-#: admin/fai/faiHook.tpl:18 admin/fai/faiPackage.tpl:18
-#: admin/fai/faiProfile.tpl:19 admin/fai/faiPartitionTable.tpl:19
-#: admin/fai/faiHookEntry.tpl:20 admin/fai/class_faiHook.inc:68
-#: admin/fai/class_faiHook.inc:482 admin/fai/faiVariable.tpl:19
-#: admin/fai/class_faiPartitionTable.inc:109
-#: admin/fai/class_faiPartitionTable.inc:795 admin/fai/faiTemplateEntry.tpl:28
-#: admin/fai/faiVariableEntry.tpl:20 admin/fai/faiPartition.tpl:28
-#: admin/fai/class_faiVariableEntry.inc:135
-#: admin/fai/class_faiScriptEntry.inc:218 admin/fai/class_faiVariable.inc:407
-#: admin/fai/class_faiHookEntry.inc:256 admin/fai/faiDiskEntry.tpl:35
-#: admin/fai/class_faiPackage.inc:132 admin/fai/class_faiPackage.inc:855
-#: admin/fai/faiPartitionTableEntry.tpl:13 admin/fai/faiTemplate.tpl:19
-#: admin/fai/class_faiTemplateEntry.inc:300 admin/fai/class_faiScript.inc:76
-#: admin/fai/class_faiScript.inc:526 admin/fai/class_faiDiskEntry.inc:155
-#: admin/fai/class_faiDiskEntry.inc:704 admin/fai/class_faiTemplate.inc:538
-#: admin/fai/class_faiPartitionTableEntry.inc:439 admin/fai/faiScript.tpl:19
-#: admin/fai/faiScriptEntry.tpl:19 admin/fai/class_faiProfile.inc:385
-msgid "Description"
-msgstr "Описание"
-
-#: admin/fai/faiHook.tpl:31
-#, fuzzy
-msgid "List of hooks"
-msgstr "Стоп-листы"
-
-#: admin/fai/faiHook.tpl:34
-#, fuzzy
-msgid "List of hook scripts"
-msgstr "Стоп-листы"
-
-#: admin/fai/tabsProfile.inc:35 admin/fai/tabsTemplate.inc:35
-#: admin/fai/tabsHook.inc:34 admin/fai/tabsPackage.inc:35
-#: admin/fai/tabsScript.inc:35 admin/fai/tabsPartition.inc:35
-#: admin/fai/tabsVariable.inc:35
-msgid "Moving the tree failed. Destination tree is subtree of source tree."
-msgstr ""
-
-#: admin/fai/faiPackage.tpl:2
-#, fuzzy
-msgid "FAI package"
-msgstr "Число страниц"
-
-#: admin/fai/faiPackage.tpl:29
-#: admin/systems/services/repository/class_servRepository.inc:401
-#: admin/systems/services/repository/servRepositorySetup.tpl:1
-#, fuzzy
-msgid "Repository"
-msgstr "Повторить"
-
-#: admin/fai/faiPackage.tpl:31
-#, fuzzy
-msgid "Repository settings"
-msgstr "Повторить"
-
-#: admin/fai/faiPackage.tpl:33 admin/fai/fai-list.tpl:15
-#: admin/fai/class_faiPackage.inc:860 admin/fai/class_faiManagement.inc:1085
-#: admin/systems/services/repository/class_servRepositorySetup.inc:241
-#: admin/systems/services/repository/servRepositorySetup.tpl:20
-#: admin/systems/services/repository/repository-list.xml:28
-#: admin/systems/services/repository/repository-list.xml:61
-#, fuzzy
-msgid "Release"
-msgstr "Набор правил"
-
-#: admin/fai/faiPackage.tpl:40 admin/fai/class_faiPackage.inc:857
-#, fuzzy
-msgid "Section"
-msgstr "Действие"
-
-#: admin/fai/faiPackage.tpl:47
-#, fuzzy
-msgid "Install method"
-msgstr "Почтовые настройки"
-
-#: admin/fai/faiPackage.tpl:51
-#, fuzzy
-msgid "Please select the installation method"
-msgstr "Введите корректный серийный номер"
-
-#: admin/fai/faiPackage.tpl:62
-#, fuzzy
-msgid "Package settings"
-msgstr "Почтовые настройки пользователя"
-
-#: admin/fai/faiPackage.tpl:65
-#, fuzzy
-msgid "Used packages"
-msgstr "Показать телефоны"
-
-#: admin/fai/faiPackage.tpl:79
-msgid "Add from list"
-msgstr ""
-
-#: admin/fai/faiPackage.tpl:84
-#, fuzzy
-msgid "Edit package configurations"
-msgstr "Базы данных"
-
-#: admin/fai/packageSelect/class_packageSelect.inc:29
-#, fuzzy
-msgid "Package selection"
-msgstr "Настройки Samba"
-
-#: admin/fai/packageSelect/selectPackage-filter.xml:16
-#: admin/fai/classSelect/selectClass-filter.xml:21
-#: admin/systems/services/repository/repository-filter.xml:17
-#, fuzzy
-msgid "Default filter"
-msgstr "Параметры загрузки"
-
-#: admin/fai/packageSelect/selectPackage-list.xml:10
-#: admin/fai/classSelect/selectClass-list.xml:11
-#, fuzzy
-msgid "Please select the desired entries"
-msgstr "Язык по умолчанию"
-
-#: admin/fai/packageSelect/selectPackage-list.xml:14
-#: admin/fai/classSelect/selectClass-list.xml:15 admin/fai/fai-list.xml:15
-#: admin/fai/class_faiManagement.inc:1376
-#, fuzzy
-msgid "FAI"
-msgstr "Идентификатор факса"
-
-#: admin/fai/packageSelect/selectPackage-list.xml:48
-#: admin/fai/class_faiPackage.inc:132
-#, fuzzy
-msgid "Version"
-msgstr "Права для членов группы"
-
-#: admin/fai/faiProfile.tpl:2 admin/fai/class_faiProfile.inc:363
-#, fuzzy
-msgid "FAI profile"
-msgstr "Управление системами"
-
-#: admin/fai/faiProfile.tpl:30 admin/fai/faiProfile.tpl:33
-#: admin/fai/class_faiProfile.inc:386
-#, fuzzy
-msgid "FAI classes"
-msgstr "Выберите тип мыши"
-
-#: admin/fai/faiProfile.tpl:35
-#, fuzzy
-msgid "Choose a priority"
-msgstr "Выберите тип мыши"
-
-#: admin/fai/faiPartitionTable.tpl:2 admin/fai/class_faiPartitionTable.inc:775
-#, fuzzy
-msgid "FAI partition table"
-msgstr "Принтер"
-
-#: admin/fai/faiPartitionTable.tpl:32
-msgid "Use 'setup-storage' to partition the disk"
-msgstr ""
-
-#: admin/fai/faiPartitionTable.tpl:38
-#, fuzzy
-msgid "Discs"
-msgstr "Устройства"
-
-#: admin/fai/faiPartitionTable.tpl:43 admin/fai/faiPartitionTable.tpl:47
-#, fuzzy
-msgid "Add disk"
-msgstr "Добавить"
-
-#: admin/fai/faiPartitionTable.tpl:44 admin/fai/faiPartitionTable.tpl:48
-msgid "Add RAID"
-msgstr ""
-
-#: admin/fai/faiPartitionTable.tpl:45 admin/fai/faiPartitionTable.tpl:49
-msgid "Add volume group"
-msgstr ""
-
-#: admin/fai/faiHookEntry.tpl:3 admin/fai/class_faiHookEntry.inc:248
-#, fuzzy
-msgid "FAI hook entry"
-msgstr "Ошибка LDAP:"
-
-#: admin/fai/faiHookEntry.tpl:33
-#, fuzzy
-msgid "Hook attributes"
-msgstr "Атрибут DN пользователей"
-
-#: admin/fai/faiHookEntry.tpl:34 admin/fai/class_faiHookEntry.inc:257
-msgid "Task"
-msgstr ""
-
-#: admin/fai/faiHookEntry.tpl:36
-msgid "Choose an existing FAI task"
-msgstr ""
-
-#: admin/fai/faiHookEntry.tpl:44 admin/fai/class_faiScriptEntry.inc:181
-#: admin/fai/class_faiHookEntry.inc:217 admin/fai/fai-list.xml:74
-#: admin/fai/class_faiScript.inc:502 admin/fai/faiScriptEntry.tpl:51
-#, fuzzy
-msgid "Script"
-msgstr "Путь к сценариям"
-
-#: admin/fai/faiHookEntry.tpl:48 admin/fai/faiScriptEntry.tpl:54
-msgid ""
-"This FAI script is write protected, due to its encoding. Editing may break "
-"it!"
-msgstr ""
-
-#: admin/fai/faiHookEntry.tpl:50 admin/fai/faiTemplateEdit.tpl:17
-#: admin/fai/faiScriptEntry.tpl:56
-#, fuzzy
-msgid "Edit anyway"
-msgstr "Редактиовать объект"
-
-#: admin/fai/faiHookEntry.tpl:64 admin/fai/faiScriptEntry.tpl:71
-#, fuzzy
-msgid "Import script"
-msgstr "Показать хосты"
-
-#: admin/fai/class_faiHook.inc:459 admin/fai/fai-list.xml:80
-msgid "Hook"
-msgstr ""
 
 #: admin/fai/class_faiHook.inc:473
 msgid "RDN for FAI hook storage."
 msgstr ""
 
-#: admin/fai/class_faiHook.inc:481 admin/fai/class_faiPartitionTable.inc:794
-#: admin/fai/class_faiVariable.inc:406
+#: admin/fai/class_faiHookEntry.inc:251
 #, fuzzy
-msgid "Read only"
-msgstr "чтение"
+msgid "Hook entry"
+msgstr "Удалить объект"
 
-#: admin/fai/faiVariable.tpl:32
+#: admin/fai/class_faiHookEntry.inc:252 admin/fai/faiHookEntry.tpl:3
 #, fuzzy
-msgid "List of assigned variables"
-msgstr "Выберите тип мыши"
+msgid "FAI hook entry"
+msgstr "Ошибка LDAP:"
 
-#: admin/fai/faiVariable.tpl:37
-msgid "Choose a variable to delete or edit"
+#: admin/fai/class_faiHookEntry.inc:261 admin/fai/faiHookEntry.tpl:34
+msgid "Task"
 msgstr ""
 
-#: admin/fai/faiVariable.tpl:50 admin/fai/fai-list.xml:171
-#: admin/fai/class_faiDebconfConfigurations.inc:245
-#: admin/systems/services/repository/repository-list.xml:92
-msgid "Edit"
-msgstr "Изменить"
-
-#: admin/fai/class_faiPartitionTable.inc:244
-#: admin/fai/class_faiDiskEntry.inc:417
-#, php-format
-msgid ""
-"The disk cannot be deleted while it is used in the '%s' disk definition!"
-msgstr ""
-
-#: admin/fai/class_faiPartitionTable.inc:774
-#: admin/fai/class_faiGroupHandle.inc:107 admin/fai/fai-list.xml:98
-#: admin/fai/class_faiSummaryTab.inc:48 admin/fai/class_askClassName.inc:79
-#: admin/fai/class_faiManagement.inc:1212 admin/fai/class_faiProfile.inc:188
+#: admin/fai/class_faiHookEntry.inc:262 admin/fai/faiScriptEntry.tpl:2
+#: admin/fai/class_faiScript.inc:503 admin/fai/faiScript.tpl:2
 #, fuzzy
-msgid "Partition table"
+msgid "FAI script"
+msgstr "Показать хосты"
+
+#: admin/fai/faiVariableEntry.tpl:3
+#, fuzzy
+msgid "FAI variable entry"
+msgstr "Устройство отображения"
+
+#: admin/fai/faiVariableEntry.tpl:33 admin/fai/faiVariableEntry.tpl:35
+#, fuzzy
+msgid "Variable attributes"
+msgstr "Атрибут DN пользователей"
+
+#: admin/fai/faiVariableEntry.tpl:37 admin/fai/class_faiVariableEntry.inc:136
+#, fuzzy
+msgid "Variable content"
 msgstr "Переменная"
 
-#: admin/fai/class_faiPartitionTable.inc:787
-#, fuzzy
-msgid "RDN for FAI partition storage."
-msgstr "Принтер"
+#: admin/fai/class_NewDebconfConfiguration.inc:119
+#, php-format
+msgid ""
+"The specified value '%s' for the variable type boolean is invalid."
+"<br><i>Allowed values: true, false, 1, 0.</i>"
+msgstr ""
 
 #: admin/fai/faiTemplateEntry.tpl:5 admin/fai/class_faiTemplateEntry.inc:292
 #, fuzzy
@@ -577,289 +1335,6 @@ msgstr "Фильтры"
 msgid "sticky"
 msgstr "Состояние"
 
-#: admin/fai/class_faiPartition.inc:162 admin/fai/class_faiPartition.inc:166
-#, fuzzy
-msgid "Logical"
-msgstr "Добавить локально"
-
-#: admin/fai/class_faiPartition.inc:165
-#, fuzzy
-msgid "Primary"
-msgstr "Основная группа"
-
-#: admin/fai/class_faiPartition.inc:171
-msgid "RAID 0"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:172
-msgid "RAID 1"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:173
-msgid "RAID 5"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:174
-msgid "RAID 6"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:181
-#, fuzzy
-msgid "fixed"
-msgstr "Файлы"
-
-#: admin/fai/class_faiPartition.inc:182
-msgid "dynamic"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:183
-msgid "remaining space"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:188
-msgid "KB"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:189
-msgid "MB"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:190
-msgid "GB"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:191
-msgid "TB"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:192
-msgid "PB"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:193
-msgid "%"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:198
-msgid "always"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:199
-msgid "reinstall"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:203
-msgid "swap space"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:306 admin/fai/faiPartition.tpl:37
-#: admin/fai/class_faiDiskEntry.inc:320
-msgid "Size"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:312
-#, fuzzy
-msgid "spare"
-msgstr "Сохранить"
-
-#: admin/fai/class_faiPartition.inc:315
-#, fuzzy
-msgid "missing"
-msgstr "Права для членов группы"
-
-#: admin/fai/class_faiPartition.inc:318 admin/fai/class_faiDiskEntry.inc:155
-msgid "Options"
-msgstr "Параметры"
-
-#: admin/fai/class_faiPartition.inc:384 admin/fai/class_faiPartition.inc:389
-#: admin/fai/class_faiDiskEntry.inc:710
-#: admin/fai/class_faiPartitionTableEntry.inc:444
-#, fuzzy
-msgid "Partition size"
-msgstr "Назначение"
-
-#: admin/fai/class_faiPartition.inc:402
-#, fuzzy
-msgid "Minimum partition size"
-msgstr "Назначение"
-
-#: admin/fai/class_faiPartition.inc:402
-#, fuzzy
-msgid "Maximum partition size"
-msgstr "Назначение"
-
-#: admin/fai/class_faiPartition.inc:410
-msgid "Raid arrays must contain at least two partitions!"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:412
-msgid ""
-"Raid 0 arrays can only be realized with a combination of two partitions!"
-msgstr ""
-
-#: admin/fai/class_faiPartition.inc:419 admin/fai/faiPartition.tpl:165
-#: admin/fai/class_faiSummaryTab.inc:353 admin/fai/class_faiDiskEntry.inc:155
-#: admin/fai/class_faiDiskEntry.inc:709
-#: admin/fai/class_faiPartitionTableEntry.inc:151
-#: admin/fai/class_faiPartitionTableEntry.inc:443
-#, fuzzy
-msgid "Mount point"
-msgstr "Мониторинг"
-
-#: admin/fai/class_faiPackageConfiguration.inc:73
-#, php-format
-msgid "Debconf information for package '%s'"
-msgstr ""
-
-#: admin/fai/fai-filter.xml:18
-#, fuzzy
-msgid "FAI objects"
-msgstr "Имя объекта"
-
-#: admin/fai/fai-filter.xml:32
-#, fuzzy
-msgid "Opsi packages"
-msgstr "Показать телефоны"
-
-#: admin/fai/fai-filter.xml:46
-msgid "FAI &amp; Opsi packages"
-msgstr ""
-
-#: admin/fai/faiVariableEntry.tpl:3
-#, fuzzy
-msgid "FAI variable entry"
-msgstr "Устройство отображения"
-
-#: admin/fai/faiVariableEntry.tpl:33 admin/fai/faiVariableEntry.tpl:35
-#, fuzzy
-msgid "Variable attributes"
-msgstr "Атрибут DN пользователей"
-
-#: admin/fai/faiVariableEntry.tpl:37 admin/fai/class_faiVariableEntry.inc:136
-#, fuzzy
-msgid "Variable content"
-msgstr "Переменная"
-
-#: admin/fai/faiPartition.tpl:2
-#, fuzzy
-msgid "Partition"
-msgstr "Назначение"
-
-#: admin/fai/faiPartition.tpl:4
-#, fuzzy
-msgid "FAI partition"
-msgstr "Добавить параметр"
-
-#: admin/fai/faiPartition.tpl:14 admin/fai/class_faiSummaryTab.inc:354
-#: admin/fai/class_faiDiskEntry.inc:155
-#: admin/fai/class_faiDebconfConfigurations.inc:100
-#: admin/fai/NewDebconfConfiguration.tpl:22
-#: admin/fai/class_faiPartitionTableEntry.inc:149
-msgid "Type"
-msgstr "Тип"
-
-#: admin/fai/faiPartition.tpl:80
-msgid "Resize existing partition"
-msgstr ""
-
-#: admin/fai/faiPartition.tpl:85
-msgid "Boot able"
-msgstr ""
-
-#: admin/fai/faiPartition.tpl:92
-#: admin/fai/class_faiPartitionTableEntry.inc:155
-#, fuzzy
-msgid "Preserve"
-msgstr "серверы"
-
-#: admin/fai/faiPartition.tpl:109 admin/fai/faiDiskEntry.tpl:61
-msgid "Combined physical partitions"
-msgstr ""
-
-#: admin/fai/faiPartition.tpl:122
-#, fuzzy
-msgid "Toggle missing"
-msgstr "Личная информация"
-
-#: admin/fai/faiPartition.tpl:123
-#, fuzzy
-msgid "Toggle spare"
-msgstr "по умолчанию"
-
-#: admin/fai/faiPartition.tpl:134
-#, fuzzy
-msgid "File system"
-msgstr "Системы"
-
-#: admin/fai/faiPartition.tpl:141
-#, fuzzy
-msgid "File system create options"
-msgstr "Системная информация"
-
-#: admin/fai/faiPartition.tpl:151
-msgid "Encrypted"
-msgstr ""
-
-#: admin/fai/faiPartition.tpl:153
-#, fuzzy
-msgid "Tune options"
-msgstr "Дополнительные параметры"
-
-#: admin/fai/faiPartition.tpl:176 admin/fai/class_faiSummaryTab.inc:351
-#: admin/fai/class_faiDiskEntry.inc:711
-#: admin/fai/class_faiPartitionTableEntry.inc:153
-#: admin/fai/class_faiPartitionTableEntry.inc:445
-#, fuzzy
-msgid "Mount options"
-msgstr "Дополнительные параметры"
-
-#: admin/fai/class_faiVariableEntry.inc:91
-#, fuzzy
-msgid "Content"
-msgstr "Продолжить"
-
-#: admin/fai/class_faiVariableEntry.inc:126
-#, fuzzy
-msgid "Variable entry"
-msgstr "Переменная"
-
-#: admin/fai/class_faiVariableEntry.inc:127
-#, fuzzy
-msgid "FAI variable entry "
-msgstr "Устройство отображения"
-
-#: admin/fai/class_faiScriptEntry.inc:75 admin/fai/class_faiHookEntry.inc:98
-#, fuzzy
-msgid "file is empty"
-msgstr "Значение поля \"Файлы\" некорректно."
-
-#: admin/fai/class_faiScriptEntry.inc:104 admin/fai/class_faiTemplate.inc:295
-#, fuzzy
-msgid "Download"
-msgstr "Домен"
-
-#: admin/fai/class_faiScriptEntry.inc:161 admin/fai/class_faiHookEntry.inc:196
-#, php-format
-msgid ""
-"The script encodig has changed from '%s' to '%s'. Do you really want to save?"
-msgstr ""
-
-#: admin/fai/class_faiScriptEntry.inc:209
-#: admin/fai/class_faiScriptEntry.inc:219
-#, fuzzy
-msgid "Script entry"
-msgstr "Путь к сценариям"
-
-#: admin/fai/class_faiScriptEntry.inc:210
-#, fuzzy
-msgid "FAI script entry"
-msgstr "Показать хосты"
-
-#: admin/fai/class_faiScriptEntry.inc:220
-#, fuzzy
-msgid "Script Priority"
-msgstr "Путь к сценариям"
-
 #: admin/fai/askClassName.tpl:6
 msgid ""
 "Adding a new class to the FAI management, requires a class name. You have to "
@@ -909,324 +1384,95 @@ msgstr ""
 msgid "Choose class name"
 msgstr "Выберите тип мыши"
 
-#: admin/fai/askClassName.tpl:70 admin/fai/class_faiManagement.inc:935
-msgid "Continue"
-msgstr "Продолжить"
-
-#: admin/fai/classSelect/selectClass-list.xml:36 admin/fai/fai-list.xml:40
-msgid "Properties"
-msgstr "Свойства"
-
-#: admin/fai/classSelect/class_classSelect.inc:29
+#: admin/fai/faiHookEntry.tpl:33
 #, fuzzy
-msgid "Class selection"
-msgstr "Настройки Samba"
+msgid "Hook attributes"
+msgstr "Атрибут DN пользователей"
 
-#: admin/fai/class_faiVariable.inc:385 admin/fai/fai-list.xml:86
+#: admin/fai/faiHookEntry.tpl:36
+msgid "Choose an existing FAI task"
+msgstr ""
+
+#: admin/fai/faiHookEntry.tpl:48 admin/fai/faiScriptEntry.tpl:54
+msgid ""
+"This FAI script is write protected, due to its encoding. Editing may break "
+"it!"
+msgstr ""
+
+#: admin/fai/faiHookEntry.tpl:50 admin/fai/faiScriptEntry.tpl:56
+#: admin/fai/faiTemplateEdit.tpl:17
+#, fuzzy
+msgid "Edit anyway"
+msgstr "Редактиовать объект"
+
+#: admin/fai/faiHookEntry.tpl:64 admin/fai/faiScriptEntry.tpl:71
+#, fuzzy
+msgid "Import script"
+msgstr "Показать хосты"
+
 #: admin/fai/class_faiDebconfConfigurations.inc:100
 #: admin/fai/NewDebconfConfiguration.tpl:19
+#: admin/fai/class_faiVariable.inc:385 admin/fai/fai-list.xml:87
 msgid "Variable"
 msgstr "Переменная"
 
-#: admin/fai/class_faiVariable.inc:386
+#: admin/fai/class_faiDebconfConfigurations.inc:100
+#: admin/fai/NewDebconfConfiguration.tpl:25
+#: admin/fai/NewDebconfConfiguration.tpl:43
 #, fuzzy
-msgid "FAI variable"
-msgstr "Устройство отображения"
+msgid "Value"
+msgstr "мужской"
 
-#: admin/fai/class_faiVariable.inc:399
+#: admin/fai/class_faiDebconfConfigurations.inc:117
 #, fuzzy
-msgid "RDN for FAI variable storage."
-msgstr "Устройство отображения"
+msgid "Currently saved"
+msgstr "Состояние системы"
 
-#: admin/fai/faiTemplateEdit.tpl:15
-msgid "This FAI template is write protected. Editing may break it!"
-msgstr ""
-
-#: admin/fai/class_faiHookEntry.inc:247
+#: admin/fai/class_faiDebconfConfigurations.inc:120
+#: admin/fai/class_faiDebconfConfigurations.inc:125
 #, fuzzy
-msgid "Hook entry"
-msgstr "Удалить объект"
+msgid "Currently not saved"
+msgstr "Группа пользователя"
 
-#: admin/fai/class_faiHookEntry.inc:258 admin/fai/class_faiScript.inc:503
-#: admin/fai/faiScript.tpl:2 admin/fai/faiScriptEntry.tpl:2
+#: admin/fai/class_faiDebconfConfigurations.inc:238
 #, fuzzy
-msgid "FAI script"
-msgstr "Показать хосты"
-
-#: admin/fai/class_faiGroupHandle.inc:109 admin/fai/fai-list.xml:92
-#: admin/fai/class_faiSummaryTab.inc:49 admin/fai/class_faiManagement.inc:1214
-#, fuzzy
-msgid "Package list"
-msgstr "Показать телефоны"
-
-#: admin/fai/class_faiGroupHandle.inc:111 admin/fai/class_faiSummaryTab.inc:44
-#: admin/fai/class_faiManagement.inc:1216
-#, fuzzy
-msgid "Scripts"
-msgstr "Путь к сценариям"
-
-#: admin/fai/class_faiGroupHandle.inc:113 admin/fai/class_faiSummaryTab.inc:46
-#: admin/fai/class_faiManagement.inc:1218
-#, fuzzy
-msgid "Variables"
-msgstr "Переменная"
-
-#: admin/fai/class_faiGroupHandle.inc:115 admin/fai/class_faiSummaryTab.inc:45
-#: admin/fai/class_faiManagement.inc:1220
-msgid "Hooks"
-msgstr ""
-
-#: admin/fai/class_faiGroupHandle.inc:117 admin/fai/fai-list.xml:62
-#: admin/fai/class_askClassName.inc:84 admin/fai/class_faiManagement.inc:1222
-#: admin/fai/class_faiProfile.inc:362
-#, fuzzy
-msgid "Profile"
-msgstr "Путь к профилю"
-
-#: admin/fai/class_faiGroupHandle.inc:119 admin/fai/class_faiSummaryTab.inc:47
-#: admin/fai/class_faiManagement.inc:1224
-#, fuzzy
-msgid "Templates"
-msgstr "Шаблон"
-
-#: admin/fai/class_faiGroupHandle.inc:121
-#: admin/fai/class_faiManagement.inc:1226
-#, fuzzy
-msgid "OPSI net boot product"
-msgstr "Объединения"
-
-#: admin/fai/class_faiGroupHandle.inc:123
-#: admin/fai/class_faiManagement.inc:1228
-#, fuzzy
-msgid "OPSI local boot product"
-msgstr "Объединения"
-
-#: admin/fai/class_debconfTemplate.inc:220
-#, fuzzy
-msgid "This package has no debconf options."
-msgstr "В этой учетной записи нет атрибутов для телефона."
-
-#: admin/fai/class_debconfTemplate.inc:268
-msgid ""
-"This debconf question is dynamically generated during package installation "
-"and requires choosing between specific options which cannot be presented "
-"here. The entered text needs to be one of the valid choices in order to take "
-"effect."
-msgstr ""
-
-#: admin/fai/faiDiskEntry.tpl:3 admin/fai/faiPartitionTableEntry.tpl:3
-#: admin/fai/class_faiDiskEntry.inc:249
-#, fuzzy
-msgid "Device"
-msgstr "Устройства"
-
-#: admin/fai/faiDiskEntry.tpl:5
-#, fuzzy
-msgid "FAI disk entry"
-msgstr "Ошибка LDAP:"
-
-#: admin/fai/faiDiskEntry.tpl:8 admin/fai/class_faiDiskEntry.inc:705
-#, fuzzy
-msgid "Disk options"
-msgstr "Добавить параметр"
-
-#: admin/fai/faiDiskEntry.tpl:20
-msgid "fstab key"
-msgstr ""
-
-#: admin/fai/faiDiskEntry.tpl:44
-msgid "Disk label"
-msgstr ""
-
-#: admin/fai/faiDiskEntry.tpl:78 admin/fai/faiPartitionTableEntry.tpl:23
-#, fuzzy
-msgid "Partition entries"
-msgstr "Переменная"
-
-#: admin/fai/faiDiskEntry.tpl:86 admin/fai/faiDiskEntry.tpl:88
-#: admin/fai/faiPartitionTableEntry.tpl:31
-#: admin/fai/faiPartitionTableEntry.tpl:33
-#, fuzzy
-msgid "Add partition"
-msgstr "Добавить параметр"
-
-#: admin/fai/fai-list.xml:11
-#, fuzzy
-msgid "List of deployment classes and products"
-msgstr "Выберите тип мыши"
-
-#: admin/fai/fai-list.xml:45
-#: admin/systems/services/repository/repository-list.xml:44
-msgid "Actions"
-msgstr "Действия"
-
-#: admin/fai/fai-list.xml:56
-#: admin/systems/services/repository/repository-list.xml:55
-msgid "Create"
-msgstr "Создать"
-
-#: admin/fai/fai-list.xml:68 admin/fai/class_faiTemplate.inc:517
-msgid "Template"
-msgstr "Шаблон"
-
-#: admin/fai/fai-list.xml:111
-#, fuzzy
-msgid "Remove entries"
-msgstr "Включаемые объекты"
-
-#: admin/fai/fai-list.xml:122
-#, fuzzy
-msgid "Create branch"
-msgstr "Создание нового объекта в"
-
-#: admin/fai/fai-list.xml:129
-#, fuzzy
-msgid "Create freeze"
-msgstr "Текущий пароль"
-
-#: admin/fai/fai-list.xml:136
-#, fuzzy
-msgid "Remove release"
-msgstr "Включаемые объекты"
-
-#: admin/fai/fai-list.xml:179 admin/fai/class_faiPartitionTableEntry.inc:252
-#: admin/fai/class_faiPartitionTableEntry.inc:254
-#: admin/systems/services/repository/repository-list.xml:73
-#: admin/systems/services/repository/repository-list.xml:99
-msgid "Remove"
+msgid "Reset"
 msgstr "Удалить"
 
-#: admin/fai/class_faiSummaryTab.inc:50
-#, fuzzy
-msgid "Profiles"
-msgstr "Путь к профилю"
+#: admin/fai/class_faiDebconfConfigurations.inc:242
+msgid "Delete"
+msgstr "Удалить"
 
-#: admin/fai/class_faiSummaryTab.inc:95
-#, fuzzy
-msgid "Unknown FAI information source!"
-msgstr "Личная информация"
+#: admin/fai/class_faiDebconfConfigurations.inc:245 admin/fai/fai-list.xml:172
+#: admin/fai/faiVariable.tpl:50
+#: admin/systems/services/repository/repository-list.xml:92
+msgid "Edit"
+msgstr "Изменить"
 
-#: admin/fai/class_faiSummaryTab.inc:188
-#: admin/systems/services/repository/class_servRepository.inc:200
-msgid "You can't use this plug-in until FAI is activated."
+#: admin/fai/class_faiDebconfConfigurations.inc:276
+#, php-format
+msgid "Debconf information for package list '%s'"
 msgstr ""
 
-#: admin/fai/class_faiSummaryTab.inc:228
-msgid "This object has no FAI classes assigned."
+#: admin/fai/class_faiDebconfConfigurations.inc:494
+#, php-format
+msgid ""
+"The specified value '%s' for variable '%s' is not valid with the specified "
+"boolean variable type.<br><i>Allowed values: true, false, 1, 0.</i>"
 msgstr ""
 
-#: admin/fai/class_faiSummaryTab.inc:231
-msgid "FAI summary"
-msgstr ""
-
-#: admin/fai/class_faiSummaryTab.inc:345
-msgid "Summary of fai classes"
-msgstr ""
-
-#: admin/fai/class_faiSummaryTab.inc:348
+#: admin/fai/class_askClassName.inc:79 admin/fai/class_askClassName.inc:80
+#: admin/fai/class_askClassName.inc:81 admin/fai/class_askClassName.inc:82
+#: admin/fai/class_askClassName.inc:83 admin/fai/class_askClassName.inc:84
+#: admin/fai/class_askClassName.inc:85 admin/fai/class_askClassName.inc:86
 #, fuzzy
-msgid "No."
-msgstr "нет"
+msgid "Create new FAI object"
+msgstr "Объект группы"
 
-#: admin/fai/class_faiSummaryTab.inc:350 admin/fai/class_faiDiskEntry.inc:712
-#: admin/fai/class_faiPartitionTableEntry.inc:446
-#, fuzzy
-msgid "File system options"
-msgstr "Системная информация"
-
-#: admin/fai/class_faiSummaryTab.inc:352
-#: admin/fai/class_faiPartitionTableEntry.inc:152
-#, fuzzy
-msgid "Size in MB"
-msgstr "Пользователь:"
-
-#: admin/fai/class_faiPackage.inc:132
-msgid "Status"
-msgstr "Состояние"
-
-#: admin/fai/class_faiPackage.inc:241
+#: admin/fai/class_askClassName.inc:185
 #, fuzzy, php-format
-msgid "Release unavailable: %s"
-msgstr "Имя сервера"
-
-#: admin/fai/class_faiPackage.inc:242
-#, php-format
-msgid ""
-"The packages in release %s and their details cannot be displayed because the "
-"release is unavailable on this server."
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:272
-msgid "Invalid package names"
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:273
-#, php-format
-msgid "The following package names don't match the Debian policy: %s"
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:523
-#, fuzzy
-msgid "Remove configuration"
-msgstr "Базы данных"
-
-#: admin/fai/class_faiPackage.inc:531
-msgid "Mark package for removal"
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:546
-msgid "Package marked for removal"
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:567
-#, fuzzy
-msgid "Configure this package"
-msgstr "Настроить"
-
-#: admin/fai/class_faiPackage.inc:655
-#, fuzzy
-msgid "Please select a least one package!"
-msgstr "Введите корректный номер телефона!"
-
-#: admin/fai/class_faiPackage.inc:659
-#, fuzzy
-msgid ""
-"Please choose a valid release/section combination for your repository setup!"
-msgstr "Укажите корректный номер телефона."
-
-#: admin/fai/class_faiPackage.inc:835
-#, fuzzy
-msgid "FAI Package list"
-msgstr "Число страниц"
-
-#: admin/fai/class_faiPackage.inc:847
-msgid "RDN for FAI package storage."
-msgstr ""
-
-#: admin/fai/class_faiPackage.inc:856
-#, fuzzy
-msgid "Packages"
-msgstr "Показать телефоны"
-
-#: admin/fai/class_faiPackage.inc:857 admin/fai/class_faiPackage.inc:860
-#: admin/fai/class_faiScript.inc:525 admin/fai/class_faiTemplate.inc:537
-#, fuzzy
-msgid "Read-only"
-msgstr "чтение"
-
-#: admin/fai/class_faiPackage.inc:858
-#, fuzzy
-msgid "Install Method"
-msgstr "Почтовые настройки"
-
-#: admin/fai/class_faiPackage.inc:859
-#, fuzzy
-msgid "Package configuration"
-msgstr "Базы данных"
-
-#: admin/fai/remove_branch.tpl:3 admin/fai/class_faiManagement.inc:675
-msgid "Warning"
-msgstr "Предупреждение"
+msgid "This FAI class name is already in use by the administrative unit '%s'."
+msgstr "Группа с таким именем уже существует."
 
 #: admin/fai/remove_branch.tpl:6
 #, fuzzy
@@ -1246,231 +1492,6 @@ msgid "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
 msgstr ""
 "Если вы уверены в своих действиях, нажмите на кнопку <i>Удалить</i>, иначе "
 "нажмите <i>Отмена</i>."
-
-#: admin/fai/faiPartitionTableEntry.tpl:5 admin/fai/class_faiDiskEntry.inc:696
-#: admin/fai/class_faiPartitionTableEntry.inc:431
-#, fuzzy
-msgid "FAI partition table entry"
-msgstr "Принтер"
-
-#: admin/fai/faiTemplate.tpl:30
-#, fuzzy
-msgid "List of template files"
-msgstr "Список подразделений"
-
-#: admin/fai/class_NewDebconfConfiguration.inc:119
-#, php-format
-msgid ""
-"The specified value '%s' for the variable type boolean is invalid."
-"<br><i>Allowed values: true, false, 1, 0.</i>"
-msgstr ""
-
-#: admin/fai/faiSummary.tpl:2
-#, fuzzy
-msgid "Summary of used FAI classes"
-msgstr "Имя стоп-листа"
-
-#: admin/fai/faiSummary.tpl:5
-#, fuzzy
-msgid "FAI object tree"
-msgstr "Имя объекта"
-
-#: admin/fai/faiSummary.tpl:13
-msgid "Reload class and release configuration from parent object."
-msgstr ""
-
-#: admin/fai/faiSummary.tpl:24
-#, fuzzy
-msgid "You are not allowed to view the FAI summary."
-msgstr "У вас недостаточно прав для удаления этого пользователя!"
-
-#: admin/fai/class_faiTemplateEntry.inc:119
-#, fuzzy
-msgid "no file uploaded yet"
-msgstr "Файл небыл загружен"
-
-#: admin/fai/class_faiTemplateEntry.inc:122
-#, php-format
-msgid "exists in database (size: %s bytes)"
-msgstr ""
-
-#: admin/fai/class_faiTemplateEntry.inc:291
-#, fuzzy
-msgid "Template entry"
-msgstr "Шаблон"
-
-#: admin/fai/class_faiTemplateEntry.inc:301
-#, fuzzy
-msgid "Template file"
-msgstr "Шаблон"
-
-#: admin/fai/class_faiTemplateEntry.inc:302
-#, fuzzy
-msgid "Template path"
-msgstr "Шаблон"
-
-#: admin/fai/class_faiTemplateEntry.inc:303
-#, fuzzy
-msgid "File owner"
-msgstr "Имя сервера"
-
-#: admin/fai/class_faiScript.inc:515
-#, fuzzy
-msgid "RDN for FAI script storage."
-msgstr "Показать хосты"
-
-#: admin/fai/class_askClassName.inc:79 admin/fai/class_askClassName.inc:80
-#: admin/fai/class_askClassName.inc:81 admin/fai/class_askClassName.inc:82
-#: admin/fai/class_askClassName.inc:83 admin/fai/class_askClassName.inc:84
-#: admin/fai/class_askClassName.inc:85 admin/fai/class_askClassName.inc:86
-#, fuzzy
-msgid "Create new FAI object"
-msgstr "Объект группы"
-
-#: admin/fai/class_askClassName.inc:80 admin/fai/class_faiProfile.inc:187
-#, fuzzy
-msgid "Package bundle"
-msgstr "Показать телефоны"
-
-#: admin/fai/class_askClassName.inc:81 admin/fai/class_faiProfile.inc:185
-#, fuzzy
-msgid "Script bundle"
-msgstr "Путь к сценариям"
-
-#: admin/fai/class_askClassName.inc:82 admin/fai/class_faiProfile.inc:186
-#, fuzzy
-msgid "Variable bundle"
-msgstr "Переменная"
-
-#: admin/fai/class_askClassName.inc:83 admin/fai/class_faiProfile.inc:183
-msgid "Hook bundle"
-msgstr ""
-
-#: admin/fai/class_askClassName.inc:85 admin/fai/class_faiProfile.inc:184
-#, fuzzy
-msgid "Template bundle"
-msgstr "Шаблон"
-
-#: admin/fai/class_askClassName.inc:185
-#, fuzzy, php-format
-msgid "This FAI class name is already in use by the administrative unit '%s'."
-msgstr "Группа с таким именем уже существует."
-
-#: admin/fai/class_faiManagement.inc:25
-#, fuzzy
-msgid "Software deployment"
-msgstr "Управление системами"
-
-#: admin/fai/class_faiManagement.inc:26
-msgid ""
-"Manage software packages and deployment recipes for Windows and Linux systems"
-msgstr ""
-
-#: admin/fai/class_faiManagement.inc:222
-#, fuzzy
-msgid "partition table"
-msgstr "Переменная"
-
-#: admin/fai/class_faiManagement.inc:223
-#, fuzzy
-msgid "script"
-msgstr "Путь к сценариям"
-
-#: admin/fai/class_faiManagement.inc:224
-#, fuzzy
-msgid "hook"
-msgstr "Ошибка LDAP:"
-
-#: admin/fai/class_faiManagement.inc:225
-#, fuzzy
-msgid "variable"
-msgstr "Переменная"
-
-#: admin/fai/class_faiManagement.inc:226
-#, fuzzy
-msgid "template"
-msgstr "Шаблон"
-
-#: admin/fai/class_faiManagement.inc:227
-#, fuzzy
-msgid "package list"
-msgstr "Число страниц"
-
-#: admin/fai/class_faiManagement.inc:244 admin/fai/class_faiManagement.inc:258
-#: admin/fai/class_faiManagement.inc:448 admin/fai/class_faiManagement.inc:536
-#: admin/fai/class_faiManagement.inc:659 admin/fai/class_faiManagement.inc:764
-#: admin/fai/class_faiManagement.inc:787 admin/fai/class_faiManagement.inc:808
-#, fuzzy
-msgid "Permission error"
-msgstr "Права для членов группы"
-
-#: admin/fai/class_faiManagement.inc:245 admin/fai/class_faiManagement.inc:258
-#, fuzzy, php-format
-msgid "You have no permission to create a new %s!"
-msgstr "У вас недостаточно прав для удаления этого группового объекта!"
-
-#: admin/fai/class_faiManagement.inc:258
-#, fuzzy
-msgid "profile"
-msgstr "Путь к профилю"
-
-#: admin/fai/class_faiManagement.inc:444
-#, fuzzy
-msgid "Branch locked"
-msgstr "Отмена"
-
-#: admin/fai/class_faiManagement.inc:445
-#, php-format
-msgid "The following entries are locked, you can't remove them %s."
-msgstr ""
-
-#: admin/fai/class_faiManagement.inc:656
-msgid "FAI branch/freeze"
-msgstr ""
-
-#: admin/fai/class_faiManagement.inc:659
-#, fuzzy
-msgid "You have no permission to delete this release!"
-msgstr "У вас недостаточно прав для удаления этого пользователя!"
-
-#: admin/fai/class_faiManagement.inc:675
-msgid "Release remove aborted because the release name check failed!"
-msgstr ""
-
-#: admin/fai/class_faiManagement.inc:762 admin/fai/class_faiManagement.inc:785
-#, fuzzy
-msgid "Configuration"
-msgstr "Настроить"
-
-#: admin/fai/class_faiManagement.inc:764 admin/fai/class_faiManagement.inc:787
-#: admin/fai/class_faiManagement.inc:808
-#, fuzzy
-msgid "Branch"
-msgstr "Отмена"
-
-#: admin/fai/class_faiManagement.inc:1087
-#, fuzzy
-msgid "Freeze"
-msgstr "Номер телефона"
-
-#: admin/fai/class_faiManagement.inc:1301
-#, fuzzy
-msgid "FAI releases"
-msgstr "Выберите тип мыши"
-
-#: admin/fai/class_faiManagement.inc:1302
-#, fuzzy
-msgid "FAI release management"
-msgstr "Управление подразделениями"
-
-#: admin/fai/class_faiManagement.inc:1358
-#, fuzzy
-msgid "RDN for FAI storage."
-msgstr "Хэширование паролей"
-
-#: admin/fai/class_faiManagement.inc:1368
-msgid "Name of the FAI default release."
-msgstr ""
 
 #: admin/fai/class_faiTemplateEdit.inc:62
 #, php-format
@@ -1517,109 +1538,34 @@ msgid ""
 "partitions, please check your configuration twice."
 msgstr ""
 
-#: admin/fai/class_faiDiskEntry.inc:695
-#: admin/fai/class_faiPartitionTableEntry.inc:430
+#: admin/fai/NewDebconfConfiguration.tpl:2
 #, fuzzy
-msgid "Partition table entry"
-msgstr "Переменная"
+msgid "New debconf configuration"
+msgstr "Системная информация"
 
-#: admin/fai/class_faiDiskEntry.inc:706
-#: admin/fai/class_faiPartitionTableEntry.inc:440
-#, fuzzy
-msgid "Partition type"
-msgstr "Переменная"
-
-#: admin/fai/class_faiDiskEntry.inc:707
-#: admin/fai/class_faiPartitionTableEntry.inc:441
-#, fuzzy
-msgid "Partition no."
-msgstr "Назначение"
-
-#: admin/fai/class_faiDiskEntry.inc:708
-#: admin/fai/class_faiPartitionTableEntry.inc:442
-#, fuzzy
-msgid "File system type"
-msgstr "Системы"
-
-#: admin/fai/class_faiDiskEntry.inc:713
-#: admin/fai/class_faiPartitionTableEntry.inc:447
-#, fuzzy
-msgid "Partition flags"
-msgstr "Назначение"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:100
-#: admin/fai/NewDebconfConfiguration.tpl:25
-#: admin/fai/NewDebconfConfiguration.tpl:43
-#, fuzzy
-msgid "Value"
-msgstr "мужской"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:117
-#, fuzzy
-msgid "Currently saved"
-msgstr "Состояние системы"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:120
-#: admin/fai/class_faiDebconfConfigurations.inc:125
-#, fuzzy
-msgid "Currently not saved"
-msgstr "Группа пользователя"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:238
-#, fuzzy
-msgid "Reset"
-msgstr "Удалить"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:242
-msgid "Delete"
-msgstr "Удалить"
-
-#: admin/fai/class_faiDebconfConfigurations.inc:276
-#, php-format
-msgid "Debconf information for package list '%s'"
+#: admin/fai/NewDebconfConfiguration.tpl:6
+msgid "In this dialog you can add a new debconf configuration."
 msgstr ""
 
-#: admin/fai/class_faiDebconfConfigurations.inc:494
-#, php-format
-msgid ""
-"The specified value '%s' for variable '%s' is not valid with the specified "
-"boolean variable type.<br><i>Allowed values: true, false, 1, 0.</i>"
-msgstr ""
-
-#: admin/fai/faiGroupHandle.tpl:3
+#: admin/fai/NewDebconfConfiguration.tpl:30
 #, fuzzy
-msgid "Please select the objects you want to remove:"
-msgstr "Введите адрес сервера"
+msgid "Select package"
+msgstr "Выберите, чтобы просмотреть серверы"
 
-#: admin/fai/faiGroupHandle.tpl:5
+#: admin/fai/NewDebconfConfiguration.tpl:38
 #, fuzzy
-msgid "Select the object you want to edit:"
-msgstr "Выбрать объекты для добавления"
+msgid "Select type"
+msgstr "Выберите, чтобы просмотреть серверы"
 
-#: admin/fai/faiGroupHandle.tpl:7
+#: admin/fai/class_faiVariable.inc:386
 #, fuzzy
-msgid "Select the object you want to copy:"
-msgstr "Выберите чтобы посмотреть группы GOsa"
+msgid "FAI variable"
+msgstr "Устройство отображения"
 
-#: admin/fai/faiGroupHandle.tpl:12
+#: admin/fai/class_faiVariable.inc:399
 #, fuzzy
-msgid "FAI group selection"
-msgstr "Настройки Samba"
-
-#: admin/fai/faiGroupHandle.tpl:34
-#, fuzzy
-msgid "Frozen"
-msgstr "Номер телефона"
-
-#: admin/fai/class_faiTemplate.inc:518
-#, fuzzy
-msgid "FAI template"
-msgstr "Создать шаблон"
-
-#: admin/fai/class_faiTemplate.inc:530
-#, fuzzy
-msgid "RDN for FAI template storage."
-msgstr "Создать шаблон"
+msgid "RDN for FAI variable storage."
+msgstr "Устройство отображения"
 
 #: admin/fai/faiNewBranch.tpl:5
 msgid ""
@@ -1670,111 +1616,6 @@ msgstr "Выберите чтобы посмотреть рабочие стан
 msgid "Initiate operation"
 msgstr "Создать параметры"
 
-#: admin/fai/migration/class_migrate_faiBaseRDN.inc:34
-msgid "The storage position for FAI object has changed!"
-msgstr ""
-
-#: admin/fai/NewDebconfConfiguration.tpl:2
-#, fuzzy
-msgid "New debconf configuration"
-msgstr "Системная информация"
-
-#: admin/fai/NewDebconfConfiguration.tpl:6
-msgid "In this dialog you can add a new debconf configuration."
-msgstr ""
-
-#: admin/fai/NewDebconfConfiguration.tpl:30
-#, fuzzy
-msgid "Select package"
-msgstr "Выберите, чтобы просмотреть серверы"
-
-#: admin/fai/NewDebconfConfiguration.tpl:38
-#, fuzzy
-msgid "Select type"
-msgstr "Выберите, чтобы просмотреть серверы"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:142
-#, fuzzy
-msgid "primary"
-msgstr "Основная группа"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:142
-#, fuzzy
-msgid "logical"
-msgstr "Добавить локально"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:150
-#, fuzzy
-msgid "Filesystem type"
-msgstr "Системы"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:154
-#, fuzzy
-msgid "Filesystem option"
-msgstr "Системная информация"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:246
-#, fuzzy
-msgid "False"
-msgstr "женский"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:248
-#, fuzzy
-msgid "True"
-msgstr "Улица"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:365
-#, php-format
-msgid "please enter a unique mount point for partition %s"
-msgstr ""
-
-#: admin/fai/class_faiPartitionTableEntry.inc:370
-#, php-format
-msgid "partition %s mount point"
-msgstr ""
-
-#: admin/fai/class_faiPartitionTableEntry.inc:375
-#, php-format
-msgid ""
-"File system type 'swap' is already used, change file system type for "
-"partition %s."
-msgstr ""
-
-#: admin/fai/class_faiPartitionTableEntry.inc:379
-msgid ""
-"Please use 'swap' as mount point, if 'swap' is used as file system type."
-msgstr ""
-
-#: admin/fai/class_faiPartitionTableEntry.inc:386
-#: admin/fai/class_faiPartitionTableEntry.inc:390
-#: admin/fai/class_faiPartitionTableEntry.inc:396
-#: admin/fai/class_faiPartitionTableEntry.inc:398
-#: admin/fai/class_faiPartitionTableEntry.inc:403
-#, fuzzy, php-format
-msgid "partition %s size"
-msgstr "Назначение"
-
-#: admin/fai/class_faiPartitionTableEntry.inc:418
-msgid ""
-"You have more than 3 primary partition table entries in your configuration, "
-"please check your configuration twice."
-msgstr ""
-
-#: admin/fai/paste_generic.tpl:2
-#, fuzzy
-msgid "FAI settings"
-msgstr "Выберите тип мыши"
-
-#: admin/fai/paste_generic.tpl:4
-#, fuzzy
-msgid "Paste FAI class"
-msgstr "Имя стоп-листа"
-
-#: admin/fai/faiScript.tpl:32 admin/fai/faiScript.tpl:35
-#, fuzzy
-msgid "List of scripts"
-msgstr "Список пользователей"
-
 #: admin/fai/faiScriptEntry.tpl:32
 #, fuzzy
 msgid "Script attributes"
@@ -1796,38 +1637,242 @@ msgid ""
 "execution."
 msgstr ""
 
-#: admin/fai/class_faiProfile.inc:63
+#: admin/fai/class_faiScript.inc:515
 #, fuzzy
-msgid "Types"
-msgstr "Тип"
+msgid "RDN for FAI script storage."
+msgstr "Показать хосты"
 
-#: admin/fai/class_faiProfile.inc:193
-msgid "Remove class from profile"
+#: admin/fai/migration/class_migrate_faiBaseRDN.inc:34
+msgid "The storage position for FAI object has changed!"
 msgstr ""
 
-#: admin/fai/class_faiProfile.inc:196
-msgid "Up"
+#: admin/fai/faiGroupHandle.tpl:3
+#, fuzzy
+msgid "Please select the objects you want to remove:"
+msgstr "Введите адрес сервера"
+
+#: admin/fai/faiGroupHandle.tpl:5
+#, fuzzy
+msgid "Select the object you want to edit:"
+msgstr "Выбрать объекты для добавления"
+
+#: admin/fai/faiGroupHandle.tpl:7
+#, fuzzy
+msgid "Select the object you want to copy:"
+msgstr "Выберите чтобы посмотреть группы GOsa"
+
+#: admin/fai/faiGroupHandle.tpl:12
+#, fuzzy
+msgid "FAI group selection"
+msgstr "Настройки Samba"
+
+#: admin/fai/faiGroupHandle.tpl:34
+#, fuzzy
+msgid "Frozen"
+msgstr "Номер телефона"
+
+#: admin/fai/faiTemplate.tpl:30
+#, fuzzy
+msgid "List of template files"
+msgstr "Список подразделений"
+
+#: admin/fai/faiProfile.tpl:35
+#, fuzzy
+msgid "Choose a priority"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/faiPartitionTable.tpl:32
+msgid "Use 'setup-storage' to partition the disk"
 msgstr ""
 
-#: admin/fai/class_faiProfile.inc:197
+#: admin/fai/faiPartitionTable.tpl:38
 #, fuzzy
-msgid "Down"
-msgstr "Домен"
+msgid "Discs"
+msgstr "Устройства"
 
-#: admin/fai/class_faiProfile.inc:283
-msgid "No class specified for this profile!"
+#: admin/fai/faiPartitionTable.tpl:43 admin/fai/faiPartitionTable.tpl:47
+#, fuzzy
+msgid "Add disk"
+msgstr "Добавить"
+
+#: admin/fai/faiPartitionTable.tpl:44 admin/fai/faiPartitionTable.tpl:48
+msgid "Add RAID"
 msgstr ""
 
-#: admin/fai/class_faiProfile.inc:376
+#: admin/fai/faiPartitionTable.tpl:45 admin/fai/faiPartitionTable.tpl:49
+msgid "Add volume group"
+msgstr ""
+
+#: admin/fai/class_faiTemplateEntry.inc:119
 #, fuzzy
-msgid "RDN for FAI profile storage."
-msgstr "Почтовые настройки пользователя"
+msgid "no file uploaded yet"
+msgstr "Файл небыл загружен"
+
+#: admin/fai/class_faiTemplateEntry.inc:122
+#, php-format
+msgid "exists in database (size: %s bytes)"
+msgstr ""
+
+#: admin/fai/class_faiTemplateEntry.inc:291
+#, fuzzy
+msgid "Template entry"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiTemplateEntry.inc:301
+#, fuzzy
+msgid "Template file"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiTemplateEntry.inc:302
+#, fuzzy
+msgid "Template path"
+msgstr "Шаблон"
+
+#: admin/fai/class_faiTemplateEntry.inc:303
+#, fuzzy
+msgid "File owner"
+msgstr "Имя сервера"
+
+#: admin/fai/fai-filter.xml:18
+#, fuzzy
+msgid "FAI objects"
+msgstr "Имя объекта"
+
+#: admin/fai/fai-filter.xml:32
+#, fuzzy
+msgid "Opsi packages"
+msgstr "Показать телефоны"
+
+#: admin/fai/fai-filter.xml:46
+msgid "FAI &amp; Opsi packages"
+msgstr ""
+
+#: admin/fai/classSelect/class_classSelect.inc:29
+#, fuzzy
+msgid "Class selection"
+msgstr "Настройки Samba"
+
+#: admin/fai/classSelect/selectClass-list.xml:36 admin/fai/fai-list.xml:41
+msgid "Properties"
+msgstr "Свойства"
+
+#: admin/fai/fai-list.xml:12
+#, fuzzy
+msgid "List of deployment classes and products"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/fai-list.xml:46
+#: admin/systems/services/repository/repository-list.xml:44
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/fai/fai-list.xml:57
+#: admin/systems/services/repository/repository-list.xml:55
+msgid "Create"
+msgstr "Создать"
+
+#: admin/fai/fai-list.xml:112
+#, fuzzy
+msgid "Remove entries"
+msgstr "Включаемые объекты"
+
+#: admin/fai/fai-list.xml:123
+#, fuzzy
+msgid "Create branch"
+msgstr "Создание нового объекта в"
+
+#: admin/fai/fai-list.xml:130
+#, fuzzy
+msgid "Create freeze"
+msgstr "Текущий пароль"
+
+#: admin/fai/fai-list.xml:137
+#, fuzzy
+msgid "Remove release"
+msgstr "Включаемые объекты"
+
+#: admin/fai/faiHook.tpl:31
+#, fuzzy
+msgid "List of hooks"
+msgstr "Стоп-листы"
+
+#: admin/fai/faiHook.tpl:34
+#, fuzzy
+msgid "List of hook scripts"
+msgstr "Стоп-листы"
+
+#: admin/fai/class_faiVariableEntry.inc:91
+#, fuzzy
+msgid "Content"
+msgstr "Продолжить"
+
+#: admin/fai/class_faiVariableEntry.inc:126
+#, fuzzy
+msgid "Variable entry"
+msgstr "Переменная"
+
+#: admin/fai/class_faiVariableEntry.inc:127
+#, fuzzy
+msgid "FAI variable entry "
+msgstr "Устройство отображения"
+
+#: admin/fai/faiScript.tpl:32 admin/fai/faiScript.tpl:35
+#, fuzzy
+msgid "List of scripts"
+msgstr "Список пользователей"
+
+#: admin/fai/faiVariable.tpl:32
+#, fuzzy
+msgid "List of assigned variables"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/faiVariable.tpl:37
+msgid "Choose a variable to delete or edit"
+msgstr ""
+
+#: admin/fai/paste_generic.tpl:2
+#, fuzzy
+msgid "FAI settings"
+msgstr "Выберите тип мыши"
+
+#: admin/fai/paste_generic.tpl:4
+#, fuzzy
+msgid "Paste FAI class"
+msgstr "Имя стоп-листа"
+
+#: admin/fai/faiTemplateEdit.tpl:15
+msgid "This FAI template is write protected. Editing may break it!"
+msgstr ""
+
+#: admin/systems/services/repository/servRepositorySetup.tpl:3
+#, fuzzy
+msgid "FAI Repository"
+msgstr "Повторить"
+
+#: admin/systems/services/repository/servRepositorySetup.tpl:9
+#: admin/systems/services/repository/class_servRepository.inc:423
+#, fuzzy
+msgid "Parent server"
+msgstr "серверы"
+
+#: admin/systems/services/repository/servRepositorySetup.tpl:35
+#: admin/systems/services/repository/class_servRepository.inc:425
+#: admin/systems/services/repository/class_servRepositorySetup.inc:237
+msgid "URL"
+msgstr ""
+
+#: admin/systems/services/repository/servRepositorySetup.tpl:46
+#: admin/systems/services/repository/class_servRepository.inc:426
+#: admin/systems/services/repository/repository-list.xml:36
+#, fuzzy
+msgid "Sections"
+msgstr "Действие"
 
 #: admin/systems/services/repository/class_servRepository.inc:27
 #: admin/systems/services/repository/class_servRepository.inc:338
 #: admin/systems/services/repository/class_servRepository.inc:382
 #: admin/systems/services/repository/class_servRepository.inc:402
-#: admin/systems/services/repository/class_servRepositorySetup.inc:321
+#: admin/systems/services/repository/class_servRepositorySetup.inc:342
 #, fuzzy
 msgid "Repository service"
 msgstr "Повторить"
@@ -1847,39 +1892,15 @@ msgid ""
 "FAQ for details."
 msgstr ""
 
-#: admin/systems/services/repository/class_servRepository.inc:423
-#: admin/systems/services/repository/servRepositorySetup.tpl:9
-#, fuzzy
-msgid "Parent server"
-msgstr "серверы"
-
 #: admin/systems/services/repository/class_servRepository.inc:424
 #, fuzzy
 msgid "Releases"
 msgstr "Набор правил"
 
-#: admin/systems/services/repository/class_servRepository.inc:425
-#: admin/systems/services/repository/class_servRepositorySetup.inc:245
-#: admin/systems/services/repository/servRepositorySetup.tpl:35
-msgid "URL"
-msgstr ""
-
-#: admin/systems/services/repository/class_servRepository.inc:426
-#: admin/systems/services/repository/servRepositorySetup.tpl:46
-#: admin/systems/services/repository/repository-list.xml:36
-#, fuzzy
-msgid "Sections"
-msgstr "Действие"
-
-#: admin/systems/services/repository/class_servRepositorySetup.inc:264
+#: admin/systems/services/repository/class_servRepositorySetup.inc:256
 #, php-format
 msgid "The following sections are not present on the parent server: '%s'"
 msgstr ""
-
-#: admin/systems/services/repository/servRepositorySetup.tpl:3
-#, fuzzy
-msgid "FAI Repository"
-msgstr "Повторить"
 
 #: admin/systems/services/repository/repository-list.xml:10
 #, fuzzy
