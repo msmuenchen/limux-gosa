@@ -8,16 +8,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2010-01-28 23:56+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish <>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/sudo/class_sudoManagement.inc:25
+#, fuzzy
+msgid "Sudo rules"
+msgstr "Roles Sudo"
+
+#: admin/sudo/class_sudoManagement.inc:26
+msgid "Manage all aspects of system wide sudoers definitions"
+msgstr ""
 
 #: admin/sudo/class_sudoGeneric.inc:112
 msgid "Type"
@@ -125,6 +134,43 @@ msgstr "Opciones"
 msgid "Available options"
 msgstr "Opciones disponibles"
 
+#: admin/sudo/sudo-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Parámetro"
+
+#: admin/sudo/sudo-filter.xml:36
+#, fuzzy
+msgid "By member"
+msgstr "Sin miembros"
+
+#: admin/sudo/class_sudoOption.inc:154
+msgid "Unknown option"
+msgstr "Opción desconocida"
+
+#: admin/sudo/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "¡La opción Sudo %s no es válida!"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
+msgid "string"
+msgstr "cadena de texto"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
+#: admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "boolean"
+msgstr "Booleano"
+
+#: admin/sudo/class_sudoOption.inc:285
+msgid "integer"
+msgstr "Entero"
+
+#: admin/sudo/class_sudoOption.inc:286
+msgid "list"
+msgstr "lista"
+
 #: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
 #: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
 #: admin/sudo/paste_generic.tpl:1
@@ -195,52 +241,6 @@ msgstr "Eliminar rol Sudo"
 #, fuzzy
 msgid "Paste sudo entry"
 msgstr "Pegar"
-
-#: admin/sudo/class_sudoOption.inc:154
-msgid "Unknown option"
-msgstr "Opción desconocida"
-
-#: admin/sudo/class_sudoOption.inc:155
-#, fuzzy, php-format
-msgid "The Sudo option '%s' is invalid!"
-msgstr "¡La opción Sudo %s no es válida!"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
-msgid "string"
-msgstr "cadena de texto"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
-#: admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "boolean"
-msgstr "Booleano"
-
-#: admin/sudo/class_sudoOption.inc:285
-msgid "integer"
-msgstr "Entero"
-
-#: admin/sudo/class_sudoOption.inc:286
-msgid "list"
-msgstr "lista"
-
-#: admin/sudo/sudo-filter.xml:22
-#, fuzzy
-msgid "Default filter"
-msgstr "Parámetro"
-
-#: admin/sudo/sudo-filter.xml:36
-#, fuzzy
-msgid "By member"
-msgstr "Sin miembros"
-
-#: admin/sudo/class_sudoManagement.inc:25
-#, fuzzy
-msgid "Sudo rules"
-msgstr "Roles Sudo"
-
-#: admin/sudo/class_sudoManagement.inc:26
-msgid "Manage all aspects of system wide sudoers definitions"
-msgstr ""
 
 #~ msgid "Filter"
 #~ msgstr "Filtro"
