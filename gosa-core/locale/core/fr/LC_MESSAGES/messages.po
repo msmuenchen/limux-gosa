@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 11:21+0200\n"
+"POT-Creation-Date: 2012-09-06 15:40+0200\n"
 "PO-Revision-Date: 2011-01-17 01:22+0100\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
@@ -633,7 +633,7 @@ msgid "Index"
 msgstr "Index"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:172 include/class_filter.inc:243
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Recherche"
 
@@ -6795,20 +6795,20 @@ msgstr "Option %s non valide !"
 msgid "Specified 'objectType' is empty or invalid!"
 msgstr "Le type d'objet spécifié est vide ou invalide !"
 
-#: include/class_filter.inc:240
+#: include/class_filter.inc:250
 msgid "Search filter"
 msgstr "Filtre de recherche"
 
-#: include/class_filter.inc:242
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Filtre par défaut"
 
-#: include/class_filter.inc:485
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Chercher dans les sous arbre"
 
-#: include/class_filter.inc:490
+#: include/class_filter.inc:505
 msgid "Edit filters"
 msgstr "Editer des filtres"
 

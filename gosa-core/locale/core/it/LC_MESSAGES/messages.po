@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 11:21+0200\n"
+"POT-Creation-Date: 2012-09-06 15:40+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
@@ -634,7 +634,7 @@ msgid "Index"
 msgstr ""
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:172 include/class_filter.inc:243
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Cerca"
 
@@ -6939,22 +6939,22 @@ msgstr "L'uid contiene dei caratteri invalidi!"
 msgid "Specified 'objectType' is empty or invalid!"
 msgstr "Il valore specificato per l'UID non è valido."
 
-#: include/class_filter.inc:240
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Parametro"
 
-#: include/class_filter.inc:242
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Parametro"
 
-#: include/class_filter.inc:485
+#: include/class_filter.inc:500
 #, fuzzy
 msgid "Search in subtrees"
 msgstr "Seleziona per mostrare le applicazioni"
 
-#: include/class_filter.inc:490
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Modifica certificati"

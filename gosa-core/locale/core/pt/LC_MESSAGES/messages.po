@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages-2.6.4-pt_BR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 11:21+0200\n"
+"POT-Creation-Date: 2012-09-06 15:40+0200\n"
 "PO-Revision-Date: 2009-03-02 15:03-0300\n"
 "Last-Translator: Clever de Oliveira Jr. <clever@dri.cefetmg.br>\n"
 "Language-Team: Brazilian Portuguese <pt@li.org>\n"
@@ -625,7 +625,7 @@ msgid "Index"
 msgstr "Índice"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:172 include/class_filter.inc:243
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Procura"
 
@@ -6625,21 +6625,21 @@ msgstr ""
 msgid "Specified 'objectType' is empty or invalid!"
 msgstr ""
 
-#: include/class_filter.inc:240
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Impressora"
 
-#: include/class_filter.inc:242
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Impressora"
 
-#: include/class_filter.inc:485
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Procurar em subárvores"
 
-#: include/class_filter.inc:490
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Editar certificados"

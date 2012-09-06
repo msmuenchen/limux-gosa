@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VIcore2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 11:21+0200\n"
+"POT-Creation-Date: 2012-09-06 15:40+0200\n"
 "PO-Revision-Date: 2008-07-04 09:59+0200\n"
 "Last-Translator: Stefan Koehler <stefan@gonicus.de>\n"
 "Language-Team: Vietnamese\n"
@@ -658,7 +658,7 @@ msgid "Index"
 msgstr "Chỉ mục"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:172 include/class_filter.inc:243
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Tìm kiếm"
 
@@ -6907,21 +6907,21 @@ msgstr "Lựa chọn '%s' không hợp lệ đã được chỉ định!"
 msgid "Specified 'objectType' is empty or invalid!"
 msgstr "ObjecType được chỉ định đang rỗng hặc không hợp lệ!"
 
-#: include/class_filter.inc:240
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Máy in"
 
-#: include/class_filter.inc:242
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Máy in"
 
-#: include/class_filter.inc:485
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Tìm kiếm tại các cây con"
 
-#: include/class_filter.inc:490
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Hiệu chỉnh các giấy phép"

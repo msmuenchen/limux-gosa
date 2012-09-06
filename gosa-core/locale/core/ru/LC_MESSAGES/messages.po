@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 11:21+0200\n"
+"POT-Creation-Date: 2012-09-06 15:40+0200\n"
 "PO-Revision-Date: 2005-04-18 14:35+0300\n"
 "Last-Translator: Igor Muratov <migor@altlinux.org>\n"
 "Language-Team: ALT Linux Team\n"
@@ -640,7 +640,7 @@ msgid "Index"
 msgstr ""
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:172 include/class_filter.inc:243
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Поиск"
 
@@ -7001,22 +7001,22 @@ msgstr "Значение поля \"Имя\" содержит недопусти
 msgid "Specified 'objectType' is empty or invalid!"
 msgstr "Указанное имя уже используется."
 
-#: include/class_filter.inc:240
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Параметры загрузки"
 
-#: include/class_filter.inc:242
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Параметры загрузки"
 
-#: include/class_filter.inc:485
+#: include/class_filter.inc:500
 #, fuzzy
 msgid "Search in subtrees"
 msgstr "Искать в поддеревьях"
 
-#: include/class_filter.inc:490
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Изменить сертификаты"
