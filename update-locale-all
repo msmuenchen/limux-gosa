@@ -1,24 +1,49 @@
 #!/bin/bash
 # This script updates the locales for GOsa core and all plugins at once
+ROOTDIR=`pwd`
+COREDIR=$ROOTDIR/gosa-core
+PLUGINDIR=$ROOTDIR/gosa-plugins
+UPDATER=$ROOTDIR/gosa-core/update-locale
 
+#execute updater in directory $1
+update_locale() {
+  WRKDIR=$1
+  NAME=$2
+  cd $WRKDIR
+  echo "Updating $NAME in $WRKDIR"
+  $UPDATER -y
+  echo "Press RETURN after you checked that the update went OK, press Ctrl-C to abort"
+  read
+  if [ $COMMIT -eq 1 ]; then
+    echo "resetting commit cache"
+    git reset
+    pwd
+    echo "adding locale/ dir"
+    git add locale
+    echo "committing"
+    git commit -m "$NAME: locale update"
+    echo "Press RETURN after you checked that the commit went OK, press Ctrl-C to abort"
+    read
+  fi
+
+}
+
+#walk through plugin dir and call updater for each one, then update core
 update_locales() {
-  ROOTDIR=`pwd`
-  COREDIR=$ROOTDIR/gosa-core
-  PLUGINDIR=$ROOTDIR/gosa-plugins
-  UPDATER=$ROOTDIR/gosa-core/update-locale
-
+  #first update plugins
   cd $PLUGINDIR
-  pwd
   for file in $PLUGINDIR/*; do
     if [ -d "$file" ]; then
-      cd $file
-      $UPDATER -y
-      echo "Press RETURN after you checked that the update went OK"
-      if [ $COMMIT -eq 1 ]; then
-      fi
-      read
+      PLUGINDIR=`basename $file`
+      PLUGINNAME=`echo plugins/$PLUGINDIR`
+      update_locale $file $PLUGINNAME
     fi
   done
+  
+  #now update core
+  PLUGINDIR=$COREDIR
+  PLUGINNAME="core"
+  update_locale $PLUGINDIR $PLUGINNAME
 }
 
 COMMIT=0
@@ -34,3 +59,5 @@ do
        ;;
   esac
 done
+
+update_locales
