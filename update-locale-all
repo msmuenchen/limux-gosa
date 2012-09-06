@@ -12,18 +12,41 @@ update_locale() {
   cd $WRKDIR
   echo "Updating $NAME in $WRKDIR"
   $UPDATER -y
-  echo "Press RETURN after you checked that the update went OK, press Ctrl-C to abort"
-  read
+  RC=$?
+  if [[ $RC != 0 ]]; then
+    echo "Updater failed"
+    exit 1;
+  fi
+  if [ $ASSUME_Y -eq 0 ]; then
+    echo "Press RETURN after you checked that the update went OK, press Ctrl-C to abort"
+    read
+  fi
   if [ $COMMIT -eq 1 ]; then
     echo "resetting commit cache"
     git reset
-    pwd
+    RC=$?
+    if [[ $RC != 0 ]]; then
+      echo "git reset failed"
+      exit 1;
+    fi
     echo "adding locale/ dir"
     git add locale
+    RC=$?
+    if [[ $RC != 0 ]]; then
+      echo "git add failed"
+      exit 1;
+    fi
     echo "committing"
     git commit -m "$NAME: locale update"
-    echo "Press RETURN after you checked that the commit went OK, press Ctrl-C to abort"
-    read
+    RC=$?
+    if [[ $RC != 0 ]]; then
+      echo "git commit failed"
+      exit 1;
+    fi
+    if [ $ASSUME_Y -eq 0 ]; then
+      echo "Press RETURN after you checked that the commit went OK, press Ctrl-C to abort"
+      read
+    fi
   fi
 
 }
@@ -47,14 +70,19 @@ update_locales() {
 }
 
 COMMIT=0
-while getopts ":ch" opt
+ASSUME_Y=0;
+while getopts ":cyh" opt
 do
   case $opt in
     c) COMMIT=1;
        ;;
+    y)
+       ASSUME_Y=1;
+       ;;
     h|--help)
-       echo "Usage: $(basename $0) [-c]"
+       echo "Usage: $(basename $0) [-c] [-y]"
        echo "       -c call git commit after each directory update"
+       echo "       -y proceed without interruption"
        exit 1
        ;;
   esac
