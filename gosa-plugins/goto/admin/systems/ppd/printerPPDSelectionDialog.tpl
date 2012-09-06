@@ -11,6 +11,6 @@ $$(".sortableListItem").each(function(e){
 {/literal}
 <hr>
 <div class="plugin-actions">
-<input type="text" name="ppdSearch" title="PPD-Suchfeld" value="{$ppdFilter}" /><button type="submit" name="SearchPPD">Nach {if $mode eq "ppd"}Druckermodell{else}Hersteller{/if} suchen</button>
+<input type="text" name="ppdSearch" title="{t}PPD search field{/t}" value="{$ppdFilter}" /><button type="submit" name="SearchPPD">{if $mode eq "ppd"}{t}Search for printer model{/t}{else}{t}Search for printer manufacturer{/t}{/if}</button>
  <button type='submit' name='ClosePPDSelection'>{t}Close{/t}</button>
 </div>
