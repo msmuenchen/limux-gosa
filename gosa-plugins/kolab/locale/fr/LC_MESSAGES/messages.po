@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2009-06-30 11:15+0200\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
@@ -242,143 +242,6 @@ msgstr ""
 msgid "Please remove the mail settings first!"
 msgstr "Veuillez d'abord supprimer les paramètres de messagerie !"
 
-#: admin/systems/services/kolab/servkolab.tpl:1
-#, fuzzy
-msgid "Kolab service"
-msgstr "Service de messagerie Kolab"
-
-#: admin/systems/services/kolab/servkolab.tpl:5
-msgid "Generic"
-msgstr "Informations"
-
-#: admin/systems/services/kolab/servkolab.tpl:7
-#, fuzzy
-msgid "Generic settings"
-msgstr "Paramètres par défaut des utilisateurs"
-
-#: admin/systems/services/kolab/servkolab.tpl:10
-#: admin/systems/services/kolab/class_servKolab.inc:484
-msgid "Postfix mydomain"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:20
-#: admin/systems/services/kolab/class_servKolab.inc:486
-#, fuzzy
-msgid "Cyrus administrators"
-msgstr "Administrateur Cyrus"
-
-#: admin/systems/services/kolab/servkolab.tpl:30
-#: admin/systems/services/kolab/class_servKolab.inc:371
-msgid "Mail domains"
-msgstr "Domaines de messagerie"
-
-#: admin/systems/services/kolab/servkolab.tpl:30
-msgid "Postfix mydestination"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:47
-#: admin/systems/services/kolab/class_servKolab.inc:476
-msgid "Services"
-msgstr "Services"
-
-#: admin/systems/services/kolab/servkolab.tpl:48
-#, fuzzy
-msgid "Service settings"
-msgstr "Paramètres par défaut des utilisateurs"
-
-#: admin/systems/services/kolab/servkolab.tpl:57
-#: admin/systems/services/kolab/class_servKolab.inc:488
-msgid "POP3 service"
-msgstr "Service POP3"
-
-#: admin/systems/services/kolab/servkolab.tpl:68
-#: admin/systems/services/kolab/class_servKolab.inc:489
-msgid "POP3/SSL service"
-msgstr "Service POP3/SSL"
-
-#: admin/systems/services/kolab/servkolab.tpl:79
-#: admin/systems/services/kolab/class_servKolab.inc:491
-msgid "IMAP service"
-msgstr "Service IMAP"
-
-#: admin/systems/services/kolab/servkolab.tpl:90
-#: admin/systems/services/kolab/class_servKolab.inc:492
-msgid "IMAP/SSL service"
-msgstr "Service IMAP/SSL"
-
-#: admin/systems/services/kolab/servkolab.tpl:101
-#: admin/systems/services/kolab/class_servKolab.inc:494
-msgid "Sieve service"
-msgstr "Service sieve"
-
-#: admin/systems/services/kolab/servkolab.tpl:113
-msgid "FTP FreeBusy service (legacy, not interoperable with Kolab2 FreeBusy)"
-msgstr ""
-"Service des options de disponibilités par FTP (ancien, pas compatible avec "
-"les options de disponibilités de Kolab2)"
-
-#: admin/systems/services/kolab/servkolab.tpl:124
-msgid "HTTP FreeBusy service (legacy)"
-msgstr "Service d'option de disponibilité par HTTP (ancien)"
-
-#: admin/systems/services/kolab/servkolab.tpl:135
-#, fuzzy
-msgid "Amavis email scanning (virus/SPAM)"
-msgstr "Scan des messages par Amavis (antivirus/antispam)"
-
-#: admin/systems/services/kolab/servkolab.tpl:142
-#: admin/systems/services/kolab/servkolab.tpl:143
-#: admin/systems/services/kolab/class_servKolab.inc:499
-msgid "Quota settings"
-msgstr "Préférences des quotas"
-
-#: admin/systems/services/kolab/servkolab.tpl:156
-#: admin/systems/services/kolab/servkolab.tpl:157
-msgid "Free/Busy settings"
-msgstr "Préférences des options de disponibilités"
-
-#: admin/systems/services/kolab/servkolab.tpl:162
-msgid "Allow unauthenticated downloading of Free/Busy information"
-msgstr ""
-"Permettre le téléchargement des informations de disponibilités de manière "
-"anonyme"
-
-#: admin/systems/services/kolab/servkolab.tpl:177
-#: admin/systems/services/kolab/class_servKolab.inc:504
-msgid "SMTP privileged networks"
-msgstr "Réseaux SMTP privilégiés"
-
-#: admin/systems/services/kolab/servkolab.tpl:179
-msgid "Hosts/networks allowed to relay"
-msgstr "Machines/Réseaux qui peuvent relayer des messages"
-
-#: admin/systems/services/kolab/servkolab.tpl:192
-#: admin/systems/services/kolab/servkolab.tpl:193
-#, fuzzy
-msgid "SMTP smart host/relay host"
-msgstr "Relais SMTP"
-
-#: admin/systems/services/kolab/servkolab.tpl:200
-#: admin/systems/services/kolab/class_servKolab.inc:505
-#, fuzzy
-msgid "Enable MX lookup for relay host"
-msgstr "Vérification de l'enregistrement MX pour le serveur relais"
-
-#: admin/systems/services/kolab/servkolab.tpl:207
-msgid "Host used to relay mails"
-msgstr "Machine utilisée pour relayer les mails"
-
-#: admin/systems/services/kolab/servkolab.tpl:219
-#: admin/systems/services/kolab/servkolab.tpl:220
-#: admin/systems/services/kolab/class_servKolab.inc:507
-msgid "Accept Internet Mail"
-msgstr "Accepter le courrier électronique venant d'internet"
-
-#: admin/systems/services/kolab/servkolab.tpl:227
-msgid "Accept mail from other domains over non-authenticated SMTP"
-msgstr ""
-"Accepter les messages sur du SMTP non authentifié venant d'autre domaines"
-
 #: admin/systems/services/kolab/class_servKolab.inc:94
 #: admin/systems/services/kolab/class_servKolab.inc:105
 msgid "Name"
@@ -439,14 +302,60 @@ msgstr "Veuillez choisir un nombre entre 1 et 100 pour les quotas."
 msgid "Privileged networks"
 msgstr "Réseaux privilégiés"
 
+#: admin/systems/services/kolab/class_servKolab.inc:371
+#: admin/systems/services/kolab/servkolab.tpl:30
+msgid "Mail domains"
+msgstr "Domaines de messagerie"
+
 #: admin/systems/services/kolab/class_servKolab.inc:465
 #: admin/systems/services/kolab/class_servKolab.inc:476
 msgid "Kolab mail service"
 msgstr "Service de messagerie Kolab"
 
+#: admin/systems/services/kolab/class_servKolab.inc:476
+#: admin/systems/services/kolab/servkolab.tpl:47
+msgid "Services"
+msgstr "Services"
+
+#: admin/systems/services/kolab/class_servKolab.inc:484
+#: admin/systems/services/kolab/servkolab.tpl:10
+msgid "Postfix mydomain"
+msgstr ""
+
 #: admin/systems/services/kolab/class_servKolab.inc:485
 msgid "My destination"
 msgstr ""
+
+#: admin/systems/services/kolab/class_servKolab.inc:486
+#: admin/systems/services/kolab/servkolab.tpl:20
+#, fuzzy
+msgid "Cyrus administrators"
+msgstr "Administrateur Cyrus"
+
+#: admin/systems/services/kolab/class_servKolab.inc:488
+#: admin/systems/services/kolab/servkolab.tpl:57
+msgid "POP3 service"
+msgstr "Service POP3"
+
+#: admin/systems/services/kolab/class_servKolab.inc:489
+#: admin/systems/services/kolab/servkolab.tpl:68
+msgid "POP3/SSL service"
+msgstr "Service POP3/SSL"
+
+#: admin/systems/services/kolab/class_servKolab.inc:491
+#: admin/systems/services/kolab/servkolab.tpl:79
+msgid "IMAP service"
+msgstr "Service IMAP"
+
+#: admin/systems/services/kolab/class_servKolab.inc:492
+#: admin/systems/services/kolab/servkolab.tpl:90
+msgid "IMAP/SSL service"
+msgstr "Service IMAP/SSL"
+
+#: admin/systems/services/kolab/class_servKolab.inc:494
+#: admin/systems/services/kolab/servkolab.tpl:101
+msgid "Sieve service"
+msgstr "Service sieve"
 
 #: admin/systems/services/kolab/class_servKolab.inc:495
 msgid "FTP FreeBusy service"
@@ -460,6 +369,12 @@ msgstr "Service d'option de disponibilité par HTTP"
 msgid "Enable virus scan"
 msgstr "Activer la vérification antivirus de la messagerie"
 
+#: admin/systems/services/kolab/class_servKolab.inc:499
+#: admin/systems/services/kolab/servkolab.tpl:142
+#: admin/systems/services/kolab/servkolab.tpl:143
+msgid "Quota settings"
+msgstr "Préférences des quotas"
+
 #: admin/systems/services/kolab/class_servKolab.inc:501
 msgid "Allow unauthenticated free busy"
 msgstr ""
@@ -470,10 +385,95 @@ msgstr ""
 msgid "kolabFreeBusyFuture"
 msgstr "Nombre de jours dans le futur pour les options de disponibilités"
 
+#: admin/systems/services/kolab/class_servKolab.inc:504
+#: admin/systems/services/kolab/servkolab.tpl:177
+msgid "SMTP privileged networks"
+msgstr "Réseaux SMTP privilégiés"
+
+#: admin/systems/services/kolab/class_servKolab.inc:505
+#: admin/systems/services/kolab/servkolab.tpl:200
+#, fuzzy
+msgid "Enable MX lookup for relay host"
+msgstr "Vérification de l'enregistrement MX pour le serveur relais"
+
 #: admin/systems/services/kolab/class_servKolab.inc:506
 #, fuzzy
 msgid "Relay host"
 msgstr "Système relais"
+
+#: admin/systems/services/kolab/class_servKolab.inc:507
+#: admin/systems/services/kolab/servkolab.tpl:219
+#: admin/systems/services/kolab/servkolab.tpl:220
+msgid "Accept Internet Mail"
+msgstr "Accepter le courrier électronique venant d'internet"
+
+#: admin/systems/services/kolab/servkolab.tpl:1
+#, fuzzy
+msgid "Kolab service"
+msgstr "Service de messagerie Kolab"
+
+#: admin/systems/services/kolab/servkolab.tpl:5
+msgid "Generic"
+msgstr "Informations"
+
+#: admin/systems/services/kolab/servkolab.tpl:7
+#, fuzzy
+msgid "Generic settings"
+msgstr "Paramètres par défaut des utilisateurs"
+
+#: admin/systems/services/kolab/servkolab.tpl:30
+msgid "Postfix mydestination"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:48
+#, fuzzy
+msgid "Service settings"
+msgstr "Paramètres par défaut des utilisateurs"
+
+#: admin/systems/services/kolab/servkolab.tpl:113
+msgid "FTP FreeBusy service (legacy, not interoperable with Kolab2 FreeBusy)"
+msgstr ""
+"Service des options de disponibilités par FTP (ancien, pas compatible avec "
+"les options de disponibilités de Kolab2)"
+
+#: admin/systems/services/kolab/servkolab.tpl:124
+msgid "HTTP FreeBusy service (legacy)"
+msgstr "Service d'option de disponibilité par HTTP (ancien)"
+
+#: admin/systems/services/kolab/servkolab.tpl:135
+#, fuzzy
+msgid "Amavis email scanning (virus/SPAM)"
+msgstr "Scan des messages par Amavis (antivirus/antispam)"
+
+#: admin/systems/services/kolab/servkolab.tpl:156
+#: admin/systems/services/kolab/servkolab.tpl:157
+msgid "Free/Busy settings"
+msgstr "Préférences des options de disponibilités"
+
+#: admin/systems/services/kolab/servkolab.tpl:162
+msgid "Allow unauthenticated downloading of Free/Busy information"
+msgstr ""
+"Permettre le téléchargement des informations de disponibilités de manière "
+"anonyme"
+
+#: admin/systems/services/kolab/servkolab.tpl:179
+msgid "Hosts/networks allowed to relay"
+msgstr "Machines/Réseaux qui peuvent relayer des messages"
+
+#: admin/systems/services/kolab/servkolab.tpl:192
+#: admin/systems/services/kolab/servkolab.tpl:193
+#, fuzzy
+msgid "SMTP smart host/relay host"
+msgstr "Relais SMTP"
+
+#: admin/systems/services/kolab/servkolab.tpl:207
+msgid "Host used to relay mails"
+msgstr "Machine utilisée pour relayer les mails"
+
+#: admin/systems/services/kolab/servkolab.tpl:227
+msgid "Accept mail from other domains over non-authenticated SMTP"
+msgstr ""
+"Accepter les messages sur du SMTP non authentifié venant d'autre domaines"
 
 #, fuzzy
 #~ msgid "Enter multiple values, separated with"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-09-17 09:35+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: Deutsch <de@li.org>\n"
@@ -21,19 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: personal/netatalk/netatalk.tpl:1
-msgid "Netatalk configuration"
-msgstr "Nettalk-Konfiguration"
-
-#: personal/netatalk/netatalk.tpl:4 personal/netatalk/class_netatalk.inc:224
-#: personal/netatalk/class_netatalk.inc:380
-msgid "Share"
-msgstr "Freigabe"
-
-#: personal/netatalk/netatalk.tpl:16
-msgid "Path"
-msgstr "Pfad"
 
 #: personal/netatalk/class_netatalk.inc:36
 #: personal/netatalk/class_netatalk.inc:173
@@ -61,6 +48,11 @@ msgstr "POSIX"
 msgid "Netatalk or NFS share"
 msgstr "Netatalk- oder NFS-Freigabe"
 
+#: personal/netatalk/class_netatalk.inc:224
+#: personal/netatalk/class_netatalk.inc:380 personal/netatalk/netatalk.tpl:4
+msgid "Share"
+msgstr "Freigabe"
+
 #: personal/netatalk/class_netatalk.inc:288
 #: personal/netatalk/class_netatalk.inc:353
 msgid "LDAP error"
@@ -73,6 +65,14 @@ msgstr "Mein Konto"
 #: personal/netatalk/class_netatalk.inc:379
 msgid "User home path"
 msgstr "Benutzer Basisverzeichnis"
+
+#: personal/netatalk/netatalk.tpl:1
+msgid "Netatalk configuration"
+msgstr "Nettalk-Konfiguration"
+
+#: personal/netatalk/netatalk.tpl:16
+msgid "Path"
+msgstr "Pfad"
 
 #~ msgid "netatalk"
 #~ msgstr "Netatalk"

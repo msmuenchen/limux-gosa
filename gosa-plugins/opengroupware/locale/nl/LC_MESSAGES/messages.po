@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
@@ -19,6 +19,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
+
+#: personal/connectivity/opengroupware/opengw.tpl:8
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
+msgid "Location team"
+msgstr "Teamlocatie"
+
+#: personal/connectivity/opengroupware/opengw.tpl:21
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
+msgid "Template user"
+msgstr "Sjabloongebruiker"
+
+#: personal/connectivity/opengroupware/opengw.tpl:33
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
+msgid "Locked"
+msgstr "Geblokkeerd"
+
+#: personal/connectivity/opengroupware/opengw.tpl:49
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
+msgid "Teams"
+msgstr "Teams"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:6
 msgid "Opengroupware account"
@@ -77,26 +97,6 @@ msgstr "OpenGroupware account"
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:382
 msgid "Name of the database used for OpenGroupware.org connections."
 msgstr ""
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
-#: personal/connectivity/opengroupware/opengw.tpl:8
-msgid "Location team"
-msgstr "Teamlocatie"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
-#: personal/connectivity/opengroupware/opengw.tpl:21
-msgid "Template user"
-msgstr "Sjabloongebruiker"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
-#: personal/connectivity/opengroupware/opengw.tpl:33
-msgid "Locked"
-msgstr "Geblokkeerd"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
-#: personal/connectivity/opengroupware/opengw.tpl:49
-msgid "Teams"
-msgstr "Teams"
 
 #, fuzzy
 #~ msgid "Open Groupware"

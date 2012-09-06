@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
@@ -19,6 +19,160 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
+#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
+msgid "Generic"
+msgstr "Algemeen"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4
+msgid "global defaults"
+msgstr ""
+
+#: admin/sudo/paste_generic.tpl:2
+#, fuzzy
+msgid "Paste sudo entry"
+msgstr "Plakken"
+
+#: admin/sudo/paste_generic.tpl:5 admin/sudo/sudo-list.xml:32
+#: admin/sudo/generic.tpl:7 admin/sudo/generic.tpl:34
+#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
+#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
+#: admin/sudo/class_sudoGeneric.inc:548
+msgid "Name"
+msgstr "Naam"
+
+#: admin/sudo/class_sudoOption.inc:154
+#, fuzzy
+msgid "Unknown option"
+msgstr "Onbekend"
+
+#: admin/sudo/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "De opgegeven naam is ongeldig."
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "string"
+msgstr "Waarschuwing"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
+#: admin/sudo/class_sudoOption.inc:286
+msgid "boolean"
+msgstr ""
+
+#: admin/sudo/class_sudoOption.inc:285
+#, fuzzy
+msgid "integer"
+msgstr "printers"
+
+#: admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "list"
+msgstr "klasse"
+
+#: admin/sudo/class_sudoOption.inc:538 admin/sudo/options.tpl:8
+msgid "Options"
+msgstr "Opties"
+
+#: admin/sudo/class_sudoOption.inc:539 admin/sudo/class_sudoOption.inc:546
+#: admin/sudo/options.tpl:3
+#, fuzzy
+msgid "Sudo options"
+msgstr "Onbekend"
+
+#: admin/sudo/options.tpl:5
+#, fuzzy
+msgid "Option name"
+msgstr "Naam van de locatie"
+
+#: admin/sudo/options.tpl:7
+#, fuzzy
+msgid "Value"
+msgstr "man"
+
+#: admin/sudo/options.tpl:89
+#, fuzzy
+msgid "Available options"
+msgstr "Beschikbare programma's"
+
+#: admin/sudo/sudo-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Parameters"
+
+#: admin/sudo/sudo-filter.xml:36
+#, fuzzy
+msgid "By member"
+msgstr "Groepsleden"
+
+#: admin/sudo/sudo-list.xml:11
+#, fuzzy
+msgid "List of Sudo roles"
+msgstr "Lijst met gebruikers"
+
+#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
+msgid "Role"
+msgstr "Funktie"
+
+#: admin/sudo/sudo-list.xml:40 admin/sudo/generic.tpl:15
+#: admin/sudo/generic.tpl:44 admin/sudo/class_sudoGeneric.inc:549
+msgid "Description"
+msgstr "Omschrijving"
+
+#: admin/sudo/sudo-list.xml:48
+msgid "Actions"
+msgstr "Acties"
+
+#: admin/sudo/sudo-list.xml:59
+msgid "Create"
+msgstr "Aanmaken"
+
+#: admin/sudo/sudo-list.xml:72
+#, fuzzy
+msgid "Default"
+msgstr "Verwijderen"
+
+#: admin/sudo/sudo-list.xml:85
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/sudo/sudo-list.xml:117
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "! onbekend id"
+
+#: admin/sudo/sudo-list.xml:130
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "! onbekend id"
+
+#: admin/sudo/generic.tpl:61
+#, fuzzy
+msgid "Users and groups"
+msgstr "groepen"
+
+#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
+msgid "Add from list"
+msgstr ""
+
+#: admin/sudo/generic.tpl:78
+#, fuzzy
+msgid "Systems"
+msgstr "Systeem"
+
+#: admin/sudo/generic.tpl:99
+#, fuzzy
+msgid "Commands"
+msgstr "en"
+
+#: admin/sudo/generic.tpl:112
+#, fuzzy
+msgid "Run as"
+msgstr "Windows gebruikers"
 
 #: admin/sudo/class_sudoManagement.inc:25
 #, fuzzy
@@ -71,14 +225,6 @@ msgstr "Groep"
 msgid "LDAP error"
 msgstr "LDAP fout:"
 
-#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
-#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
-#: admin/sudo/class_sudoGeneric.inc:548 admin/sudo/generic.tpl:7
-#: admin/sudo/generic.tpl:34 admin/sudo/sudo-list.xml:32
-#: admin/sudo/paste_generic.tpl:5
-msgid "Name"
-msgstr "Naam"
-
 #: admin/sudo/class_sudoGeneric.inc:525
 #, fuzzy
 msgid "Sudo"
@@ -98,11 +244,6 @@ msgstr "Kiosk profiel instellingen"
 msgid "System trust"
 msgstr "Systeem vertrouwen"
 
-#: admin/sudo/class_sudoGeneric.inc:549 admin/sudo/generic.tpl:15
-#: admin/sudo/generic.tpl:44 admin/sudo/sudo-list.xml:40
-msgid "Description"
-msgstr "Omschrijving"
-
 #: admin/sudo/class_sudoGeneric.inc:550
 msgid "Users"
 msgstr "Gebruikers"
@@ -121,147 +262,6 @@ msgstr "Windows gebruikers"
 #, fuzzy
 msgid "Access control list"
 msgstr "Toegangsopties"
-
-#: admin/sudo/options.tpl:3 admin/sudo/class_sudoOption.inc:539
-#: admin/sudo/class_sudoOption.inc:546
-#, fuzzy
-msgid "Sudo options"
-msgstr "Onbekend"
-
-#: admin/sudo/options.tpl:5
-#, fuzzy
-msgid "Option name"
-msgstr "Naam van de locatie"
-
-#: admin/sudo/options.tpl:7
-#, fuzzy
-msgid "Value"
-msgstr "man"
-
-#: admin/sudo/options.tpl:8 admin/sudo/class_sudoOption.inc:538
-msgid "Options"
-msgstr "Opties"
-
-#: admin/sudo/options.tpl:89
-#, fuzzy
-msgid "Available options"
-msgstr "Beschikbare programma's"
-
-#: admin/sudo/sudo-filter.xml:22
-#, fuzzy
-msgid "Default filter"
-msgstr "Parameters"
-
-#: admin/sudo/sudo-filter.xml:36
-#, fuzzy
-msgid "By member"
-msgstr "Groepsleden"
-
-#: admin/sudo/class_sudoOption.inc:154
-#, fuzzy
-msgid "Unknown option"
-msgstr "Onbekend"
-
-#: admin/sudo/class_sudoOption.inc:155
-#, fuzzy, php-format
-msgid "The Sudo option '%s' is invalid!"
-msgstr "De opgegeven naam is ongeldig."
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "string"
-msgstr "Waarschuwing"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
-#: admin/sudo/class_sudoOption.inc:286
-msgid "boolean"
-msgstr ""
-
-#: admin/sudo/class_sudoOption.inc:285
-#, fuzzy
-msgid "integer"
-msgstr "printers"
-
-#: admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "list"
-msgstr "klasse"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
-#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
-#: admin/sudo/paste_generic.tpl:1
-msgid "Generic"
-msgstr "Algemeen"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4
-#: admin/sudo/paste_generic.tpl:1
-msgid "global defaults"
-msgstr ""
-
-#: admin/sudo/generic.tpl:61
-#, fuzzy
-msgid "Users and groups"
-msgstr "groepen"
-
-#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
-msgid "Add from list"
-msgstr ""
-
-#: admin/sudo/generic.tpl:78
-#, fuzzy
-msgid "Systems"
-msgstr "Systeem"
-
-#: admin/sudo/generic.tpl:99
-#, fuzzy
-msgid "Commands"
-msgstr "en"
-
-#: admin/sudo/generic.tpl:112
-#, fuzzy
-msgid "Run as"
-msgstr "Windows gebruikers"
-
-#: admin/sudo/sudo-list.xml:11
-#, fuzzy
-msgid "List of Sudo roles"
-msgstr "Lijst met gebruikers"
-
-#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
-msgid "Role"
-msgstr "Funktie"
-
-#: admin/sudo/sudo-list.xml:48
-msgid "Actions"
-msgstr "Acties"
-
-#: admin/sudo/sudo-list.xml:59
-msgid "Create"
-msgstr "Aanmaken"
-
-#: admin/sudo/sudo-list.xml:72
-#, fuzzy
-msgid "Default"
-msgstr "Verwijderen"
-
-#: admin/sudo/sudo-list.xml:85
-msgid "Remove"
-msgstr "Verwijderen"
-
-#: admin/sudo/sudo-list.xml:117
-#, fuzzy
-msgid "Edit Sudo role"
-msgstr "! onbekend id"
-
-#: admin/sudo/sudo-list.xml:130
-#, fuzzy
-msgid "Remove Sudo role"
-msgstr "! onbekend id"
-
-#: admin/sudo/paste_generic.tpl:2
-#, fuzzy
-msgid "Paste sudo entry"
-msgstr "Plakken"
 
 #, fuzzy
 #~ msgid "Filter"

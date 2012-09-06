@@ -101,18 +101,20 @@ class deviceGeneric extends plugin
             $message[]= msgPool::invalid(_("Description"),$this->description,"/^[a-z0-9!\"?.,;:-_\(\) ]*$/i");
         }
 
-        /* Skip serial check if vendor and product id are given */
-        if(preg_match("/^\s+$/i",$this->devID)){
-            $message[]= msgPool::invalid(_("iSerial"),"","01234");
-        }elseif(empty($this->devID) && $this->devID!="0"){
-            $message[]= msgPool::required(_("iSerial"));
-        }
-        if(empty($this->serial) || !$this->is_2byteHex($this->serial)){
+	/* check the given values for formatting */
+	if(!empty($this->serial) && !$this->is_2byteHex($this->serial)){
             $message[]= msgPool::invalid(_("Product-ID"),"","","0x1234");
         }
-        if(empty($this->vendor) || !$this->is_2byteHex($this->vendor)){
+        if(!empty($this->vendor) && !$this->is_2byteHex($this->vendor)){
             $message[]= msgPool::invalid(_("Vendor-ID"),"","","0x1234");
         }
+	/* the iSerialNumber is not checked for format, according to
+           USB specs (section 9.6.1) it is a generic String */
+
+	/* now check if every required value is given */
+	if(empty($this->devID) && (empty($this->vendor) || empty($this->serial))) {
+		$message[]=_("No iSerial specified and VID or PID missing");
+	}
 
         // Check if a wrong base was supplied
         if(!$this->baseSelector->checkLastBaseUpdate()){

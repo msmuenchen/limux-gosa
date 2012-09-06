@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GOsa plugins - sudo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-03-13 15:51-0300\n"
 "Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
 "Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
@@ -18,6 +18,148 @@ msgstr ""
 "Language: \n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
+#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
+msgid "Generic"
+msgstr "Geral"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4
+msgid "global defaults"
+msgstr "padrões globais"
+
+#: admin/sudo/paste_generic.tpl:2
+#, fuzzy
+msgid "Paste sudo entry"
+msgstr "Colar"
+
+#: admin/sudo/paste_generic.tpl:5 admin/sudo/sudo-list.xml:32
+#: admin/sudo/generic.tpl:7 admin/sudo/generic.tpl:34
+#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
+#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
+#: admin/sudo/class_sudoGeneric.inc:548
+msgid "Name"
+msgstr "Nome"
+
+#: admin/sudo/class_sudoOption.inc:154
+msgid "Unknown option"
+msgstr "Opção desconhecida"
+
+#: admin/sudo/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "A opção '%s' é inválida"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
+msgid "string"
+msgstr "string"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
+#: admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "boolean"
+msgstr "boleano"
+
+#: admin/sudo/class_sudoOption.inc:285
+msgid "integer"
+msgstr "inteiro"
+
+#: admin/sudo/class_sudoOption.inc:286
+msgid "list"
+msgstr "lista"
+
+#: admin/sudo/class_sudoOption.inc:538 admin/sudo/options.tpl:8
+msgid "Options"
+msgstr "Opções"
+
+#: admin/sudo/class_sudoOption.inc:539 admin/sudo/class_sudoOption.inc:546
+#: admin/sudo/options.tpl:3
+msgid "Sudo options"
+msgstr "Opções Sudo"
+
+#: admin/sudo/options.tpl:5
+msgid "Option name"
+msgstr "Opção"
+
+#: admin/sudo/options.tpl:7
+msgid "Value"
+msgstr "Valor"
+
+#: admin/sudo/options.tpl:89
+msgid "Available options"
+msgstr "Opções disponíveis"
+
+#: admin/sudo/sudo-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Aplicar filtro"
+
+#: admin/sudo/sudo-filter.xml:36
+#, fuzzy
+msgid "By member"
+msgstr "Sem membros"
+
+#: admin/sudo/sudo-list.xml:11
+#, fuzzy
+msgid "List of Sudo roles"
+msgstr "Lista de papéis do sudo"
+
+#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
+msgid "Role"
+msgstr "Papéis"
+
+#: admin/sudo/sudo-list.xml:40 admin/sudo/generic.tpl:15
+#: admin/sudo/generic.tpl:44 admin/sudo/class_sudoGeneric.inc:549
+msgid "Description"
+msgstr "Descrição"
+
+#: admin/sudo/sudo-list.xml:48
+msgid "Actions"
+msgstr "Ações"
+
+#: admin/sudo/sudo-list.xml:59
+msgid "Create"
+msgstr "Criar"
+
+#: admin/sudo/sudo-list.xml:72
+msgid "Default"
+msgstr "Padrão"
+
+#: admin/sudo/sudo-list.xml:85
+msgid "Remove"
+msgstr "Remover"
+
+#: admin/sudo/sudo-list.xml:117
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "Editar papel sudo"
+
+#: admin/sudo/sudo-list.xml:130
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "Remover papel sudo"
+
+#: admin/sudo/generic.tpl:61
+msgid "Users and groups"
+msgstr "Usuários e grupos"
+
+#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
+msgid "Add from list"
+msgstr "Adicionar da lista"
+
+#: admin/sudo/generic.tpl:78
+msgid "Systems"
+msgstr "Sistemas"
+
+#: admin/sudo/generic.tpl:99
+msgid "Commands"
+msgstr "Comandos"
+
+#: admin/sudo/generic.tpl:112
+msgid "Run as"
+msgstr "Executar como"
 
 #: admin/sudo/class_sudoManagement.inc:25
 #, fuzzy
@@ -68,14 +210,6 @@ msgstr "Grupo"
 msgid "LDAP error"
 msgstr "Erro LDAP"
 
-#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
-#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
-#: admin/sudo/class_sudoGeneric.inc:548 admin/sudo/generic.tpl:7
-#: admin/sudo/generic.tpl:34 admin/sudo/sudo-list.xml:32
-#: admin/sudo/paste_generic.tpl:5
-msgid "Name"
-msgstr "Nome"
-
 #: admin/sudo/class_sudoGeneric.inc:525
 msgid "Sudo"
 msgstr "Sudo"
@@ -93,11 +227,6 @@ msgstr "Caminho dos perfis Kiosk"
 msgid "System trust"
 msgstr "Sistema de confiança"
 
-#: admin/sudo/class_sudoGeneric.inc:549 admin/sudo/generic.tpl:15
-#: admin/sudo/generic.tpl:44 admin/sudo/sudo-list.xml:40
-msgid "Description"
-msgstr "Descrição"
-
 #: admin/sudo/class_sudoGeneric.inc:550
 msgid "Users"
 msgstr "Usuários"
@@ -113,135 +242,6 @@ msgstr "Executar como o usuário"
 #: admin/sudo/class_sudoGeneric.inc:554
 msgid "Access control list"
 msgstr "Lista de controle de acesso"
-
-#: admin/sudo/options.tpl:3 admin/sudo/class_sudoOption.inc:539
-#: admin/sudo/class_sudoOption.inc:546
-msgid "Sudo options"
-msgstr "Opções Sudo"
-
-#: admin/sudo/options.tpl:5
-msgid "Option name"
-msgstr "Opção"
-
-#: admin/sudo/options.tpl:7
-msgid "Value"
-msgstr "Valor"
-
-#: admin/sudo/options.tpl:8 admin/sudo/class_sudoOption.inc:538
-msgid "Options"
-msgstr "Opções"
-
-#: admin/sudo/options.tpl:89
-msgid "Available options"
-msgstr "Opções disponíveis"
-
-#: admin/sudo/sudo-filter.xml:22
-#, fuzzy
-msgid "Default filter"
-msgstr "Aplicar filtro"
-
-#: admin/sudo/sudo-filter.xml:36
-#, fuzzy
-msgid "By member"
-msgstr "Sem membros"
-
-#: admin/sudo/class_sudoOption.inc:154
-msgid "Unknown option"
-msgstr "Opção desconhecida"
-
-#: admin/sudo/class_sudoOption.inc:155
-#, fuzzy, php-format
-msgid "The Sudo option '%s' is invalid!"
-msgstr "A opção '%s' é inválida"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
-msgid "string"
-msgstr "string"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
-#: admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "boolean"
-msgstr "boleano"
-
-#: admin/sudo/class_sudoOption.inc:285
-msgid "integer"
-msgstr "inteiro"
-
-#: admin/sudo/class_sudoOption.inc:286
-msgid "list"
-msgstr "lista"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
-#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
-#: admin/sudo/paste_generic.tpl:1
-msgid "Generic"
-msgstr "Geral"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4
-#: admin/sudo/paste_generic.tpl:1
-msgid "global defaults"
-msgstr "padrões globais"
-
-#: admin/sudo/generic.tpl:61
-msgid "Users and groups"
-msgstr "Usuários e grupos"
-
-#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
-msgid "Add from list"
-msgstr "Adicionar da lista"
-
-#: admin/sudo/generic.tpl:78
-msgid "Systems"
-msgstr "Sistemas"
-
-#: admin/sudo/generic.tpl:99
-msgid "Commands"
-msgstr "Comandos"
-
-#: admin/sudo/generic.tpl:112
-msgid "Run as"
-msgstr "Executar como"
-
-#: admin/sudo/sudo-list.xml:11
-#, fuzzy
-msgid "List of Sudo roles"
-msgstr "Lista de papéis do sudo"
-
-#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
-msgid "Role"
-msgstr "Papéis"
-
-#: admin/sudo/sudo-list.xml:48
-msgid "Actions"
-msgstr "Ações"
-
-#: admin/sudo/sudo-list.xml:59
-msgid "Create"
-msgstr "Criar"
-
-#: admin/sudo/sudo-list.xml:72
-msgid "Default"
-msgstr "Padrão"
-
-#: admin/sudo/sudo-list.xml:85
-msgid "Remove"
-msgstr "Remover"
-
-#: admin/sudo/sudo-list.xml:117
-#, fuzzy
-msgid "Edit Sudo role"
-msgstr "Editar papel sudo"
-
-#: admin/sudo/sudo-list.xml:130
-#, fuzzy
-msgid "Remove Sudo role"
-msgstr "Remover papel sudo"
-
-#: admin/sudo/paste_generic.tpl:2
-#, fuzzy
-msgid "Paste sudo entry"
-msgstr "Colar"
 
 #~ msgid "Filter"
 #~ msgstr "Filtro"

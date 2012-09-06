@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2007-07-14 21:45+0100\n"
 "Last-Translator: Piotr Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
@@ -14,215 +14,6 @@ msgstr ""
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: iso-8859-2\n"
 "X-Poedit-Basepath: tedst\n"
-
-#: personal/samba/samba3.tpl:1
-#, fuzzy
-msgid "Samba configuration"
-msgstr "Konfiguracja PHP"
-
-#: personal/samba/samba3.tpl:8
-msgid "Generic"
-msgstr "Ogólne"
-
-#: personal/samba/samba3.tpl:14
-#, fuzzy
-msgid "Path configuration"
-msgstr "Konfiguracja PHP"
-
-#: personal/samba/samba3.tpl:16 personal/samba/samba3.tpl:116
-#: personal/samba/class_sambaAccount.inc:879
-#: personal/samba/class_sambaAccount.inc:1238
-msgid "Home directory"
-msgstr "Katalog domowy"
-
-#: personal/samba/samba3.tpl:29 personal/samba/class_sambaAccount.inc:1188
-msgid "Domain"
-msgstr "Domena"
-
-#: personal/samba/samba3.tpl:38
-#, fuzzy
-msgid "Show information"
-msgstr "Informacje osobiste"
-
-#: personal/samba/samba3.tpl:51
-msgid "Profile and script path settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:53
-msgid "Script path"
-msgstr "Ścieżka do skryptu"
-
-#: personal/samba/samba3.tpl:61 personal/samba/samba3.tpl:129
-#: personal/samba/class_sambaAccount.inc:880
-#: personal/samba/class_sambaAccount.inc:1239
-msgid "Profile path"
-msgstr "Ścieżka do profilu"
-
-#: personal/samba/samba3.tpl:75
-msgid "Terminal Server"
-msgstr "Terminal Server"
-
-#: personal/samba/samba3.tpl:77
-#, fuzzy
-msgid "Terminal server settings"
-msgstr "Terminal Server"
-
-#: personal/samba/samba3.tpl:113 personal/samba/class_sambaAccount.inc:1191
-msgid "Allow login on terminal server"
-msgstr "Zezwól na logowanie do serwera terminali"
-
-#: personal/samba/samba3.tpl:114
-msgid "Terminal server connection settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:152 personal/samba/class_sambaAccount.inc:1192
-#, fuzzy
-msgid "Inherit client configuration"
-msgstr "Odziedzicz konfigurację klienta"
-
-#: personal/samba/samba3.tpl:153
-#, fuzzy
-msgid "Client configuration"
-msgstr "Konfiguracja"
-
-#: personal/samba/samba3.tpl:155
-msgid "Initial program"
-msgstr "Program pierwotny"
-
-#: personal/samba/samba3.tpl:163
-msgid "Working directory"
-msgstr "Katalog roboczy"
-
-#: personal/samba/samba3.tpl:177 personal/samba/samba3.tpl:183
-#, fuzzy
-msgid "Connection timeout settings"
-msgstr "Informacje o połączeniu"
-
-#: personal/samba/samba3.tpl:182
-msgid "Timeout settings (in minutes)"
-msgstr "Ustawienia Timeoutu (w minutach)"
-
-#: personal/samba/samba3.tpl:198 personal/samba/class_sambaAccount.inc:887
-#: personal/samba/class_sambaAccount.inc:1246
-msgid "Connection"
-msgstr "Połączenie"
-
-#: personal/samba/samba3.tpl:212 personal/samba/class_sambaAccount.inc:888
-#: personal/samba/class_sambaAccount.inc:1247
-msgid "Disconnection"
-msgstr "Rozłączenie"
-
-#: personal/samba/samba3.tpl:226 personal/samba/class_sambaAccount.inc:889
-#: personal/samba/class_sambaAccount.inc:1248
-msgid "IDLE"
-msgstr "BEZCZYNNY"
-
-#: personal/samba/samba3.tpl:244 personal/samba/samba3.tpl:245
-msgid "Client devices"
-msgstr "Urządzenia klienta"
-
-#: personal/samba/samba3.tpl:251
-#, fuzzy
-msgid "Connect client drives at log on"
-msgstr "Podłącz dyski klienta przy logowaniu"
-
-#: personal/samba/samba3.tpl:259
-#, fuzzy
-msgid "Connect client printers at log on"
-msgstr "Podłącz drukarki klienta przy logowaniu"
-
-#: personal/samba/samba3.tpl:267
-msgid "Default to main client printer"
-msgstr "Ustaw główną drukarkę klienta jako domyślną"
-
-#: personal/samba/samba3.tpl:279 personal/samba/samba3.tpl:280
-msgid "Miscellaneous"
-msgstr "Różne"
-
-#: personal/samba/samba3.tpl:283
-msgid "Shadowing"
-msgstr "Shadowing"
-
-#: personal/samba/samba3.tpl:294
-msgid "On broken or timed out"
-msgstr "Przy rozłączeniu lub timeoucie"
-
-#: personal/samba/samba3.tpl:304
-msgid "Reconnect if disconnected"
-msgstr "Połącz jeśli rozłączono"
-
-#: personal/samba/samba3.tpl:321 personal/samba/samba3.tpl:324
-msgid "Access options"
-msgstr "Opcje dostępu"
-
-#: personal/samba/samba3.tpl:339 personal/samba/class_sambaAccount.inc:1194
-#, fuzzy
-msgid "Enforce password change"
-msgstr "Wymuś zmianę hasła podczas logowania"
-
-#: personal/samba/samba3.tpl:350
-#, fuzzy
-msgid "The password never expires"
-msgstr "Hasło wygasa"
-
-#: personal/samba/samba3.tpl:361 personal/samba/class_sambaAccount.inc:1196
-msgid "Login from windows client requires no password"
-msgstr "Logowanie z klienta windows nie wymaga hasła"
-
-#: personal/samba/samba3.tpl:372 personal/samba/class_sambaAccount.inc:1198
-msgid "Lock samba account"
-msgstr "Zablokuj konto samba"
-
-#: personal/samba/samba3.tpl:388 personal/samba/samba3.tpl:434
-#: personal/samba/class_sambaAccount.inc:864
-#: personal/samba/class_sambaAccount.inc:866
-#: personal/samba/class_sambaAccount.inc:1264
-#: personal/samba/class_sambaAccount.inc:1266
-msgid "Account expires after"
-msgstr "Konto wygasa po"
-
-#: personal/samba/samba3.tpl:411
-#, fuzzy
-msgid "Cannot change password"
-msgstr "Zmień hasło"
-
-#: personal/samba/samba3.tpl:461
-#, fuzzy
-msgid "Samba log on times"
-msgstr "Typ grupy Samba"
-
-#: personal/samba/samba3.tpl:461
-#, fuzzy
-msgid "Edit settings..."
-msgstr "Ustawienia pocztowe"
-
-#: personal/samba/samba3.tpl:472
-msgid "Allow connection from these workstations only"
-msgstr "Zezwól na połączenia tylko z tych stacji"
-
-#: personal/samba/samba3.tpl:483
-#, fuzzy
-msgid "Used by all users"
-msgstr "ACL jest prawidłowy dla wszystkich użytkowników"
-
-#: personal/samba/samba3.tpl:486
-msgid "Used by some users"
-msgstr ""
-
-#: personal/samba/sambaLogonHours.tpl:22
-#, fuzzy
-msgid "Specify the hours this user is allowed to log in"
-msgstr "Wybierz serwer poczty który będzie przechowywał skrzynkę użytkownika"
-
-#: personal/samba/sambaLogonHours.tpl:24
-#, fuzzy
-msgid "Samba logon hours"
-msgstr "Typ grupy Samba"
-
-#: personal/samba/sambaLogonHours.tpl:28
-#, fuzzy
-msgid "Hour"
-msgstr "godzina"
 
 #: personal/samba/class_sambaAccount.inc:24
 #: personal/samba/class_sambaAccount.inc:242
@@ -491,6 +282,14 @@ msgstr "Brak uprawnień do zmiay hasła"
 msgid "LDAP error"
 msgstr "błąd LDAP:"
 
+#: personal/samba/class_sambaAccount.inc:864
+#: personal/samba/class_sambaAccount.inc:866
+#: personal/samba/class_sambaAccount.inc:1264
+#: personal/samba/class_sambaAccount.inc:1266 personal/samba/samba3.tpl:388
+#: personal/samba/samba3.tpl:434
+msgid "Account expires after"
+msgstr "Konto wygasa po"
+
 #: personal/samba/class_sambaAccount.inc:872
 #, fuzzy
 msgid "Home drive"
@@ -500,6 +299,33 @@ msgstr "Katalog domowy"
 #, fuzzy
 msgid "Home path"
 msgstr "Telefon domowy"
+
+#: personal/samba/class_sambaAccount.inc:879
+#: personal/samba/class_sambaAccount.inc:1238 personal/samba/samba3.tpl:16
+#: personal/samba/samba3.tpl:116
+msgid "Home directory"
+msgstr "Katalog domowy"
+
+#: personal/samba/class_sambaAccount.inc:880
+#: personal/samba/class_sambaAccount.inc:1239 personal/samba/samba3.tpl:61
+#: personal/samba/samba3.tpl:129
+msgid "Profile path"
+msgstr "Ścieżka do profilu"
+
+#: personal/samba/class_sambaAccount.inc:887
+#: personal/samba/class_sambaAccount.inc:1246 personal/samba/samba3.tpl:198
+msgid "Connection"
+msgstr "Połączenie"
+
+#: personal/samba/class_sambaAccount.inc:888
+#: personal/samba/class_sambaAccount.inc:1247 personal/samba/samba3.tpl:212
+msgid "Disconnection"
+msgstr "Rozłączenie"
+
+#: personal/samba/class_sambaAccount.inc:889
+#: personal/samba/class_sambaAccount.inc:1248 personal/samba/samba3.tpl:226
+msgid "IDLE"
+msgstr "BEZCZYNNY"
 
 #: personal/samba/class_sambaAccount.inc:898
 #, fuzzy
@@ -541,6 +367,10 @@ msgstr "Ogólny katalog domowy"
 msgid "Generic samba home drive"
 msgstr "Podstawowy dysk domowy samba"
 
+#: personal/samba/class_sambaAccount.inc:1188 personal/samba/samba3.tpl:29
+msgid "Domain"
+msgstr "Domena"
+
 #: personal/samba/class_sambaAccount.inc:1189
 msgid "Generic script path"
 msgstr "Ogólna ścieżka do skryptu"
@@ -549,19 +379,41 @@ msgstr "Ogólna ścieżka do skryptu"
 msgid "Generic profile path"
 msgstr "Ogólna ścieżka do profilu"
 
+#: personal/samba/class_sambaAccount.inc:1191 personal/samba/samba3.tpl:113
+msgid "Allow login on terminal server"
+msgstr "Zezwól na logowanie do serwera terminali"
+
+#: personal/samba/class_sambaAccount.inc:1192 personal/samba/samba3.tpl:152
+#, fuzzy
+msgid "Inherit client configuration"
+msgstr "Odziedzicz konfigurację klienta"
+
 #: personal/samba/class_sambaAccount.inc:1193
 msgid "Account expires"
 msgstr "Konto wygasa"
+
+#: personal/samba/class_sambaAccount.inc:1194 personal/samba/samba3.tpl:339
+#, fuzzy
+msgid "Enforce password change"
+msgstr "Wymuś zmianę hasła podczas logowania"
 
 #: personal/samba/class_sambaAccount.inc:1195
 #, fuzzy
 msgid "Disallow password change"
 msgstr "Wymuś zmianę hasła podczas logowania"
 
+#: personal/samba/class_sambaAccount.inc:1196 personal/samba/samba3.tpl:361
+msgid "Login from windows client requires no password"
+msgstr "Logowanie z klienta windows nie wymaga hasła"
+
 #: personal/samba/class_sambaAccount.inc:1197
 #, fuzzy
 msgid "Password never expires"
 msgstr "Hasło wygasa"
+
+#: personal/samba/class_sambaAccount.inc:1198 personal/samba/samba3.tpl:372
+msgid "Lock samba account"
+msgstr "Zablokuj konto samba"
 
 #: personal/samba/class_sambaAccount.inc:1200
 #, fuzzy
@@ -578,6 +430,178 @@ msgid ""
 "than eight."
 msgstr ""
 "User manager w windows zezwala tylko na 8 klientów. Podano więcej niż 8."
+
+#: personal/samba/samba3.tpl:1
+#, fuzzy
+msgid "Samba configuration"
+msgstr "Konfiguracja PHP"
+
+#: personal/samba/samba3.tpl:8
+msgid "Generic"
+msgstr "Ogólne"
+
+#: personal/samba/samba3.tpl:14
+#, fuzzy
+msgid "Path configuration"
+msgstr "Konfiguracja PHP"
+
+#: personal/samba/samba3.tpl:38
+#, fuzzy
+msgid "Show information"
+msgstr "Informacje osobiste"
+
+#: personal/samba/samba3.tpl:51
+msgid "Profile and script path settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:53
+msgid "Script path"
+msgstr "Ścieżka do skryptu"
+
+#: personal/samba/samba3.tpl:75
+msgid "Terminal Server"
+msgstr "Terminal Server"
+
+#: personal/samba/samba3.tpl:77
+#, fuzzy
+msgid "Terminal server settings"
+msgstr "Terminal Server"
+
+#: personal/samba/samba3.tpl:114
+msgid "Terminal server connection settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:153
+#, fuzzy
+msgid "Client configuration"
+msgstr "Konfiguracja"
+
+#: personal/samba/samba3.tpl:155
+msgid "Initial program"
+msgstr "Program pierwotny"
+
+#: personal/samba/samba3.tpl:163
+msgid "Working directory"
+msgstr "Katalog roboczy"
+
+#: personal/samba/samba3.tpl:177 personal/samba/samba3.tpl:183
+#, fuzzy
+msgid "Connection timeout settings"
+msgstr "Informacje o połączeniu"
+
+#: personal/samba/samba3.tpl:182
+msgid "Timeout settings (in minutes)"
+msgstr "Ustawienia Timeoutu (w minutach)"
+
+#: personal/samba/samba3.tpl:244 personal/samba/samba3.tpl:245
+msgid "Client devices"
+msgstr "Urządzenia klienta"
+
+#: personal/samba/samba3.tpl:251
+#, fuzzy
+msgid "Connect client drives at log on"
+msgstr "Podłącz dyski klienta przy logowaniu"
+
+#: personal/samba/samba3.tpl:259
+#, fuzzy
+msgid "Connect client printers at log on"
+msgstr "Podłącz drukarki klienta przy logowaniu"
+
+#: personal/samba/samba3.tpl:267
+msgid "Default to main client printer"
+msgstr "Ustaw główną drukarkę klienta jako domyślną"
+
+#: personal/samba/samba3.tpl:279 personal/samba/samba3.tpl:280
+msgid "Miscellaneous"
+msgstr "Różne"
+
+#: personal/samba/samba3.tpl:283
+msgid "Shadowing"
+msgstr "Shadowing"
+
+#: personal/samba/samba3.tpl:294
+msgid "On broken or timed out"
+msgstr "Przy rozłączeniu lub timeoucie"
+
+#: personal/samba/samba3.tpl:304
+msgid "Reconnect if disconnected"
+msgstr "Połącz jeśli rozłączono"
+
+#: personal/samba/samba3.tpl:321 personal/samba/samba3.tpl:324
+msgid "Access options"
+msgstr "Opcje dostępu"
+
+#: personal/samba/samba3.tpl:350
+#, fuzzy
+msgid "The password never expires"
+msgstr "Hasło wygasa"
+
+#: personal/samba/samba3.tpl:411
+#, fuzzy
+msgid "Cannot change password"
+msgstr "Zmień hasło"
+
+#: personal/samba/samba3.tpl:461
+#, fuzzy
+msgid "Samba log on times"
+msgstr "Typ grupy Samba"
+
+#: personal/samba/samba3.tpl:461
+#, fuzzy
+msgid "Edit settings..."
+msgstr "Ustawienia pocztowe"
+
+#: personal/samba/samba3.tpl:472
+msgid "Allow connection from these workstations only"
+msgstr "Zezwól na połączenia tylko z tych stacji"
+
+#: personal/samba/samba3.tpl:483
+#, fuzzy
+msgid "Used by all users"
+msgstr "ACL jest prawidłowy dla wszystkich użytkowników"
+
+#: personal/samba/samba3.tpl:486
+msgid "Used by some users"
+msgstr ""
+
+#: personal/samba/sambaLogonHours.tpl:22
+#, fuzzy
+msgid "Specify the hours this user is allowed to log in"
+msgstr "Wybierz serwer poczty który będzie przechowywał skrzynkę użytkownika"
+
+#: personal/samba/sambaLogonHours.tpl:24
+#, fuzzy
+msgid "Samba logon hours"
+msgstr "Typ grupy Samba"
+
+#: personal/samba/sambaLogonHours.tpl:28
+#, fuzzy
+msgid "Hour"
+msgstr "godzina"
+
+#: admin/systems/samba/wingeneric.tpl:1
+#, fuzzy
+msgid "Windows workstation"
+msgstr "Pokaż stacje robocze"
+
+#: admin/systems/samba/wingeneric.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Ogólne ustawienia użytkownika"
+
+#: admin/systems/samba/wingeneric.tpl:7
+msgid "Machine name"
+msgstr "Nazwa maszyny"
+
+#: admin/systems/samba/wingeneric.tpl:18
+#: admin/systems/samba/class_winGeneric.inc:366
+msgid "Base"
+msgstr "Kontener"
+
+#: admin/systems/samba/wingeneric.tpl:34
+#: admin/systems/samba/class_winGeneric.inc:367
+msgid "Description"
+msgstr "Opis"
 
 #: admin/systems/samba/class_winGeneric.inc:120
 #, fuzzy
@@ -611,30 +635,6 @@ msgstr "Stacja robocza Windows"
 #: admin/systems/samba/class_winGeneric.inc:356
 msgid "RDN for samba machine account storage."
 msgstr ""
-
-#: admin/systems/samba/class_winGeneric.inc:366
-#: admin/systems/samba/wingeneric.tpl:18
-msgid "Base"
-msgstr "Kontener"
-
-#: admin/systems/samba/class_winGeneric.inc:367
-#: admin/systems/samba/wingeneric.tpl:34
-msgid "Description"
-msgstr "Opis"
-
-#: admin/systems/samba/wingeneric.tpl:1
-#, fuzzy
-msgid "Windows workstation"
-msgstr "Pokaż stacje robocze"
-
-#: admin/systems/samba/wingeneric.tpl:5
-#, fuzzy
-msgid "Generic settings"
-msgstr "Ogólne ustawienia użytkownika"
-
-#: admin/systems/samba/wingeneric.tpl:7
-msgid "Machine name"
-msgstr "Nazwa maszyny"
 
 #~ msgid "This does something"
 #~ msgstr "To robi coś"

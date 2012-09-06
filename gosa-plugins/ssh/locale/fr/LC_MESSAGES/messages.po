@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2009-09-01 09:42+0200\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
@@ -17,18 +17,6 @@ msgstr ""
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
-
-#: personal/ssh/sshPublicKey.tpl:2
-msgid "List of SSH public keys for this user"
-msgstr "Liste des clefs SSH publiques pour cet utilisateur"
-
-#: personal/ssh/sshPublicKey.tpl:12
-msgid "Upload key"
-msgstr "Télécharger une clef"
-
-#: personal/ssh/sshPublicKey.tpl:15
-msgid "Remove key"
-msgstr "Enlever une clef"
 
 #: personal/ssh/class_sshPublicKey.inc:122
 #: personal/ssh/class_sshPublicKey.inc:135
@@ -56,3 +44,15 @@ msgstr "Clef SSH %s, Empreinte Digitale: %s, Commentaire: %s"
 #: personal/ssh/class_sshPublicKey.inc:214
 msgid "LDAP error"
 msgstr "Erreur LDAP"
+
+#: personal/ssh/sshPublicKey.tpl:2
+msgid "List of SSH public keys for this user"
+msgstr "Liste des clefs SSH publiques pour cet utilisateur"
+
+#: personal/ssh/sshPublicKey.tpl:12
+msgid "Upload key"
+msgstr "Télécharger une clef"
+
+#: personal/ssh/sshPublicKey.tpl:15
+msgid "Remove key"
+msgstr "Enlever une clef"

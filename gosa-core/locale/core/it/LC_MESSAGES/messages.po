@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
@@ -158,7 +158,7 @@ msgid "Index"
 msgstr ""
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Cerca"
 
@@ -5874,22 +5874,22 @@ msgstr ""
 msgid "Arguments"
 msgstr "Argomenti"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Parametro"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Parametro"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 #, fuzzy
 msgid "Search in subtrees"
 msgstr "Seleziona per mostrare le applicazioni"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Modifica certificati"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-09-17 11:02+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: Deutsch <de@li.org>\n"
@@ -21,42 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: personal/connectivity/squid/proxy.tpl:37
-#: personal/connectivity/squid/class_proxyAccount.inc:331
-msgid "Proxy account"
-msgstr "Proxy Konto"
-
-#: personal/connectivity/squid/proxy.tpl:39
-msgid "Proxy configuration"
-msgstr "Proxy-Konfiguration"
-
-#: personal/connectivity/squid/proxy.tpl:45
-msgid "Filter unwanted content (i.e. pornographic or violence related)"
-msgstr ""
-"Filtern von unerwünschten Inhalten (z.B. pornografische oder gewalttätige "
-"Inhalte)"
-
-#: personal/connectivity/squid/proxy.tpl:56
-msgid "Limit proxy access to working time"
-msgstr "Inhaltsfilterung nur während der Arbeitszeit"
-
-#: personal/connectivity/squid/proxy.tpl:58
-msgid "Worktime restrictions"
-msgstr "Arbeitszeit-Einschränkungen"
-
-#: personal/connectivity/squid/proxy.tpl:97
-#: personal/connectivity/squid/class_proxyAccount.inc:347
-msgid "Restrict proxy usage by quota"
-msgstr "Proxynutzung durch Kontingent einschränken"
-
-#: personal/connectivity/squid/proxy.tpl:99
-msgid "Quota configuration"
-msgstr "Kontingenteinschränkungen"
-
-#: personal/connectivity/squid/proxy.tpl:112
-msgid "per"
-msgstr "pro"
 
 #: personal/connectivity/squid/class_proxyAccount.inc:5
 #: personal/connectivity/squid/class_proxyAccount.inc:330
@@ -106,6 +70,11 @@ msgid "Quota Setting"
 msgstr "Kontingent-Einstellung"
 
 #: personal/connectivity/squid/class_proxyAccount.inc:331
+#: personal/connectivity/squid/proxy.tpl:37
+msgid "Proxy account"
+msgstr "Proxy Konto"
+
+#: personal/connectivity/squid/class_proxyAccount.inc:331
 msgid "Connectivity add-on"
 msgstr "Konnektivitäts-Erweiterung"
 
@@ -124,6 +93,37 @@ msgstr "Filtere ungewünschten Inhalt"
 #: personal/connectivity/squid/class_proxyAccount.inc:346
 msgid "Limit proxy access"
 msgstr "Beschränke Proxy-Zugriff"
+
+#: personal/connectivity/squid/class_proxyAccount.inc:347
+#: personal/connectivity/squid/proxy.tpl:97
+msgid "Restrict proxy usage by quota"
+msgstr "Proxynutzung durch Kontingent einschränken"
+
+#: personal/connectivity/squid/proxy.tpl:39
+msgid "Proxy configuration"
+msgstr "Proxy-Konfiguration"
+
+#: personal/connectivity/squid/proxy.tpl:45
+msgid "Filter unwanted content (i.e. pornographic or violence related)"
+msgstr ""
+"Filtern von unerwünschten Inhalten (z.B. pornografische oder gewalttätige "
+"Inhalte)"
+
+#: personal/connectivity/squid/proxy.tpl:56
+msgid "Limit proxy access to working time"
+msgstr "Inhaltsfilterung nur während der Arbeitszeit"
+
+#: personal/connectivity/squid/proxy.tpl:58
+msgid "Worktime restrictions"
+msgstr "Arbeitszeit-Einschränkungen"
+
+#: personal/connectivity/squid/proxy.tpl:99
+msgid "Quota configuration"
+msgstr "Kontingenteinschränkungen"
+
+#: personal/connectivity/squid/proxy.tpl:112
+msgid "per"
+msgstr "pro"
 
 #~ msgid "This does something"
 #~ msgstr "Dies tut etwas"

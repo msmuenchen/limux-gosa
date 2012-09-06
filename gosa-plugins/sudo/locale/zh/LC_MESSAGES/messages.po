@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
@@ -16,6 +16,160 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
+#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
+msgid "Generic"
+msgstr "通用配置"
+
+#: admin/sudo/paste_generic.tpl:1 admin/sudo/generic.tpl:3
+#: admin/sudo/generic.tpl:4
+msgid "global defaults"
+msgstr ""
+
+#: admin/sudo/paste_generic.tpl:2
+#, fuzzy
+msgid "Paste sudo entry"
+msgstr "粘贴"
+
+#: admin/sudo/paste_generic.tpl:5 admin/sudo/sudo-list.xml:32
+#: admin/sudo/generic.tpl:7 admin/sudo/generic.tpl:34
+#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
+#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
+#: admin/sudo/class_sudoGeneric.inc:548
+msgid "Name"
+msgstr "名称"
+
+#: admin/sudo/class_sudoOption.inc:154
+#, fuzzy
+msgid "Unknown option"
+msgstr "未知"
+
+#: admin/sudo/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "指定的 branch 名称无效。"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "string"
+msgstr "警告"
+
+#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
+#: admin/sudo/class_sudoOption.inc:286
+msgid "boolean"
+msgstr ""
+
+#: admin/sudo/class_sudoOption.inc:285
+#, fuzzy
+msgid "integer"
+msgstr "打印机"
+
+#: admin/sudo/class_sudoOption.inc:286
+#, fuzzy
+msgid "list"
+msgstr "类"
+
+#: admin/sudo/class_sudoOption.inc:538 admin/sudo/options.tpl:8
+msgid "Options"
+msgstr "选项"
+
+#: admin/sudo/class_sudoOption.inc:539 admin/sudo/class_sudoOption.inc:546
+#: admin/sudo/options.tpl:3
+#, fuzzy
+msgid "Sudo options"
+msgstr "未知"
+
+#: admin/sudo/options.tpl:5
+#, fuzzy
+msgid "Option name"
+msgstr "位置名称"
+
+#: admin/sudo/options.tpl:7
+#, fuzzy
+msgid "Value"
+msgstr "男"
+
+#: admin/sudo/options.tpl:89
+#, fuzzy
+msgid "Available options"
+msgstr "可用的应用程序"
+
+#: admin/sudo/sudo-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "参数"
+
+#: admin/sudo/sudo-filter.xml:36
+#, fuzzy
+msgid "By member"
+msgstr "组成员"
+
+#: admin/sudo/sudo-list.xml:11
+#, fuzzy
+msgid "List of Sudo roles"
+msgstr "用户列表"
+
+#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
+msgid "Role"
+msgstr "角色"
+
+#: admin/sudo/sudo-list.xml:40 admin/sudo/generic.tpl:15
+#: admin/sudo/generic.tpl:44 admin/sudo/class_sudoGeneric.inc:549
+msgid "Description"
+msgstr "描述"
+
+#: admin/sudo/sudo-list.xml:48
+msgid "Actions"
+msgstr "动作"
+
+#: admin/sudo/sudo-list.xml:59
+msgid "Create"
+msgstr "创建"
+
+#: admin/sudo/sudo-list.xml:72
+#, fuzzy
+msgid "Default"
+msgstr "删除"
+
+#: admin/sudo/sudo-list.xml:85
+msgid "Remove"
+msgstr "删除"
+
+#: admin/sudo/sudo-list.xml:117
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "! 未知 id"
+
+#: admin/sudo/sudo-list.xml:130
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "! 未知 id"
+
+#: admin/sudo/generic.tpl:61
+#, fuzzy
+msgid "Users and groups"
+msgstr "组"
+
+#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
+msgid "Add from list"
+msgstr ""
+
+#: admin/sudo/generic.tpl:78
+#, fuzzy
+msgid "Systems"
+msgstr "系统"
+
+#: admin/sudo/generic.tpl:99
+#, fuzzy
+msgid "Commands"
+msgstr "和"
+
+#: admin/sudo/generic.tpl:112
+#, fuzzy
+msgid "Run as"
+msgstr "域用户"
 
 #: admin/sudo/class_sudoManagement.inc:25
 #, fuzzy
@@ -68,14 +222,6 @@ msgstr "组"
 msgid "LDAP error"
 msgstr "LDAP 错误:"
 
-#: admin/sudo/class_sudoGeneric.inc:476 admin/sudo/class_sudoGeneric.inc:481
-#: admin/sudo/class_sudoGeneric.inc:486 admin/sudo/class_sudoGeneric.inc:495
-#: admin/sudo/class_sudoGeneric.inc:548 admin/sudo/generic.tpl:7
-#: admin/sudo/generic.tpl:34 admin/sudo/sudo-list.xml:32
-#: admin/sudo/paste_generic.tpl:5
-msgid "Name"
-msgstr "名称"
-
 #: admin/sudo/class_sudoGeneric.inc:525
 #, fuzzy
 msgid "Sudo"
@@ -95,11 +241,6 @@ msgstr "Kiosk profile 设置"
 msgid "System trust"
 msgstr "信赖的系统"
 
-#: admin/sudo/class_sudoGeneric.inc:549 admin/sudo/generic.tpl:15
-#: admin/sudo/generic.tpl:44 admin/sudo/sudo-list.xml:40
-msgid "Description"
-msgstr "描述"
-
 #: admin/sudo/class_sudoGeneric.inc:550
 msgid "Users"
 msgstr "用户"
@@ -118,147 +259,6 @@ msgstr "域用户"
 #, fuzzy
 msgid "Access control list"
 msgstr "访问选项"
-
-#: admin/sudo/options.tpl:3 admin/sudo/class_sudoOption.inc:539
-#: admin/sudo/class_sudoOption.inc:546
-#, fuzzy
-msgid "Sudo options"
-msgstr "未知"
-
-#: admin/sudo/options.tpl:5
-#, fuzzy
-msgid "Option name"
-msgstr "位置名称"
-
-#: admin/sudo/options.tpl:7
-#, fuzzy
-msgid "Value"
-msgstr "男"
-
-#: admin/sudo/options.tpl:8 admin/sudo/class_sudoOption.inc:538
-msgid "Options"
-msgstr "选项"
-
-#: admin/sudo/options.tpl:89
-#, fuzzy
-msgid "Available options"
-msgstr "可用的应用程序"
-
-#: admin/sudo/sudo-filter.xml:22
-#, fuzzy
-msgid "Default filter"
-msgstr "参数"
-
-#: admin/sudo/sudo-filter.xml:36
-#, fuzzy
-msgid "By member"
-msgstr "组成员"
-
-#: admin/sudo/class_sudoOption.inc:154
-#, fuzzy
-msgid "Unknown option"
-msgstr "未知"
-
-#: admin/sudo/class_sudoOption.inc:155
-#, fuzzy, php-format
-msgid "The Sudo option '%s' is invalid!"
-msgstr "指定的 branch 名称无效。"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "string"
-msgstr "警告"
-
-#: admin/sudo/class_sudoOption.inc:284 admin/sudo/class_sudoOption.inc:285
-#: admin/sudo/class_sudoOption.inc:286
-msgid "boolean"
-msgstr ""
-
-#: admin/sudo/class_sudoOption.inc:285
-#, fuzzy
-msgid "integer"
-msgstr "打印机"
-
-#: admin/sudo/class_sudoOption.inc:286
-#, fuzzy
-msgid "list"
-msgstr "类"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4 admin/sudo/generic.tpl:27
-#: admin/sudo/generic.tpl:29 admin/sudo/generic.tpl:31
-#: admin/sudo/paste_generic.tpl:1
-msgid "Generic"
-msgstr "通用配置"
-
-#: admin/sudo/generic.tpl:3 admin/sudo/generic.tpl:4
-#: admin/sudo/paste_generic.tpl:1
-msgid "global defaults"
-msgstr ""
-
-#: admin/sudo/generic.tpl:61
-#, fuzzy
-msgid "Users and groups"
-msgstr "组"
-
-#: admin/sudo/generic.tpl:73 admin/sudo/generic.tpl:91
-msgid "Add from list"
-msgstr ""
-
-#: admin/sudo/generic.tpl:78
-#, fuzzy
-msgid "Systems"
-msgstr "系统"
-
-#: admin/sudo/generic.tpl:99
-#, fuzzy
-msgid "Commands"
-msgstr "和"
-
-#: admin/sudo/generic.tpl:112
-#, fuzzy
-msgid "Run as"
-msgstr "域用户"
-
-#: admin/sudo/sudo-list.xml:11
-#, fuzzy
-msgid "List of Sudo roles"
-msgstr "用户列表"
-
-#: admin/sudo/sudo-list.xml:15 admin/sudo/sudo-list.xml:65
-msgid "Role"
-msgstr "角色"
-
-#: admin/sudo/sudo-list.xml:48
-msgid "Actions"
-msgstr "动作"
-
-#: admin/sudo/sudo-list.xml:59
-msgid "Create"
-msgstr "创建"
-
-#: admin/sudo/sudo-list.xml:72
-#, fuzzy
-msgid "Default"
-msgstr "删除"
-
-#: admin/sudo/sudo-list.xml:85
-msgid "Remove"
-msgstr "删除"
-
-#: admin/sudo/sudo-list.xml:117
-#, fuzzy
-msgid "Edit Sudo role"
-msgstr "! 未知 id"
-
-#: admin/sudo/sudo-list.xml:130
-#, fuzzy
-msgid "Remove Sudo role"
-msgstr "! 未知 id"
-
-#: admin/sudo/paste_generic.tpl:2
-#, fuzzy
-msgid "Paste sudo entry"
-msgstr "粘贴"
 
 #, fuzzy
 #~ msgid "Filter"

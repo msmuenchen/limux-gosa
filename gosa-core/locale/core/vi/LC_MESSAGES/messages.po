@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VIcore2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2008-07-04 09:59+0200\n"
 "Last-Translator: Stefan Koehler <stefan@gonicus.de>\n"
 "Language-Team: Vietnamese\n"
@@ -177,7 +177,7 @@ msgid "Index"
 msgstr "Chỉ mục"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Tìm kiếm"
 
@@ -5868,21 +5868,21 @@ msgstr "Dòng"
 msgid "Arguments"
 msgstr "Tranh luận"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Máy in"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Máy in"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Tìm kiếm tại các cây con"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Hiệu chỉnh các giấy phép"

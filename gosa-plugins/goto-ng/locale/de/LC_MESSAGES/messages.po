@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-11-24 16:25+0100\n"
 "Last-Translator: Cajus Pollmeier <pollmeier@gonicus.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -63,10 +63,6 @@ msgstr "Release"
 msgid "Component"
 msgstr "Komponente"
 
-#: admin/newConfigManagement/DeviceConfig-filter.xml:14
-msgid "Default filter"
-msgstr "Standard-Filter"
-
 #: admin/newConfigManagement/DeviceConfig-list.xml:10
 msgid "List of items"
 msgstr "Liste der Items"
@@ -102,3 +98,7 @@ msgstr "Container"
 #: admin/newConfigManagement/DeviceConfig-list.tpl:10
 msgid "Item"
 msgstr "Item"
+
+#: admin/newConfigManagement/DeviceConfig-filter.xml:14
+msgid "Default filter"
+msgstr "Standard-Filter"

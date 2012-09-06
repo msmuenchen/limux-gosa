@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-09-17 11:10+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: Deutsch <de@li.org>\n"
@@ -21,6 +21,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: personal/connectivity/webdav/webdav.tpl:5
+#: personal/connectivity/webdav/class_webdavAccount.inc:166
+msgid "WebDAV account"
+msgstr "WebDAV-Konto"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:6
 #: personal/connectivity/webdav/class_webdavAccount.inc:165
@@ -35,11 +40,6 @@ msgstr "Persönliche WebDAV-Einstellungen verwalten"
 #: personal/connectivity/webdav/class_webdavAccount.inc:146
 msgid "LDAP error"
 msgstr "LDAP-Fehler"
-
-#: personal/connectivity/webdav/class_webdavAccount.inc:166
-#: personal/connectivity/webdav/webdav.tpl:5
-msgid "WebDAV account"
-msgstr "WebDAV-Konto"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:166
 msgid "Connectivity add-on"

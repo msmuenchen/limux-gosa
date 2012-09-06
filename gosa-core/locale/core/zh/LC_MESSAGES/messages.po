@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
@@ -159,7 +159,7 @@ msgid "Index"
 msgstr "索引"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "查找"
 
@@ -5849,22 +5849,22 @@ msgstr "行"
 msgid "Arguments"
 msgstr "参数"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "参数"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "参数"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 #, fuzzy
 msgid "Search in subtrees"
 msgstr "在子树中查找"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "编辑证书"

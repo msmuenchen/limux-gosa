@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GOsa core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-03-12 14:48-0300\n"
 "Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
 "Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
@@ -175,7 +175,7 @@ msgid "Index"
 msgstr "Índice"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Procurar"
 
@@ -5888,21 +5888,21 @@ msgstr "Linha"
 msgid "Arguments"
 msgstr "Arguments"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Procurar na subárvore"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Aplicar filtro"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Procurar na subárvore"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Editar certificados"

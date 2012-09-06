@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
@@ -166,7 +166,7 @@ msgid "Index"
 msgstr "Index"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Zoeken"
 
@@ -5950,22 +5950,22 @@ msgstr "Regel"
 msgid "Arguments"
 msgstr "Argumenten"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 #, fuzzy
 msgid "Search filter"
 msgstr "Parameters"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Parameters"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 #, fuzzy
 msgid "Search in subtrees"
 msgstr "Zoek binnen subtree"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 #, fuzzy
 msgid "Edit filters"
 msgstr "Bewerk certificaten"

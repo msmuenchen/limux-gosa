@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:39+0200\n"
+"POT-Creation-Date: 2012-09-06 20:25+0200\n"
 "PO-Revision-Date: 2010-09-14 14:40+0200\n"
 "Last-Translator: Fabian Hickert <fabian.hickert@gonicus.de>\n"
 "Language-Team: Deutsch <kde-i18n-de@kde.org>\n"
@@ -25,70 +25,16 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: admin/systems/services/apache2/class_apacheUtils.inc:194
-#, php-format
-msgid ""
-"Undefined virtual host name '%s'. Virtual host name must be a valid, fully "
-"qualified domain name like 'www.example.com' or 'example.com'."
-msgstr ""
-"Der virtuelle Host-Name '%s' ist nicht definiert. Virtuelle Host-Namen "
-"müssen voll qulifiziert sein, wie beispielsweise: 'www.example.com' oder "
-"'example.com'."
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:85
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:96
-msgid "Alias"
-msgstr "Alias"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:85
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:96
-msgid "Directory"
-msgstr "Verzeichnis"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:203
-#: admin/systems/services/apache2/class_servApacheVhost.inc:71
-msgid "Name"
-msgstr "Name"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:210
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:5
-msgid "Virtual host name"
-msgstr "Virtueller Host-Name"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:211
-msgid "Only lowercase strings are allowed as Virtual Host Name."
-msgstr "Es sind nur Kleinbuchstaben für virtuelle Host-Namen erlaubt."
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:211
-msgid "e.g. example.com"
-msgstr "z.B. beispiel.com"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:217
-#: admin/systems/services/apache2/class_servApacheVhost.inc:301
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:11
-msgid "Document root"
-msgstr "Document-Root"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:223
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:17
-msgid "Administrator mail address"
-msgstr "Administrator Mail-Adresse"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:232
-#: admin/systems/services/apache2/class_servApacheVhost.inc:302
-msgid "Server alias"
-msgstr "Server-Alias"
-
-#: admin/systems/services/apache2/class_servApacheEditVhost.inc:242
-#: admin/systems/services/apache2/class_servApacheVhost.inc:304
-msgid "Script alias"
-msgstr "Skript-Alias"
-
 #: admin/systems/services/apache2/class_servApacheVhost.inc:61
 #: admin/systems/services/apache2/class_servApacheVhost.inc:277
 #: admin/systems/services/apache2/class_servApacheVhost.inc:290
 msgid "Apache service"
 msgstr "Apache Dienst"
+
+#: admin/systems/services/apache2/class_servApacheVhost.inc:71
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:203
+msgid "Name"
+msgstr "Name"
 
 #: admin/systems/services/apache2/class_servApacheVhost.inc:230
 #: admin/systems/services/apache2/class_servApacheVhost.inc:241
@@ -112,19 +58,53 @@ msgstr "Virtuelle Hosts"
 msgid "Server name"
 msgstr "Server-Name"
 
+#: admin/systems/services/apache2/class_servApacheVhost.inc:301
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:217
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:11
+msgid "Document root"
+msgstr "Document-Root"
+
+#: admin/systems/services/apache2/class_servApacheVhost.inc:302
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:232
+msgid "Server alias"
+msgstr "Server-Alias"
+
 #: admin/systems/services/apache2/class_servApacheVhost.inc:303
 msgid "Server admin"
 msgstr "Server-Admin"
 
-#: admin/systems/services/apache2/servApacheVhost.tpl:1
-msgid "Apache virtual hosts"
-msgstr "Apache virtuelle Hosts"
+#: admin/systems/services/apache2/class_servApacheVhost.inc:304
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:242
+msgid "Script alias"
+msgstr "Skript-Alias"
 
-#: admin/systems/services/apache2/servApacheVhost.tpl:7
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:50
-#: admin/systems/services/apache2/servApacheVhostEdit.tpl:78
-msgid "Add"
-msgstr "Hinzufügen"
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:85
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:96
+msgid "Alias"
+msgstr "Alias"
+
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:85
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:96
+msgid "Directory"
+msgstr "Verzeichnis"
+
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:210
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:5
+msgid "Virtual host name"
+msgstr "Virtueller Host-Name"
+
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:211
+msgid "Only lowercase strings are allowed as Virtual Host Name."
+msgstr "Es sind nur Kleinbuchstaben für virtuelle Host-Namen erlaubt."
+
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:211
+msgid "e.g. example.com"
+msgstr "z.B. beispiel.com"
+
+#: admin/systems/services/apache2/class_servApacheEditVhost.inc:223
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:17
+msgid "Administrator mail address"
+msgstr "Administrator Mail-Adresse"
 
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:1
 msgid "Generic"
@@ -151,6 +131,12 @@ msgstr "URL-Alias"
 msgid "Directory Path"
 msgstr "Pfad"
 
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:50
+#: admin/systems/services/apache2/servApacheVhostEdit.tpl:78
+#: admin/systems/services/apache2/servApacheVhost.tpl:7
+msgid "Add"
+msgstr "Hinzufügen"
+
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:59
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:62
 msgid "Script Alias"
@@ -171,6 +157,20 @@ msgstr "Speichern"
 #: admin/systems/services/apache2/servApacheVhostEdit.tpl:91
 msgid "Cancel"
 msgstr "Abbrechen"
+
+#: admin/systems/services/apache2/class_apacheUtils.inc:194
+#, php-format
+msgid ""
+"Undefined virtual host name '%s'. Virtual host name must be a valid, fully "
+"qualified domain name like 'www.example.com' or 'example.com'."
+msgstr ""
+"Der virtuelle Host-Name '%s' ist nicht definiert. Virtuelle Host-Namen "
+"müssen voll qulifiziert sein, wie beispielsweise: 'www.example.com' oder "
+"'example.com'."
+
+#: admin/systems/services/apache2/servApacheVhost.tpl:1
+msgid "Apache virtual hosts"
+msgstr "Apache virtuelle Hosts"
 
 #~ msgid "Apache VHosts"
 #~ msgstr "Apache"

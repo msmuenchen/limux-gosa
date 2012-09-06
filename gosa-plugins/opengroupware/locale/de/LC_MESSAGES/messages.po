@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2008-04-04 09:30+0200\n"
 "Last-Translator: Cajus Pollmeier <pollmeier@gonicus.de>\n"
 "Language-Team:  <de@li.org>\n"
@@ -21,6 +21,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: personal/connectivity/opengroupware/opengw.tpl:8
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
+msgid "Location team"
+msgstr "Örtliches Team"
+
+#: personal/connectivity/opengroupware/opengw.tpl:21
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
+msgid "Template user"
+msgstr "Benutzer-Vorlage"
+
+#: personal/connectivity/opengroupware/opengw.tpl:33
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
+msgid "Locked"
+msgstr "Gesperrt"
+
+#: personal/connectivity/opengroupware/opengw.tpl:49
+#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
+msgid "Teams"
+msgstr "Teams"
 
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:6
 msgid "Opengroupware account"
@@ -71,23 +91,3 @@ msgstr "Benutzername für die Verwendung von OpenGroupware.org"
 #: personal/connectivity/opengroupware/class_opengwAccount.inc:382
 msgid "Name of the database used for OpenGroupware.org connections."
 msgstr "Datenbankname für die Verwendung von OpenGroupware.org."
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:391
-#: personal/connectivity/opengroupware/opengw.tpl:8
-msgid "Location team"
-msgstr "Örtliches Team"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:392
-#: personal/connectivity/opengroupware/opengw.tpl:21
-msgid "Template user"
-msgstr "Benutzer-Vorlage"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:393
-#: personal/connectivity/opengroupware/opengw.tpl:33
-msgid "Locked"
-msgstr "Gesperrt"
-
-#: personal/connectivity/opengroupware/class_opengwAccount.inc:394
-#: personal/connectivity/opengroupware/opengw.tpl:49
-msgid "Teams"
-msgstr "Teams"

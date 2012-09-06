@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GOsa plugins - webdav\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-03-25 10:08-0300\n"
 "Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
 "Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
@@ -18,6 +18,11 @@ msgstr ""
 "Language: \n"
 "X-Poedit-Language: Portugueses\n"
 "X-Poedit-Country: BRAZIL\n"
+
+#: personal/connectivity/webdav/webdav.tpl:5
+#: personal/connectivity/webdav/class_webdavAccount.inc:166
+msgid "WebDAV account"
+msgstr "Conta WebDAV"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:6
 #: personal/connectivity/webdav/class_webdavAccount.inc:165
@@ -33,11 +38,6 @@ msgstr "Configurações gerais do usuário"
 #: personal/connectivity/webdav/class_webdavAccount.inc:146
 msgid "LDAP error"
 msgstr "Erro LDAP"
-
-#: personal/connectivity/webdav/class_webdavAccount.inc:166
-#: personal/connectivity/webdav/webdav.tpl:5
-msgid "WebDAV account"
-msgstr "Conta WebDAV"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:166
 #, fuzzy

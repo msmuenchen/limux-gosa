@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-04-30 21:29+0100\n"
 "Last-Translator: Piort Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
@@ -15,21 +15,6 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-2\n"
 "X-Poedit-Basepath: tedst\n"
 
-#: admin/systems/services/syslog/class_goSyslogServer.inc:27
-#: admin/systems/services/syslog/class_goSyslogServer.inc:47
-msgid "Syslog server"
-msgstr "Serwer Syslog"
-
-#: admin/systems/services/syslog/class_goSyslogServer.inc:68
-#: admin/systems/services/syslog/class_goSyslogServer.inc:69
-msgid "Logging service"
-msgstr "Usługa Logowania"
-
-#: admin/systems/services/syslog/class_goSyslogServer.inc:69
-#: admin/systems/services/syslog/class_goLogDBServer.inc:93
-msgid "Services"
-msgstr "Usługi"
-
 #: admin/systems/services/syslog/goSyslogServer.tpl:1
 msgid "Syslog Service"
 msgstr "Usługa Syslog"
@@ -37,26 +22,6 @@ msgstr "Usługa Syslog"
 #: admin/systems/services/syslog/goSyslogServer.tpl:1
 msgid "enabled"
 msgstr "włączone"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:1
-msgid "Logging database information"
-msgstr "Informacje bazy logowania"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:4
-#: admin/systems/services/syslog/class_goLogDBServer.inc:75
-#: admin/systems/services/syslog/class_goLogDBServer.inc:106
-msgid "Database"
-msgstr "Baza"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:12
-msgid "Logging DB user"
-msgstr "Użytkownik bazy logowania"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:20
-#: admin/systems/services/syslog/class_goLogDBServer.inc:72
-#: admin/systems/services/syslog/class_goLogDBServer.inc:105
-msgid "Password"
-msgstr "Hasło"
 
 #: admin/systems/services/syslog/class_goLogDBServer.inc:31
 #: admin/systems/services/syslog/class_goLogDBServer.inc:59
@@ -67,10 +32,27 @@ msgstr "Baza usługi Syslog"
 msgid "User"
 msgstr "Użytkownik"
 
+#: admin/systems/services/syslog/class_goLogDBServer.inc:72
+#: admin/systems/services/syslog/class_goLogDBServer.inc:105
+#: admin/systems/services/syslog/goLogDBServer.tpl:20
+msgid "Password"
+msgstr "Hasło"
+
+#: admin/systems/services/syslog/class_goLogDBServer.inc:75
+#: admin/systems/services/syslog/class_goLogDBServer.inc:106
+#: admin/systems/services/syslog/goLogDBServer.tpl:4
+msgid "Database"
+msgstr "Baza"
+
 #: admin/systems/services/syslog/class_goLogDBServer.inc:92
 #: admin/systems/services/syslog/class_goLogDBServer.inc:93
 msgid "Logging database"
 msgstr "Baza logowania"
+
+#: admin/systems/services/syslog/class_goLogDBServer.inc:93
+#: admin/systems/services/syslog/class_goSyslogServer.inc:69
+msgid "Services"
+msgstr "Usługi"
 
 #: admin/systems/services/syslog/class_goLogDBServer.inc:101
 msgid "Start"
@@ -88,6 +70,24 @@ msgstr "Restart"
 #, fuzzy
 msgid "Administrator"
 msgstr "Administracja"
+
+#: admin/systems/services/syslog/class_goSyslogServer.inc:27
+#: admin/systems/services/syslog/class_goSyslogServer.inc:47
+msgid "Syslog server"
+msgstr "Serwer Syslog"
+
+#: admin/systems/services/syslog/class_goSyslogServer.inc:68
+#: admin/systems/services/syslog/class_goSyslogServer.inc:69
+msgid "Logging service"
+msgstr "Usługa Logowania"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:1
+msgid "Logging database information"
+msgstr "Informacje bazy logowania"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:12
+msgid "Logging DB user"
+msgstr "Użytkownik bazy logowania"
 
 #~ msgid "Admin"
 #~ msgstr "Admin"

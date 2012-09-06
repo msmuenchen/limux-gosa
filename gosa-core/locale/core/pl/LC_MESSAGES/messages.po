@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 18:31+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-04-30 21:15+0100\n"
 "Last-Translator: Piort Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
@@ -160,7 +160,7 @@ msgid "Index"
 msgstr "Indeks"
 
 #: ihtml/themes/default/help.tpl:21 setup/setup_ldap.tpl:15
-#: include/class_filter.inc:180 include/class_filter.inc:254
+#: include/class_filter.inc:180 include/class_filter.inc:253
 msgid "Search"
 msgstr "Szukaj"
 
@@ -5785,20 +5785,20 @@ msgstr "Linia"
 msgid "Arguments"
 msgstr "Argumenty"
 
-#: include/class_filter.inc:251
+#: include/class_filter.inc:250
 msgid "Search filter"
 msgstr "Filtr wyszukiwania"
 
-#: include/class_filter.inc:253
+#: include/class_filter.inc:252
 #, fuzzy
 msgid "Delete filter"
 msgstr "Parametr"
 
-#: include/class_filter.inc:498
+#: include/class_filter.inc:500
 msgid "Search in subtrees"
 msgstr "Szukaj wewnątrz poddrzew"
 
-#: include/class_filter.inc:503
+#: include/class_filter.inc:505
 msgid "Edit filters"
 msgstr "Edytuj filtry"
 

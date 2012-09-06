@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:39+0200\n"
+"POT-Creation-Date: 2012-09-06 20:25+0200\n"
 "PO-Revision-Date: 2009-09-05 15:16+0100\n"
 "Last-Translator: Piort Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
@@ -14,6 +14,11 @@ msgstr ""
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: iso-8859-2\n"
 "X-Poedit-Basepath: tedst\n"
+
+#: personal/connectivity/intranet.tpl:4
+#, fuzzy
+msgid "Intra net account"
+msgstr "Konto Intranet"
 
 #: personal/connectivity/class_intranetAccount.inc:16
 #, fuzzy
@@ -59,11 +64,6 @@ msgstr "Połączenia"
 #, fuzzy
 msgid "Manage connectivity user settings"
 msgstr "Ogólne ustawienia użytkownika"
-
-#: personal/connectivity/intranet.tpl:4
-#, fuzzy
-msgid "Intra net account"
-msgstr "Konto Intranet"
 
 #~ msgid "This does something"
 #~ msgstr "To robi coś"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
@@ -15,11 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.9.1\n"
-
-#: personal/connectivity/phpscheduleit/phpscheduleit.tpl:3
-#, fuzzy
-msgid "phpScheduleIt account"
-msgstr "Estenzioni PHPGroupware"
 
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:27
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:165
@@ -51,6 +46,11 @@ msgstr "Connettività"
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:170
 msgid "My account"
 msgstr "Identità"
+
+#: personal/connectivity/phpscheduleit/phpscheduleit.tpl:3
+#, fuzzy
+msgid "phpScheduleIt account"
+msgstr "Estenzioni PHPGroupware"
 
 #~ msgid "This does something"
 #~ msgstr "Questo fa qualcosa"

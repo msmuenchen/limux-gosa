@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-11-26 23:40+0100\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
@@ -14,19 +14,6 @@ msgstr ""
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
-
-#: personal/netatalk/netatalk.tpl:1
-msgid "Netatalk configuration"
-msgstr "Configuration de Netatalk"
-
-#: personal/netatalk/netatalk.tpl:4 personal/netatalk/class_netatalk.inc:224
-#: personal/netatalk/class_netatalk.inc:380
-msgid "Share"
-msgstr "Partage"
-
-#: personal/netatalk/netatalk.tpl:16
-msgid "Path"
-msgstr "Chemin"
 
 #: personal/netatalk/class_netatalk.inc:36
 #: personal/netatalk/class_netatalk.inc:173
@@ -54,6 +41,11 @@ msgstr "UNIX"
 msgid "Netatalk or NFS share"
 msgstr "Partage netatalk ou NFS"
 
+#: personal/netatalk/class_netatalk.inc:224
+#: personal/netatalk/class_netatalk.inc:380 personal/netatalk/netatalk.tpl:4
+msgid "Share"
+msgstr "Partage"
+
 #: personal/netatalk/class_netatalk.inc:288
 #: personal/netatalk/class_netatalk.inc:353
 msgid "LDAP error"
@@ -66,3 +58,11 @@ msgstr "Mon Compte"
 #: personal/netatalk/class_netatalk.inc:379
 msgid "User home path"
 msgstr "Chemin du répertoire personnel"
+
+#: personal/netatalk/netatalk.tpl:1
+msgid "Netatalk configuration"
+msgstr "Configuration de Netatalk"
+
+#: personal/netatalk/netatalk.tpl:16
+msgid "Path"
+msgstr "Chemin"
