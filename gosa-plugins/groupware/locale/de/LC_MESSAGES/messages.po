@@ -1,0 +1,1016 @@
+# translation of messages.po to deutsch
+# translation of messages.po to
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008, 2009, 2010.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-06 11:16+0200\n"
+"PO-Revision-Date: 2010-11-24 16:25+0100\n"
+"Last-Translator: Cajus Pollmeier <pollmeier@gonicus.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: personal/groupware/class_Groupware.inc:27
+#: personal/groupware/class_Groupware.inc:388
+#: personal/groupware/class_Groupware.inc:389
+#: personal/groupware/class_Groupware.inc:391
+#: personal/groupware/class_Groupware.inc:392
+#: personal/groupware/class_Groupware.inc:1163
+#: admin/ogroups/GroupwareDistributionList/initFailed.tpl:1
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:2
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:5
+msgid "Groupware"
+msgstr "Groupware"
+
+#: personal/groupware/class_Groupware.inc:28
+msgid "GOsa groupware extension."
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:382
+msgid "Mail"
+msgstr "Mail"
+
+#: personal/groupware/class_Groupware.inc:429
+#: personal/groupware/class_Groupware.inc:455
+#: personal/groupware/class_Groupware.inc:460
+#: personal/groupware/class_Groupware.inc:485
+#: personal/groupware/class_Groupware.inc:491
+#: personal/groupware/class_Groupware.inc:505
+#: personal/groupware/class_Groupware.inc:802
+#: personal/groupware/class_Groupware.inc:820
+#: personal/groupware/class_Groupware.inc:831
+#: personal/groupware/class_Groupware.inc:847
+#: personal/groupware/class_Groupware.inc:868
+#: personal/groupware/class_Groupware.inc:899
+#: personal/groupware/class_Groupware.inc:909
+#: personal/groupware/class_Groupware.inc:917
+#: personal/groupware/class_Groupware.inc:932
+#: personal/groupware/class_Groupware.inc:947
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:71
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:101
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:124
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:309
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:322
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:351
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:68
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:95
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:117
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:128
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:140
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:153
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:242
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:255
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:375
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:408
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:420
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:433
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:450
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:478
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:485
+msgid "Error"
+msgstr "Fehler"
+
+#: personal/groupware/class_Groupware.inc:429
+#, fuzzy
+msgid "Please select an entry!"
+msgstr "Bitte wählen Sie die gewünschten Einträge"
+
+#: personal/groupware/class_Groupware.inc:455
+#: personal/groupware/class_Groupware.inc:485
+#: personal/groupware/class_Groupware.inc:491
+#: personal/groupware/class_Groupware.inc:505
+#: personal/groupware/class_Groupware.inc:1060
+#: personal/groupware/class_Groupware.inc:1069
+#: personal/groupware/class_Groupware.inc:1172
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:242
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:255
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:302
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:516
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:7
+msgid "Mail address"
+msgstr "Mail-Adresse"
+
+#: personal/groupware/class_Groupware.inc:460
+msgid "Cannot add primary address to the list of forwarders!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:501
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:251
+#, fuzzy, php-format
+msgid "Address is already in use by group '%s'."
+msgstr "Die Gruppen ID-Nummer '%s' wird bereits von %s verwendet!"
+
+#: personal/groupware/class_Groupware.inc:503
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:253
+#, fuzzy, php-format
+msgid "Address is already in use by user '%s'."
+msgstr "Die Gruppen ID-Nummer '%s' wird bereits von %s verwendet!"
+
+#: personal/groupware/class_Groupware.inc:635
+msgid "Configuration error"
+msgstr "Konfigurationsfehler"
+
+#: personal/groupware/class_Groupware.inc:635
+#, php-format
+msgid "No DESC tag in vacation template '%s'!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:662
+#: personal/groupware/class_Groupware.inc:672
+#: personal/groupware/class_Groupware.inc:686
+#: personal/groupware/class_Groupware.inc:720
+#: personal/groupware/class_Groupware.inc:733
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:352
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:500
+msgid "Permission error"
+msgstr "Berechtigungsfehler"
+
+#: personal/groupware/class_Groupware.inc:662
+#: personal/groupware/class_Groupware.inc:1085
+msgid ""
+"This email address is not available as forwarding recipient in your "
+"groupware."
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:672
+#: personal/groupware/class_Groupware.inc:686
+#: personal/groupware/class_Groupware.inc:720
+#: personal/groupware/class_Groupware.inc:733
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:352
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:500
+#, fuzzy
+msgid "You have no permission to modify these addresses!"
+msgstr "Sie sind nicht berechtigt diese Objekte zu verändern:"
+
+#: personal/groupware/class_Groupware.inc:767
+#: personal/groupware/class_Groupware.inc:770
+msgid "unknown"
+msgstr "unbekannt"
+
+#: personal/groupware/class_Groupware.inc:802
+msgid "Groupware account removal failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:819
+#, fuzzy
+msgid "Groupware account creation failed!"
+msgstr "LDAP-Operation fehlgeschlagen"
+
+#: personal/groupware/class_Groupware.inc:820
+#: personal/groupware/class_Groupware.inc:831
+#: personal/groupware/class_Groupware.inc:847
+#: personal/groupware/class_Groupware.inc:868
+#: personal/groupware/class_Groupware.inc:899
+#: personal/groupware/class_Groupware.inc:909
+#: personal/groupware/class_Groupware.inc:917
+#: personal/groupware/class_Groupware.inc:932
+#: personal/groupware/class_Groupware.inc:947
+#, php-format
+msgid "Error was: '%s'."
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:830
+msgid "Setting account mail address failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:846
+msgid "Saving alternate addresses failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:867
+msgid "Saving forward addresses failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:898
+msgid "Saving quota failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:908
+msgid "Saving mail folder failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:916
+#, fuzzy
+msgid "Saving mail location failed!"
+msgstr "MySQL-Operation fehlgeschlagen!"
+
+#: personal/groupware/class_Groupware.inc:931
+msgid "Saving mail limitations failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:946
+msgid "Saving vacation message failed!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1050
+#, php-format
+msgid "Failed to validate groupware account."
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1052
+#, php-format
+msgid "Account id, already used '%s'!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1067
+#, fuzzy, php-format
+msgid "Failed to validate mail address '%s'."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+
+#: personal/groupware/class_Groupware.inc:1079
+#, fuzzy
+msgid "Forwarding address"
+msgstr "Mail-Adresse"
+
+#: personal/groupware/class_Groupware.inc:1088
+msgid "The primary address cannot be used as forwarding address!"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1097
+msgid "Value for mailbox size receive limit"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1100
+msgid "Value for mailbox size send limit"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1108
+msgid "Value for Quota size"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1116
+msgid "Value refuse incoming mails limit"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1123
+msgid "Value warn about full mailbox"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1164
+#, fuzzy
+msgid "Groupware settings"
+msgstr "Gruppen-Einstellungen"
+
+#: personal/groupware/class_Groupware.inc:1168
+msgid "My account"
+msgstr "Mein Konto"
+
+#: personal/groupware/class_Groupware.inc:1173
+#, fuzzy
+msgid "Mail location"
+msgstr "Ort"
+
+#: personal/groupware/class_Groupware.inc:1174
+#: personal/groupware/generic.tpl:38
+#, fuzzy
+msgid "Mail folder"
+msgstr "Mail-Adresse"
+
+#: personal/groupware/class_Groupware.inc:1175
+#: personal/groupware/generic.tpl:52
+msgid "Quota usage"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1176
+#: personal/groupware/class_Groupware.inc:1177
+#: personal/groupware/generic.tpl:72
+#, fuzzy
+msgid "Mail filter"
+msgstr "Standard-Filter"
+
+#: personal/groupware/class_Groupware.inc:1178
+#: personal/groupware/generic.tpl:62
+msgid "Quota size"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1179
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:304
+#, fuzzy
+msgid "Alternate mail addresses"
+msgstr "Mail-Adresse"
+
+#: personal/groupware/class_Groupware.inc:1180
+msgid "Forwarding mail addresses"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1181
+msgid "Vaction switch"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1182
+#: personal/groupware/generic.tpl:118
+#, fuzzy
+msgid "Vacation message"
+msgstr "Warnmeldung"
+
+#: personal/groupware/class_Groupware.inc:1183
+msgid "Warn sizelimit"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1184
+#, fuzzy
+msgid "Send sizelimit"
+msgstr "Setze Grössenlimitieren auf %s"
+
+#: personal/groupware/class_Groupware.inc:1185
+msgid "Hard sizelimit"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1186
+msgid "Automatic mail removal"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1187
+#, fuzzy
+msgid "Local delivery only"
+msgstr "letzte Übermittlung"
+
+#: personal/groupware/class_Groupware.inc:1188
+msgid "Drop own mails"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1189
+msgid "mail Limit send"
+msgstr ""
+
+#: personal/groupware/class_Groupware.inc:1190
+msgid "mail Limit receive"
+msgstr ""
+
+#: personal/groupware/filterManager.tpl:1
+#, fuzzy
+msgid "Available filter rules "
+msgstr "Verfügbare Rollen"
+
+#: personal/groupware/class_GroupwareDefinitions.inc:28
+msgid "no right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:29
+msgid "read right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:30
+msgid "post right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:31
+msgid "append right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:32
+#, fuzzy
+msgid "write right"
+msgstr "schreiben"
+
+#: personal/groupware/class_GroupwareDefinitions.inc:33
+msgid "all rights"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:35
+msgid "lookup right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:36
+msgid "atomic read right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:37
+msgid "atomic status right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:38
+msgid "atomic write right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:39
+msgid "atomic insert right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:40
+msgid "atomic post right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:41
+msgid "atomic create right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:42
+msgid "atomic delete right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:43
+msgid "atomic admin right"
+msgstr ""
+
+#: personal/groupware/filterEditor.tpl:1
+msgid "Filter editor"
+msgstr "Filter-Editor"
+
+#: personal/groupware/filterEditor.tpl:3
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: personal/groupware/filterEditor.tpl:5
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:7
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:17
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:34
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:35
+#: personal/groupware/class_FilterManager.inc:28
+msgid "Name"
+msgstr "Name"
+
+#: personal/groupware/filterEditor.tpl:13
+#: personal/groupware/class_FilterManager.inc:28
+msgid "Description"
+msgstr "Beschreibung"
+
+#: personal/groupware/class_FilterEditor.inc:12
+msgid "At least one of the following conditions has to match"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:13
+msgid "All conditions have to match"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:16
+msgid "move mail to"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:17
+msgid "copy mail to"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:18
+#, fuzzy
+msgid "forward message to"
+msgstr "Titel der Fehlermeldung"
+
+#: personal/groupware/class_FilterEditor.inc:19
+msgid "mark mail as "
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:20
+#, fuzzy
+msgid "remove mail"
+msgstr "entfernen"
+
+#: personal/groupware/class_FilterEditor.inc:21
+msgid "reply"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:24
+#, fuzzy
+msgid "Subject"
+msgstr "Objekt"
+
+#: personal/groupware/class_FilterEditor.inc:25
+msgid "From"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:26
+msgid "Body"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:27
+msgid "Date"
+msgstr "Datum"
+
+#: personal/groupware/class_FilterEditor.inc:28
+msgid "Priority"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:29
+msgid "Status"
+msgstr "Status"
+
+#: personal/groupware/class_FilterEditor.inc:30
+msgid "To"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:31
+msgid "CC"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:32
+#, fuzzy
+msgid "Age"
+msgstr "Durchschnitt"
+
+#: personal/groupware/class_FilterEditor.inc:33
+msgid "Size"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:36
+msgid "is"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:37
+msgid "is not"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:38
+msgid "is equal"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:39
+#, fuzzy
+msgid "is not equal"
+msgstr "%s ist nicht erlaubt:"
+
+#: personal/groupware/class_FilterEditor.inc:40
+msgid "is empty"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:41
+msgid "is not empty"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:42
+msgid "contains"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:43
+msgid "does not contain"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:44
+#, fuzzy
+msgid "is in the addressbook"
+msgstr "Adressbuch"
+
+#: personal/groupware/class_FilterEditor.inc:45
+msgid "is not in the addressbook"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:46
+msgid "is greater than"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:47
+#, fuzzy
+msgid "smaller than"
+msgstr "%s muß kleiner sein als %s!"
+
+#: personal/groupware/class_FilterEditor.inc:82
+#, fuzzy
+msgid "Filter conditions"
+msgstr "Filter-Editor"
+
+#: personal/groupware/class_FilterEditor.inc:83
+msgid "Condition type"
+msgstr ""
+
+#: personal/groupware/class_FilterEditor.inc:121
+#, fuzzy
+msgid "Filter actions"
+msgstr "Filter-Editor"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:4
+#, fuzzy
+msgid "Create folder"
+msgstr "Kann den Ordner %s nicht anlegen!"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:14
+#, fuzzy
+msgid "Edit folder"
+msgstr "Filter bearbeiten"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:21
+msgid "Path"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:29
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:33
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:44
+msgid "Type"
+msgstr "Typ"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:35
+msgid "Permission"
+msgstr "Berechtigung"
+
+#: personal/groupware/FolderWidget/class_FolderWidgetListing.inc:13
+#: personal/groupware/FolderWidget/class_FolderWidget.inc:36
+#, fuzzy
+msgid "Folder editor"
+msgstr "Filter-Editor"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:11
+#, fuzzy
+msgid "List of groupware folders"
+msgstr "Liste der Gruppen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:15
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:21
+msgid "Folder"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:52
+msgid "Actions"
+msgstr "Aktionen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:63
+msgid "Create"
+msgstr "Anlegen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:69
+msgid "Sub folder"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:82
+msgid "Remove"
+msgstr "Entfernen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:97
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "ACL-Rollen bearbeiten"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:104
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "Bild entfernen"
+
+#: personal/groupware/FolderWidget/FolderWidget-filter.xml:15
+msgid "Default filter"
+msgstr "Standard-Filter"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.tpl:9
+msgid "Basis"
+msgstr ""
+
+#: personal/groupware/FolderWidget/class_FolderEditDialog.inc:100
+#, fuzzy, php-format
+msgid "Duplicate permission setting for user '%s'."
+msgstr "Kann Berechtigungen für '%s' nicht setzen"
+
+#: personal/groupware/generic.tpl:2 personal/groupware/generic.tpl:5
+#, fuzzy
+msgid ""
+"Communication with backend failed, please check the rpc connection and try "
+"again!"
+msgstr ""
+"Die Kommunikation mit dem Backend ist fehlgeschlagen! Bitte prüfen Sie die "
+"Netzwerkverbindung!"
+
+#: personal/groupware/generic.tpl:3 personal/groupware/generic.tpl:6
+#: admin/groups/GroupwareSharedFolder/initFailed.tpl:3
+#: admin/ogroups/GroupwareDistributionList/initFailed.tpl:3
+msgid "Retry"
+msgstr ""
+
+#: personal/groupware/generic.tpl:9
+#, fuzzy
+msgid "Mail settings"
+msgstr "Benutzer-Einstellungen"
+
+#: personal/groupware/generic.tpl:12
+msgid "Generic"
+msgstr "Allgemein"
+
+#: personal/groupware/generic.tpl:13
+#, fuzzy
+msgid "Mail address configuration"
+msgstr "Konfiguration herunterladen"
+
+#: personal/groupware/generic.tpl:15
+#, fuzzy
+msgid "Primary address"
+msgstr "Adresse"
+
+#: personal/groupware/generic.tpl:24
+#, fuzzy
+msgid "Account location"
+msgstr "Konto-Sperrung"
+
+#: personal/groupware/generic.tpl:28
+msgid "Specify the location for the mail account"
+msgstr ""
+
+#: personal/groupware/generic.tpl:41
+msgid "Can only be set for existing accounts!"
+msgstr ""
+
+#: personal/groupware/generic.tpl:75
+#, fuzzy
+msgid "Configure filter"
+msgstr "Konfigurieren"
+
+#: personal/groupware/generic.tpl:88
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:28
+#, fuzzy
+msgid "Alternative addresses"
+msgstr "Mail-Adresse"
+
+#: personal/groupware/generic.tpl:91
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:31
+msgid "List of alternative mail addresses"
+msgstr ""
+
+#: personal/groupware/generic.tpl:120
+#, fuzzy
+msgid "Spam filter configuration"
+msgstr "Schreibe Konfigurationsdatei"
+
+#: personal/groupware/generic.tpl:127
+msgid ""
+"Select to automatically response with the vacation message defined below"
+msgstr ""
+
+#: personal/groupware/generic.tpl:133
+msgid "Activate vacation message"
+msgstr ""
+
+#: personal/groupware/generic.tpl:152
+msgid "Import"
+msgstr ""
+
+#: personal/groupware/generic.tpl:167
+#, fuzzy
+msgid "Forward messages to"
+msgstr "Titel der Fehlermeldung"
+
+#: personal/groupware/generic.tpl:185
+msgid "Add local"
+msgstr ""
+
+#: personal/groupware/generic.tpl:203
+msgid "Mailbox options"
+msgstr ""
+
+#: personal/groupware/generic.tpl:204
+msgid "Flags"
+msgstr ""
+
+#: personal/groupware/generic.tpl:212
+msgid "Warn user about a full mailbox when it reaches"
+msgstr ""
+
+#: personal/groupware/generic.tpl:215 personal/groupware/generic.tpl:230
+#: personal/groupware/generic.tpl:245
+msgid "MB"
+msgstr ""
+
+#: personal/groupware/generic.tpl:227
+msgid "Refuse incoming mails when mailbox size reaches"
+msgstr ""
+
+#: personal/groupware/generic.tpl:242
+msgid "Refuse to send and receive mails when mailbox size reaches"
+msgstr ""
+
+#: personal/groupware/generic.tpl:257
+msgid "Remove mails older than "
+msgstr ""
+
+#: personal/groupware/generic.tpl:260
+msgid "days"
+msgstr ""
+
+#: personal/groupware/generic.tpl:270
+msgid "Mailbox size limits receiving mails"
+msgstr ""
+
+#: personal/groupware/generic.tpl:272 personal/groupware/generic.tpl:281
+msgid "kbyte"
+msgstr ""
+
+#: personal/groupware/generic.tpl:279
+msgid "Mailbox size limits sending mails"
+msgstr ""
+
+#: personal/groupware/generic.tpl:291
+msgid "Select if user can only send and receive inside his own domain"
+msgstr ""
+
+#: personal/groupware/generic.tpl:293
+msgid "User is only allowed to send and receive local mails"
+msgstr ""
+
+#: personal/groupware/generic.tpl:303
+msgid "Select if you want to forward mails without getting own copies of them"
+msgstr ""
+
+#: personal/groupware/generic.tpl:305
+msgid "No delivery to own mailbox"
+msgstr ""
+
+#: personal/groupware/class_FilterManager.inc:100
+#, fuzzy
+msgid "name"
+msgstr "Nachname"
+
+#: personal/groupware/class_FilterManager.inc:101
+#, fuzzy
+msgid "description"
+msgstr "Beschreibung"
+
+#: personal/groupware/class_FilterManager.inc:108
+msgid "advertising"
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/initFailed.tpl:1
+#: admin/groups/GroupwareSharedFolder/generic.tpl:2
+#: admin/groups/GroupwareSharedFolder/generic.tpl:5
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:390
+msgid "Groupware shared folder"
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/generic.tpl:8
+#, fuzzy
+msgid "Edit folder list"
+msgstr "Filter bearbeiten"
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:69
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:66
+#, php-format
+msgid "Failed to load supported capabilities from server! Error was: '%s'."
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:99
+#, php-format
+msgid "Failed to load folder list! Error was: '%s'."
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:122
+#, php-format
+msgid "Failed to load permissions for folder '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:186
+#, fuzzy
+msgid "Remove shared folder"
+msgstr "Benutzer entfernen"
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:187
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:190
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:389
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:398
+msgid "Shared folder"
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:189
+#, fuzzy
+msgid "Create shared folder"
+msgstr "Namensraum für gemeinsam verwendete Ordner."
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:307
+#, php-format
+msgid "Failed to remove shared folder '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:320
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:349
+#, php-format
+msgid "Failed to create shared folder '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:371
+#, php-format
+msgid ""
+"Groups cannot be renamed, while their groupware extension is active, please "
+"use the intial name '%s' again!"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:93
+#, php-format
+msgid "Failed to check existence for distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:115
+#, php-format
+msgid "Failed to load members for distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:126
+#, php-format
+msgid ""
+"Failed to load the primary mail address for distribution list '%s'! Error "
+"was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:138
+#, php-format
+msgid ""
+"Failed to load alternate mail addresses for distribution list '%s'! Error "
+"was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:151
+#, php-format
+msgid ""
+"Failed to load mail size limit for distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:224
+#, fuzzy
+msgid "Remove distribution list"
+msgstr "%s Einstellungen entfernen"
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:225
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:228
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:293
+msgid "Distribution list"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:227
+msgid "Create distribution list"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:294
+msgid "Groupware distribution lists"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:303
+msgid "Mail size limit"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:373
+#, php-format
+msgid "Failed to remove the distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:396
+#, php-format
+msgid "Failed to add distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:406
+#, php-format
+msgid "Failed to rename distribution list '%s' to '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:418
+#, php-format
+msgid ""
+"Failed to update the primary mail address for distribution list '%s'! Error "
+"was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:431
+#, php-format
+msgid ""
+"Failed to update mail size limitations for distribution list '%s'! Error "
+"was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:448
+#, php-format
+msgid ""
+"Failed to update alternate addresses for distribution list '%s'! Error was: "
+"'%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:462
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:532
+#, php-format
+msgid "Failed to verify account ids! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:476
+#, php-format
+msgid ""
+"Failed to remove member '%s' from distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:483
+#, php-format
+msgid "Failed to add member '%s' to distribution list '%s'! Error was: '%s'."
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:522
+msgid "Incoming mail size limitation"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:539
+#, php-format
+msgid ""
+"The following object group members do not have a valid groupware extension "
+"and will be ignored as distribution list members: %s"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:540
+msgid "Info"
+msgstr ""
+
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:19
+msgid "Use incoming mail size limitation"
+msgstr ""
