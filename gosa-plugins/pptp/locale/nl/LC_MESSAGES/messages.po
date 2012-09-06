@@ -11,14 +11,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: personal/connectivity/pptp/pptp.tpl:3
+#: personal/connectivity/pptp/class_pptpAccount.inc:176
+msgid "PPTP account"
+msgstr "PPTP account"
 
 #: personal/connectivity/pptp/class_pptpAccount.inc:26
 #: personal/connectivity/pptp/class_pptpAccount.inc:175
@@ -35,11 +40,6 @@ msgstr "Algemene wachtrij instellingen"
 #, fuzzy
 msgid "LDAP error"
 msgstr "LDAP fout:"
-
-#: personal/connectivity/pptp/class_pptpAccount.inc:176
-#: personal/connectivity/pptp/pptp.tpl:3
-msgid "PPTP account"
-msgstr "PPTP account"
 
 #: personal/connectivity/pptp/class_pptpAccount.inc:176
 #, fuzzy

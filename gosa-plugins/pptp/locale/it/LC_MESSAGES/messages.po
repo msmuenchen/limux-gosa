@@ -6,15 +6,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.9.1\n"
+
+#: personal/connectivity/pptp/pptp.tpl:3
+#: personal/connectivity/pptp/class_pptpAccount.inc:176
+#, fuzzy
+msgid "PPTP account"
+msgstr "Estenzioni FTP"
 
 #: personal/connectivity/pptp/class_pptpAccount.inc:26
 #: personal/connectivity/pptp/class_pptpAccount.inc:175
@@ -31,12 +37,6 @@ msgstr "Impostazioni generali delle code"
 #, fuzzy
 msgid "LDAP error"
 msgstr "Errore LDAP"
-
-#: personal/connectivity/pptp/class_pptpAccount.inc:176
-#: personal/connectivity/pptp/pptp.tpl:3
-#, fuzzy
-msgid "PPTP account"
-msgstr "Estenzioni FTP"
 
 #: personal/connectivity/pptp/class_pptpAccount.inc:176
 #, fuzzy
