@@ -8,50 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-01 16:20+0100\n"
+"POT-Creation-Date: 2012-09-06 11:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:10
-msgid "List of items"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:34
-msgid "Name"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:42
-msgid "Description"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:50
-msgid "Actions"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:64
-msgid "Remove"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:75
-msgid "Edit item"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.xml:82
-msgid "Remove item"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.tpl:9
-msgid "Container"
-msgstr ""
-
-#: admin/newConfigManagement/DeviceConfig-list.tpl:10
-msgid "Item"
-msgstr ""
 
 #: admin/newConfigManagement/class_newConfigManagement.inc:8
 #: admin/newConfigManagement/class_newConfigManagement.inc:9
@@ -94,4 +57,40 @@ msgstr ""
 
 #: admin/newConfigManagement/DeviceConfig-filter.xml:14
 msgid "Default filter"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:10
+msgid "List of items"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:34
+msgid "Name"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:42
+msgid "Description"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:50
+msgid "Actions"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:64
+msgid "Remove"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:75
+msgid "Edit item"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.xml:82
+msgid "Remove item"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.tpl:9
+msgid "Container"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-list.tpl:10
+msgid "Item"
 msgstr ""
