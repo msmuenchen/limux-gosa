@@ -324,7 +324,7 @@ msgstr ""
 #: personal/groupware/class_Groupware.inc:1184
 #, fuzzy
 msgid "Send sizelimit"
-msgstr "Setze Grössenlimitieren auf %s"
+msgstr Maximale Sendegröße %s"
 
 #: personal/groupware/class_Groupware.inc:1185
 msgid "Hard sizelimit"
