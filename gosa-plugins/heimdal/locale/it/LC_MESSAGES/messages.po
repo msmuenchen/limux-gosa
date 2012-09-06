@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:23+0100\n"
+"POT-Creation-Date: 2012-09-06 11:19+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.9.1\n"
 
 #: admin/systems/services/kerberos/pwd_heimdal.tpl:5
@@ -83,6 +83,21 @@ msgstr "Salva"
 msgid "Cancel"
 msgstr "Annulla"
 
+#: admin/systems/services/kerberos/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr ""
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:8
+#, fuzzy
+msgid "Kerberos Realms"
+msgstr "Kerberos"
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:16
+#: admin/systems/services/kerberos/class_goKrbServer.inc:393
+#, fuzzy
+msgid "Policies"
+msgstr "Inglese"
+
 #: admin/systems/services/kerberos/class_goKrbServer.inc:58
 #, fuzzy
 msgid "Kerberos service"
@@ -134,12 +149,6 @@ msgstr "Informazioni personali"
 msgid "Services"
 msgstr "Servizi"
 
-#: admin/systems/services/kerberos/class_goKrbServer.inc:393
-#: admin/systems/services/kerberos/goKrbServer.tpl:16
-#, fuzzy
-msgid "Policies"
-msgstr "Inglese"
-
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:104
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:127
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:177
@@ -182,15 +191,6 @@ msgstr ""
 #, fuzzy
 msgid "Valid password"
 msgstr "Password"
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:1
-msgid "Kerberos kadmin access"
-msgstr ""
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:8
-#, fuzzy
-msgid "Kerberos Realms"
-msgstr "Kerberos"
 
 #, fuzzy
 #~ msgid "Admin"

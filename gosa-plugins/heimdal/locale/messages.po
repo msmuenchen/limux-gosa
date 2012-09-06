@@ -8,11 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:23+0100\n"
+"POT-Creation-Date: 2012-09-06 11:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -77,6 +76,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
+#: admin/systems/services/kerberos/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr ""
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:8
+msgid "Kerberos Realms"
+msgstr ""
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:16
+#: admin/systems/services/kerberos/class_goKrbServer.inc:393
+msgid "Policies"
+msgstr ""
+
 #: admin/systems/services/kerberos/class_goKrbServer.inc:58
 msgid "Kerberos service"
 msgstr ""
@@ -122,11 +134,6 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
-#: admin/systems/services/kerberos/class_goKrbServer.inc:393
-#: admin/systems/services/kerberos/goKrbServer.tpl:16
-msgid "Policies"
-msgstr ""
-
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:104
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:127
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:177
@@ -165,12 +172,4 @@ msgstr ""
 
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:345
 msgid "Valid password"
-msgstr ""
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:1
-msgid "Kerberos kadmin access"
-msgstr ""
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:8
-msgid "Kerberos Realms"
 msgstr ""

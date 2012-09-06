@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polski\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:23+0100\n"
+"POT-Creation-Date: 2012-09-06 11:19+0200\n"
 "PO-Revision-Date: 2009-09-05 15:38+0100\n"
 "Last-Translator: Piort Rybicki <meritus@innervision.pl>\n"
 "Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: Polish\n"
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: iso-8859-2\n"
@@ -75,6 +75,19 @@ msgstr "Zapisz"
 msgid "Cancel"
 msgstr "Anuluj"
 
+#: admin/systems/services/kerberos/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr "Dostęp do Kerberos kadmin"
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:8
+msgid "Kerberos Realms"
+msgstr "Dziedziny Kerberos"
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:16
+#: admin/systems/services/kerberos/class_goKrbServer.inc:393
+msgid "Policies"
+msgstr "Polisy"
+
 #: admin/systems/services/kerberos/class_goKrbServer.inc:58
 msgid "Kerberos service"
 msgstr "Usługa Kerberos"
@@ -120,11 +133,6 @@ msgstr "Informacje dostępowe Kerberos"
 msgid "Services"
 msgstr "Usługi"
 
-#: admin/systems/services/kerberos/class_goKrbServer.inc:393
-#: admin/systems/services/kerberos/goKrbServer.tpl:16
-msgid "Policies"
-msgstr "Polisy"
-
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:104
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:127
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:177
@@ -166,14 +174,6 @@ msgstr "Ważne do"
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:345
 msgid "Valid password"
 msgstr "Prawidłowe hasło"
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:1
-msgid "Kerberos kadmin access"
-msgstr "Dostęp do Kerberos kadmin"
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:8
-msgid "Kerberos Realms"
-msgstr "Dziedziny Kerberos"
 
 #~ msgid "Admin user"
 #~ msgstr "Użytkownik administracyjny"

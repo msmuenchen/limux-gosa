@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:23+0100\n"
+"POT-Creation-Date: 2012-09-06 11:19+0200\n"
 "PO-Revision-Date: 2009-06-30 11:11+0200\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
 
@@ -75,6 +75,19 @@ msgstr "Enregistrer"
 msgid "Cancel"
 msgstr "Annuler"
 
+#: admin/systems/services/kerberos/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr "Accès kadmin Kerberos"
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:8
+msgid "Kerberos Realms"
+msgstr "Realm Kerberos"
+
+#: admin/systems/services/kerberos/goKrbServer.tpl:16
+#: admin/systems/services/kerberos/class_goKrbServer.inc:393
+msgid "Policies"
+msgstr "Politiques d'accès"
+
 #: admin/systems/services/kerberos/class_goKrbServer.inc:58
 msgid "Kerberos service"
 msgstr "Service Kerberos"
@@ -122,11 +135,6 @@ msgstr "Information d'accès Kerberos"
 msgid "Services"
 msgstr "Services"
 
-#: admin/systems/services/kerberos/class_goKrbServer.inc:393
-#: admin/systems/services/kerberos/goKrbServer.tpl:16
-msgid "Policies"
-msgstr "Politiques d'accès"
-
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:104
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:127
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:177
@@ -168,11 +176,3 @@ msgstr "Valide jusqu'a"
 #: admin/systems/services/kerberos/class_password-methods-heimdal.inc:345
 msgid "Valid password"
 msgstr "Mot de passe valide"
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:1
-msgid "Kerberos kadmin access"
-msgstr "Accès kadmin Kerberos"
-
-#: admin/systems/services/kerberos/goKrbServer.tpl:8
-msgid "Kerberos Realms"
-msgstr "Realm Kerberos"
