@@ -6,102 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-04 15:24+0100\n"
+"POT-Creation-Date: 2012-09-06 11:20+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Generator: KBabel 1.9.1\n"
-
-#: admin/roleManagement/class_roleManagement.inc:25
-#: admin/roleManagement/class_roleGeneric.inc:453
-#, fuzzy
-msgid "Roles"
-msgstr "Ruolo"
-
-#: admin/roleManagement/class_roleManagement.inc:26
-msgid "Assign and manage organizational roles"
-msgstr ""
-
-#: admin/roleManagement/class_roleGeneric.inc:97
-msgid "Given name"
-msgstr "Nome"
-
-#: admin/roleManagement/class_roleGeneric.inc:97
-msgid "Surname"
-msgstr "Cognome"
-
-#: admin/roleManagement/class_roleGeneric.inc:97
-msgid "UID"
-msgstr "UID"
-
-#: admin/roleManagement/class_roleGeneric.inc:223
-msgid "Unknown"
-msgstr ""
-
-#: admin/roleManagement/class_roleGeneric.inc:278
-#: admin/roleManagement/class_roleGeneric.inc:282
-#: admin/roleManagement/class_roleGeneric.inc:291
-#: admin/roleManagement/class_roleGeneric.inc:470
-#: admin/roleManagement/role-list.xml:41
-#: admin/roleManagement/roleGeneric.tpl:12
-msgid "Name"
-msgstr "Cognome"
-
-#: admin/roleManagement/class_roleGeneric.inc:308
-#: admin/roleManagement/class_roleGeneric.inc:350
-#, fuzzy
-msgid "LDAP error"
-msgstr "Errore LDAP"
-
-#: admin/roleManagement/class_roleGeneric.inc:393
-msgid "Error"
-msgstr ""
-
-#: admin/roleManagement/class_roleGeneric.inc:443
-#: admin/roleManagement/roleGeneric.tpl:7
-msgid "Generic"
-msgstr "Generale"
-
-#: admin/roleManagement/class_roleGeneric.inc:444
-#, fuzzy
-msgid "Role generic"
-msgstr "Cognome"
-
-#: admin/roleManagement/class_roleGeneric.inc:462
-#, fuzzy
-msgid "RDN for role storage."
-msgstr "Opzioni di posta dell'identità"
-
-#: admin/roleManagement/class_roleGeneric.inc:471
-#: admin/roleManagement/role-list.xml:49
-#: admin/roleManagement/roleGeneric.tpl:20
-msgid "Description"
-msgstr "Descrizione"
-
-#: admin/roleManagement/class_roleGeneric.inc:472
-#: admin/roleManagement/role-list.tpl:12
-#: admin/roleManagement/roleGeneric.tpl:30
-msgid "Base"
-msgstr "Base"
-
-#: admin/roleManagement/class_roleGeneric.inc:473
-#, fuzzy
-msgid "Telephone number"
-msgstr "Numero di telefono"
-
-#: admin/roleManagement/class_roleGeneric.inc:474
-#, fuzzy
-msgid "FAX number"
-msgstr "Numero di telefono"
-
-#: admin/roleManagement/class_roleGeneric.inc:475
-#: admin/roleManagement/roleGeneric.tpl:64
-msgid "Occupants"
-msgstr ""
 
 #: admin/roleManagement/role-list.xml:11
 #, fuzzy
@@ -111,6 +24,21 @@ msgstr "Lista degli utenti"
 #: admin/roleManagement/role-list.xml:15 admin/roleManagement/role-list.xml:74
 msgid "Role"
 msgstr "Ruolo"
+
+#: admin/roleManagement/role-list.xml:41
+#: admin/roleManagement/class_roleGeneric.inc:278
+#: admin/roleManagement/class_roleGeneric.inc:282
+#: admin/roleManagement/class_roleGeneric.inc:291
+#: admin/roleManagement/class_roleGeneric.inc:470
+#: admin/roleManagement/roleGeneric.tpl:12
+msgid "Name"
+msgstr "Cognome"
+
+#: admin/roleManagement/role-list.xml:49
+#: admin/roleManagement/class_roleGeneric.inc:471
+#: admin/roleManagement/roleGeneric.tpl:20
+msgid "Description"
+msgstr "Descrizione"
 
 #: admin/roleManagement/role-list.xml:57
 msgid "Actions"
@@ -139,25 +67,78 @@ msgstr "Modifica contatto"
 msgid "Remove role"
 msgstr "Oggetti membri"
 
-#: admin/roleManagement/paste_generic.tpl:1
-#, fuzzy
-msgid "Paste role"
-msgstr "Rimuovi"
-
-#: admin/roleManagement/paste_generic.tpl:4
-#, fuzzy
-msgid "Role name"
-msgstr "Cognome"
-
-#: admin/roleManagement/paste_generic.tpl:7
-#, fuzzy
-msgid "Please enter the new object role name"
-msgstr "Inserisci la URI del server LDAP"
-
 #: admin/roleManagement/role-filter.xml:17
 #, fuzzy
 msgid "Default filter"
 msgstr "Parametro"
+
+#: admin/roleManagement/class_roleGeneric.inc:97
+msgid "Given name"
+msgstr "Nome"
+
+#: admin/roleManagement/class_roleGeneric.inc:97
+msgid "Surname"
+msgstr "Cognome"
+
+#: admin/roleManagement/class_roleGeneric.inc:97
+msgid "UID"
+msgstr "UID"
+
+#: admin/roleManagement/class_roleGeneric.inc:223
+msgid "Unknown"
+msgstr ""
+
+#: admin/roleManagement/class_roleGeneric.inc:308
+#: admin/roleManagement/class_roleGeneric.inc:350
+#, fuzzy
+msgid "LDAP error"
+msgstr "Errore LDAP"
+
+#: admin/roleManagement/class_roleGeneric.inc:393
+msgid "Error"
+msgstr ""
+
+#: admin/roleManagement/class_roleGeneric.inc:443
+#: admin/roleManagement/roleGeneric.tpl:7
+msgid "Generic"
+msgstr "Generale"
+
+#: admin/roleManagement/class_roleGeneric.inc:444
+#, fuzzy
+msgid "Role generic"
+msgstr "Cognome"
+
+#: admin/roleManagement/class_roleGeneric.inc:453
+#: admin/roleManagement/class_roleManagement.inc:25
+#, fuzzy
+msgid "Roles"
+msgstr "Ruolo"
+
+#: admin/roleManagement/class_roleGeneric.inc:462
+#, fuzzy
+msgid "RDN for role storage."
+msgstr "Opzioni di posta dell'identità"
+
+#: admin/roleManagement/class_roleGeneric.inc:472
+#: admin/roleManagement/roleGeneric.tpl:30
+#: admin/roleManagement/role-list.tpl:12
+msgid "Base"
+msgstr "Base"
+
+#: admin/roleManagement/class_roleGeneric.inc:473
+#, fuzzy
+msgid "Telephone number"
+msgstr "Numero di telefono"
+
+#: admin/roleManagement/class_roleGeneric.inc:474
+#, fuzzy
+msgid "FAX number"
+msgstr "Numero di telefono"
+
+#: admin/roleManagement/class_roleGeneric.inc:475
+#: admin/roleManagement/roleGeneric.tpl:64
+msgid "Occupants"
+msgstr ""
 
 #: admin/roleManagement/roleGeneric.tpl:10
 #, fuzzy
@@ -172,6 +153,25 @@ msgstr "Numero di telefono"
 #, fuzzy
 msgid "Fax number"
 msgstr "Numero di telefono"
+
+#: admin/roleManagement/class_roleManagement.inc:26
+msgid "Assign and manage organizational roles"
+msgstr ""
+
+#: admin/roleManagement/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste role"
+msgstr "Rimuovi"
+
+#: admin/roleManagement/paste_generic.tpl:4
+#, fuzzy
+msgid "Role name"
+msgstr "Cognome"
+
+#: admin/roleManagement/paste_generic.tpl:7
+#, fuzzy
+msgid "Please enter the new object role name"
+msgstr "Inserisci la URI del server LDAP"
 
 #, fuzzy
 #~ msgid "Surename"
