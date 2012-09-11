@@ -19,12 +19,10 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-if(!defined("LIST_NORMAL"))
-        define ('LIST_NORMAL', 0);
-if(!defined("LIST_MARKED"))
-        define ('LIST_MARKED', 1);
-if(!defined("LIST_DISABLED"))
-        define ('LIST_DISABLED', 2);
+
+define ('LIST_NORMAL', 0);
+define ('LIST_MARKED', 1);
+define ('LIST_DISABLED', 2);
 
 class sortableListing {
     private $header= null;
