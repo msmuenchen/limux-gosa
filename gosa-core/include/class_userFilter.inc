@@ -7,8 +7,7 @@ class userFilter extends plugin
   public $filters = array();
   
   public $objectclasses = array('gosaProperties');
-  public $attributes = array('gosaUserDefinedFilter');
-  public $gosaUserDefinedFilter = array();
+
   private $listing = NULL;
 
   /*! \brief    Returns true if we are able to read and write userFilters 
@@ -46,9 +45,15 @@ class userFilter extends plugin
       }
     }
 
+    $lData=$this->convertFilterList();
+
+    // Load shared filters of other users
+    userFilter::addRemoteFilters($this->filters,$lData);
+
     // Create the filter list
-    $this->filterWidget= new sortableListing($this->filters, $this->convertFilterList());
+    $this->filterWidget= new sortableListing($this->filters,$lData);
     $this->filterWidget->setDeleteable(true);
+    $this->filterWidget->setInstantDelete(false);
     $this->filterWidget->setEditable(true);
     $this->filterWidget->setWidth("100%");
     $this->filterWidget->setHeight("270px");
@@ -56,7 +61,39 @@ class userFilter extends plugin
     $this->filterWidget->setColspecs(array('80px', '100px', '200px', '120px','150px'));
     $this->filterWidget->setAcl($ui->get_permissions($ui->dn,'users/user','gosaUserDefinedFilter'));
   }
-
+  
+  /**
+    * add filters made by other users to the list
+    */
+  static function addRemoteFilters(&$data,&$lData) {
+    global $config;
+    $ui=get_userinfo();
+    $ldap=$config->get_ldap_link();
+    $ldap->cd($config->current['BASE']);
+    $ldap->search("(&(objectClass=gosaProperties)(gosaUserDefinedFilter=*))",array('gosaUserDefinedFilter','dn',"cn"));
+    $customctr=0;
+    while($attrs = $ldap->fetch()){
+      if($attrs["dn"]==$ui->dn)
+        continue;
+      for($i=0; $i < $attrs['gosaUserDefinedFilter']['count']; $i++){
+        $tmp=userFilter::explodeFilterString($attrs['gosaUserDefinedFilter'][$i]);
+        if(!in_array_strict("share",$tmp["flags"]))
+          continue;
+        $lData["custom_$customctr"]=array('data' =>
+          array(
+            $tmp['parent'],
+            $tmp['tag'],
+            htmlentities($tmp['description'], ENT_COMPAT, 'UTF-8')." &nbsp; <em>["._("Author").": ".$attrs["cn"][0]."]</em>",
+            implode(", ",$tmp['categories']),
+            implode(", ",$tmp['flags'])
+          ),
+          "actions"=>array("delete"=>false,"edit"=>false)
+        );
+        $data["custom_$customctr"]="dummy";
+        $customctr++;
+      }
+    }
+  }
   
   /*! \brief    Parses a filter string into an array.
    */
@@ -108,15 +145,20 @@ class userFilter extends plugin
   { 
     $data = array();
     foreach($this->filters as $name => $filter){
+      if($filter=="dummy")
+        continue;
       $data[$name] = array('data' =>
           array(
             $filter['parent'],
             $filter['tag'],
             htmlentities($filter['description'], ENT_COMPAT, 'UTF-8'),
             implode(", ",$filter['categories']),
-            implode(", ",$filter['flags'])));
+            implode(", ",$filter['flags'])
+          ),
+          "actions"=>array("delete"=>true,"edit"=>true)
+      );
     }
-    return($data); 
+    return($data);
   }
 
 
@@ -159,7 +201,9 @@ class userFilter extends plugin
           // Now append the new filter object.
           $this->filters[$new_name] = $this->dialog->save();
           $this->dialog = NULL;
-          $this->filterWidget->setListData($this->filters, $this->convertFilterList());
+          $lData=$this->convertFilterList();
+          userFilter::addRemoteFilters($this->filters,$lData);
+          $this->filterWidget->setListData($this->filters, $lData);
           $this->filterWidget->update();
         }
       }
@@ -167,6 +211,7 @@ class userFilter extends plugin
 
     // Act on edit requests 
     $this->filterWidget->save_object();
+
     $action = $this->filterWidget->getAction();
     if($action['action'] == 'edit' && count($action['targets']) == 1){
       $key= $this->filterWidget->getKey($action['targets'][0]);
@@ -183,9 +228,13 @@ class userFilter extends plugin
     // Act on remove requests 
     $action = $this->filterWidget->getAction();
     if($action['action'] == 'delete' && count($action['targets']) == 1){
+
       $key= $this->filterWidget->getKey($action['targets'][0]);
       if(isset($this->filters[$key])){
         unset($this->filters[$key]);
+        $lData=$this->convertFilterList();
+        userFilter::addRemoteFilters($this->filters,$lData);
+        $this->filterWidget->setListData($this->filters, $lData);
         $this->filterWidget->update();
       }
     }
@@ -212,7 +261,7 @@ class userFilter extends plugin
     $ldap=$config->get_ldap_link();
     $ui = get_userinfo();
     $ldap->cd($config->current['BASE']);
-    $ldap->search("(&(objectClass=gosaProperties)(gosaUserDefinedFilter=*))",array('gosaUserDefinedFilter'));
+    $ldap->search("(&(objectClass=gosaProperties)(gosaUserDefinedFilter=*))",array('gosaUserDefinedFilter','dn'));
     $filter = array();
     while($attrs = $ldap->fetch()){
       for($i=0; $i < $attrs['gosaUserDefinedFilter']['count']; $i++){
@@ -230,7 +279,6 @@ class userFilter extends plugin
         //  ... and enabled.
         $visible = in_array_strict('enable', $tmp['flags']) && 
           ($attrs['dn'] == $ui->dn || in_array_strict('share', $tmp['flags']));
-         
         // Add filter if it matches the category list
         if($visible && (count($category) == 0 || array_intersect($category, $tmp['categories']))){ 
           $filter[$tmp['tag']] = $tmp;
@@ -245,9 +293,12 @@ class userFilter extends plugin
    */
   function save()
   {
+    plugin::save();
     // Build up new list of filters 
     $attrs = array();
     foreach($this->filters as $filter){
+      if($filter=="dummy")
+        continue;
       $tmp = $filter['parent'].";";
       $tmp.= implode(',', $filter['categories']).";";
       $tmp.= $filter['tag'].";";
@@ -261,12 +312,11 @@ class userFilter extends plugin
       $tmp.= implode(',', $filter['flags']);
       $attrs[] = $tmp;
     }
-    $this->gosaUserDefinedFilter = $attrs;
-
-    plugin::save();
+    $this->attrs["gosaUserDefinedFilter"] = $attrs;
 
     $ldap = $this->config->get_ldap_link();
     $ldap->cd($this->dn);
+
     $ldap->modify($this->attrs);
     
     new log("modify","users/".get_class($this),$this->dn,array_keys($this->attrs),$ldap->get_error());

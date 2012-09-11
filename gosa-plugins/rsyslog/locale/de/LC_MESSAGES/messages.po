@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-09-17 10:49+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: de <kde-i18n-de@kde.org>\n"
@@ -24,9 +24,120 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: addons/rsyslog/class_rsyslog.inc:5 addons/rsyslog/rSyslog.tpl:4
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:2
+msgid "Syslog logging"
+msgstr "Syslog Protokollierung"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:7
+msgid "Server provides a Syslog MySQL database"
+msgstr "Server stellt eine Syslog MySQL-Datenbank zur Verfügung"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:9
+msgid "rSyslog database settings"
+msgstr "rSyslog Datenbank Einstellungen"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:11
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:85
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:188
+msgid "Database"
+msgstr "Datenbank"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:20
+msgid "Database user"
+msgstr "Datenbank-Benutzer"
+
+#: admin/systems/services/rsyslog/rSyslogServer.tpl:29
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:88
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:190
+msgid "Password"
+msgstr "Passwort"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:29
+msgid "Logging"
+msgstr "Protokollierung"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:68
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:175
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
+msgid "Logging service"
+msgstr "Protokoll-Dienst"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:82
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:189
+msgid "User"
+msgstr "Benutzer"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:150
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
+msgid "Services"
+msgstr "Dienste"
+
+#: admin/systems/services/rsyslog/class_rSyslogServer.inc:191
+msgid "Allow view of entries on this server"
+msgstr "Anzeige von Einträgen auf diesen Server erlauben"
+
+#: addons/rsyslog/rSyslog.tpl:4 addons/rsyslog/class_rsyslog.inc:5
 msgid "System logs"
 msgstr "Systemprotokolle"
+
+#: addons/rsyslog/rSyslog.tpl:7
+msgid "Filter"
+msgstr "Filter"
+
+#: addons/rsyslog/rSyslog.tpl:10
+msgid "Server"
+msgstr "Server"
+
+#: addons/rsyslog/rSyslog.tpl:17
+msgid "Host"
+msgstr "System"
+
+#: addons/rsyslog/rSyslog.tpl:24 addons/rsyslog/rSyslog.tpl:128
+msgid "Severity"
+msgstr "Schwere"
+
+#: addons/rsyslog/rSyslog.tpl:31
+msgid "From"
+msgstr "Von"
+
+#: addons/rsyslog/rSyslog.tpl:47
+msgid "till"
+msgstr "bis"
+
+#: addons/rsyslog/rSyslog.tpl:63 addons/rsyslog/rSyslog.tpl:67
+msgid "Search"
+msgstr "Suchen"
+
+#: addons/rsyslog/rSyslog.tpl:75 addons/rsyslog/class_rsyslog.inc:385
+msgid "Error"
+msgstr "Fehler"
+
+#: addons/rsyslog/rSyslog.tpl:84
+msgid "Entry list"
+msgstr "Eintragsliste"
+
+#: addons/rsyslog/rSyslog.tpl:88
+msgid "Date"
+msgstr "Datum"
+
+#: addons/rsyslog/rSyslog.tpl:98
+msgid "Source"
+msgstr "Quelle"
+
+#: addons/rsyslog/rSyslog.tpl:108
+msgid "Header"
+msgstr "Betreff"
+
+#: addons/rsyslog/rSyslog.tpl:118
+msgid "Facility"
+msgstr "Facility"
+
+#: addons/rsyslog/rSyslog.tpl:138
+msgid "Message"
+msgstr "Nachricht"
 
 #: addons/rsyslog/class_rsyslog.inc:6
 msgid "View recorded systemlogs"
@@ -61,10 +172,6 @@ msgstr "Alarm"
 #: addons/rsyslog/class_rsyslog.inc:384
 msgid "Critical"
 msgstr "Kritisch"
-
-#: addons/rsyslog/class_rsyslog.inc:385 addons/rsyslog/rSyslog.tpl:75
-msgid "Error"
-msgstr "Fehler"
 
 #: addons/rsyslog/class_rsyslog.inc:386
 msgid "Warning"
@@ -146,113 +253,6 @@ msgstr "Log alarm"
 #: addons/rsyslog/class_rsyslog.inc:416
 msgid "Clock"
 msgstr "Zeit"
-
-#: addons/rsyslog/rSyslog.tpl:7
-msgid "Filter"
-msgstr "Filter"
-
-#: addons/rsyslog/rSyslog.tpl:10
-msgid "Server"
-msgstr "Server"
-
-#: addons/rsyslog/rSyslog.tpl:17
-msgid "Host"
-msgstr "System"
-
-#: addons/rsyslog/rSyslog.tpl:24 addons/rsyslog/rSyslog.tpl:128
-msgid "Severity"
-msgstr "Schwere"
-
-#: addons/rsyslog/rSyslog.tpl:31
-msgid "From"
-msgstr "Von"
-
-#: addons/rsyslog/rSyslog.tpl:47
-msgid "till"
-msgstr "bis"
-
-#: addons/rsyslog/rSyslog.tpl:63 addons/rsyslog/rSyslog.tpl:67
-msgid "Search"
-msgstr "Suchen"
-
-#: addons/rsyslog/rSyslog.tpl:84
-msgid "Entry list"
-msgstr "Eintragsliste"
-
-#: addons/rsyslog/rSyslog.tpl:88
-msgid "Date"
-msgstr "Datum"
-
-#: addons/rsyslog/rSyslog.tpl:98
-msgid "Source"
-msgstr "Quelle"
-
-#: addons/rsyslog/rSyslog.tpl:108
-msgid "Header"
-msgstr "Betreff"
-
-#: addons/rsyslog/rSyslog.tpl:118
-msgid "Facility"
-msgstr "Facility"
-
-#: addons/rsyslog/rSyslog.tpl:138
-msgid "Message"
-msgstr "Nachricht"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:2
-msgid "Syslog logging"
-msgstr "Syslog Protokollierung"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:7
-msgid "Server provides a Syslog MySQL database"
-msgstr "Server stellt eine Syslog MySQL-Datenbank zur Verfügung"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:9
-msgid "rSyslog database settings"
-msgstr "rSyslog Datenbank Einstellungen"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:11
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:85
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:188
-msgid "Database"
-msgstr "Datenbank"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:20
-msgid "Database user"
-msgstr "Datenbank-Benutzer"
-
-#: admin/systems/services/rsyslog/rSyslogServer.tpl:29
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:88
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:190
-msgid "Password"
-msgstr "Passwort"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:29
-msgid "Logging"
-msgstr "Protokollierung"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:68
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:175
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
-msgid "Logging service"
-msgstr "Protokoll-Dienst"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:82
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:189
-msgid "User"
-msgstr "Benutzer"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:150
-msgid "LDAP error"
-msgstr "LDAP-Fehler"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:176
-msgid "Services"
-msgstr "Dienste"
-
-#: admin/systems/services/rsyslog/class_rSyslogServer.inc:191
-msgid "Allow view of entries on this server"
-msgstr "Anzeige von Einträgen auf diesen Server erlauben"
 
 #~ msgid "View systemlogs that got recorded with rsyslog"
 #~ msgstr "Betrachte System-Logs die von rSyslog aufgezeichnet wurden"

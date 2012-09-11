@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
@@ -15,6 +15,128 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.9.1\n"
+
+#: personal/scalix/paste_generic.tpl:1
+#, fuzzy
+msgid "SCALIX paste"
+msgstr "Estenzioni FTP"
+
+#: personal/scalix/paste_generic.tpl:6 personal/scalix/generic.tpl:111
+#: personal/scalix/class_scalixAccount.inc:483
+#: admin/groups/scalix/class_scalixGroup.inc:35
+#, fuzzy
+msgid "SCALIX email addresses"
+msgstr "Indirizzo principale"
+
+#: personal/scalix/paste_generic.tpl:8 personal/scalix/generic.tpl:114
+#, fuzzy
+msgid "List of SCALIX email addresses"
+msgstr "Indirizzo principale"
+
+#: personal/scalix/generic.tpl:1
+#, fuzzy
+msgid "SCALIX settings"
+msgstr "Impostazioni Unix"
+
+#: personal/scalix/generic.tpl:6
+msgid "Generic"
+msgstr "Generale"
+
+#: personal/scalix/generic.tpl:9
+#, fuzzy
+msgid "Mail settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: personal/scalix/generic.tpl:11
+msgid "SCALIX mail node"
+msgstr ""
+
+#: personal/scalix/generic.tpl:20
+#, fuzzy
+msgid "SCALIX mailbox class"
+msgstr "Indirizzo principale"
+
+#: personal/scalix/generic.tpl:24
+msgid ""
+"Limited users can not make use of the group calendar functionality in SCALIX"
+msgstr ""
+
+#: personal/scalix/generic.tpl:33
+#, fuzzy
+msgid "SCALIX server language"
+msgstr "Lingua"
+
+#: personal/scalix/generic.tpl:37
+msgid "Message catalog language for client"
+msgstr ""
+
+#: personal/scalix/generic.tpl:49 personal/scalix/generic.tpl:71
+#, fuzzy
+msgid "Settings"
+msgstr "Impostazioni Unix"
+
+#: personal/scalix/generic.tpl:54
+#, fuzzy
+msgid "Select for administrator capabilities"
+msgstr "Rimuovi"
+
+#: personal/scalix/generic.tpl:54
+#, fuzzy
+msgid "SCALIX Administrator"
+msgstr "Amministrazione"
+
+#: personal/scalix/generic.tpl:59
+#, fuzzy
+msgid "Select for mailbox administrator capabilities"
+msgstr "Rimuovi"
+
+#: personal/scalix/generic.tpl:59
+#, fuzzy
+msgid "SCALIX Mailbox Administrator"
+msgstr "Amministrazione"
+
+#: personal/scalix/generic.tpl:64
+#, fuzzy
+msgid "Hide user entry from address book"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: personal/scalix/generic.tpl:64
+msgid "Hide this user entry in SCALIX"
+msgstr ""
+
+#: personal/scalix/generic.tpl:73
+#, fuzzy
+msgid "Limit mailbox size"
+msgstr "Inoltra i messaggi a"
+
+#: personal/scalix/generic.tpl:76
+msgid "MB"
+msgstr "Mb"
+
+#: personal/scalix/generic.tpl:84
+msgid "As sanction on mailbox quota overuse, stop user from sending mail"
+msgstr ""
+
+#: personal/scalix/generic.tpl:84
+#, fuzzy
+msgid "Limit Outbound Mail"
+msgstr "Path del profilo"
+
+#: personal/scalix/generic.tpl:89
+msgid "As sanction on mailbox quota overuse, stop user from receiving mail"
+msgstr ""
+
+#: personal/scalix/generic.tpl:89
+msgid "Limit Inbound Mail"
+msgstr ""
+
+#: personal/scalix/generic.tpl:94
+msgid "As sanction on mailbox quota overuse, notify the user by email"
+msgstr ""
+
+#: personal/scalix/generic.tpl:94
+msgid "Notify User"
+msgstr ""
 
 #: personal/scalix/class_scalixAccount.inc:16
 msgid "SCALIX"
@@ -174,128 +296,6 @@ msgstr ""
 #, fuzzy
 msgid "Notify user"
 msgstr "Paese"
-
-#: personal/scalix/class_scalixAccount.inc:483 personal/scalix/generic.tpl:111
-#: personal/scalix/paste_generic.tpl:6
-#: admin/groups/scalix/class_scalixGroup.inc:35
-#, fuzzy
-msgid "SCALIX email addresses"
-msgstr "Indirizzo principale"
-
-#: personal/scalix/generic.tpl:1
-#, fuzzy
-msgid "SCALIX settings"
-msgstr "Impostazioni Unix"
-
-#: personal/scalix/generic.tpl:6
-msgid "Generic"
-msgstr "Generale"
-
-#: personal/scalix/generic.tpl:9
-#, fuzzy
-msgid "Mail settings"
-msgstr "Opzioni di posta dell'identità"
-
-#: personal/scalix/generic.tpl:11
-msgid "SCALIX mail node"
-msgstr ""
-
-#: personal/scalix/generic.tpl:20
-#, fuzzy
-msgid "SCALIX mailbox class"
-msgstr "Indirizzo principale"
-
-#: personal/scalix/generic.tpl:24
-msgid ""
-"Limited users can not make use of the group calendar functionality in SCALIX"
-msgstr ""
-
-#: personal/scalix/generic.tpl:33
-#, fuzzy
-msgid "SCALIX server language"
-msgstr "Lingua"
-
-#: personal/scalix/generic.tpl:37
-msgid "Message catalog language for client"
-msgstr ""
-
-#: personal/scalix/generic.tpl:49 personal/scalix/generic.tpl:71
-#, fuzzy
-msgid "Settings"
-msgstr "Impostazioni Unix"
-
-#: personal/scalix/generic.tpl:54
-#, fuzzy
-msgid "Select for administrator capabilities"
-msgstr "Rimuovi"
-
-#: personal/scalix/generic.tpl:54
-#, fuzzy
-msgid "SCALIX Administrator"
-msgstr "Amministrazione"
-
-#: personal/scalix/generic.tpl:59
-#, fuzzy
-msgid "Select for mailbox administrator capabilities"
-msgstr "Rimuovi"
-
-#: personal/scalix/generic.tpl:59
-#, fuzzy
-msgid "SCALIX Mailbox Administrator"
-msgstr "Amministrazione"
-
-#: personal/scalix/generic.tpl:64
-#, fuzzy
-msgid "Hide user entry from address book"
-msgstr "Prego inserire un numero di telefono valido!"
-
-#: personal/scalix/generic.tpl:64
-msgid "Hide this user entry in SCALIX"
-msgstr ""
-
-#: personal/scalix/generic.tpl:73
-#, fuzzy
-msgid "Limit mailbox size"
-msgstr "Inoltra i messaggi a"
-
-#: personal/scalix/generic.tpl:76
-msgid "MB"
-msgstr "Mb"
-
-#: personal/scalix/generic.tpl:84
-msgid "As sanction on mailbox quota overuse, stop user from sending mail"
-msgstr ""
-
-#: personal/scalix/generic.tpl:84
-#, fuzzy
-msgid "Limit Outbound Mail"
-msgstr "Path del profilo"
-
-#: personal/scalix/generic.tpl:89
-msgid "As sanction on mailbox quota overuse, stop user from receiving mail"
-msgstr ""
-
-#: personal/scalix/generic.tpl:89
-msgid "Limit Inbound Mail"
-msgstr ""
-
-#: personal/scalix/generic.tpl:94
-msgid "As sanction on mailbox quota overuse, notify the user by email"
-msgstr ""
-
-#: personal/scalix/generic.tpl:94
-msgid "Notify User"
-msgstr ""
-
-#: personal/scalix/generic.tpl:114 personal/scalix/paste_generic.tpl:8
-#, fuzzy
-msgid "List of SCALIX email addresses"
-msgstr "Indirizzo principale"
-
-#: personal/scalix/paste_generic.tpl:1
-#, fuzzy
-msgid "SCALIX paste"
-msgstr "Estenzioni FTP"
 
 #~ msgid "This does something"
 #~ msgstr "Questo fa qualcosa"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:39+0200\n"
+"POT-Creation-Date: 2012-09-06 20:25+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: personal/connectivity/intranet.tpl:4
+#, fuzzy
+msgid "Intra net account"
+msgstr "内联网账号"
 
 #: personal/connectivity/class_intranetAccount.inc:16
 #, fuzzy
@@ -62,11 +67,6 @@ msgstr "互联"
 #, fuzzy
 msgid "Manage connectivity user settings"
 msgstr "通用队列设置"
-
-#: personal/connectivity/intranet.tpl:4
-#, fuzzy
-msgid "Intra net account"
-msgstr "内联网账号"
 
 #, fuzzy
 #~ msgid "This does something"

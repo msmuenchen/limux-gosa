@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-09-17 10:34+0100\n"
 "Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
 "Language-Team: Deutsch <de@li.org>\n"
@@ -21,10 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: personal/connectivity/phpscheduleit/phpscheduleit.tpl:3
-msgid "phpScheduleIt account"
-msgstr "phpScheduleIt-Konto"
 
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:27
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:165
@@ -51,3 +47,7 @@ msgstr "Konnektivitäts-Erweiterung"
 #: personal/connectivity/phpscheduleit/class_phpscheduleitAccount.inc:170
 msgid "My account"
 msgstr "Mein Konto"
+
+#: personal/connectivity/phpscheduleit/phpscheduleit.tpl:3
+msgid "phpScheduleIt account"
+msgstr "phpScheduleIt-Konto"

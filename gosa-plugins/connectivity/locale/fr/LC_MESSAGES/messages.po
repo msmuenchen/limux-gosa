@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:39+0200\n"
+"POT-Creation-Date: 2012-09-06 20:25+0200\n"
 "PO-Revision-Date: 2010-11-24 22:58+0100\n"
 "Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
 "Language-Team:  <fr@li.org>\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: personal/connectivity/intranet.tpl:4
+msgid "Intra net account"
+msgstr "Compte Intranet"
 
 #: personal/connectivity/class_intranetAccount.inc:16
 msgid "Intra net"
@@ -55,10 +59,6 @@ msgstr "Connectivité"
 #, fuzzy
 msgid "Manage connectivity user settings"
 msgstr "Paramètres par défaut des utilisateurs"
-
-#: personal/connectivity/intranet.tpl:4
-msgid "Intra net account"
-msgstr "Compte Intranet"
 
 #~ msgid "This does something"
 #~ msgstr "Ceci fait quelque chose"

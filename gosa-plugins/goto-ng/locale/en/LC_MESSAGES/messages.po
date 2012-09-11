@@ -37,10 +37,6 @@ msgstr ""
 msgid "Component"
 msgstr ""
 
-#: admin/newConfigManagement/DeviceConfig-filter.xml:14
-msgid "Default filter"
-msgstr ""
-
 #: admin/newConfigManagement/DeviceConfig-list.xml:10
 msgid "List of items"
 msgstr ""
@@ -75,4 +71,8 @@ msgstr ""
 
 #: admin/newConfigManagement/DeviceConfig-list.tpl:10
 msgid "Item"
+msgstr ""
+
+#: admin/newConfigManagement/DeviceConfig-filter.xml:14
+msgid "Default filter"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: personal/connectivity/webdav/webdav.tpl:5
+#: personal/connectivity/webdav/class_webdavAccount.inc:166
+msgid "WebDAV account"
+msgstr "WebDAV 账号"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:6
 #: personal/connectivity/webdav/class_webdavAccount.inc:165
@@ -32,11 +37,6 @@ msgstr "通用队列设置"
 #, fuzzy
 msgid "LDAP error"
 msgstr "LDAP 错误:"
-
-#: personal/connectivity/webdav/class_webdavAccount.inc:166
-#: personal/connectivity/webdav/webdav.tpl:5
-msgid "WebDAV account"
-msgstr "WebDAV 账号"
 
 #: personal/connectivity/webdav/class_webdavAccount.inc:166
 #, fuzzy

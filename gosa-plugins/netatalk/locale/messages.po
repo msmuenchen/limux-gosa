@@ -8,26 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: personal/netatalk/netatalk.tpl:1
-msgid "Netatalk configuration"
-msgstr ""
-
-#: personal/netatalk/netatalk.tpl:4 personal/netatalk/class_netatalk.inc:224
-#: personal/netatalk/class_netatalk.inc:380
-msgid "Share"
-msgstr ""
-
-#: personal/netatalk/netatalk.tpl:16
-msgid "Path"
-msgstr ""
 
 #: personal/netatalk/class_netatalk.inc:36
 #: personal/netatalk/class_netatalk.inc:173
@@ -55,6 +42,11 @@ msgstr ""
 msgid "Netatalk or NFS share"
 msgstr ""
 
+#: personal/netatalk/class_netatalk.inc:224
+#: personal/netatalk/class_netatalk.inc:380 personal/netatalk/netatalk.tpl:4
+msgid "Share"
+msgstr ""
+
 #: personal/netatalk/class_netatalk.inc:288
 #: personal/netatalk/class_netatalk.inc:353
 msgid "LDAP error"
@@ -66,4 +58,12 @@ msgstr ""
 
 #: personal/netatalk/class_netatalk.inc:379
 msgid "User home path"
+msgstr ""
+
+#: personal/netatalk/netatalk.tpl:1
+msgid "Netatalk configuration"
+msgstr ""
+
+#: personal/netatalk/netatalk.tpl:16
+msgid "Path"
 msgstr ""

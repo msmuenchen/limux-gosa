@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2005-11-18 15:26+0100\n"
 "Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
 "Language-Team: Italian\n"
@@ -248,143 +248,6 @@ msgstr ""
 msgid "Please remove the mail settings first!"
 msgstr "Seleziona per mostrare i gruppi che hanno configurata la posta"
 
-#: admin/systems/services/kolab/servkolab.tpl:1
-#, fuzzy
-msgid "Kolab service"
-msgstr "Utenti di Dominio"
-
-#: admin/systems/services/kolab/servkolab.tpl:5
-msgid "Generic"
-msgstr "Generale"
-
-#: admin/systems/services/kolab/servkolab.tpl:7
-#, fuzzy
-msgid "Generic settings"
-msgstr "Impostazioni generali delle code"
-
-#: admin/systems/services/kolab/servkolab.tpl:10
-#: admin/systems/services/kolab/class_servKolab.inc:484
-#, fuzzy
-msgid "Postfix mydomain"
-msgstr "nel dominio"
-
-#: admin/systems/services/kolab/servkolab.tpl:20
-#: admin/systems/services/kolab/class_servKolab.inc:486
-#, fuzzy
-msgid "Cyrus administrators"
-msgstr "Amministrazione dei gruppi di utenti"
-
-#: admin/systems/services/kolab/servkolab.tpl:30
-#: admin/systems/services/kolab/class_servKolab.inc:371
-#, fuzzy
-msgid "Mail domains"
-msgstr "nel dominio"
-
-#: admin/systems/services/kolab/servkolab.tpl:30
-#, fuzzy
-msgid "Postfix mydestination"
-msgstr "Impostazioni Unix"
-
-#: admin/systems/services/kolab/servkolab.tpl:47
-#: admin/systems/services/kolab/class_servKolab.inc:476
-msgid "Services"
-msgstr "Servizi"
-
-#: admin/systems/services/kolab/servkolab.tpl:48
-#, fuzzy
-msgid "Service settings"
-msgstr "Impostazioni generali delle code"
-
-#: admin/systems/services/kolab/servkolab.tpl:57
-#: admin/systems/services/kolab/class_servKolab.inc:488
-#, fuzzy
-msgid "POP3 service"
-msgstr "Servizi"
-
-#: admin/systems/services/kolab/servkolab.tpl:68
-#: admin/systems/services/kolab/class_servKolab.inc:489
-msgid "POP3/SSL service"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:79
-#: admin/systems/services/kolab/class_servKolab.inc:491
-#, fuzzy
-msgid "IMAP service"
-msgstr "Servizi"
-
-#: admin/systems/services/kolab/servkolab.tpl:90
-#: admin/systems/services/kolab/class_servKolab.inc:492
-msgid "IMAP/SSL service"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:101
-#: admin/systems/services/kolab/class_servKolab.inc:494
-#, fuzzy
-msgid "Sieve service"
-msgstr "Servizi"
-
-#: admin/systems/services/kolab/servkolab.tpl:113
-msgid "FTP FreeBusy service (legacy, not interoperable with Kolab2 FreeBusy)"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:124
-msgid "HTTP FreeBusy service (legacy)"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:135
-msgid "Amavis email scanning (virus/SPAM)"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:142
-#: admin/systems/services/kolab/servkolab.tpl:143
-#: admin/systems/services/kolab/class_servKolab.inc:499
-#, fuzzy
-msgid "Quota settings"
-msgstr "Opzioni di posta dell'identità"
-
-#: admin/systems/services/kolab/servkolab.tpl:156
-#: admin/systems/services/kolab/servkolab.tpl:157
-#, fuzzy
-msgid "Free/Busy settings"
-msgstr "Impostazioni FAX"
-
-#: admin/systems/services/kolab/servkolab.tpl:162
-msgid "Allow unauthenticated downloading of Free/Busy information"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:177
-#: admin/systems/services/kolab/class_servKolab.inc:504
-msgid "SMTP privileged networks"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:179
-msgid "Hosts/networks allowed to relay"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:192
-#: admin/systems/services/kolab/servkolab.tpl:193
-msgid "SMTP smart host/relay host"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:200
-#: admin/systems/services/kolab/class_servKolab.inc:505
-msgid "Enable MX lookup for relay host"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:207
-msgid "Host used to relay mails"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:219
-#: admin/systems/services/kolab/servkolab.tpl:220
-#: admin/systems/services/kolab/class_servKolab.inc:507
-msgid "Accept Internet Mail"
-msgstr ""
-
-#: admin/systems/services/kolab/servkolab.tpl:227
-msgid "Accept mail from other domains over non-authenticated SMTP"
-msgstr ""
-
 #: admin/systems/services/kolab/class_servKolab.inc:94
 #: admin/systems/services/kolab/class_servKolab.inc:105
 msgid "Name"
@@ -443,16 +306,67 @@ msgstr ""
 msgid "Privileged networks"
 msgstr ""
 
+#: admin/systems/services/kolab/class_servKolab.inc:371
+#: admin/systems/services/kolab/servkolab.tpl:30
+#, fuzzy
+msgid "Mail domains"
+msgstr "nel dominio"
+
 #: admin/systems/services/kolab/class_servKolab.inc:465
 #: admin/systems/services/kolab/class_servKolab.inc:476
 #, fuzzy
 msgid "Kolab mail service"
 msgstr "Utenti di Dominio"
 
+#: admin/systems/services/kolab/class_servKolab.inc:476
+#: admin/systems/services/kolab/servkolab.tpl:47
+msgid "Services"
+msgstr "Servizi"
+
+#: admin/systems/services/kolab/class_servKolab.inc:484
+#: admin/systems/services/kolab/servkolab.tpl:10
+#, fuzzy
+msgid "Postfix mydomain"
+msgstr "nel dominio"
+
 #: admin/systems/services/kolab/class_servKolab.inc:485
 #, fuzzy
 msgid "My destination"
 msgstr "Destinazione"
+
+#: admin/systems/services/kolab/class_servKolab.inc:486
+#: admin/systems/services/kolab/servkolab.tpl:20
+#, fuzzy
+msgid "Cyrus administrators"
+msgstr "Amministrazione dei gruppi di utenti"
+
+#: admin/systems/services/kolab/class_servKolab.inc:488
+#: admin/systems/services/kolab/servkolab.tpl:57
+#, fuzzy
+msgid "POP3 service"
+msgstr "Servizi"
+
+#: admin/systems/services/kolab/class_servKolab.inc:489
+#: admin/systems/services/kolab/servkolab.tpl:68
+msgid "POP3/SSL service"
+msgstr ""
+
+#: admin/systems/services/kolab/class_servKolab.inc:491
+#: admin/systems/services/kolab/servkolab.tpl:79
+#, fuzzy
+msgid "IMAP service"
+msgstr "Servizi"
+
+#: admin/systems/services/kolab/class_servKolab.inc:492
+#: admin/systems/services/kolab/servkolab.tpl:90
+msgid "IMAP/SSL service"
+msgstr ""
+
+#: admin/systems/services/kolab/class_servKolab.inc:494
+#: admin/systems/services/kolab/servkolab.tpl:101
+#, fuzzy
+msgid "Sieve service"
+msgstr "Servizi"
 
 #: admin/systems/services/kolab/class_servKolab.inc:495
 #, fuzzy
@@ -468,6 +382,13 @@ msgstr "Server"
 msgid "Enable virus scan"
 msgstr ""
 
+#: admin/systems/services/kolab/class_servKolab.inc:499
+#: admin/systems/services/kolab/servkolab.tpl:142
+#: admin/systems/services/kolab/servkolab.tpl:143
+#, fuzzy
+msgid "Quota settings"
+msgstr "Opzioni di posta dell'identità"
+
 #: admin/systems/services/kolab/class_servKolab.inc:501
 msgid "Allow unauthenticated free busy"
 msgstr ""
@@ -476,10 +397,89 @@ msgstr ""
 msgid "kolabFreeBusyFuture"
 msgstr ""
 
+#: admin/systems/services/kolab/class_servKolab.inc:504
+#: admin/systems/services/kolab/servkolab.tpl:177
+msgid "SMTP privileged networks"
+msgstr ""
+
+#: admin/systems/services/kolab/class_servKolab.inc:505
+#: admin/systems/services/kolab/servkolab.tpl:200
+msgid "Enable MX lookup for relay host"
+msgstr ""
+
 #: admin/systems/services/kolab/class_servKolab.inc:506
 #, fuzzy
 msgid "Relay host"
 msgstr "Rimuovi"
+
+#: admin/systems/services/kolab/class_servKolab.inc:507
+#: admin/systems/services/kolab/servkolab.tpl:219
+#: admin/systems/services/kolab/servkolab.tpl:220
+msgid "Accept Internet Mail"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:1
+#, fuzzy
+msgid "Kolab service"
+msgstr "Utenti di Dominio"
+
+#: admin/systems/services/kolab/servkolab.tpl:5
+msgid "Generic"
+msgstr "Generale"
+
+#: admin/systems/services/kolab/servkolab.tpl:7
+#, fuzzy
+msgid "Generic settings"
+msgstr "Impostazioni generali delle code"
+
+#: admin/systems/services/kolab/servkolab.tpl:30
+#, fuzzy
+msgid "Postfix mydestination"
+msgstr "Impostazioni Unix"
+
+#: admin/systems/services/kolab/servkolab.tpl:48
+#, fuzzy
+msgid "Service settings"
+msgstr "Impostazioni generali delle code"
+
+#: admin/systems/services/kolab/servkolab.tpl:113
+msgid "FTP FreeBusy service (legacy, not interoperable with Kolab2 FreeBusy)"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:124
+msgid "HTTP FreeBusy service (legacy)"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:135
+msgid "Amavis email scanning (virus/SPAM)"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:156
+#: admin/systems/services/kolab/servkolab.tpl:157
+#, fuzzy
+msgid "Free/Busy settings"
+msgstr "Impostazioni FAX"
+
+#: admin/systems/services/kolab/servkolab.tpl:162
+msgid "Allow unauthenticated downloading of Free/Busy information"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:179
+msgid "Hosts/networks allowed to relay"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:192
+#: admin/systems/services/kolab/servkolab.tpl:193
+msgid "SMTP smart host/relay host"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:207
+msgid "Host used to relay mails"
+msgstr ""
+
+#: admin/systems/services/kolab/servkolab.tpl:227
+msgid "Accept mail from other domains over non-authenticated SMTP"
+msgstr ""
 
 #~ msgid "This does something"
 #~ msgstr "Questo fa qualcosa"

@@ -8,204 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: personal/samba/samba3.tpl:1
-msgid "Samba configuration"
-msgstr ""
-
-#: personal/samba/samba3.tpl:8
-msgid "Generic"
-msgstr ""
-
-#: personal/samba/samba3.tpl:14
-msgid "Path configuration"
-msgstr ""
-
-#: personal/samba/samba3.tpl:16 personal/samba/samba3.tpl:116
-#: personal/samba/class_sambaAccount.inc:879
-#: personal/samba/class_sambaAccount.inc:1238
-msgid "Home directory"
-msgstr ""
-
-#: personal/samba/samba3.tpl:29 personal/samba/class_sambaAccount.inc:1188
-msgid "Domain"
-msgstr ""
-
-#: personal/samba/samba3.tpl:38
-msgid "Show information"
-msgstr ""
-
-#: personal/samba/samba3.tpl:51
-msgid "Profile and script path settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:53
-msgid "Script path"
-msgstr ""
-
-#: personal/samba/samba3.tpl:61 personal/samba/samba3.tpl:129
-#: personal/samba/class_sambaAccount.inc:880
-#: personal/samba/class_sambaAccount.inc:1239
-msgid "Profile path"
-msgstr ""
-
-#: personal/samba/samba3.tpl:75
-msgid "Terminal Server"
-msgstr ""
-
-#: personal/samba/samba3.tpl:77
-msgid "Terminal server settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:113 personal/samba/class_sambaAccount.inc:1191
-msgid "Allow login on terminal server"
-msgstr ""
-
-#: personal/samba/samba3.tpl:114
-msgid "Terminal server connection settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:152 personal/samba/class_sambaAccount.inc:1192
-msgid "Inherit client configuration"
-msgstr ""
-
-#: personal/samba/samba3.tpl:153
-msgid "Client configuration"
-msgstr ""
-
-#: personal/samba/samba3.tpl:155
-msgid "Initial program"
-msgstr ""
-
-#: personal/samba/samba3.tpl:163
-msgid "Working directory"
-msgstr ""
-
-#: personal/samba/samba3.tpl:177 personal/samba/samba3.tpl:183
-msgid "Connection timeout settings"
-msgstr ""
-
-#: personal/samba/samba3.tpl:182
-msgid "Timeout settings (in minutes)"
-msgstr ""
-
-#: personal/samba/samba3.tpl:198 personal/samba/class_sambaAccount.inc:887
-#: personal/samba/class_sambaAccount.inc:1246
-msgid "Connection"
-msgstr ""
-
-#: personal/samba/samba3.tpl:212 personal/samba/class_sambaAccount.inc:888
-#: personal/samba/class_sambaAccount.inc:1247
-msgid "Disconnection"
-msgstr ""
-
-#: personal/samba/samba3.tpl:226 personal/samba/class_sambaAccount.inc:889
-#: personal/samba/class_sambaAccount.inc:1248
-msgid "IDLE"
-msgstr ""
-
-#: personal/samba/samba3.tpl:244 personal/samba/samba3.tpl:245
-msgid "Client devices"
-msgstr ""
-
-#: personal/samba/samba3.tpl:251
-msgid "Connect client drives at log on"
-msgstr ""
-
-#: personal/samba/samba3.tpl:259
-msgid "Connect client printers at log on"
-msgstr ""
-
-#: personal/samba/samba3.tpl:267
-msgid "Default to main client printer"
-msgstr ""
-
-#: personal/samba/samba3.tpl:279 personal/samba/samba3.tpl:280
-msgid "Miscellaneous"
-msgstr ""
-
-#: personal/samba/samba3.tpl:283
-msgid "Shadowing"
-msgstr ""
-
-#: personal/samba/samba3.tpl:294
-msgid "On broken or timed out"
-msgstr ""
-
-#: personal/samba/samba3.tpl:304
-msgid "Reconnect if disconnected"
-msgstr ""
-
-#: personal/samba/samba3.tpl:321 personal/samba/samba3.tpl:324
-msgid "Access options"
-msgstr ""
-
-#: personal/samba/samba3.tpl:339 personal/samba/class_sambaAccount.inc:1194
-msgid "Enforce password change"
-msgstr ""
-
-#: personal/samba/samba3.tpl:350
-msgid "The password never expires"
-msgstr ""
-
-#: personal/samba/samba3.tpl:361 personal/samba/class_sambaAccount.inc:1196
-msgid "Login from windows client requires no password"
-msgstr ""
-
-#: personal/samba/samba3.tpl:372 personal/samba/class_sambaAccount.inc:1198
-msgid "Lock samba account"
-msgstr ""
-
-#: personal/samba/samba3.tpl:388 personal/samba/samba3.tpl:434
-#: personal/samba/class_sambaAccount.inc:864
-#: personal/samba/class_sambaAccount.inc:866
-#: personal/samba/class_sambaAccount.inc:1264
-#: personal/samba/class_sambaAccount.inc:1266
-msgid "Account expires after"
-msgstr ""
-
-#: personal/samba/samba3.tpl:411
-msgid "Cannot change password"
-msgstr ""
-
-#: personal/samba/samba3.tpl:461
-msgid "Samba log on times"
-msgstr ""
-
-#: personal/samba/samba3.tpl:461
-msgid "Edit settings..."
-msgstr ""
-
-#: personal/samba/samba3.tpl:472
-msgid "Allow connection from these workstations only"
-msgstr ""
-
-#: personal/samba/samba3.tpl:483
-msgid "Used by all users"
-msgstr ""
-
-#: personal/samba/samba3.tpl:486
-msgid "Used by some users"
-msgstr ""
-
-#: personal/samba/sambaLogonHours.tpl:22
-msgid "Specify the hours this user is allowed to log in"
-msgstr ""
-
-#: personal/samba/sambaLogonHours.tpl:24
-msgid "Samba logon hours"
-msgstr ""
-
-#: personal/samba/sambaLogonHours.tpl:28
-msgid "Hour"
-msgstr ""
 
 #: personal/samba/class_sambaAccount.inc:24
 #: personal/samba/class_sambaAccount.inc:242
@@ -443,12 +252,47 @@ msgstr ""
 msgid "LDAP error"
 msgstr ""
 
+#: personal/samba/class_sambaAccount.inc:864
+#: personal/samba/class_sambaAccount.inc:866
+#: personal/samba/class_sambaAccount.inc:1264
+#: personal/samba/class_sambaAccount.inc:1266 personal/samba/samba3.tpl:388
+#: personal/samba/samba3.tpl:434
+msgid "Account expires after"
+msgstr ""
+
 #: personal/samba/class_sambaAccount.inc:872
 msgid "Home drive"
 msgstr ""
 
 #: personal/samba/class_sambaAccount.inc:875
 msgid "Home path"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:879
+#: personal/samba/class_sambaAccount.inc:1238 personal/samba/samba3.tpl:16
+#: personal/samba/samba3.tpl:116
+msgid "Home directory"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:880
+#: personal/samba/class_sambaAccount.inc:1239 personal/samba/samba3.tpl:61
+#: personal/samba/samba3.tpl:129
+msgid "Profile path"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:887
+#: personal/samba/class_sambaAccount.inc:1246 personal/samba/samba3.tpl:198
+msgid "Connection"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:888
+#: personal/samba/class_sambaAccount.inc:1247 personal/samba/samba3.tpl:212
+msgid "Disconnection"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:889
+#: personal/samba/class_sambaAccount.inc:1248 personal/samba/samba3.tpl:226
+msgid "IDLE"
 msgstr ""
 
 #: personal/samba/class_sambaAccount.inc:898
@@ -489,6 +333,10 @@ msgstr ""
 msgid "Generic samba home drive"
 msgstr ""
 
+#: personal/samba/class_sambaAccount.inc:1188 personal/samba/samba3.tpl:29
+msgid "Domain"
+msgstr ""
+
 #: personal/samba/class_sambaAccount.inc:1189
 msgid "Generic script path"
 msgstr ""
@@ -497,16 +345,36 @@ msgstr ""
 msgid "Generic profile path"
 msgstr ""
 
+#: personal/samba/class_sambaAccount.inc:1191 personal/samba/samba3.tpl:113
+msgid "Allow login on terminal server"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:1192 personal/samba/samba3.tpl:152
+msgid "Inherit client configuration"
+msgstr ""
+
 #: personal/samba/class_sambaAccount.inc:1193
 msgid "Account expires"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:1194 personal/samba/samba3.tpl:339
+msgid "Enforce password change"
 msgstr ""
 
 #: personal/samba/class_sambaAccount.inc:1195
 msgid "Disallow password change"
 msgstr ""
 
+#: personal/samba/class_sambaAccount.inc:1196 personal/samba/samba3.tpl:361
+msgid "Login from windows client requires no password"
+msgstr ""
+
 #: personal/samba/class_sambaAccount.inc:1197
 msgid "Password never expires"
+msgstr ""
+
+#: personal/samba/class_sambaAccount.inc:1198 personal/samba/samba3.tpl:372
+msgid "Lock samba account"
 msgstr ""
 
 #: personal/samba/class_sambaAccount.inc:1200
@@ -521,6 +389,160 @@ msgstr ""
 msgid ""
 "The windows user manager only allows eight clients. You've specified more "
 "than eight."
+msgstr ""
+
+#: personal/samba/samba3.tpl:1
+msgid "Samba configuration"
+msgstr ""
+
+#: personal/samba/samba3.tpl:8
+msgid "Generic"
+msgstr ""
+
+#: personal/samba/samba3.tpl:14
+msgid "Path configuration"
+msgstr ""
+
+#: personal/samba/samba3.tpl:38
+msgid "Show information"
+msgstr ""
+
+#: personal/samba/samba3.tpl:51
+msgid "Profile and script path settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:53
+msgid "Script path"
+msgstr ""
+
+#: personal/samba/samba3.tpl:75
+msgid "Terminal Server"
+msgstr ""
+
+#: personal/samba/samba3.tpl:77
+msgid "Terminal server settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:114
+msgid "Terminal server connection settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:153
+msgid "Client configuration"
+msgstr ""
+
+#: personal/samba/samba3.tpl:155
+msgid "Initial program"
+msgstr ""
+
+#: personal/samba/samba3.tpl:163
+msgid "Working directory"
+msgstr ""
+
+#: personal/samba/samba3.tpl:177 personal/samba/samba3.tpl:183
+msgid "Connection timeout settings"
+msgstr ""
+
+#: personal/samba/samba3.tpl:182
+msgid "Timeout settings (in minutes)"
+msgstr ""
+
+#: personal/samba/samba3.tpl:244 personal/samba/samba3.tpl:245
+msgid "Client devices"
+msgstr ""
+
+#: personal/samba/samba3.tpl:251
+msgid "Connect client drives at log on"
+msgstr ""
+
+#: personal/samba/samba3.tpl:259
+msgid "Connect client printers at log on"
+msgstr ""
+
+#: personal/samba/samba3.tpl:267
+msgid "Default to main client printer"
+msgstr ""
+
+#: personal/samba/samba3.tpl:279 personal/samba/samba3.tpl:280
+msgid "Miscellaneous"
+msgstr ""
+
+#: personal/samba/samba3.tpl:283
+msgid "Shadowing"
+msgstr ""
+
+#: personal/samba/samba3.tpl:294
+msgid "On broken or timed out"
+msgstr ""
+
+#: personal/samba/samba3.tpl:304
+msgid "Reconnect if disconnected"
+msgstr ""
+
+#: personal/samba/samba3.tpl:321 personal/samba/samba3.tpl:324
+msgid "Access options"
+msgstr ""
+
+#: personal/samba/samba3.tpl:350
+msgid "The password never expires"
+msgstr ""
+
+#: personal/samba/samba3.tpl:411
+msgid "Cannot change password"
+msgstr ""
+
+#: personal/samba/samba3.tpl:461
+msgid "Samba log on times"
+msgstr ""
+
+#: personal/samba/samba3.tpl:461
+msgid "Edit settings..."
+msgstr ""
+
+#: personal/samba/samba3.tpl:472
+msgid "Allow connection from these workstations only"
+msgstr ""
+
+#: personal/samba/samba3.tpl:483
+msgid "Used by all users"
+msgstr ""
+
+#: personal/samba/samba3.tpl:486
+msgid "Used by some users"
+msgstr ""
+
+#: personal/samba/sambaLogonHours.tpl:22
+msgid "Specify the hours this user is allowed to log in"
+msgstr ""
+
+#: personal/samba/sambaLogonHours.tpl:24
+msgid "Samba logon hours"
+msgstr ""
+
+#: personal/samba/sambaLogonHours.tpl:28
+msgid "Hour"
+msgstr ""
+
+#: admin/systems/samba/wingeneric.tpl:1
+msgid "Windows workstation"
+msgstr ""
+
+#: admin/systems/samba/wingeneric.tpl:5
+msgid "Generic settings"
+msgstr ""
+
+#: admin/systems/samba/wingeneric.tpl:7
+msgid "Machine name"
+msgstr ""
+
+#: admin/systems/samba/wingeneric.tpl:18
+#: admin/systems/samba/class_winGeneric.inc:366
+msgid "Base"
+msgstr ""
+
+#: admin/systems/samba/wingeneric.tpl:34
+#: admin/systems/samba/class_winGeneric.inc:367
+msgid "Description"
 msgstr ""
 
 #: admin/systems/samba/class_winGeneric.inc:120
@@ -550,26 +572,4 @@ msgstr ""
 
 #: admin/systems/samba/class_winGeneric.inc:356
 msgid "RDN for samba machine account storage."
-msgstr ""
-
-#: admin/systems/samba/class_winGeneric.inc:366
-#: admin/systems/samba/wingeneric.tpl:18
-msgid "Base"
-msgstr ""
-
-#: admin/systems/samba/class_winGeneric.inc:367
-#: admin/systems/samba/wingeneric.tpl:34
-msgid "Description"
-msgstr ""
-
-#: admin/systems/samba/wingeneric.tpl:1
-msgid "Windows workstation"
-msgstr ""
-
-#: admin/systems/samba/wingeneric.tpl:5
-msgid "Generic settings"
-msgstr ""
-
-#: admin/systems/samba/wingeneric.tpl:7
-msgid "Machine name"
 msgstr ""

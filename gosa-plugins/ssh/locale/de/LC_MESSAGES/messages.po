@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2009-08-26 15:37+0200\n"
 "Last-Translator: Cajus Pollmeier <pollmeier@gonicus.de>\n"
 "Language-Team: de <kde-i18n-de@kde.org>\n"
@@ -23,18 +23,6 @@ msgstr ""
 "Language: \n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: personal/ssh/sshPublicKey.tpl:2
-msgid "List of SSH public keys for this user"
-msgstr "Liste der öffentlichen SSH-Schlüssel für diesen Benutzer"
-
-#: personal/ssh/sshPublicKey.tpl:12
-msgid "Upload key"
-msgstr "Schlüssel hochladen"
-
-#: personal/ssh/sshPublicKey.tpl:15
-msgid "Remove key"
-msgstr "Schlüssel entfernen"
 
 #: personal/ssh/class_sshPublicKey.inc:122
 #: personal/ssh/class_sshPublicKey.inc:135
@@ -62,3 +50,15 @@ msgstr "SSH %s-Schlüssel, Fingerabdruck: %s, Kommentar: %s"
 #: personal/ssh/class_sshPublicKey.inc:214
 msgid "LDAP error"
 msgstr "LDAP-Fehler"
+
+#: personal/ssh/sshPublicKey.tpl:2
+msgid "List of SSH public keys for this user"
+msgstr "Liste der öffentlichen SSH-Schlüssel für diesen Benutzer"
+
+#: personal/ssh/sshPublicKey.tpl:12
+msgid "Upload key"
+msgstr "Schlüssel hochladen"
+
+#: personal/ssh/sshPublicKey.tpl:15
+msgid "Remove key"
+msgstr "Schlüssel entfernen"

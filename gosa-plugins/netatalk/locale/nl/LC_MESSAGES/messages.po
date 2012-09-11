@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
@@ -19,20 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
-
-#: personal/netatalk/netatalk.tpl:1
-#, fuzzy
-msgid "Netatalk configuration"
-msgstr "FAX database"
-
-#: personal/netatalk/netatalk.tpl:4 personal/netatalk/class_netatalk.inc:224
-#: personal/netatalk/class_netatalk.inc:380
-msgid "Share"
-msgstr "Share"
-
-#: personal/netatalk/netatalk.tpl:16
-msgid "Path"
-msgstr "Pad"
 
 #: personal/netatalk/class_netatalk.inc:36
 #: personal/netatalk/class_netatalk.inc:173
@@ -61,6 +47,11 @@ msgstr ""
 msgid "Netatalk or NFS share"
 msgstr ""
 
+#: personal/netatalk/class_netatalk.inc:224
+#: personal/netatalk/class_netatalk.inc:380 personal/netatalk/netatalk.tpl:4
+msgid "Share"
+msgstr "Share"
+
 #: personal/netatalk/class_netatalk.inc:288
 #: personal/netatalk/class_netatalk.inc:353
 #, fuzzy
@@ -75,6 +66,15 @@ msgstr "Mijn account"
 #, fuzzy
 msgid "User home path"
 msgstr "Profielpad"
+
+#: personal/netatalk/netatalk.tpl:1
+#, fuzzy
+msgid "Netatalk configuration"
+msgstr "FAX database"
+
+#: personal/netatalk/netatalk.tpl:16
+msgid "Path"
+msgstr "Pad"
 
 #, fuzzy
 #~ msgid "netatalk"

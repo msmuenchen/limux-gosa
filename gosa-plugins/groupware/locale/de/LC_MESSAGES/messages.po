@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-11-24 16:25+0100\n"
 "Last-Translator: Cajus Pollmeier <pollmeier@gonicus.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -23,6 +23,42 @@ msgstr ""
 "Language: \n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: personal/groupware/filterEditor.tpl:1
+msgid "Filter editor"
+msgstr "Filter-Editor"
+
+#: personal/groupware/filterEditor.tpl:3
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: personal/groupware/filterEditor.tpl:5
+#: personal/groupware/class_FilterManager.inc:28
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:35
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:7
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:17
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:34
+msgid "Name"
+msgstr "Name"
+
+#: personal/groupware/filterEditor.tpl:13
+#: personal/groupware/class_FilterManager.inc:28
+msgid "Description"
+msgstr "Beschreibung"
+
+#: personal/groupware/class_FilterManager.inc:100
+#, fuzzy
+msgid "name"
+msgstr "Nachname"
+
+#: personal/groupware/class_FilterManager.inc:101
+#, fuzzy
+msgid "description"
+msgstr "Beschreibung"
+
+#: personal/groupware/class_FilterManager.inc:108
+msgid "advertising"
+msgstr ""
 
 #: personal/groupware/class_Groupware.inc:27
 #: personal/groupware/class_Groupware.inc:388
@@ -96,11 +132,11 @@ msgstr "Bitte wählen Sie die gewünschten Einträge"
 #: personal/groupware/class_Groupware.inc:1060
 #: personal/groupware/class_Groupware.inc:1069
 #: personal/groupware/class_Groupware.inc:1172
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:7
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:242
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:255
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:302
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:516
-#: admin/ogroups/GroupwareDistributionList/generic.tpl:7
 msgid "Mail address"
 msgstr "Mail-Adresse"
 
@@ -324,7 +360,7 @@ msgstr ""
 #: personal/groupware/class_Groupware.inc:1184
 #, fuzzy
 msgid "Send sizelimit"
-msgstr "Setze Grössenlimitieren auf %s"
+msgstr "Zeige bis zu %s Einträge an"
 
 #: personal/groupware/class_Groupware.inc:1185
 msgid "Hard sizelimit"
@@ -350,94 +386,6 @@ msgstr ""
 #: personal/groupware/class_Groupware.inc:1190
 msgid "mail Limit receive"
 msgstr ""
-
-#: personal/groupware/filterManager.tpl:1
-#, fuzzy
-msgid "Available filter rules "
-msgstr "Verfügbare Rollen"
-
-#: personal/groupware/class_GroupwareDefinitions.inc:28
-msgid "no right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:29
-msgid "read right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:30
-msgid "post right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:31
-msgid "append right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:32
-#, fuzzy
-msgid "write right"
-msgstr "schreiben"
-
-#: personal/groupware/class_GroupwareDefinitions.inc:33
-msgid "all rights"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:35
-msgid "lookup right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:36
-msgid "atomic read right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:37
-msgid "atomic status right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:38
-msgid "atomic write right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:39
-msgid "atomic insert right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:40
-msgid "atomic post right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:41
-msgid "atomic create right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:42
-msgid "atomic delete right"
-msgstr ""
-
-#: personal/groupware/class_GroupwareDefinitions.inc:43
-msgid "atomic admin right"
-msgstr ""
-
-#: personal/groupware/filterEditor.tpl:1
-msgid "Filter editor"
-msgstr "Filter-Editor"
-
-#: personal/groupware/filterEditor.tpl:3
-msgid "Generic settings"
-msgstr "Allgemeine Benutzereinstellungen"
-
-#: personal/groupware/filterEditor.tpl:5
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:7
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:17
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:34
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:35
-#: personal/groupware/class_FilterManager.inc:28
-msgid "Name"
-msgstr "Name"
-
-#: personal/groupware/filterEditor.tpl:13
-#: personal/groupware/class_FilterManager.inc:28
-msgid "Description"
-msgstr "Beschreibung"
 
 #: personal/groupware/class_FilterEditor.inc:12
 msgid "At least one of the following conditions has to match"
@@ -579,88 +527,6 @@ msgstr ""
 #, fuzzy
 msgid "Filter actions"
 msgstr "Filter-Editor"
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:4
-#, fuzzy
-msgid "Create folder"
-msgstr "Kann den Ordner %s nicht anlegen!"
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:14
-#, fuzzy
-msgid "Edit folder"
-msgstr "Filter bearbeiten"
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:21
-msgid "Path"
-msgstr ""
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:29
-msgid "Permissions"
-msgstr "Berechtigungen"
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:33
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:44
-msgid "Type"
-msgstr "Typ"
-
-#: personal/groupware/FolderWidget/FolderEditDialog.tpl:35
-msgid "Permission"
-msgstr "Berechtigung"
-
-#: personal/groupware/FolderWidget/class_FolderWidgetListing.inc:13
-#: personal/groupware/FolderWidget/class_FolderWidget.inc:36
-#, fuzzy
-msgid "Folder editor"
-msgstr "Filter-Editor"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:11
-#, fuzzy
-msgid "List of groupware folders"
-msgstr "Liste der Gruppen"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:15
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:21
-msgid "Folder"
-msgstr ""
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:52
-msgid "Actions"
-msgstr "Aktionen"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:63
-msgid "Create"
-msgstr "Anlegen"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:69
-msgid "Sub folder"
-msgstr ""
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:82
-msgid "Remove"
-msgstr "Entfernen"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:97
-#, fuzzy
-msgid "Edit Sudo role"
-msgstr "ACL-Rollen bearbeiten"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.xml:104
-#, fuzzy
-msgid "Remove Sudo role"
-msgstr "Bild entfernen"
-
-#: personal/groupware/FolderWidget/FolderWidget-filter.xml:15
-msgid "Default filter"
-msgstr "Standard-Filter"
-
-#: personal/groupware/FolderWidget/FolderWidget-list.tpl:9
-msgid "Basis"
-msgstr ""
-
-#: personal/groupware/FolderWidget/class_FolderEditDialog.inc:100
-#, fuzzy, php-format
-msgid "Duplicate permission setting for user '%s'."
-msgstr "Kann Berechtigungen für '%s' nicht setzen"
 
 #: personal/groupware/generic.tpl:2 personal/groupware/generic.tpl:5
 #, fuzzy
@@ -813,31 +679,153 @@ msgstr ""
 msgid "No delivery to own mailbox"
 msgstr ""
 
-#: personal/groupware/class_FilterManager.inc:100
-#, fuzzy
-msgid "name"
-msgstr "Nachname"
-
-#: personal/groupware/class_FilterManager.inc:101
-#, fuzzy
-msgid "description"
-msgstr "Beschreibung"
-
-#: personal/groupware/class_FilterManager.inc:108
-msgid "advertising"
+#: personal/groupware/class_GroupwareDefinitions.inc:28
+msgid "no right"
 msgstr ""
 
-#: admin/groups/GroupwareSharedFolder/initFailed.tpl:1
-#: admin/groups/GroupwareSharedFolder/generic.tpl:2
-#: admin/groups/GroupwareSharedFolder/generic.tpl:5
-#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:390
-msgid "Groupware shared folder"
+#: personal/groupware/class_GroupwareDefinitions.inc:29
+msgid "read right"
 msgstr ""
 
-#: admin/groups/GroupwareSharedFolder/generic.tpl:8
+#: personal/groupware/class_GroupwareDefinitions.inc:30
+msgid "post right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:31
+msgid "append right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:32
 #, fuzzy
-msgid "Edit folder list"
+msgid "write right"
+msgstr "schreiben"
+
+#: personal/groupware/class_GroupwareDefinitions.inc:33
+msgid "all rights"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:35
+msgid "lookup right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:36
+msgid "atomic read right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:37
+msgid "atomic status right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:38
+msgid "atomic write right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:39
+msgid "atomic insert right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:40
+msgid "atomic post right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:41
+msgid "atomic create right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:42
+msgid "atomic delete right"
+msgstr ""
+
+#: personal/groupware/class_GroupwareDefinitions.inc:43
+msgid "atomic admin right"
+msgstr ""
+
+#: personal/groupware/filterManager.tpl:1
+#, fuzzy
+msgid "Available filter rules "
+msgstr "Verfügbare Rollen"
+
+#: personal/groupware/FolderWidget/FolderWidget-filter.xml:15
+msgid "Default filter"
+msgstr "Standard-Filter"
+
+#: personal/groupware/FolderWidget/class_FolderWidgetListing.inc:13
+#: personal/groupware/FolderWidget/class_FolderWidget.inc:36
+#, fuzzy
+msgid "Folder editor"
+msgstr "Filter-Editor"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:11
+#, fuzzy
+msgid "List of groupware folders"
+msgstr "Liste der Gruppen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:15
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:21
+msgid "Folder"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:44
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:33
+msgid "Type"
+msgstr "Typ"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:52
+msgid "Actions"
+msgstr "Aktionen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:63
+msgid "Create"
+msgstr "Anlegen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:69
+msgid "Sub folder"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:82
+msgid "Remove"
+msgstr "Entfernen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:97
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "ACL-Rollen bearbeiten"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.xml:104
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "Bild entfernen"
+
+#: personal/groupware/FolderWidget/class_FolderEditDialog.inc:100
+#, fuzzy, php-format
+msgid "Duplicate permission setting for user '%s'."
+msgstr "Kann Berechtigungen für '%s' nicht setzen"
+
+#: personal/groupware/FolderWidget/FolderWidget-list.tpl:9
+msgid "Basis"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:4
+#, fuzzy
+msgid "Create folder"
+msgstr "Kann den Ordner %s nicht anlegen!"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:14
+#, fuzzy
+msgid "Edit folder"
 msgstr "Filter bearbeiten"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:21
+msgid "Path"
+msgstr ""
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:29
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: personal/groupware/FolderWidget/FolderEditDialog.tpl:35
+msgid "Permission"
+msgstr "Berechtigung"
 
 #: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:69
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:66
@@ -888,6 +876,22 @@ msgstr ""
 msgid ""
 "Groups cannot be renamed, while their groupware extension is active, please "
 "use the intial name '%s' again!"
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/class_GroupwareSharedFolder.inc:390
+#: admin/groups/GroupwareSharedFolder/initFailed.tpl:1
+#: admin/groups/GroupwareSharedFolder/generic.tpl:2
+#: admin/groups/GroupwareSharedFolder/generic.tpl:5
+msgid "Groupware shared folder"
+msgstr ""
+
+#: admin/groups/GroupwareSharedFolder/generic.tpl:8
+#, fuzzy
+msgid "Edit folder list"
+msgstr "Filter bearbeiten"
+
+#: admin/ogroups/GroupwareDistributionList/generic.tpl:19
+msgid "Use incoming mail size limitation"
 msgstr ""
 
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:93
@@ -1009,8 +1013,4 @@ msgstr ""
 
 #: admin/ogroups/GroupwareDistributionList/class_GroupwareDistributionList.inc:540
 msgid "Info"
-msgstr ""
-
-#: admin/ogroups/GroupwareDistributionList/generic.tpl:19
-msgid "Use incoming mail size limitation"
 msgstr ""

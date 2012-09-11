@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2007-06-03 12:27+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <zh@li.org>\n"
@@ -16,23 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: admin/systems/services/syslog/class_goSyslogServer.inc:27
-#: admin/systems/services/syslog/class_goSyslogServer.inc:47
-#, fuzzy
-msgid "Syslog server"
-msgstr "显示服务器"
-
-#: admin/systems/services/syslog/class_goSyslogServer.inc:68
-#: admin/systems/services/syslog/class_goSyslogServer.inc:69
-#, fuzzy
-msgid "Logging service"
-msgstr "Syslog 服务"
-
-#: admin/systems/services/syslog/class_goSyslogServer.inc:69
-#: admin/systems/services/syslog/class_goLogDBServer.inc:93
-msgid "Services"
-msgstr "服务"
 
 #: admin/systems/services/syslog/goSyslogServer.tpl:1
 #, fuzzy
@@ -44,28 +27,6 @@ msgstr "系统日志显示"
 msgid "enabled"
 msgstr "禁用"
 
-#: admin/systems/services/syslog/goLogDBServer.tpl:1
-#, fuzzy
-msgid "Logging database information"
-msgstr "切换信息"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:4
-#: admin/systems/services/syslog/class_goLogDBServer.inc:75
-#: admin/systems/services/syslog/class_goLogDBServer.inc:106
-msgid "Database"
-msgstr "数据库"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:12
-#, fuzzy
-msgid "Logging DB user"
-msgstr "Logging DB 用户"
-
-#: admin/systems/services/syslog/goLogDBServer.tpl:20
-#: admin/systems/services/syslog/class_goLogDBServer.inc:72
-#: admin/systems/services/syslog/class_goLogDBServer.inc:105
-msgid "Password"
-msgstr "口令"
-
 #: admin/systems/services/syslog/class_goLogDBServer.inc:31
 #: admin/systems/services/syslog/class_goLogDBServer.inc:59
 #, fuzzy
@@ -76,11 +37,28 @@ msgstr "日志数据库"
 msgid "User"
 msgstr "用户"
 
+#: admin/systems/services/syslog/class_goLogDBServer.inc:72
+#: admin/systems/services/syslog/class_goLogDBServer.inc:105
+#: admin/systems/services/syslog/goLogDBServer.tpl:20
+msgid "Password"
+msgstr "口令"
+
+#: admin/systems/services/syslog/class_goLogDBServer.inc:75
+#: admin/systems/services/syslog/class_goLogDBServer.inc:106
+#: admin/systems/services/syslog/goLogDBServer.tpl:4
+msgid "Database"
+msgstr "数据库"
+
 #: admin/systems/services/syslog/class_goLogDBServer.inc:92
 #: admin/systems/services/syslog/class_goLogDBServer.inc:93
 #, fuzzy
 msgid "Logging database"
 msgstr "日志数据库"
+
+#: admin/systems/services/syslog/class_goLogDBServer.inc:93
+#: admin/systems/services/syslog/class_goSyslogServer.inc:69
+msgid "Services"
+msgstr "服务"
 
 #: admin/systems/services/syslog/class_goLogDBServer.inc:101
 #, fuzzy
@@ -100,6 +78,28 @@ msgstr "仓库"
 #, fuzzy
 msgid "Administrator"
 msgstr "系统管理"
+
+#: admin/systems/services/syslog/class_goSyslogServer.inc:27
+#: admin/systems/services/syslog/class_goSyslogServer.inc:47
+#, fuzzy
+msgid "Syslog server"
+msgstr "显示服务器"
+
+#: admin/systems/services/syslog/class_goSyslogServer.inc:68
+#: admin/systems/services/syslog/class_goSyslogServer.inc:69
+#, fuzzy
+msgid "Logging service"
+msgstr "Syslog 服务"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:1
+#, fuzzy
+msgid "Logging database information"
+msgstr "切换信息"
+
+#: admin/systems/services/syslog/goLogDBServer.tpl:12
+#, fuzzy
+msgid "Logging DB user"
+msgstr "Logging DB 用户"
 
 #, fuzzy
 #~ msgid "Admin"

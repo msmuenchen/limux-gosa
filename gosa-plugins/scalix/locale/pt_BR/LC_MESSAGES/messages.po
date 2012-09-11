@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GOsa plugins - scalix\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2010-03-25 10:10-0300\n"
 "Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
 "Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
@@ -18,6 +18,136 @@ msgstr ""
 "Language: \n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
+
+#: personal/scalix/paste_generic.tpl:1
+#, fuzzy
+msgid "SCALIX paste"
+msgstr "Conta POSIX"
+
+#: personal/scalix/paste_generic.tpl:6 personal/scalix/generic.tpl:111
+#: personal/scalix/class_scalixAccount.inc:483
+#: admin/groups/scalix/class_scalixGroup.inc:35
+#, fuzzy
+msgid "SCALIX email addresses"
+msgstr "Endereço do usuário"
+
+#: personal/scalix/paste_generic.tpl:8 personal/scalix/generic.tpl:114
+#, fuzzy
+msgid "List of SCALIX email addresses"
+msgstr "Endereço do usuário"
+
+#: personal/scalix/generic.tpl:1
+#, fuzzy
+msgid "SCALIX settings"
+msgstr "Configurações POSIX"
+
+#: personal/scalix/generic.tpl:6
+#, fuzzy
+msgid "Generic"
+msgstr "Geral"
+
+#: personal/scalix/generic.tpl:9
+msgid "Mail settings"
+msgstr "Configurações de email"
+
+#: personal/scalix/generic.tpl:11
+#, fuzzy
+msgid "SCALIX mail node"
+msgstr "Administrador Scalix"
+
+#: personal/scalix/generic.tpl:20
+#, fuzzy
+msgid "SCALIX mailbox class"
+msgstr "Classe(s) disponível(is)"
+
+#: personal/scalix/generic.tpl:24
+#, fuzzy
+msgid ""
+"Limited users can not make use of the group calendar functionality in SCALIX"
+msgstr ""
+"Usuários limitados não podem usar a funcionalidade de grupos de calendário "
+"no Scalix"
+
+#: personal/scalix/generic.tpl:33
+#, fuzzy
+msgid "SCALIX server language"
+msgstr "Linguagem do servidor Scalix"
+
+#: personal/scalix/generic.tpl:37
+msgid "Message catalog language for client"
+msgstr ""
+
+#: personal/scalix/generic.tpl:49 personal/scalix/generic.tpl:71
+#, fuzzy
+msgid "Settings"
+msgstr "Configurações POSIX"
+
+#: personal/scalix/generic.tpl:54
+#, fuzzy
+msgid "Select for administrator capabilities"
+msgstr "Não foi possível selecionar a base de dados para geração de log!"
+
+#: personal/scalix/generic.tpl:54
+#, fuzzy
+msgid "SCALIX Administrator"
+msgstr "Administrador"
+
+#: personal/scalix/generic.tpl:59
+#, fuzzy
+msgid "Select for mailbox administrator capabilities"
+msgstr "Não foi possível selecionar a base de dados para geração de log!"
+
+#: personal/scalix/generic.tpl:59
+#, fuzzy
+msgid "SCALIX Mailbox Administrator"
+msgstr "Linguagem do servidor Scalix"
+
+#: personal/scalix/generic.tpl:64
+#, fuzzy
+msgid "Hide user entry from address book"
+msgstr "Ocultar o registro do usuário no catálogo de endereços"
+
+#: personal/scalix/generic.tpl:64
+#, fuzzy
+msgid "Hide this user entry in SCALIX"
+msgstr "Ocultar o registro desse usuário no Scalix"
+
+#: personal/scalix/generic.tpl:73
+#, fuzzy
+msgid "Limit mailbox size"
+msgstr "Tamanho em MB"
+
+#: personal/scalix/generic.tpl:76
+#, fuzzy
+msgid "MB"
+msgstr "MB"
+
+#: personal/scalix/generic.tpl:84
+msgid "As sanction on mailbox quota overuse, stop user from sending mail"
+msgstr ""
+
+#: personal/scalix/generic.tpl:84
+#, fuzzy
+msgid "Limit Outbound Mail"
+msgstr "Mostrar grupos de email"
+
+#: personal/scalix/generic.tpl:89
+msgid "As sanction on mailbox quota overuse, stop user from receiving mail"
+msgstr ""
+
+#: personal/scalix/generic.tpl:89
+#, fuzzy
+msgid "Limit Inbound Mail"
+msgstr "Mostrar grupos de email"
+
+#: personal/scalix/generic.tpl:94
+msgid "As sanction on mailbox quota overuse, notify the user by email"
+msgstr ""
+
+#: personal/scalix/generic.tpl:94
+#, fuzzy
+msgid "Notify User"
+msgstr "Notificar Usuário"
 
 #: personal/scalix/class_scalixAccount.inc:16
 msgid "SCALIX"
@@ -183,136 +313,6 @@ msgstr "sem limite"
 #, fuzzy
 msgid "Notify user"
 msgstr "Notificar Usuário"
-
-#: personal/scalix/class_scalixAccount.inc:483 personal/scalix/generic.tpl:111
-#: personal/scalix/paste_generic.tpl:6
-#: admin/groups/scalix/class_scalixGroup.inc:35
-#, fuzzy
-msgid "SCALIX email addresses"
-msgstr "Endereço do usuário"
-
-#: personal/scalix/generic.tpl:1
-#, fuzzy
-msgid "SCALIX settings"
-msgstr "Configurações POSIX"
-
-#: personal/scalix/generic.tpl:6
-#, fuzzy
-msgid "Generic"
-msgstr "Geral"
-
-#: personal/scalix/generic.tpl:9
-msgid "Mail settings"
-msgstr "Configurações de email"
-
-#: personal/scalix/generic.tpl:11
-#, fuzzy
-msgid "SCALIX mail node"
-msgstr "Administrador Scalix"
-
-#: personal/scalix/generic.tpl:20
-#, fuzzy
-msgid "SCALIX mailbox class"
-msgstr "Classe(s) disponível(is)"
-
-#: personal/scalix/generic.tpl:24
-#, fuzzy
-msgid ""
-"Limited users can not make use of the group calendar functionality in SCALIX"
-msgstr ""
-"Usuários limitados não podem usar a funcionalidade de grupos de calendário "
-"no Scalix"
-
-#: personal/scalix/generic.tpl:33
-#, fuzzy
-msgid "SCALIX server language"
-msgstr "Linguagem do servidor Scalix"
-
-#: personal/scalix/generic.tpl:37
-msgid "Message catalog language for client"
-msgstr ""
-
-#: personal/scalix/generic.tpl:49 personal/scalix/generic.tpl:71
-#, fuzzy
-msgid "Settings"
-msgstr "Configurações POSIX"
-
-#: personal/scalix/generic.tpl:54
-#, fuzzy
-msgid "Select for administrator capabilities"
-msgstr "Não foi possível selecionar a base de dados para geração de log!"
-
-#: personal/scalix/generic.tpl:54
-#, fuzzy
-msgid "SCALIX Administrator"
-msgstr "Administrador"
-
-#: personal/scalix/generic.tpl:59
-#, fuzzy
-msgid "Select for mailbox administrator capabilities"
-msgstr "Não foi possível selecionar a base de dados para geração de log!"
-
-#: personal/scalix/generic.tpl:59
-#, fuzzy
-msgid "SCALIX Mailbox Administrator"
-msgstr "Linguagem do servidor Scalix"
-
-#: personal/scalix/generic.tpl:64
-#, fuzzy
-msgid "Hide user entry from address book"
-msgstr "Ocultar o registro do usuário no catálogo de endereços"
-
-#: personal/scalix/generic.tpl:64
-#, fuzzy
-msgid "Hide this user entry in SCALIX"
-msgstr "Ocultar o registro desse usuário no Scalix"
-
-#: personal/scalix/generic.tpl:73
-#, fuzzy
-msgid "Limit mailbox size"
-msgstr "Tamanho em MB"
-
-#: personal/scalix/generic.tpl:76
-#, fuzzy
-msgid "MB"
-msgstr "MB"
-
-#: personal/scalix/generic.tpl:84
-msgid "As sanction on mailbox quota overuse, stop user from sending mail"
-msgstr ""
-
-#: personal/scalix/generic.tpl:84
-#, fuzzy
-msgid "Limit Outbound Mail"
-msgstr "Mostrar grupos de email"
-
-#: personal/scalix/generic.tpl:89
-msgid "As sanction on mailbox quota overuse, stop user from receiving mail"
-msgstr ""
-
-#: personal/scalix/generic.tpl:89
-#, fuzzy
-msgid "Limit Inbound Mail"
-msgstr "Mostrar grupos de email"
-
-#: personal/scalix/generic.tpl:94
-msgid "As sanction on mailbox quota overuse, notify the user by email"
-msgstr ""
-
-#: personal/scalix/generic.tpl:94
-#, fuzzy
-msgid "Notify User"
-msgstr "Notificar Usuário"
-
-#: personal/scalix/generic.tpl:114 personal/scalix/paste_generic.tpl:8
-#, fuzzy
-msgid "List of SCALIX email addresses"
-msgstr "Endereço do usuário"
-
-#: personal/scalix/paste_generic.tpl:1
-#, fuzzy
-msgid "SCALIX paste"
-msgstr "Conta POSIX"
 
 #, fuzzy
 #~ msgid "This does something"

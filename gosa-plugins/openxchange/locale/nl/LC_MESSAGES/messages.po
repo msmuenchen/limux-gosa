@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-06 15:40+0200\n"
+"POT-Creation-Date: 2012-09-06 20:26+0200\n"
 "PO-Revision-Date: 2006-06-02 16:58+0100\n"
 "Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
 "Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
@@ -19,6 +19,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
+
+#: personal/connectivity/openxchange/oxchange.tpl:2
+#: personal/connectivity/openxchange/oxchange.tpl:18
+msgid "Open-Xchange account"
+msgstr "Open-Xchange account"
+
+#: personal/connectivity/openxchange/oxchange.tpl:2
+#, fuzzy
+msgid ""
+"disabled, no PostgreSQL support detected or the specified database can't be "
+"reached."
+msgstr ""
+"Uitgeschakeld. Er is geen Postgresql ondersteuning gedetecteerd of de "
+"opgegeven database kon niet bereikt worden"
+
+#: personal/connectivity/openxchange/oxchange.tpl:21
+#: personal/connectivity/openxchange/oxchange.tpl:28
+#: personal/connectivity/openxchange/oxchange.tpl:63
+#, fuzzy
+msgid "Open-Xchange configuration"
+msgstr "Open-Xchange Account"
+
+#: personal/connectivity/openxchange/oxchange.tpl:32
+msgid "Remember"
+msgstr "Onthouden"
+
+#: personal/connectivity/openxchange/oxchange.tpl:36
+msgid "Appointment Days"
+msgstr "Afspraken"
+
+#: personal/connectivity/openxchange/oxchange.tpl:42
+#: personal/connectivity/openxchange/oxchange.tpl:52
+msgid "days"
+msgstr "dagen"
+
+#: personal/connectivity/openxchange/oxchange.tpl:45
+msgid "Task Days"
+msgstr "Taken"
+
+#: personal/connectivity/openxchange/oxchange.tpl:67
+msgid "User Information"
+msgstr "Gebruikersinformatie"
+
+#: personal/connectivity/openxchange/oxchange.tpl:71
+msgid "User Timezone"
+msgstr "Tijdzone"
 
 #: personal/connectivity/openxchange/class_oxchangeAccount.inc:24
 #: personal/connectivity/openxchange/class_oxchangeAccount.inc:188
@@ -98,52 +144,6 @@ msgstr "Taken"
 #: personal/connectivity/openxchange/class_oxchangeAccount.inc:453
 #, fuzzy
 msgid "OXTimeZone"
-msgstr "Tijdzone"
-
-#: personal/connectivity/openxchange/oxchange.tpl:2
-#: personal/connectivity/openxchange/oxchange.tpl:18
-msgid "Open-Xchange account"
-msgstr "Open-Xchange account"
-
-#: personal/connectivity/openxchange/oxchange.tpl:2
-#, fuzzy
-msgid ""
-"disabled, no PostgreSQL support detected or the specified database can't be "
-"reached."
-msgstr ""
-"Uitgeschakeld. Er is geen Postgresql ondersteuning gedetecteerd of de "
-"opgegeven database kon niet bereikt worden"
-
-#: personal/connectivity/openxchange/oxchange.tpl:21
-#: personal/connectivity/openxchange/oxchange.tpl:28
-#: personal/connectivity/openxchange/oxchange.tpl:63
-#, fuzzy
-msgid "Open-Xchange configuration"
-msgstr "Open-Xchange Account"
-
-#: personal/connectivity/openxchange/oxchange.tpl:32
-msgid "Remember"
-msgstr "Onthouden"
-
-#: personal/connectivity/openxchange/oxchange.tpl:36
-msgid "Appointment Days"
-msgstr "Afspraken"
-
-#: personal/connectivity/openxchange/oxchange.tpl:42
-#: personal/connectivity/openxchange/oxchange.tpl:52
-msgid "days"
-msgstr "dagen"
-
-#: personal/connectivity/openxchange/oxchange.tpl:45
-msgid "Task Days"
-msgstr "Taken"
-
-#: personal/connectivity/openxchange/oxchange.tpl:67
-msgid "User Information"
-msgstr "Gebruikersinformatie"
-
-#: personal/connectivity/openxchange/oxchange.tpl:71
-msgid "User Timezone"
 msgstr "Tijdzone"
 
 #~ msgid "This does something"
