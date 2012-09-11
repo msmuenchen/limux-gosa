@@ -32,3 +32,6 @@
   <button type="submit" name="edit_cancel">{msgPool type='cancelButton'}</button>
   </p>
 
+  </td>
+ </tr>
+</table>
