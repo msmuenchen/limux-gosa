@@ -296,7 +296,10 @@ class faiManagement extends management
     $this->tabObject->by_object[$type[1]]->FAIstate = $FAIstate;
     $this->tabObject->FAIstate = $FAIstate;
 
-    $read_only = preg_match("/freeze/i", $FAIstate);
+    if(!$this->read_only)
+        $read_only = preg_match("/freeze/i", $FAIstate);
+    else
+        $read_only=true; //force read-only inherited due to access lock!
     $this->tabObject->read_only = $read_only;
     $this->tabObject->by_object[$type[1]]->read_only = $read_only;
   }
