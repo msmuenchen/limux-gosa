@@ -295,10 +295,13 @@ class faiManagement extends management
   function init_tab_attrs($type, $FAIstate) {
     $this->tabObject->by_object[$type[1]]->FAIstate = $FAIstate;
     $this->tabObject->FAIstate = $FAIstate;
-
-    $read_only = preg_match("/freeze/i", $FAIstate);
-    $this->tabObject->read_only = $read_only;
-    $this->tabObject->by_object[$type[1]]->read_only = $read_only;
+echo "FAIstate match: ".preg_match("/freeze/i", $FAIstate)."<br />\n";
+echo "tabObject readonly: ".$this->tabObject->read_only."<br />\n";
+echo "tabObject->byObj readonly: ".$this->tabObject->by_object[$type[1]]->read_only."<br />\n";
+    if(!$this->tabObject->read_only)
+        $this->tabObject->read_only = preg_match("/freeze/i", $FAIstate);
+    if(!$this->tabObject->by_object[$type[1]]->read_only)
+        $this->tabObject->by_object[$type[1]]->read_only=preg_match("/freeze/i", $FAIstate);
   }
 
 
