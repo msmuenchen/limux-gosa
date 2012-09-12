@@ -289,7 +289,7 @@ class sortableListing {
             $result.= " <thead>\n  <tr>\n";
             $first= " style='border-left:0'";
             if($this->massdelete && $massdelete_enabled)
-                $this->header[0]="<input type='checkbox' id='select_all' name='select_all' title='"._("Select all")."' onClick='toggle_all_(\"listing_selected_[0-9]*\$\",\"select_all\");' >";
+                $this->header[0]="<input type='checkbox' id='select_all' name='select_all' title='"._("Select all")."' onClick='toggle_all_(\"listing_selected_[0-9]*\$\",\"select_all\");' />";
             for ($i= 0; $i<$this->columns; $i++) {
                 $link= "href='?plug=".$_GET['plug']."&amp;PID=".$this->id."&amp;act=SORT_$i'";
                 $sorter= "";
@@ -297,7 +297,9 @@ class sortableListing {
                     $sorter= "&nbsp;".image("images/lists/sort-".($this->sortDirection[$i]?"up":"down").".png", null, $this->sortDirection[$i]?_("Sort ascending"):_("Sort descending"));
                 }
 
-                if ($this->reorderable) {
+                if($this->massdelete && $massdelete_enabled) {
+                    $result.="<th$first>{$header[0]}</th>";
+                } elseif ($this->reorderable) {
                     $result.= "   <th$first>".(isset($this->header[$i])?$this->header[$i]:"")."</th>";
                 } else {
                     $result.= "   <th$first><a $link>".(isset($this->header[$i])?$this->header[$i]:"")."</a>$sorter</th>";
