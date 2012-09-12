@@ -19,12 +19,10 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-if(!defined("LIST_NORMAL"))
-        define ('LIST_NORMAL', 0);
-if(!defined("LIST_MARKED"))
-        define ('LIST_MARKED', 1);
-if(!defined("LIST_DISABLED"))
-        define ('LIST_DISABLED', 2);
+
+define ('LIST_NORMAL', 0);
+define ('LIST_MARKED', 1);
+define ('LIST_DISABLED', 2);
 
 class sortableListing {
     private $header= null;
@@ -383,7 +381,7 @@ class sortableListing {
         $result.= " <input type='hidden' name='position_".$this->id."' id='position_".$this->id."'>\n";
         $result.= " <input type='hidden' name='reorder_".$this->id."' id='reorder_".$this->id."'>\n";
         if($this->massdelete && $massdelete_enabled)
-            $result.= "<button name='massdelete_active' value=\"removeme\">Entfernen</button>\n";
+            $result.= "<button name='massdelete_active' value=\"removeme\">".msgPool::delButton()."</button>\n";
 
         // Append script stuff if needed
         $result.= '<script type="text/javascript" language="javascript">';
