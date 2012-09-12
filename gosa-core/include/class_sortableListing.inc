@@ -297,8 +297,8 @@ class sortableListing {
                     $sorter= "&nbsp;".image("images/lists/sort-".($this->sortDirection[$i]?"up":"down").".png", null, $this->sortDirection[$i]?_("Sort ascending"):_("Sort descending"));
                 }
 
-                if($this->massdelete && $massdelete_enabled) {
-                    $result.="<th$first>{$header[0]}</th>";
+                if($this->massdelete && $massdelete_enabled && $i==0) {
+                    $result.="<th$first>{$this->header[0]}</th>";
                 } elseif ($this->reorderable) {
                     $result.= "   <th$first>".(isset($this->header[$i])?$this->header[$i]:"")."</th>";
                 } else {
